@@ -25,6 +25,15 @@ trimestre_a_numeric <- function(x) {
          "iv" = 4)
 }
 
+trimestre_a_mes <- function(x) {
+  recode(as.character(x),
+         "1" = 3*1,
+         "2" = 3*2,
+         "3" = 3*3, 
+         "4" = 3*4)
+}
+
+
 cifra_comas_a_numeric <- function(x) {
   x <- str_remove_all(x, "\\.")
   x <- str_replace_all(x, ",", "\\.")
@@ -58,28 +67,31 @@ scrapear_tabla_bc <- function(url) {
 }
 
 
-limpiar_tabla_bc <- function(dato_1, frecuencia = "mensual") {
+limpiar_tabla_bc <- function(dato_1, frecuencia = "mensual",
+                             chequear_missings_valor = TRUE) {
   dato_1a <- dato_1 |> 
     tidyr::pivot_longer(cols = 2:length(dato_1), names_to = "fecha", values_to = "valor") |> 
     mutate(año = extraer_año(fecha))
   
   if (frecuencia == "mensual") {
-  dato_1b <- dato_1a |> 
-    mutate(mes = str_extract(fecha, "^\\w+(?=_)"),
-           mes = mes_a_numeric(mes)) |> 
-    mutate(fecha = paste(año, mes, "1", sep = "-"))
-  
+    dato_1b <- dato_1a |> 
+      mutate(mes = str_extract(fecha, "^\\w+(?=_)"),
+             mes = mes_a_numeric(mes)) |> 
+      mutate(fecha = paste(año, mes, "1", sep = "-"))
+    
   } else if (frecuencia == "trimestral") {
     dato_1b <- dato_1a |> 
       mutate(trimestre = str_extract(fecha, "^\\w+(?=_)"),
-             trimestre = trimestre_a_numeric(trimestre))
+             trimestre = trimestre_a_numeric(trimestre)) |> 
+      mutate(mes = trimestre_a_mes(trimestre)) |> 
+      mutate(fecha = paste(año, mes, "1", sep = "-"))
   }
   
   dato_2 <- dato_1b |> 
     mutate(valor = cifra_comas_a_numeric(valor))
   
   stopifnot(any(is.na(dato_2$año)) == FALSE)
-  stopifnot(any(is.na(dato_2$valor)) == FALSE)
+  if (chequear_missings_valor == TRUE) stopifnot(any(is.na(dato_2$valor)) == FALSE)
   
   return(dato_2)  
 }
@@ -174,3 +186,22 @@ obtener_desempleo <- function() {
   
   return(dato_2)
 }
+
+obtener_uf <- function() {
+  message("obtienendo UF desde web del Banco Central...")
+  # https://si3.bcentral.cl/Siete/ES/Siete/Cuadro/CAP_PRECIOS/MN_CAP_PRECIOS/UF_IVP_UTM/UF_IVP_UTM
+  # Precios > Unidad de Fomento (UF) - Índice de Valor Promedio (IVP) - Unidad Tributaria Mensual (UTM) > UF-IVP-UTM mensual
+  
+  dato_1 <- scrapear_tabla_bc("https://si3.bcentral.cl/Siete/ES/Siete/Cuadro/CAP_PRECIOS/MN_CAP_PRECIOS/UF_IVP_UTM/UF_IVP_UTM")
+  
+  message("limpiando datos...")
+  dato_2 <- dato_1 |> 
+    limpiar_tabla_bc(chequear_missings_valor = FALSE)
+  
+  stopifnot(length(dato_2) >= 3)
+  stopifnot(nrow(dato_2) > 12)
+  
+  return(dato_2)
+}
+
+
