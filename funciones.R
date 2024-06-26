@@ -204,4 +204,28 @@ obtener_uf <- function() {
   return(dato_2)
 }
 
-
+# guardar datos solo si tienen cambios con respecto a los ya guardados
+guardar_solo_con_cambios <- function(dato_nuevo, ruta = "app/datos/pib.rds") {
+  
+  # revisiones mínimas
+  stopifnot(length(dato_nuevo) >= 3)
+  stopifnot(nrow(dato_nuevo) >= 1)
+  
+  # cargar dato anterior
+  dato_anterior <- readRDS(ruta) |> select(-any_of("fecha_scraping"))
+  
+  # comparar dato nuevo con dato anterior
+  if (all.equal(dato_nuevo, dato_anterior) == FALSE) {
+    message("dato ", ruta, " con diferencias: guardando...")
+    
+    # agregarle la fecha
+    dato_nuevo <- dato_nuevo |> 
+      mutate(fecha_scraping = Sys.Date())
+    
+    # guardar
+    saveRDS(dato_nuevo, ruta)
+    
+  } else {
+    message("dato ", ruta, " sin diferencias, omitiendo")
+  }
+}

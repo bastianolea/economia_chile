@@ -4,6 +4,8 @@
 
 Proyecto que busca presentar de forma sencilla y compacta los principales indicadores de la economía chilena.
 
+Los datos de este repositorio se actualizan automáticamente cada 24 horas por medio de GitHub Actions. Estos datos se obtienen realizando web scraping al [sitio web del Banco Central.](https://www.bcentral.cl/web/banco-central) usando el [paquete de R `{rvest}`](https://rvest.tidyverse.org).
+
 _En contrucción_
 
 ### Objetivos
