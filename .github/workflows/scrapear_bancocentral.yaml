@@ -10,6 +10,10 @@ jobs:
   render:
     name: Scrapear Banco Central
     runs-on: ubuntu-latest
+    permissions:
+      # Give the default GITHUB_TOKEN write permission to commit and push the
+      # added or changed files to the repository.
+      contents: write
     steps:
       - uses: actions/checkout@v4
       - uses: r-lib/actions/setup-r@v2
@@ -26,8 +30,6 @@ jobs:
       - name: Scrapear datos
         run: Rscript obtener_datos.R
         
-      - name: Commit results
-        run: |
-          git add -A
-          git commit -m 'Actualizar datos BC' || echo "No changes to commit"
-          git push origin || echo "No changes to commit"       
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: scraping BancoCentral
