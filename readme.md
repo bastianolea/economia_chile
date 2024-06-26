@@ -1,5 +1,7 @@
 # Indicadores económicos de Chile
 
+[![Scrapear Banco Central](https://github.com/bastianolea/economia_chile/actions/workflows/scrapear_bancocentral.yaml/badge.svg)](https://github.com/bastianolea/economia_chile/actions/workflows/scrapear_bancocentral.yaml)
+
 Proyecto que busca presentar de forma sencilla y compacta los principales indicadores de la economía chilena.
 
 _En contrucción_
