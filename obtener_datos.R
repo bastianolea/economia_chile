@@ -1,3 +1,11 @@
+library(dplyr)
+library(rvest)
+library(stringr)
+library(tidyr)
+
+source("funciones.R")
+
+
 pib <- obtener_pib()
 
 imacec <- obtener_imacec()
@@ -11,8 +19,9 @@ desempleo <- obtener_desempleo()
 uf <- obtener_uf()
 
 
-
-# pib |> 
-#   ggplot(aes(as_date(fecha), valor,
-#              color = serie)) +
-#   geom_line()
+pib |> saveRDS("app/datos/pib.rds")
+imacec |> saveRDS("app/datos/imacec.rds")
+ipc |> saveRDS("app/datos/ipc.rds")
+ipsa |> saveRDS("app/datos/ipsa.rds")
+desempleo |> saveRDS("app/datos/desempleo.rds")
+uf |> saveRDS("app/datos/uf.rds")
