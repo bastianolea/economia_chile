@@ -1,6 +1,13 @@
 # https://si3.bcentral.cl/Siete/ES/Siete/Cuadro/CAP_ESTADIST_MACRO/MN_EST_MACRO_IV/PEM_ACTyDDA_IMACEC_2_2018/637807927445790326
 # Principales Estadísticas Macro > Actividad y demanda > Indicadores de coyuntura > Imacec
 
+url = "https://si3.bcentral.cl/Siete/ES/Siete/Cuadro/CAP_ESTADIST_MACRO/MN_EST_MACRO_IV/PEM_ACTyDDA_IMACEC_2_2018/637807927445790326"
+
+session(url) |> 
+  read_html() |> 
+  html_table()
+
+
 datos_imacec <- fs::dir_info("bc_imacec") |> 
   filter(str_detect(path, "xls")) |> 
   slice_max(birth_time)
