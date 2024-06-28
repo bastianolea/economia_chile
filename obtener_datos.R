@@ -9,6 +9,8 @@ source("funciones.R")
 
 pib <- obtener_pib()
 
+pib_regional <- obtener_pib_regional()
+
 imacec <- obtener_imacec()
 
 ipc <- obtener_ipc()
@@ -33,6 +35,7 @@ uf <- obtener_uf()
 
 # guardar datos nuevos solo si han cambiado
 guardar_solo_con_cambios(pib, "app/datos/pib.rds")
+guardar_solo_con_cambios(pib_regional, "app/datos/pib_regional.rds")
 guardar_solo_con_cambios(imacec, "app/datos/imacec.rds")
 guardar_solo_con_cambios(ipc, "app/datos/ipc.rds")
 guardar_solo_con_cambios(ipsa, "app/datos/ipsa.rds")
