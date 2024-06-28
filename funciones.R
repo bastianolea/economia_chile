@@ -52,13 +52,19 @@ scrapear_tabla_bc <- function(url) {
   message(url)
   # browser()
   
-  dato_0 <- session(url) |> 
-    read_html() |> 
-    html_table()
-  
-  dato_1 <- dato_0[[1]] |> 
-    janitor::clean_names() |> 
-    select(-1)
+  tryCatch({
+    dato_0 <- session(url) |> 
+      read_html() |> 
+      html_table()
+    
+    dato_1 <- dato_0[[1]] |> 
+      janitor::clean_names() |> 
+      select(-1)
+    
+  }, error = function(error) {
+    warning(error)
+    return(NULL)
+  })
   
   stopifnot(length(dato_1) > 1)
   stopifnot(nrow(dato_1) >= 1)
@@ -117,6 +123,24 @@ obtener_pib <- function() {
   
   return(dato_2)
 }
+
+
+obtener_pib_regional <- function() {
+  message("obtienendo PIB regional desde web del Banco Central...")
+  # https://si3.bcentral.cl/Siete/ES/Siete/Cuadro/CAP_ESTADIST_REGIONAL/MN_REGIONAL1/CCNN2018_PIB_REGIONAL_T
+  
+  dato_1 <- scrapear_tabla_bc("https://si3.bcentral.cl/Siete/ES/Siete/Cuadro/CAP_ESTADIST_REGIONAL/MN_REGIONAL1/CCNN2018_PIB_REGIONAL_T")
+  
+  message("limpiando datos...")
+  dato_2 <- dato_1 |> 
+    limpiar_tabla_bc(frecuencia = "trimestral")
+  
+  stopifnot(length(dato_2) >= 3)
+  stopifnot(nrow(dato_2) > 12)
+  
+  return(dato_2)
+}
+
 
 obtener_imacec <- function() {
   message("obtienendo IMACEC desde web del Banco Central...")
@@ -207,25 +231,31 @@ obtener_uf <- function() {
 # guardar datos solo si tienen cambios con respecto a los ya guardados
 guardar_solo_con_cambios <- function(dato_nuevo, ruta = "app/datos/pib.rds") {
   
-  # revisiones mínimas
-  stopifnot(length(dato_nuevo) >= 3)
-  stopifnot(nrow(dato_nuevo) >= 1)
-  
-  # cargar dato anterior
-  dato_anterior <- readRDS(ruta) |> select(-any_of("fecha_scraping"))
-  
-  # comparar dato nuevo con dato anterior
-  if (all.equal(dato_nuevo, dato_anterior) == FALSE) {
-    message("dato ", ruta, " con diferencias: guardando...")
+  tryCatch({
+    # revisiones mínimas
+    stopifnot(length(dato_nuevo) >= 3)
+    stopifnot(nrow(dato_nuevo) >= 1)
     
-    # agregarle la fecha
-    dato_nuevo <- dato_nuevo |> 
-      mutate(fecha_scraping = Sys.Date())
+    # cargar dato anterior
+    dato_anterior <- readRDS(ruta) |> select(-any_of("fecha_scraping"))
     
-    # guardar
-    saveRDS(dato_nuevo, ruta)
-    
-  } else {
-    message("dato ", ruta, " sin diferencias, omitiendo")
-  }
+    # comparar dato nuevo con dato anterior
+    if (all.equal(dato_nuevo, dato_anterior) == FALSE) {
+      message("dato ", ruta, " con diferencias: guardando...")
+      
+      # agregarle la fecha
+      dato_nuevo <- dato_nuevo |> 
+        mutate(fecha_scraping = Sys.Date())
+      
+      # guardar
+      saveRDS(dato_nuevo, ruta)
+      
+    } else {
+      message("dato ", ruta, " sin diferencias, omitiendo")
+    }
+  }, error = function(error) {
+    warning(error)
+  })
 }
+
+

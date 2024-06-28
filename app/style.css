@@ -1,0 +1,36 @@
+.outer-panel {
+  padding: 8px; 
+}
+
+.panel {
+  min-height: 180px;
+  background-color: #505050;
+  color: black;
+  border: 1px red solid;
+  border-radius: 9px;
+  padding: 12px;
+  margin: 0;
+}
+
+.panel-vacio {
+  min-height: 180px;
+  padding: 12px;
+  margin: 0;
+}
+  
+.flex-container {
+  display: flex;
+}
+
+.flex-child {
+    flex: 1;
+} 
+
+h4 {
+  margin-top: 2px;
+}
+
+
+.texto-bajo-porcentaje {
+  margin-left: 10px; font-size: 90%; margin-top: -4px;
+}
