@@ -259,3 +259,63 @@ guardar_solo_con_cambios <- function(dato_nuevo, ruta = "app/datos/pib.rds") {
 }
 
 
+obtener_canasta <- function() {
+  message("obteniendo canasta básica de alimentos desde GitHub (bastianolea/canasta_basica_chile)")
+  url_canasta = "https://raw.githubusercontent.com/bastianolea/canasta_basica_chile/main/datos_procesados/canasta_basica_alimentos_2018-2024.csv" 
+  
+  read.csv2(url_canasta) |> tibble()
+}
+
+
+obtener_sueldo_minimo <- function() {
+  message("obteniendo sueldo mínimo desde... wikipedia :(")
+  
+  url_sueldo_minimo <- "https://es.wikipedia.org/wiki/Anexo:Salario_mínimo_en_Chile#Sueldo_Mínimo_Nominal"
+  
+  sitio_sueldo_minimo <- session(url_sueldo_minimo) |> 
+    read_html()
+  
+  tablas_sueldo_minimo <- sitio_sueldo_minimo |> 
+    html_table()
+  
+  tabla_sueldo_minimo <- tablas_sueldo_minimo[[3]] |> 
+    janitor::clean_names()
+  
+  sueldo_minimo_1 <- tabla_sueldo_minimo |> 
+    select(fecha, monto_bruto, salario_real)
+  
+  sueldo_minimo_2 <- sueldo_minimo_1 |> 
+    mutate(monto_bruto = str_remove(monto_bruto, "pesos") |> str_trim(),
+           monto_bruto = str_replace(monto_bruto, ",", "\\."),
+           monto_bruto = str_remove_all(monto_bruto, "\\."),
+           monto_bruto = str_extract(monto_bruto, "\\d+"),
+           monto_bruto = as.numeric(monto_bruto)) |> 
+    mutate(salario_real = str_replace(salario_real, ",", "\\."),
+           salario_real = str_remove_all(salario_real, "\\."),
+           salario_real = as.numeric(salario_real))
+  
+  sueldo_minimo_3 <- sueldo_minimo_2 |> 
+    mutate(año = str_extract(fecha, "\\d{4}")) |> 
+    filter(año >= 2000,
+           monto_bruto >= 100000,
+           !is.na(monto_bruto))
+  
+  sueldo_minimo_4 <- sueldo_minimo_3 |> 
+    mutate(mes = str_extract(fecha, "\\w{3,}")) |> 
+    mutate(mes2 = recode(mes,
+                         "enero" = 1,
+                         "febrero" = 2,
+                         "marzo" = 3,
+                         "abril" = 4,
+                         "mayo" = 5,
+                         "junio" = 6,
+                         "julio" = 7,
+                         "agosto" = 8,
+                         "septiembre" = 9,
+                         "octubre" = 10,
+                         "noviembre" = 11,
+                         "diciembre" = 12)) |> 
+    mutate(fecha = paste(año, mes2, 1, sep = "-"))
+  
+  return(sueldo_minimo_4)
+}

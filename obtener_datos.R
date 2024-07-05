@@ -21,6 +21,8 @@ desempleo <- obtener_desempleo()
 
 uf <- obtener_uf()
 
+# canasta <- obtener_canasta()
+
 
 # guardar ----
 

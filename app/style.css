@@ -4,9 +4,9 @@
 
 .panel {
   min-height: 180px;
-  background-color: #505050;
+  background-color: #808080;
   color: black;
-  border: 1px red solid;
+  border: 2px #404040 solid;
   border-radius: 9px;
   padding: 12px;
   margin: 0;

@@ -117,7 +117,7 @@ server <- function(input, output) {
       geom_line() +
       geom_point() +
       theme_void() +
-      theme(plot.background = element_rect(fill = "grey30", color = "grey30"))
+      theme(plot.background = element_rect(fill = "#808080", color = "#808080"))
   })
   
   output$g_pib_variacion <- renderPlot({
@@ -126,7 +126,7 @@ server <- function(input, output) {
       geom_line() +
       geom_point() +
       theme_void() +
-      theme(plot.background = element_rect(fill = "grey30", color = "grey30"))
+      theme(plot.background = element_rect(fill = "#808080", color = "#808080"))
   })
   
   
