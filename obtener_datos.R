@@ -21,7 +21,12 @@ desempleo <- obtener_desempleo()
 
 uf <- obtener_uf()
 
+# hay que automatizarla primero
 # canasta <- obtener_canasta()
+
+desocupados <- obtener_desocupados()
+
+remuneraciones <- obtener_remuneraciones()
 
 
 # guardar ----
@@ -43,6 +48,8 @@ guardar_solo_con_cambios(ipc, "app/datos/ipc.rds")
 guardar_solo_con_cambios(ipsa, "app/datos/ipsa.rds")
 guardar_solo_con_cambios(desempleo, "app/datos/desempleo.rds")
 guardar_solo_con_cambios(uf, "app/datos/uf.rds")
+guardar_solo_con_cambios(desocupados, "app/datos/desocupados.rds")
+guardar_solo_con_cambios(remuneraciones, "app/datos/remuneraciones.rds")
 
 # if (all.equal(pib, readRDS("app/datos/pib.rds")) == FALSE) {
 #   saveRDS(pib |> mutate(fecha_scraping = Sys.Date()), 

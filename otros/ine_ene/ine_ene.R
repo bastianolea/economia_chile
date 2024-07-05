@@ -30,3 +30,8 @@ meses_n = c(paste0(0, 1:9), 10:12)
 meses_txt = mes_ene(mes = 1:12)
 
 enlaces_ene <- paste0(url_base, año_ene, "/csv/ene-", año_ene, "-", meses_n, "-", meses_txt, ".csv")
+
+
+archivos_ene <- enlaces_ene |> str_extract("ene-202.*")
+
+download.file(enlaces_ene, destfile = paste0("otros/ine_ene/datos/", archivos_ene))

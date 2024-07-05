@@ -228,6 +228,48 @@ obtener_uf <- function() {
   return(dato_2)
 }
 
+
+obtener_desocupados <- function() {
+  message("obtienendo desocupados (INE, promedios móviles trimestrales, miles de personas) desde web del Banco Central...")
+  
+  # dato_1 <- scrapear_tabla_bc("https://si3.bcentral.cl/Siete/ES/Siete/Cuadro/CAP_EMP_REM_DEM/MN_EMP_REM_DEM13/ED_FTM2/a6?cbFechaInicio=2010&cbFechaTermino=2024&cbFrecuencia=MONTHLY&cbCalculo=PCT&cbFechaBase=")
+  dato_1 <- scrapear_tabla_bc("https://si3.bcentral.cl/Siete/ES/Siete/Cuadro/CAP_EMP_REM_DEM/MN_EMP_REM_DEM13/ED_FTM2/a6")
+  
+  message("limpiando datos...")
+  dato_2 <- dato_1 |> 
+    limpiar_tabla_bc(chequear_missings_valor = FALSE) |> 
+    filter(serie == "Desocupados")
+  
+  stopifnot(length(dato_2) >= 3)
+  stopifnot(nrow(dato_2) > 12)
+  
+  return(dato_2)
+}
+
+
+obtener_remuneraciones <- function() {
+  message("obtienendo índice de remuneraciones INE (base 2023=100) desde web del Banco Central...")
+  
+  # dato_1 <- scrapear_tabla_bc("https://si3.bcentral.cl/Siete/ES/Siete/Cuadro/CAP_EMP_REM_DEM/MN_EMP_REM_DEM13/ED_VAR_REM_M_2023/638532110333037937")
+  dato_1 <- scrapear_tabla_bc("https://si3.bcentral.cl/Siete/ES/Siete/Cuadro/CAP_EMP_REM_DEM/MN_EMP_REM_DEM13/ED_IND_REM_M_2023/638532110891789445")
+  
+  message("limpiando datos...")
+  dato_2 <- dato_1 |> 
+    limpiar_tabla_bc(chequear_missings_valor = FALSE)
+  
+  stopifnot(length(dato_2) >= 3)
+  stopifnot(nrow(dato_2) > 12)
+  
+  return(dato_2)
+}
+
+
+
+  
+
+
+
+
 # guardar datos solo si tienen cambios con respecto a los ya guardados
 guardar_solo_con_cambios <- function(dato_nuevo, ruta = "app/datos/pib.rds") {
   
@@ -257,6 +299,9 @@ guardar_solo_con_cambios <- function(dato_nuevo, ruta = "app/datos/pib.rds") {
     warning(error)
   })
 }
+
+
+
 
 
 obtener_canasta <- function() {
