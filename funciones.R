@@ -220,7 +220,8 @@ obtener_uf <- function() {
   
   message("limpiando datos...")
   dato_2 <- dato_1 |> 
-    limpiar_tabla_bc(chequear_missings_valor = FALSE)
+    limpiar_tabla_bc(chequear_missings_valor = FALSE) |> 
+    filter(!is.na(valor))
   
   stopifnot(length(dato_2) >= 3)
   stopifnot(nrow(dato_2) > 12)
@@ -265,26 +266,22 @@ obtener_remuneraciones <- function() {
 
 
 
-  
+
 
 
 
 
 # guardar datos solo si tienen cambios con respecto a los ya guardados
 guardar_solo_con_cambios <- function(dato_nuevo, ruta = "app/datos/pib.rds") {
-  
+  # browser()
   tryCatch({
     # revisiones mínimas
     stopifnot(length(dato_nuevo) >= 3)
     stopifnot(nrow(dato_nuevo) >= 1)
     
-    # cargar dato anterior
-    dato_anterior <- readRDS(ruta) |> select(-any_of("fecha_scraping"))
-    
-    # comparar dato nuevo con dato anterior
-    if (all.equal(dato_nuevo, dato_anterior) == FALSE) {
-      message("dato ", ruta, " con diferencias: guardando...")
-      
+    #guardar si no existe
+    if (file.exists(ruta) == FALSE) {
+      message("dato no existía, guardando...")
       # agregarle la fecha
       dato_nuevo <- dato_nuevo |> 
         mutate(fecha_scraping = Sys.Date())
@@ -293,7 +290,24 @@ guardar_solo_con_cambios <- function(dato_nuevo, ruta = "app/datos/pib.rds") {
       saveRDS(dato_nuevo, ruta)
       
     } else {
-      message("dato ", ruta, " sin diferencias, omitiendo")
+      
+      # si dato existe, cargar dato anterior
+      dato_anterior <- readRDS(ruta) |> select(-any_of("fecha_scraping"))
+      
+      # comparar dato nuevo con dato anterior
+      if (length(all.equal(dato_nuevo, dato_anterior)) > 1) {
+        message("dato ", ruta, " con diferencias: guardando...")
+        
+        # agregarle la fecha
+        dato_nuevo <- dato_nuevo |> 
+          mutate(fecha_scraping = Sys.Date())
+        
+        # guardar
+        saveRDS(dato_nuevo, ruta)
+        
+      } else {
+        message("dato ", ruta, " sin diferencias, omitiendo")
+      }
     }
   }, error = function(error) {
     warning(error)

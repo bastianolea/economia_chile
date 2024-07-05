@@ -23,34 +23,108 @@ ui <- fluidPage(title = "Economía chilena", lang = "es",
                         ),
                         
                         panel(4,
-                              div(
-                                h4("Producto Interno bruto (PIB)"),
-                                em("Valor monetario de todos los bienes y servicios producidos en el país.", style = "font-size: 95%;"),
-                                style = "margin-bottom: 12px; line-height: 1.1;"),
-                              
-                              
-                              htmlOutput("pib_ui")
+                              h2("Prueba")
                               
                         ),
                         
-                        panel(4, style = "background-color: grey;",
-                              h4("Evolución del PIB"),
-                              plotOutput("g_pib", height = 80),
-                              
-                              plotOutput("g_pib_variacion", height = 80)
+                        panel(4, 
+                              h3("prueba")
                         )
                       ),
                       
-                      # fila 2 ----
+                      ## pib ----
                       fluidRow(
-                        panel(4, 
-                              # htmlOutput("pib_ui")
-                        ),
+                        panel_cuadro_resumen(titulo = "Producto Interno bruto (PIB)",
+                                             subtitulo = "Valor monetario de todos los bienes y servicios producidos en el país.",
+                                             "pib_ui"),
                         
                         panel(8, 
                               h1("prueba")
                         )
                       ),
+                      
+                      ## imacec ----
+                      fluidRow(
+                        panel_cuadro_resumen(titulo = "Indicador Mensual de Actividad Económica (Imacec)",
+                                             subtitulo = "Resume la actividad de los sectores de la economía en un mes, a precios del año anterior.",
+                                             "imacec_ui"),
+                        
+                        panel(8, 
+                              h1("prueba")
+                        )
+                      ),
+                      
+                      ## ipc ----
+                      fluidRow(
+                        panel_cuadro_resumen(titulo = "Índice de Precios al Consumidos (IPC)",
+                                             subtitulo = "Mide la variación de los precios de una canasta de bienes y servicios representativa del consumo de los hogares urbanos en Chile.",
+                                             "ipc_ui"),
+                        
+                        panel(8, 
+                              h1("prueba")
+                        )
+                      ),
+                      
+                      
+                      ## uf ----
+                      fluidRow(
+                        panel_cuadro_resumen(titulo = "Unidad de Fomento (UF)",
+                                             subtitulo = "Cifra que expresa el valor del peso chileno según la inflación.",
+                                             "uf_ui"),
+                        
+                        panel(8, 
+                              h1("prueba")
+                        )
+                      ),
+                      
+                      ## ipsa ----
+                      fluidRow(
+                        panel_cuadro_resumen(titulo = "Índice de Precios Selectivo de Acciones (IPSA)",
+                          subtitulo = "Indicador de desempeño de las acciones con mayor capitalización en la Bolsa de Comercio de Santiago.",
+                          "ipsa_ui"),
+                        
+                        panel(8, 
+                              h1("prueba")
+                        )
+                      ),
+                      
+                      ## desempleo ----
+                      fluidRow(
+                        panel_cuadro_resumen(titulo = "Tasa de desempleo",
+                          subtitulo = "Mide el porcentaje de la fuerza de trabajo nacional que se encuentra sin empleo.",
+                          "desempleo_ui"),
+                        
+                        panel(8, 
+                              h1("prueba")
+                        )
+                      ),
+                      
+                      # ## desocupados ----
+                      # fluidRow(
+                      #   panel_cuadro_resumen(titulo = "desocupados_ui",
+                      #                        subtitulo = "Blablablabla.",
+                      #                        "desocupados_ui"),
+                      #   
+                      #   panel(8, 
+                      #         h1("prueba")
+                      #   )
+                      # ),
+                      
+                      
+                      ## remuneraciones ----
+                      fluidRow(
+                        panel_cuadro_resumen(titulo = "Índice real de remuneraciones",
+                                             subtitulo = "Remuneración por hora ordinaria, considerando la variación del Índice de Precios al Consumidor.",
+                                             "remuneraciones_ui"),
+                        
+                        panel(8, 
+                              h1("prueba")
+                        )
+                      ),
+                      
+                      
+                      
+                      
                       
                       # fila 3 ----
                       fluidRow(
@@ -91,7 +165,7 @@ ui <- fluidPage(title = "Economía chilena", lang = "es",
 
 server <- function(input, output) {
   
-  # carga de datos ----
+  ## carga de datos ----
   
   # setwd("app")
   pib <- readRDS("datos/pib.rds")
@@ -100,70 +174,60 @@ server <- function(input, output) {
   ipsa <- readRDS("datos/ipsa.rds")
   desempleo <- readRDS("datos/desempleo.rds")
   uf <- readRDS("datos/uf.rds")
+  desocupados <- readRDS("datos/desocupados.rds")
+  remuneraciones <- readRDS("datos/remuneraciones.rds")
   
-  # pib ----
+  
+  ## indicadores ----
   datos_pib <- pib |> 
     filter(serie == "PIB a precios corrientes") |> 
     calcular_metricas()
   
-  output$t_pib_cifra <- renderText(miles(datos_pib$ultimo$valor))
-  output$t_pib_cambio <- renderText(prop_a_porcentaje(datos_pib$cambio$valor))
-  output$t_pib_hace_un_año <- renderText(miles(datos_pib$hace_un_año$valor))
-  output$t_pib_hace_un_año_p <- renderText(prop_a_porcentaje(datos_pib$hace_un_año_p))
+  datos_imacec <- imacec |> 
+    filter(serie == "Imacec empalmado, serie original (índice 2018=100)") |> 
+    calcular_metricas()
   
-  output$g_pib <- renderPlot({
-    datos_pib$datos |> 
-      ggplot(aes(fecha, valor)) +
-      geom_line() +
-      geom_point() +
-      theme_void() +
-      theme(plot.background = element_rect(fill = "#808080", color = "#808080"))
-  })
+  datos_ipc <- ipc |> 
+    filter(serie == "Índice IPC General") |> 
+    calcular_metricas()
   
-  output$g_pib_variacion <- renderPlot({
-    datos_pib$variacion |> 
-      ggplot(aes(fecha, valor)) +
-      geom_line() +
-      geom_point() +
-      theme_void() +
-      theme(plot.background = element_rect(fill = "#808080", color = "#808080"))
-  })
+  datos_uf <- uf |> 
+    filter(serie == "Unidad de fomento (UF)") |> 
+    calcular_metricas()
+  
+  datos_ipsa <- ipsa |> 
+    filter(serie == "IPSA  (índice enero 2003=1000)") |> 
+    calcular_metricas()
+  
+  datos_desempleo <- desempleo |> 
+    filter(serie == "Tasa  de  desempleo  (porcentaje)") |> 
+    calcular_metricas()
+  
+  datos_desocupados <- desocupados |> 
+    calcular_metricas()
+  
+  datos_remuneraciones <- remuneraciones |> 
+    filter(serie == "Índice real de remuneraciones") |> 
+    calcular_metricas()
   
   
+  ## interfaces ----
+  output$pib_ui <- renderUI(dato_ui(datos_pib))
   
+  output$imacec_ui <- renderUI(dato_ui(datos_imacec, unidad = "porcentaje", año_base = 2018))
   
-  output$pib_ui <- renderUI({
-    
-    div(
-      div(style = "display: flex;",
-          div(style = "flex: 1.5;",
-              
-              strong("Valor actual"),
-              p(paste0("$", miles(datos_pib$ultimo$valor)), "(miles de millones)"),
-              
-              porcentaje_flechita(datos_pib$cambio$valor),
-              p(class = "texto-bajo-porcentaje", 
-                "versus cifra anterior", 
-                paste0("(", format(datos_pib$penultimo$fecha, "%m/%y"), ")"))
-              
-          ),
-          
-          div(style = "flex: 1;",
-              
-              strong("Hace un año"),
-              p(paste0("$", miles(datos_pib$hace_un_año$valor)), "(miles de millones)"),
-              
-              porcentaje_flechita(datos_pib$hace_un_año_p),
-              p(class = "texto-bajo-porcentaje", 
-                "versus hace 12 meses",
-                paste0("(", format(datos_pib$hace_un_año$fecha, "%m/%y"), ")"))
-              
-          )
-      )
-      
-    )
-    
-  })
+  output$ipc_ui <- renderUI(dato_ui(datos_ipc, subir = "neutro"))
+  
+  output$uf_ui <- renderUI(dato_ui(datos_uf, subir = "neutro"))
+  
+  output$ipsa_ui <- renderUI(dato_ui(datos_ipsa))
+  
+  output$desempleo_ui <- renderUI(dato_ui(datos_desempleo, subir = "malo"))
+  
+  output$desocupados_ui <- renderUI(dato_ui(datos_desocupados, subir = "malo"))
+  
+  output$remuneraciones_ui <- renderUI(dato_ui(datos_remuneraciones))
+  
 }
 
 # Run the application 

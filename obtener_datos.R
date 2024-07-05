@@ -48,7 +48,7 @@ guardar_solo_con_cambios(ipc, "app/datos/ipc.rds")
 guardar_solo_con_cambios(ipsa, "app/datos/ipsa.rds")
 guardar_solo_con_cambios(desempleo, "app/datos/desempleo.rds")
 guardar_solo_con_cambios(uf, "app/datos/uf.rds")
-guardar_solo_con_cambios(desocupados, "app/datos/desocupados.rds")
+# guardar_solo_con_cambios(desocupados, "app/datos/desocupados.rds")
 guardar_solo_con_cambios(remuneraciones, "app/datos/remuneraciones.rds")
 
 # if (all.equal(pib, readRDS("app/datos/pib.rds")) == FALSE) {
