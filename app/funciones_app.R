@@ -9,6 +9,22 @@ prop_a_porcentaje <- function(x, decimales = 2) {
   return(x_porcentaje_texto_2)
 }
 
+numeric_a_mes <- function(x) {
+  recode_factor(x, 
+                "1" = "ene",
+                "2" = "feb",
+                "3" = "mar",
+                "4" = "abr",
+                "5" = "may",
+                "6" = "jun",
+                "7" = "jul",
+                "8" = "ago",
+                "9" = "sep",
+                "10" = "oct",
+                "11" = "nov",
+                "12" = "dic")
+}
+
 panel <- function(width, ...) {
   column(width, class = "outer-panel",
          div(class = "panel",
@@ -28,6 +44,10 @@ panel_vacio <- function(width, ...) {
 
 miles <- function(x) {
   scales::comma(x, big.mark = ".", decimal.mark = ",", trim = TRUE)
+}
+
+porcentaje <- function(x) {
+  paste0(format(x, big.mark = ".", decimal.mark = ","), "%")
 }
 
 calcular_metricas <- function(datos) {
@@ -119,13 +139,24 @@ porcentaje_flechita <- function(dato, juicio = "bueno") {
 
 
 
-formateador_cifra <- function(dato, unidad = "miles de millones", año_base = 2018) {
+formateador_cifra <- function(dato, unidad = "miles de millones", texto = 2018) {
   if (unidad == "miles de millones") {
     p(paste0("$", miles(dato)), "(miles de millones)")
     
   } else if (unidad == "porcentaje") {
-    p(paste0(dato, "%"), paste0("(porcentaje respecto a ", año_base, ")"))
+    p(porcentaje(dato), paste0("(% respecto a ", texto, ")"))
     
+  } else if (unidad == "porciento") {
+    p(porcentaje(dato), paste0("(", texto, ")"))
+    
+  } else if (unidad == "pesos") {
+    p(paste0("$", miles(dato)), "(pesos)")
+    
+  } else if (unidad == "índice 1000") {
+    p(paste0(miles(dato), " (índice: ", texto, " = 1.000)"))
+    
+  } else if (unidad == "índice 100") {
+    p(paste0(miles(dato), " (índice: ", texto, " = 100)"))
   } else {
     p(paste0("$", miles(dato)), "(miles de millones)")
   }
@@ -182,5 +213,76 @@ panel_cuadro_resumen <- function(titulo, subtitulo, output) {
         
         
         htmlOutput(output)
+  )
+}
+
+
+
+grafico_variacion <- function(dato, escala = "mensual", subir = "bueno", color_fondo = "#808080") {
+  
+  if (subir == "bueno") {
+    color_subir = "green"
+    color_bajar = "red"
+    color_neutro = "blue"
+  } else if (subir == "malo") {
+    color_subir = "red"
+    color_bajar = "green"
+    color_neutro = "blue"
+  } else if (subir == "neutro") {
+    color_subir = "blue"
+    color_bajar = "blue"
+    color_neutro = "blue"
+  }
+  
+  dato_2 <- dato$variacion |> 
+    ungroup() |> 
+    slice(1:12) |> 
+    mutate(valor = valor-1) |> 
+    mutate(direccion = ifelse(valor > 0, "Aumento", "Disminución"),
+           direccion = ifelse(round(valor, 4) == 0.0, "Igual", direccion))
+  
+  if (escala == "trimestre") {
+    # browser()
+    etiquetas_trimestre <- paste(dato_2$año, dato_2$trimestre, sep = "/")
+  }
+  
+  plot <- dato_2 |> 
+    ggplot(aes(fecha, valor, fill = direccion)) +
+    geom_col() +
+    geom_hline(yintercept = 0) +
+    geom_text(data = ~filter(.x, direccion == "Aumento"),
+              aes(y = valor+(mean(valor)*0.1), label = scales::percent(valor, big.mark = ".", decimal.mark = ",", accuracy = 0.01)), 
+              vjust = 0, size = 3, check_overlap = T) +
+    geom_text(data = ~filter(.x, direccion == "Disminución"),
+              aes(y = valor+(mean(valor)*0.1), label = scales::percent(valor, big.mark = ".", decimal.mark = ",", accuracy = 0.1)),
+              vjust = 1, size = 3, check_overlap = T) +
+    scale_x_date(date_breaks = "months", labels = ~numeric_a_mes(month(.x))) +
+    scale_y_continuous(expand = expansion(c(0.1, 0.1)), breaks = c(-0.1, 0, 0.1)) +
+    scale_fill_manual(values = c("Aumento" = color_subir,
+                                 "Disminución" = color_bajar,
+                                 "Igual" = color_neutro), 
+                      aesthetics = c("color", "fill")) +
+    theme_void() +
+    theme(axis.text.x = element_text(),
+          plot.margin = margin(l = 15, r = 15, b = 4),
+          legend.position = "none") +
+    theme(plot.background = element_rect(fill = color_fondo, color = color_fondo),
+          panel.background = element_rect(fill = color_fondo, color = color_fondo))
+  
+  if (escala == "trimestre") {
+  plot <- plot +
+    scale_x_continuous(breaks = dato_2$mes, labels = etiquetas_trimestre)
+    # scale_x_date(date_breaks = "months", labels = etiquetas_trimestre)
+  }
+  
+  return(plot)
+}
+
+
+
+panel_grafico_variacion <- function(titulo, output) {
+  div(
+    h1(titulo),
+  plotOutput(output, height = 240)
   )
 }

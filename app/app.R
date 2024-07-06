@@ -39,7 +39,8 @@ ui <- fluidPage(title = "Economía chilena", lang = "es",
                                              "pib_ui"),
                         
                         panel(8, 
-                              h1("prueba")
+                              panel_grafico_variacion("prueba",
+                              "pib_g_var")
                         )
                       ),
                       
@@ -50,7 +51,8 @@ ui <- fluidPage(title = "Economía chilena", lang = "es",
                                              "imacec_ui"),
                         
                         panel(8, 
-                              h1("prueba")
+                              panel_grafico_variacion("prueba",
+                                                      "imacec_g_var")
                         )
                       ),
                       
@@ -61,7 +63,8 @@ ui <- fluidPage(title = "Economía chilena", lang = "es",
                                              "ipc_ui"),
                         
                         panel(8, 
-                              h1("prueba")
+                              panel_grafico_variacion("prueba",
+                                                      "ipc_g_var")
                         )
                       ),
                       
@@ -73,7 +76,8 @@ ui <- fluidPage(title = "Economía chilena", lang = "es",
                                              "uf_ui"),
                         
                         panel(8, 
-                              h1("prueba")
+                              panel_grafico_variacion("prueba",
+                                                      "uf_g_var")
                         )
                       ),
                       
@@ -84,7 +88,8 @@ ui <- fluidPage(title = "Economía chilena", lang = "es",
                           "ipsa_ui"),
                         
                         panel(8, 
-                              h1("prueba")
+                              panel_grafico_variacion("prueba",
+                              "ipsa_g_var")
                         )
                       ),
                       
@@ -95,7 +100,8 @@ ui <- fluidPage(title = "Economía chilena", lang = "es",
                           "desempleo_ui"),
                         
                         panel(8, 
-                              h1("prueba")
+                              panel_grafico_variacion("prueba",
+                              "desempleo_g_var")
                         )
                       ),
                       
@@ -118,7 +124,8 @@ ui <- fluidPage(title = "Economía chilena", lang = "es",
                                              "remuneraciones_ui"),
                         
                         panel(8, 
-                              h1("prueba")
+                              panel_grafico_variacion("prueba",
+                              "remuneraciones_g_var")
                         )
                       ),
                       
@@ -214,19 +221,31 @@ server <- function(input, output) {
   ## interfaces ----
   output$pib_ui <- renderUI(dato_ui(datos_pib))
   
-  output$imacec_ui <- renderUI(dato_ui(datos_imacec, unidad = "porcentaje", año_base = 2018))
+  output$imacec_ui <- renderUI(dato_ui(datos_imacec, unidad = "índice 100", año_base = 2018))
   
-  output$ipc_ui <- renderUI(dato_ui(datos_ipc, subir = "neutro"))
+  # hay que ir poniendo las unidades correctas en cada cosito
+  output$ipc_ui <- renderUI(dato_ui(datos_ipc, unidad = "índice 100", año_base = 2023, subir = "neutro"))
   
-  output$uf_ui <- renderUI(dato_ui(datos_uf, subir = "neutro"))
+  output$uf_ui <- renderUI(dato_ui(datos_uf, unidad = "pesos", subir = "neutro"))
   
-  output$ipsa_ui <- renderUI(dato_ui(datos_ipsa))
+  output$ipsa_ui <- renderUI(dato_ui(datos_ipsa, unidad = "índice 1000", año_base = 2003))
   
-  output$desempleo_ui <- renderUI(dato_ui(datos_desempleo, subir = "malo"))
+  output$desempleo_ui <- renderUI(dato_ui(datos_desempleo, unidad = "porciento", año_base = "% fuerza de trabajo", subir = "malo"))
   
-  output$desocupados_ui <- renderUI(dato_ui(datos_desocupados, subir = "malo"))
+  # output$desocupados_ui <- renderUI(dato_ui(datos_desocupados, subir = "malo"))
   
-  output$remuneraciones_ui <- renderUI(dato_ui(datos_remuneraciones))
+  output$remuneraciones_ui <- renderUI(dato_ui(datos_remuneraciones, unidad = "índice 100", año_base = 2023))
+  
+  ## gráficos variación ----
+  
+  output$pib_g_var <- renderPlot(grafico_variacion(datos_pib, escala = "trimestre"))
+  output$imacec_g_var <- renderPlot(grafico_variacion(datos_imacec))
+  output$ipc_g_var <- renderPlot(grafico_variacion(datos_ipc, subir = "neutro"))
+  output$uf_g_var <- renderPlot(grafico_variacion(datos_uf, subir = "neutro"))
+  output$ipsa_g_var <- renderPlot(grafico_variacion(datos_ipsa))
+  output$desempleo_g_var <- renderPlot(grafico_variacion(datos_desempleo, subir = "malo"))
+  output$remuneraciones_g_var <- renderPlot(grafico_variacion(datos_remuneraciones))
+  
   
 }
 

@@ -17,6 +17,8 @@ mes_a_numeric <- function(x) {
          "dic" = 12)
 }
 
+
+
 trimestre_a_numeric <- function(x) {
   recode(tolower(x), 
          "i" = 1,
@@ -47,7 +49,7 @@ extraer_año <- function(x) {
 
 
 # funciones banco central ----
-scrapear_tabla_bc <- function(url) {
+scrapear_tabla_bc <- function(url, convertir = TRUE) {
   stopifnot(nchar(url) > 1)
   message(url)
   # browser()
@@ -55,7 +57,7 @@ scrapear_tabla_bc <- function(url) {
   tryCatch({
     dato_0 <- session(url) |> 
       read_html() |> 
-      html_table()
+      html_table(convert = convertir)
     
     dato_1 <- dato_0[[1]] |> 
       janitor::clean_names() |> 
@@ -92,7 +94,7 @@ limpiar_tabla_bc <- function(dato_1, frecuencia = "mensual",
       mutate(mes = trimestre_a_mes(trimestre)) |> 
       mutate(fecha = paste(año, mes, "1", sep = "-"))
   }
-  
+  # browser()
   dato_2 <- dato_1b |> 
     mutate(valor = cifra_comas_a_numeric(valor))
   
@@ -112,7 +114,8 @@ obtener_pib <- function() {
   # https://si3.bcentral.cl/Siete/ES/Siete/Cuadro/CAP_CCNN/MN_CCNN76/CCNN2018_P0_V2/637801082315858005?cbFechaInicio=2010&cbFechaTermino=2023&cbFrecuencia=QUARTERLY&cbCalculo=NONE&cbFechaBase=
   # Cuentas nacionales > Producto Interno Bruto (PIB), gasto e ingreso > Referencia 2018 > Producto interno bruto > PIB total
   
-  dato_1 <- scrapear_tabla_bc("https://si3.bcentral.cl/Siete/ES/Siete/Cuadro/CAP_CCNN/MN_CCNN76/CCNN2018_P0_V2/637801082315858005")
+  dato_1 <- scrapear_tabla_bc("https://si3.bcentral.cl/Siete/ES/Siete/Cuadro/CAP_CCNN/MN_CCNN76/CCNN2018_P0_V2/637801082315858005", 
+                              convertir = FALSE)
   
   message("limpiando datos...")
   dato_2 <- dato_1 |> 
