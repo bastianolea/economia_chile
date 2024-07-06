@@ -25,23 +25,6 @@ numeric_a_mes <- function(x) {
                 "12" = "dic")
 }
 
-panel <- function(width, ...) {
-  column(width, class = "outer-panel",
-         div(class = "panel",
-             ...
-         )
-  )
-}
-
-panel_vacio <- function(width, ...) {
-  column(width, class = "outer-panel",
-         div(class = "panel-vacio",
-             ...
-         )
-  )
-}
-
-
 miles <- function(x) {
   scales::comma(x, big.mark = ".", decimal.mark = ",", trim = TRUE)
 }
@@ -50,52 +33,7 @@ porcentaje <- function(x) {
   paste0(format(x, big.mark = ".", decimal.mark = ","), "%")
 }
 
-calcular_metricas <- function(datos) {
-  # browser()
-  
-  # ordenar
-  datos <- datos |> 
-    group_by(serie) |> 
-    arrange(desc(año), desc(mes)) |> 
-    mutate(fecha = as_date(fecha))
-  
-  # ultimos x años
-  datos_recientes <- datos |> 
-    filter(fecha >= max(fecha) %m-% months(12*3))
-  
-  ultimo <- datos |> slice(1)
-  penultimo <- datos |> slice(2)
-  
-  hace_un_año <- datos |> 
-    filter(fecha <= max(fecha) %m-% months(12)) |> 
-    slice(1)
-  
-  hace_dos_años <- datos |> 
-    filter(fecha <= max(fecha) %m-% months(24)) |> 
-    slice(1)
-  
-  # cambio porcentual entre cada fecha
-  variacion <- datos_recientes |> 
-    mutate(valor = valor/lead(valor))
-  
-  # cambio porcentual entre ultimo valor y el anterior
-  cambio <- variacion |> 
-    slice(1)
-  
-  # cambio_texto <- prop_a_porcentaje(cambio$cambio)
-  
-  output <- list("datos" = datos_recientes,
-                 "variacion" = variacion,
-                 "cambio" = cambio,
-                 "ultimo" = ultimo,
-                 "penultimo" = penultimo,
-                 "hace_un_año" = hace_un_año,
-                 "hace_un_año_p" = ultimo$valor/hace_un_año$valor,
-                 "hace_dos_años" = hace_dos_años
-  )
-  
-  return(output)
-}
+
 
 
 flechita <- function(x, juicio = "bueno") {
@@ -162,63 +100,148 @@ formateador_cifra <- function(dato, unidad = "miles de millones", texto = 2018) 
   }
 }
 
+# calculos ----
+calcular_metricas <- function(datos) {
+  # browser()
+  
+  # ordenar
+  datos <- datos |> 
+    group_by(serie) |> 
+    arrange(desc(año), desc(mes)) |> 
+    mutate(fecha = as_date(fecha))
+  
+  # ultimos x años
+  datos_recientes <- datos |> 
+    filter(fecha >= max(fecha) %m-% months(12*3))
+  
+  ultimo <- datos |> slice(1)
+  penultimo <- datos |> slice(2)
+  
+  hace_un_año <- datos |> 
+    filter(fecha <= max(fecha) %m-% months(12)) |> 
+    slice(1)
+  
+  hace_dos_años <- datos |> 
+    filter(fecha <= max(fecha) %m-% months(24)) |> 
+    slice(1)
+  
+  # cambio porcentual entre cada fecha
+  variacion <- datos_recientes |> 
+    mutate(valor = valor/lead(valor))
+  
+  # cambio porcentual entre ultimo valor y el anterior
+  cambio <- variacion |> 
+    slice(1)
+  
+  # cambio_texto <- prop_a_porcentaje(cambio$cambio)
+  
+  output <- list("datos" = datos_recientes,
+                 "variacion" = variacion,
+                 "cambio" = cambio,
+                 "ultimo" = ultimo,
+                 "penultimo" = penultimo,
+                 "hace_un_año" = hace_un_año,
+                 "hace_un_año_p" = ultimo$valor/hace_un_año$valor,
+                 "hace_dos_años" = hace_dos_años
+  )
+  
+  return(output)
+}
 
+# interfaces ----
 dato_ui <- function(datos_pib, unidad = "miles de millones", año_base = 2018, subir = "bueno") {
   div(
     div(style = "display: flex;",
-        div(style = "flex: 1.5;",
+        div(style = "flex: 1; border: 2px solid red;",
             
-            strong("Valor actual"),
-            # if (unidad == "miles de millones") {
-            #   p(paste0("$", miles(datos_pib$ultimo$valor)), "(miles de millones)")
-            #   
-            # } else if (unidad == "porcentaje") {
-            #   p(paste0(datos_pib$ultimo$valor, "%"), paste0("(porcentaje respecto a ", año_base, ")"))
-            # },
-            p(formateador_cifra(datos_pib$ultimo$valor, unidad, año_base)),
+            div(style = "min-height: 70px;",
+                strong("Valor actual"),
+                p(formateador_cifra(datos_pib$ultimo$valor, unidad, año_base),
+                  style = "margin-top: -8px; font-size: 9%;")
+            ),
             
             
             porcentaje_flechita(datos_pib$cambio$valor, juicio = subir),
             p(class = "texto-bajo-porcentaje", 
               "versus cifra anterior", 
               paste0("(", format(datos_pib$penultimo$fecha, "%m/%y"), ")"))
-            
         ),
         
-        div(style = "flex: 1;",
+        div(style = "flex: 1; margin-left: 6px; border: 2px solid red;",
             
-            strong("Hace un año"),
-            # p(paste0("$", miles(datos_pib$hace_un_año$valor)), "(miles de millones)"),
-            p(formateador_cifra(datos_pib$hace_un_año$valor, unidad, año_base)),
+            div(style = "min-height: 70px;",
+                strong("Hace un año"),
+                p(formateador_cifra(datos_pib$hace_un_año$valor, unidad, año_base),
+                  style = "margin-top: -8px; font-size: 90%;")
+            ),
             
             porcentaje_flechita(datos_pib$hace_un_año_p, juicio = subir),
             p(class = "texto-bajo-porcentaje", 
               "versus hace 12 meses",
               paste0("(", format(datos_pib$hace_un_año$fecha, "%m/%y"), ")"))
-            
         )
     )
-    
+  )
+}
+
+# paneles ----
+fila_indicador <- function(...) {
+  fluidRow(
+    column(12, style = "border: 2px solid red; padding: 12px;",
+           ...
+    )
+  )
+}
+
+panel <- function(width, ...) {
+  column(width, class = "outer-panel",
+         div(class = "panel",
+             ...
+         )
+  )
+}
+
+panel_vacio <- function(width, ...) {
+  column(width, class = "outer-panel",
+         div(class = "panel-vacio",
+             ...
+         )
+  )
+}
+
+panel_titular <- function(titulo, subtitulo) {
+  div(style = "margin-bottom: 12px; line-height: 1.1;",
+      h4(titulo),
+      em(subtitulo, style = "font-size: 95%;")
   )
 }
 
 
-
-panel_cuadro_resumen <- function(titulo, subtitulo, output) {
+panel_cuadro_resumen <- function(output) {
   panel(4, 
         div(
-          h4(titulo),
-          em(subtitulo, style = "font-size: 95%;"),
-          style = "margin-bottom: 12px; line-height: 1.1;"),
-        
-        
-        htmlOutput(output)
-  )
+          htmlOutput(output)
+        ))
 }
 
 
 
-grafico_variacion <- function(dato, escala = "mensual", subir = "bueno", color_fondo = "#808080") {
+
+panel_grafico_variacion <- function(titulo, output) {
+  panel(8, 
+        div(
+          h4(titulo),
+          plotOutput(output, height = 240)
+        )
+  )
+}
+
+
+# gráficos ----
+grafico_variacion <- function(dato, escala = "mensual", subir = "bueno", 
+                              #color_fondo = "#808080"
+                              color_fondo = color_paneles
+                              ) {
   
   if (subir == "bueno") {
     color_subir = "green"
@@ -246,18 +269,46 @@ grafico_variacion <- function(dato, escala = "mensual", subir = "bueno", color_f
     etiquetas_trimestre <- paste(dato_2$año, dato_2$trimestre, sep = "/")
   }
   
-  plot <- dato_2 |> 
+  # para que el espaciado sea equivalente a la barra más alta * x, y así la línea esté al medio
+  alto_max <- max(abs(dato_2$valor))*1.2
+  lineas_punteadas = 0.05
+  espaciado_vertical_texto = 0.1
+  tamaño_texto = 3
+  decimales_texto = 0.1
+  
+  n_aumentos = length(dato_2$direccion[dato_2$direccion == "Aumento"])
+  n_disminuciones = length(dato_2$direccion[dato_2$direccion == "Disminución"])
+  gradiente_posicion = ifelse(n_aumentos > n_disminuciones, "arriba", "abajo")
+  color_gradiente = if_else(n_aumentos > n_disminuciones, color_subir, color_bajar)
+  colores_gradiente = c(color_gradiente, color_fondo)
+  colores_gradiente_pos = if_else(gradiente_posicion == "arriba", list(colores_gradiente), list(rev(colores_gradiente)))
+  posicion_y_gradiente = if_else(gradiente_posicion == "arriba", alto_max*0.8, -alto_max*0.8)
+  
+  plot <- dato_2 |>
+    # dato_2 |> 
     ggplot(aes(fecha, valor, fill = direccion)) +
-    geom_col() +
+    geom_ribbon(aes(x = c(fecha[1]+60, fecha[2:11], fecha[12]-60),
+                    ymin = 0, ymax = posicion_y_gradiente), #max(valor)), 
+                fill = grid::linearGradient(
+                  colours = colores_gradiente_pos[[1]],
+                  x1 = unit(0, "npc"), y1 = unit(0, "npc"),
+                  x2 = unit(0, "npc"), y2 = unit(1, "npc")
+                ), alpha = 0.4) +
+    geom_hline(yintercept = lineas_punteadas, linetype = "dashed", alpha = 0.2) +
+    geom_hline(yintercept = -lineas_punteadas, linetype = "dashed", alpha = 0.2) +
+    geom_col(color = "grey40") +
     geom_hline(yintercept = 0) +
     geom_text(data = ~filter(.x, direccion == "Aumento"),
-              aes(y = valor+(mean(valor)*0.1), label = scales::percent(valor, big.mark = ".", decimal.mark = ",", accuracy = 0.01)), 
-              vjust = 0, size = 3, check_overlap = T) +
+              aes(y = valor+(mean(valor)*espaciado_vertical_texto), 
+                  label = scales::percent(valor, big.mark = ".", decimal.mark = ",", accuracy = decimales_texto)), 
+              vjust = 0, size = tamaño_texto, check_overlap = T) +
     geom_text(data = ~filter(.x, direccion == "Disminución"),
-              aes(y = valor+(mean(valor)*0.1), label = scales::percent(valor, big.mark = ".", decimal.mark = ",", accuracy = 0.1)),
-              vjust = 1, size = 3, check_overlap = T) +
+              aes(y = valor+(mean(valor)*espaciado_vertical_texto), 
+                  label = scales::percent(valor, big.mark = ".", decimal.mark = ",", accuracy = decimales_texto)),
+              vjust = 1, size = tamaño_texto, check_overlap = T) +
     scale_x_date(date_breaks = "months", labels = ~numeric_a_mes(month(.x))) +
-    scale_y_continuous(expand = expansion(c(0.1, 0.1)), breaks = c(-0.1, 0, 0.1)) +
+    scale_y_continuous(limits = c(-alto_max,
+                                  alto_max)) +
     scale_fill_manual(values = c("Aumento" = color_subir,
                                  "Disminución" = color_bajar,
                                  "Igual" = color_neutro), 
@@ -270,19 +321,10 @@ grafico_variacion <- function(dato, escala = "mensual", subir = "bueno", color_f
           panel.background = element_rect(fill = color_fondo, color = color_fondo))
   
   if (escala == "trimestre") {
-  plot <- plot +
-    scale_x_continuous(breaks = dato_2$mes, labels = etiquetas_trimestre)
+    plot <- plot +
+      scale_x_continuous(breaks = dato_2$mes, labels = etiquetas_trimestre)
     # scale_x_date(date_breaks = "months", labels = etiquetas_trimestre)
   }
   
   return(plot)
-}
-
-
-
-panel_grafico_variacion <- function(titulo, output) {
-  div(
-    h1(titulo),
-  plotOutput(output, height = 240)
-  )
 }

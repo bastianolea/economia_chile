@@ -2,16 +2,6 @@
   padding: 8px; 
 }
 
-.panel {
-  min-height: 180px;
-  background-color: #808080;
-  color: black;
-  border: 2px #404040 solid;
-  border-radius: 9px;
-  padding: 12px;
-  margin: 0;
-}
-
 .panel-vacio {
   min-height: 180px;
   padding: 12px;
