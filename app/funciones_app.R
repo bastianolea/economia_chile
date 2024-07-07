@@ -25,6 +25,18 @@ numeric_a_mes <- function(x) {
                 "12" = "dic")
 }
 
+fecha_redactada <- function(fecha) {
+  paste(numeric_a_mes(month(fecha)), format(fecha, "%Y"))
+}
+
+mes_a_trimestre <- function(x) {
+  recode(as.character(x),
+         "3" = "I",
+         "6" = "II",
+         "9" = "III" ,
+         "12" = "IV")
+}
+
 miles <- function(x) {
   scales::comma(x, big.mark = ".", decimal.mark = ",", trim = TRUE)
 }
@@ -38,9 +50,9 @@ porcentaje <- function(x) {
 
 flechita <- function(x, juicio = "bueno") {
   # browser()
-  flechita <- case_when(x < 1 ~ "▼",
-                        x == 1 ~ "=",
-                        x > 1 ~ "▲")
+  flechita <- case_when(round(x, 3) < 1 ~ "▼",
+                        round(x, 3) == 1 ~ "=",
+                        round(x, 3) > 1 ~ "▲")
   
   if (juicio == "bueno") {
     color_subir = "green"
@@ -60,8 +72,10 @@ flechita <- function(x, juicio = "bueno") {
                      x == 1 ~ color_neutro,
                      x > 1 ~ color_subir)
   
+  ajuste_flecha_abajo <- ifelse(x < 1, "margin-top: 10px;", "")
+  
   div(flechita,
-      style = paste("font-size: 100%; color:", color))
+      style = paste("font-size: 110%;", ajuste_flecha_abajo, "color:", color, ";"))
 }
 
 
@@ -150,35 +164,75 @@ calcular_metricas <- function(datos) {
 
 # interfaces ----
 dato_ui <- function(datos_pib, unidad = "miles de millones", año_base = 2018, subir = "bueno") {
+  # versión vertical
+  # div(
+  #   div(style = "display: flex;",
+  #       
+  #       div(style = "flex: 1; border: 2px solid red;",
+  #           
+  #           div(style = "min-height: 70px;",
+  #               strong("Valor actual"),
+  #               p(formateador_cifra(datos_pib$ultimo$valor, unidad, año_base),
+  #                 style = "margin-top: -8px; font-size: 9%;")
+  #           ),
+  #           
+  #           
+  #           porcentaje_flechita(datos_pib$cambio$valor, juicio = subir),
+  #           p(class = "texto-bajo-porcentaje", 
+  #             "versus cifra anterior", 
+  #             paste0("(", format(datos_pib$penultimo$fecha, "%m/%y"), ")"))
+  #       ),
+  #       
+  #       div(style = "flex: 1; margin-left: 6px; border: 2px solid red;",
+  #           
+  #           div(style = "min-height: 70px;",
+  #               strong("Hace un año"),
+  #               p(formateador_cifra(datos_pib$hace_un_año$valor, unidad, año_base),
+  #                 style = "margin-top: -8px; font-size: 90%;")
+  #           ),
+  #           
+  #           porcentaje_flechita(datos_pib$hace_un_año_p, juicio = subir),
+  #           p(class = "texto-bajo-porcentaje", 
+  #             "versus hace 12 meses",
+  #             paste0("(", format(datos_pib$hace_un_año$fecha, "%m/%y"), ")"))
+  #       )
+  #   )
+  # )
   div(
+    # fila 1
     div(style = "display: flex;",
-        div(style = "flex: 1; border: 2px solid red;",
-            
-            div(style = "min-height: 70px;",
-                strong("Valor actual"),
-                p(formateador_cifra(datos_pib$ultimo$valor, unidad, año_base),
-                  style = "margin-top: -8px; font-size: 9%;")
-            ),
-            
-            
-            porcentaje_flechita(datos_pib$cambio$valor, juicio = subir),
-            p(class = "texto-bajo-porcentaje", 
-              "versus cifra anterior", 
-              paste0("(", format(datos_pib$penultimo$fecha, "%m/%y"), ")"))
+        # cuadro izq
+        div(style = "flex: 1; text-align: right; padding-top: 8px; margin-right: 12px;",
+            strong("Valor actual:"),
+            p(formateador_cifra(datos_pib$ultimo$valor, unidad, año_base),
+              style = "margin-top: -10px; font-size: 9%;")
         ),
-        
-        div(style = "flex: 1; margin-left: 6px; border: 2px solid red;",
+        # cuadro der
+        div(style = "flex: 1;",
+            porcentaje_flechita(datos_pib$cambio$valor, juicio = subir),
+            p(class = "texto-bajo-porcentaje",
+              "versus cifra anterior",
+              paste0("(", fecha_redactada(datos_pib$penultimo$fecha), ")")
+            )
             
-            div(style = "min-height: 70px;",
-                strong("Hace un año"),
-                p(formateador_cifra(datos_pib$hace_un_año$valor, unidad, año_base),
-                  style = "margin-top: -8px; font-size: 90%;")
-            ),
             
+        )
+    ),
+    # fila 2
+    div(style = "display: flex;",
+        # cuadro izq
+        div(style = "flex: 1; text-align: right; padding-top: 8px; margin-right: 12px;",
+            strong("Hace un año"),
+            p(formateador_cifra(datos_pib$hace_un_año$valor, unidad, año_base),
+              style = "margin-top: -10px; font-size: 90%;")
+        ),
+        # cuadro der
+        div(style = "flex: 1;",
             porcentaje_flechita(datos_pib$hace_un_año_p, juicio = subir),
-            p(class = "texto-bajo-porcentaje", 
-              "versus hace 12 meses",
-              paste0("(", format(datos_pib$hace_un_año$fecha, "%m/%y"), ")"))
+            p(class = "texto-bajo-porcentaje",
+              "versus hace un año",
+              paste0("(", fecha_redactada(datos_pib$hace_un_año$fecha), ")")
+            )
         )
     )
   )
@@ -187,7 +241,7 @@ dato_ui <- function(datos_pib, unidad = "miles de millones", año_base = 2018, s
 # paneles ----
 fila_indicador <- function(...) {
   fluidRow(
-    column(12, style = "border: 2px solid red; padding: 12px;",
+    column(12, style = "padding: 12px; margin-bottom: 14px;",
            ...
     )
   )
@@ -217,10 +271,11 @@ panel_titular <- function(titulo, subtitulo) {
 }
 
 
-panel_cuadro_resumen <- function(output) {
+panel_cuadro_resumen <- function(titulo = "Resumen", output) {
   panel(4, 
+        h4(titulo),
         div(
-          htmlOutput(output)
+            htmlOutput(output)
         ))
 }
 
@@ -229,9 +284,9 @@ panel_cuadro_resumen <- function(output) {
 
 panel_grafico_variacion <- function(titulo, output) {
   panel(8, 
-        div(
-          h4(titulo),
-          plotOutput(output, height = 240)
+        div(#style = "height: 220px;",
+            h4(titulo),
+            plotOutput(output, height = 180)
         )
   )
 }
@@ -241,7 +296,7 @@ panel_grafico_variacion <- function(titulo, output) {
 grafico_variacion <- function(dato, escala = "mensual", subir = "bueno", 
                               #color_fondo = "#808080"
                               color_fondo = color_paneles
-                              ) {
+) {
   
   if (subir == "bueno") {
     color_subir = "green"
@@ -275,6 +330,7 @@ grafico_variacion <- function(dato, escala = "mensual", subir = "bueno",
   espaciado_vertical_texto = 0.1
   tamaño_texto = 3
   decimales_texto = 0.1
+  espaciado_meses = ifelse(escala == "trimestre", 90, 30)
   
   n_aumentos = length(dato_2$direccion[dato_2$direccion == "Aumento"])
   n_disminuciones = length(dato_2$direccion[dato_2$direccion == "Disminución"])
@@ -287,13 +343,13 @@ grafico_variacion <- function(dato, escala = "mensual", subir = "bueno",
   plot <- dato_2 |>
     # dato_2 |> 
     ggplot(aes(fecha, valor, fill = direccion)) +
-    geom_ribbon(aes(x = c(fecha[1]+60, fecha[2:11], fecha[12]-60),
+    geom_ribbon(aes(x = c(fecha[1]+espaciado_meses, fecha[2:11], fecha[12]-espaciado_meses),
                     ymin = 0, ymax = posicion_y_gradiente), #max(valor)), 
                 fill = grid::linearGradient(
                   colours = colores_gradiente_pos[[1]],
                   x1 = unit(0, "npc"), y1 = unit(0, "npc"),
                   x2 = unit(0, "npc"), y2 = unit(1, "npc")
-                ), alpha = 0.4) +
+                ), alpha = 0.2) +
     geom_hline(yintercept = lineas_punteadas, linetype = "dashed", alpha = 0.2) +
     geom_hline(yintercept = -lineas_punteadas, linetype = "dashed", alpha = 0.2) +
     geom_col(color = "grey40") +
@@ -306,7 +362,8 @@ grafico_variacion <- function(dato, escala = "mensual", subir = "bueno",
               aes(y = valor+(mean(valor)*espaciado_vertical_texto), 
                   label = scales::percent(valor, big.mark = ".", decimal.mark = ",", accuracy = decimales_texto)),
               vjust = 1, size = tamaño_texto, check_overlap = T) +
-    scale_x_date(date_breaks = "months", labels = ~numeric_a_mes(month(.x))) +
+    scale_x_date(date_breaks = "months", labels = ~numeric_a_mes(month(.x)),
+                 expand = expansion(0)) +
     scale_y_continuous(limits = c(-alto_max,
                                   alto_max)) +
     scale_fill_manual(values = c("Aumento" = color_subir,
@@ -322,8 +379,9 @@ grafico_variacion <- function(dato, escala = "mensual", subir = "bueno",
   
   if (escala == "trimestre") {
     plot <- plot +
-      scale_x_continuous(breaks = dato_2$mes, labels = etiquetas_trimestre)
-    # scale_x_date(date_breaks = "months", labels = etiquetas_trimestre)
+    scale_x_date(breaks = dato_2$fecha, labels = ~paste(year(.x), mes_a_trimestre(month(.x))),
+                 expand = expansion(0)) +
+      theme(axis.text.x = element_text(angle = -90, vjust = .5, hjust = 0))
   }
   
   return(plot)

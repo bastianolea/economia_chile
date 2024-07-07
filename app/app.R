@@ -12,7 +12,7 @@ color_fondo = "#202020"
 color_texto = "#FFFFFF"
 color_paneles = "#707070"
 
-source("funciones_app.R")
+source("funciones_app.R", local = TRUE)
 
 ui <- fluidPage(title = "Economía chilena", lang = "es", 
                 # theme = tema,
@@ -23,15 +23,23 @@ ui <- fluidPage(title = "Economía chilena", lang = "es",
                   color: ", color_texto, ";
                 }")),
                 
-                tags$style(HTML(
-                    ".panel {
-                      min-height: 180px;
+                tags$style(HTML("
+                  .panel {
+                      /*min-height: 180px;*/
                       background-color: ", color_paneles, ";
                       color: black;
                       border: 2px #404040 solid;
                       border-radius: 9px;
                       padding: 12px;
                       margin: 0;}")),
+                
+                # responsividad del alto de paneles: si la app es en dos columnas, largo fijo; si es en una columna, largo ajustado al contenido
+                tags$style(HTML("
+                    @media (min-width: 765px) {
+                      .panel {
+                        min-height: 240px;
+                        height: auto !important; 
+                    }")),
                 
                 fluidRow(
                   div(style = "padding: 30px; max-width: 900px; margin: auto;", # ancho fijo
@@ -41,9 +49,9 @@ ui <- fluidPage(title = "Economía chilena", lang = "es",
                         panel_titular(titulo = "Producto Interno bruto (PIB)",
                                       subtitulo = "Valor monetario de todos los bienes y servicios producidos en el país."
                         ),
-                        panel_cuadro_resumen("pib_ui"),
+                        panel_cuadro_resumen("Resumen PIB", "pib_ui"),
                         
-                        panel_grafico_variacion("prueba",
+                        panel_grafico_variacion("Variación trimestral del PIB",
                                                 "pib_g_var")
                       ),
                       
@@ -52,9 +60,9 @@ ui <- fluidPage(title = "Economía chilena", lang = "es",
                         panel_titular(titulo = "Indicador Mensual de Actividad Económica (Imacec)",
                                       subtitulo = "Resume la actividad de los sectores de la economía en un mes, a precios del año anterior."),
                         
-                        panel_cuadro_resumen("imacec_ui"),
+                        panel_cuadro_resumen("Resumen Imacec", "imacec_ui"),
                         
-                        panel_grafico_variacion("prueba",
+                        panel_grafico_variacion("Variación mensual del Imacec",
                                                 "imacec_g_var")
                       ),
                       
@@ -62,9 +70,9 @@ ui <- fluidPage(title = "Economía chilena", lang = "es",
                       fila_indicador(
                         panel_titular(titulo = "Índice de Precios al Consumidor (IPC)",
                                       subtitulo = "Mide la variación de los precios de una canasta de bienes y servicios representativa del consumo de los hogares urbanos en Chile."),
-                        panel_cuadro_resumen("ipc_ui"),
+                        panel_cuadro_resumen("Resumen IPC", "ipc_ui"),
                         
-                        panel_grafico_variacion("prueba",
+                        panel_grafico_variacion("Variación mensual del IPC",
                                                 "ipc_g_var")
                       ),
                       
@@ -72,9 +80,9 @@ ui <- fluidPage(title = "Economía chilena", lang = "es",
                       fila_indicador(
                         panel_titular(titulo = "Unidad de Fomento (UF)",
                                       subtitulo = "Cifra que expresa el valor del peso chileno según la inflación."),
-                        panel_cuadro_resumen("uf_ui"),
+                        panel_cuadro_resumen("Resumen UF", "uf_ui"),
                         
-                        panel_grafico_variacion("prueba",
+                        panel_grafico_variacion("Variación mensual de la UF",
                                                 "uf_g_var")
                         
                       ),
@@ -83,9 +91,9 @@ ui <- fluidPage(title = "Economía chilena", lang = "es",
                       fila_indicador(
                         panel_titular(titulo = "Índice de Precios Selectivo de Acciones (IPSA)",
                                       subtitulo = "Indicador de desempeño de las acciones con mayor capitalización en la Bolsa de Comercio de Santiago."),
-                        panel_cuadro_resumen("ipsa_ui"),
+                        panel_cuadro_resumen("Resumen IPSA", "ipsa_ui"),
                         
-                        panel_grafico_variacion("prueba",
+                        panel_grafico_variacion("Variación mensual del IPSA",
                                                 "ipsa_g_var")
                       ),
                       
@@ -93,9 +101,9 @@ ui <- fluidPage(title = "Economía chilena", lang = "es",
                       fila_indicador(
                         panel_titular(titulo = "Tasa de desempleo",
                                       subtitulo = "Mide el porcentaje de la fuerza de trabajo nacional que se encuentra sin empleo."),
-                        panel_cuadro_resumen("desempleo_ui"),
+                        panel_cuadro_resumen("Resumen desempleo", "desempleo_ui"),
                         
-                        panel_grafico_variacion("prueba",
+                        panel_grafico_variacion("Variación mensual de la tasa de desempleo",
                                                 "desempleo_g_var")
                       ),
                       
@@ -103,9 +111,9 @@ ui <- fluidPage(title = "Economía chilena", lang = "es",
                       fila_indicador(
                         panel_titular(titulo = "Índice real de remuneraciones",
                                       subtitulo = "Remuneración por hora ordinaria, considerando la variación del Índice de Precios al Consumidor."),
-                        panel_cuadro_resumen("remuneraciones_ui"),
+                        panel_cuadro_resumen("Resumen remuneraciones", "remuneraciones_ui"),
                         
-                        panel_grafico_variacion("prueba",
+                        panel_grafico_variacion("Variación mensual de las remuneraciones reales",
                                                 "remuneraciones_g_var")
                       )
                   )
