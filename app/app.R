@@ -52,7 +52,10 @@ ui <- fluidPage(title = "Economía chilena", lang = "es",
                         panel_cuadro_resumen("Resumen PIB", "pib_ui"),
                         
                         panel_grafico_variacion("Variación trimestral del PIB",
-                                                "pib_g_var")
+                                                "pib_g_var"),
+                        
+                        panel_grafico_historico("Evolución del PIB",
+                                                "pib_g_hist")
                       ),
                       
                       ## imacec ----
@@ -63,7 +66,10 @@ ui <- fluidPage(title = "Economía chilena", lang = "es",
                         panel_cuadro_resumen("Resumen Imacec", "imacec_ui"),
                         
                         panel_grafico_variacion("Variación mensual del Imacec",
-                                                "imacec_g_var")
+                                                "imacec_g_var"),
+                        
+                        panel_grafico_historico("Evolución del Imacec",
+                                                "imacec_g_hist")
                       ),
                       
                       ## ipc ----
@@ -73,7 +79,10 @@ ui <- fluidPage(title = "Economía chilena", lang = "es",
                         panel_cuadro_resumen("Resumen IPC", "ipc_ui"),
                         
                         panel_grafico_variacion("Variación mensual del IPC",
-                                                "ipc_g_var")
+                                                "ipc_g_var"),
+                        
+                        panel_grafico_historico("Evolución del IPC",
+                                                "ipc_g_hist")
                       ),
                       
                       ## uf ----
@@ -83,7 +92,10 @@ ui <- fluidPage(title = "Economía chilena", lang = "es",
                         panel_cuadro_resumen("Resumen UF", "uf_ui"),
                         
                         panel_grafico_variacion("Variación mensual de la UF",
-                                                "uf_g_var")
+                                                "uf_g_var"),
+                        
+                        panel_grafico_historico("Evolución de la UF",
+                                                "uf_g_hist")
                         
                       ),
                       
@@ -94,7 +106,10 @@ ui <- fluidPage(title = "Economía chilena", lang = "es",
                         panel_cuadro_resumen("Resumen IPSA", "ipsa_ui"),
                         
                         panel_grafico_variacion("Variación mensual del IPSA",
-                                                "ipsa_g_var")
+                                                "ipsa_g_var"),
+                        
+                        panel_grafico_historico("Evolución del IPSA",
+                                                "ipsa_g_hist")
                       ),
                       
                       ## desempleo ----
@@ -104,7 +119,10 @@ ui <- fluidPage(title = "Economía chilena", lang = "es",
                         panel_cuadro_resumen("Resumen desempleo", "desempleo_ui"),
                         
                         panel_grafico_variacion("Variación mensual de la tasa de desempleo",
-                                                "desempleo_g_var")
+                                                "desempleo_g_var"),
+                        
+                        panel_grafico_historico("Evolución de la tasa de desempleo",
+                                                "desempleo_g_hist")
                       ),
                       
                       ## remuneraciones ----
@@ -114,7 +132,10 @@ ui <- fluidPage(title = "Economía chilena", lang = "es",
                         panel_cuadro_resumen("Resumen remuneraciones", "remuneraciones_ui"),
                         
                         panel_grafico_variacion("Variación mensual de las remuneraciones reales",
-                                                "remuneraciones_g_var")
+                                                "remuneraciones_g_var"),
+                        
+                        panel_grafico_historico("Evolución de las remuneraciones reales",
+                                                "remuneraciones_g_hist")
                       )
                   )
                 ),
@@ -200,6 +221,15 @@ server <- function(input, output) {
   output$ipsa_g_var <- renderPlot(grafico_variacion(datos_ipsa))
   output$desempleo_g_var <- renderPlot(grafico_variacion(datos_desempleo, subir = "malo"))
   output$remuneraciones_g_var <- renderPlot(grafico_variacion(datos_remuneraciones))
+  
+  ## gráficos históricos ----
+  output$pib_g_hist <- renderPlot(grafico_historico(datos_pib, escala = "trimestre"))
+  output$imacec_g_hist <- renderPlot(grafico_historico(datos_imacec))
+  output$ipc_g_hist <- renderPlot(grafico_historico(datos_ipc))
+  output$uf_g_hist <- renderPlot(grafico_historico(datos_uf))
+  output$ipsa_g_hist <- renderPlot(grafico_historico(datos_ipsa))
+  output$desempleo_g_hist <- renderPlot(grafico_historico(datos_desempleo))
+  output$remuneraciones_g_hist <- renderPlot(grafico_historico(datos_remuneraciones))
 }
 
 shinyApp(ui = ui, server = server)

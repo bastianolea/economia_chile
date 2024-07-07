@@ -292,6 +292,17 @@ panel_grafico_variacion <- function(titulo, output) {
 }
 
 
+panel_grafico_historico <- function(titulo, output) {
+  panel(12, 
+        div(
+          h4(titulo),
+          plotOutput(output, height = 180)
+        )
+  )
+}
+
+
+
 # gráficos ----
 grafico_variacion <- function(dato, escala = "mensual", subir = "bueno", 
                               #color_fondo = "#808080"
@@ -385,4 +396,68 @@ grafico_variacion <- function(dato, escala = "mensual", subir = "bueno",
   }
   
   return(plot)
+}
+
+
+grafico_historico <- function(dato, escala = "mensual", 
+                              color_fondo = color_paneles
+) {
+  # browser()
+  
+  datos <- dato$datos |> 
+    filter(year(fecha) >= 2019)
+  
+  datos_2 <- datos |> 
+    # mayor variación con respecto al valor mas reciente
+    mutate(variacion = valor/lead(valor),
+           variacion_ultimo = valor/first(valor))
+    # # mayor aumento usando media movil
+    # mutate(valor_media = slider::slide_dbl(valor, mean, .after = 3),
+    #        variacion_media = valor_media/lead(valor_media))
+  
+  disminucion = filter(datos_2, variacion_ultimo == min(variacion_ultimo)) |> slice(1)
+  
+  mayor_disminucion = filter(datos_2, variacion == min(variacion, na.rm = T)) |> slice(1)
+  mayor_aumento = filter(datos_2, variacion == max(variacion, na.rm = T)) |> slice(1)
+  
+  ultimo <- datos_2 |> filter(fecha == max(fecha))
+  
+  color_tenue = "#404040"
+  
+  datos_2 |> 
+    ggplot(aes(fecha, valor)) +
+    # geom_smooth(method = "lm", colour = "#606060", alpha = .1) +
+    # linea desde el menor valor al ultimo valor
+    # annotate("segment", x = disminucion$fecha, xend = ultimo$fecha,
+    #          y = disminucion$valor, yend = disminucion$valor, 
+    #          color = color_tenue, linetype = "dashed") +
+    # annotate("segment", x = ultimo$fecha, xend = ultimo$fecha,
+    #          y = disminucion$valor, yend = ultimo$valor, 
+    #          color = color_tenue, linetype = "dashed") +
+    annotate("segment", x = min(datos_2$fecha), xend = ultimo$fecha,
+             y = ultimo$valor, yend = ultimo$valor, 
+             color = color_tenue, linetype = "dashed") +
+    # puntos de mayor y menor disminucion
+    annotate("point", x = mayor_aumento$fecha, y = mayor_aumento$valor,
+             size = 9, alpha = .3, color = "green") +
+    annotate("point", x = mayor_disminucion$fecha, y = mayor_disminucion$valor,
+             size = 9, alpha = .3, color = "red") +
+    # linea
+    geom_line(linewidth = 1) +
+    # punto al final
+    geom_point(data = ultimo, size = 5) +
+    geom_point(data = ultimo, size = 3, color = color_fondo) +
+    scale_y_continuous(labels = ~miles(.x), expand = expansion(c(.25, .25))) +
+    scale_x_date(expand = expansion(c(0, .02))) +
+    coord_cartesian(clip = "off") +
+    theme_void() +
+    theme(axis.text.x = element_text(),
+          axis.text.y = element_text(margin = margin(r = 4))) +
+    theme(panel.grid.major.y = element_line(linetype = "dashed", color = "#505050"),
+          panel.grid.major.x = element_line(, color = "#505050")
+    ) +
+    theme(plot.margin = margin(l = 15, r = 15, t = 4, b = 4),
+          legend.position = "none") +
+    theme(plot.background = element_rect(fill = color_fondo, color = color_fondo),
+          panel.background = element_rect(fill = color_fondo, color = color_fondo))
 }
