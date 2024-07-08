@@ -1,46 +1,255 @@
 library(shiny)
+library(shinyWidgets)
+library(shinycssloaders)
 library(dplyr)
 library(scales)
 library(lubridate)
 library(ggplot2)
-# library(bslib)
+library(fresh)
+library(shades)
 
+# setup ----
 # setwd("app")
 
-# tema <- bs_theme(bg = "#202020", fg = "#FFFFFF", primary = "#909090")
-color_fondo = "#202020"
-color_texto = "#FFFFFF"
-color_paneles = "#707070"
+# color_fondo = "#202020"
+# color_texto = "#FFFFFF"
+# color_paneles = "#707070"
+# color_panel_detalle = "#505050"
+# color_positivo = "green"
+# color_negativo = "red"
+# color_neutro = "blue"
+
+# color_fondo = "#2A3950"
+# color_texto = "#FFFFFF"
+# color_paneles = "#974063"
+# color_panel_detalle = "#974063"
+# color_positivo = "#96E472"
+# color_negativo = "#F44868"
+# color_neutro = "blue"
+# color_titulo_paneles = "#FFFFFF"
+
+# color_fondo = "#1D2D45"
+# color_texto = "#BAA1ED"
+# color_secundario = "#594484"
+
+color_principal = "#594484"
+color_principal = "#4D4484"
+# color_principal = "#FF007E"
+
+color_fondo = color_principal |> lightness(10) |> chroma(20)
+color_detalle = color_principal |> lightness(15) |> chroma(40)
+color_destacado = color_principal |> lightness(40) |> chroma(65)
+
+# color_secundario = color_principal |> lightness(45)
+# color_secundario_detalle = color_principal |> lightness(55) |> chroma(40)
+color_secundario = color_principal |> lightness(35)
+color_secundario_detalle = color_principal |> lightness(44) |> chroma(40)
+
+color_texto = color_principal |> lightness(80)
+
+
+# shades::swatch(
+#   c(
+#     color_fondo,
+#     color_detalle,
+#     color_destacado,
+#     color_secundario,
+#     color_secundario_detalle,
+#     color_texto
+#   ),
+#   bg = "#151515"
+# )
+
+
+# color_paneles = color_secundario
+# color_panel_detalle = color_secundario |> lightness(40)
+# color_titulo_paneles = "#BFC8FF"
+# 
+# color_titulos = color_secundario
+# color_detalle = color_panel_detalle
+# color_destacado = color_paneles
+
+color_positivo = "#96E472"
+color_negativo = "#F44868"
+color_neutro = "#5059F4"
 
 source("funciones_app.R", local = TRUE)
 
+options(spinner.type = 8, spinner.color = color_detalle)
+
 ui <- fluidPage(title = "Economía chilena", lang = "es", 
-                # theme = tema,
                 includeCSS("style.css"),
                 
+                # tipografías
+                tags$style(HTML("@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');")),
+                tags$style(HTML("@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');")),
+                
+                # css ----
+                # texto cuerpo
                 tags$style(HTML("body {
                   background-color: ", color_fondo, ";
                   color: ", color_texto, ";
-                }")),
+                  font-family: 'Archivo Narrow';
+                  font-size: 140%}")),
                 
+                # títulos
+                tags$style(HTML("h1, h2, h3, h4, h5 {
+                  font-family: 'Archivo', sans-serif;
+                  font-weight: 900;
+                  font-style: italic;}")),
+                
+                tags$style(HTML("h1, h2, h3 {
+                  color:", color_destacado, ";")),
+                
+                tags$style(HTML("h4 {
+                color:", color_texto, ";")),
+                
+                tags$style(HTML("hr {
+                  border-top: 2px solid ", color_detalle, ";}")),
+                
+                # estilo paneles por defecto
                 tags$style(HTML("
                   .panel {
                       /*min-height: 180px;*/
-                      background-color: ", color_paneles, ";
-                      color: black;
-                      border: 2px #404040 solid;
+                      background-color:", color_secundario, ";
+                      color:", color_fondo, ";
+                      border: 2px", color_secundario_detalle, "solid;
                       border-radius: 9px;
                       padding: 12px;
                       margin: 0;}")),
+                
+                
+                #colores pickers
+                tags$style(paste(".btn.dropdown-toggle { /* color del picker mismo */
+                   color:", color_texto, ";
+                   background-color:", color_fondo, ";
+                   font-weight: 800;
+                   font-size: 135%;
+                   border: 0;
+                   border-radius: 0;
+                   border-bottom: 3px", color_destacado, "solid;
+                   }
+                   
+         .dropdown-menu, .divider {
+          color: white !important;
+         background: ", color_detalle, " !important;
+         }
+  
+         .dropdown-header {
+         color: white !important;
+         font-weight: bold;
+         font-size: 110%;
+         }
+         
+         .text {
+         color: white;
+         font-size: 80%;
+         }
+         
+         .form-control {
+         color: ", color_texto, " !important;
+         box-shadow: none;
+         }
+         
+         .no-results {
+         color: black !important;
+         background: ", color_detalle, " !important;
+         }
+         
+         .selected {
+         background-color: ", color_secundario, " !important;
+         color: ", color_detalle, " !important;
+         }
+         
+         .bs-placeholder, .bs-placeholder:active, bs-placeholder:focus, .bs-placeholder:hover {
+         color: ", color_fondo, " !important;
+         }
+  
+         /*color de fondo de opción elegida*/
+         .dropdown-item.selected {
+         background-color: ", color_destacado, " !important;
+         color: black !important;
+         }
+         
+         /*color del fondo de la opción en hover*/
+         .dropdown-item:hover {
+         color: red;
+         background-color: ", color_secundario, " !important;
+         }
+  ")),
+                
+                
                 
                 # responsividad del alto de paneles: si la app es en dos columnas, largo fijo; si es en una columna, largo ajustado al contenido
                 tags$style(HTML("
                     @media (min-width: 765px) {
                       .panel {
                         min-height: 240px;
-                        height: auto !important; 
-                    }")),
+                        height: auto !important;}")),
                 
+                # —----
+                # header ----
+                
+                fluidRow(
+                  column(12,
+                         h1("Indicadores económicos de Chile")
+                  )
+                ),
+                
+                
+                # tendencias ----
+                fluidRow(
+                  column(12,
+                         hr(),
+                         h2("Resumen de tendencias")
+                  ),
+                  
+                  ## fecha corte ----
+                  column(12, style = "margin-bottom: -25px; font-size: 130%;",
+                         div(style = "display: inline-block;",
+                             p("Durante los últimos")
+                         ),
+                         div(style = "display: inline-block;",
+                             pickerInput("fecha_corte", label = NULL,
+                                         choices = c("3 meses",
+                                                     "6 meses",
+                                                     "12 meses",
+                                                     "24 meses"),
+                                         selected = "6 meses",
+                                         width = 110)
+                         ),
+                         div(style = "display: inline-block;",
+                             strong(":")
+                         ),
+                  ),
+                  
+                  
+                  ## tendencias ----
+                  column(12, style = "padding: 24px;",
+                         panel_tendencia("El PIB",
+                                         "pib_tendencia"),
+                         panel_tendencia("El Imacec",
+                                         "imacec_tendencia"),
+                         panel_tendencia("El IPC",
+                                         "ipc_tendencia"),
+                         panel_tendencia("El valor de la UF",
+                                         "uf_tendencia"),
+                         panel_tendencia("El IPSA",
+                                         "ipsa_tendencia"),
+                         panel_tendencia("El desempleo",
+                                         "desempleo_tendencia"),
+                         panel_tendencia("El valor de las remuneraciones",
+                                         "remuneraciones_tendencia")
+                  )
+                ),
+                
+                #paneles indicadores ----
+                fluidRow(
+                  column(12, style = "margin-bottom: -30px;",
+                         hr(),
+                         h2("Variación de indicadores económicos")
+                  )
+                ),
                 fluidRow(
                   div(style = "padding: 30px; max-width: 900px; margin: auto;", # ancho fijo
                       
@@ -155,6 +364,8 @@ ui <- fluidPage(title = "Economía chilena", lang = "es",
                 )
 )
 
+#—----
+
 server <- function(input, output) {
   
   ## cargar datos ----
@@ -202,6 +413,31 @@ server <- function(input, output) {
     calcular_metricas()
   
   
+  # fecha ----
+  fecha_corte <- reactive({
+    if (input$fecha_corte == "3 meses") {
+      corte = 3
+    } else if (input$fecha_corte == "6 meses") {
+      corte = 6
+    } else if (input$fecha_corte == "12 meses") {
+      corte = 12
+    } else if (input$fecha_corte == "24 meses") {
+      corte = 24
+    }
+    fecha_corte <- Sys.Date() %m-% months(corte)
+    return(fecha_corte)
+  })
+  
+  
+  ## tendencias texto ----
+  output$pib_tendencia <- renderUI(tendencia_ui(datos_pib, fecha_corte(), input, subir = "bueno"))
+  output$imacec_tendencia <- renderUI(tendencia_ui(datos_imacec, fecha_corte(), input, subir = "bueno"))
+  output$ipc_tendencia <- renderUI(tendencia_ui(datos_ipc, fecha_corte(), input, subir = "malo"))
+  output$uf_tendencia <- renderUI(tendencia_ui(datos_uf, fecha_corte(), input, subir = "malo"))
+  output$ipsa_tendencia <- renderUI(tendencia_ui(datos_ipsa, fecha_corte(), input, subir = "bueno"))
+  output$desempleo_tendencia <- renderUI(tendencia_ui(datos_desempleo, fecha_corte(), input, subir = "malo"))
+  output$remuneraciones_tendencia <- renderUI(tendencia_ui(datos_remuneraciones, fecha_corte(), input, subir = "bueno"))
+  
   ## cuadros interfaces ----
   # para panel_cuadro_resumen() en ui
   output$pib_ui <- renderUI(dato_ui(datos_pib))
@@ -230,6 +466,9 @@ server <- function(input, output) {
   output$ipsa_g_hist <- renderPlot(grafico_historico(datos_ipsa))
   output$desempleo_g_hist <- renderPlot(grafico_historico(datos_desempleo))
   output$remuneraciones_g_hist <- renderPlot(grafico_historico(datos_remuneraciones))
+  
+  
+  
 }
 
 shinyApp(ui = ui, server = server)

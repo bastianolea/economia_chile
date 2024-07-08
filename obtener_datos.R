@@ -23,7 +23,7 @@ uf <- obtener_uf()
 # hay que automatizarla primero
 # canasta <- obtener_canasta()
 
-desocupados <- obtener_desocupados()
+# desocupados <- obtener_desocupados()
 
 remuneraciones <- obtener_remuneraciones()
 
