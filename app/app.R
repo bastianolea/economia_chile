@@ -370,6 +370,7 @@ server <- function(input, output) {
   
   ## cargar datos ----
   # setwd("app")
+  
   pib <- readRDS("datos/pib.rds")
   imacec <- readRDS("datos/imacec.rds")
   ipc <- readRDS("datos/ipc.rds")

@@ -1,8 +1,16 @@
 
-cargar_datos_web <- function() {
+cargar_datos_web <- function(archivo = "pib", local = FALSE) {
+  
   #carga el dato desde github, y si no se puede por algún motivo, desde local 
+  url = paste0("https://github.com/bastianolea/economia_chile/raw/main/app/datos/", archivo, ".csv")
   
+  data <- read.csv2(path)
   
+  if (length(data) <= 1 | local == TRUE) {
+    path = paste0("datos/", archivo, ".csv")
+   data <- read.csv2(path) 
+  }
+  return(data)
 }
 
 
