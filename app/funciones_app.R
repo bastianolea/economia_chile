@@ -1,19 +1,26 @@
+css <- function(...) {
+  tags$style(HTML(...))
+}
+
+notificacion <- function(titulo, subtitulo) {
+  showNotification(ui = div(p(titulo), 
+                            p(subtitulo, 
+                              style = "margin-top: -10px; margin-bottom: -4px; opacity: 0.5;")), 
+                   duration = 3)
+}
 
 cargar_datos_web <- function(archivo = "pib", descargar = FALSE, local = FALSE) {
   
   #carga el dato desde github, y si no se puede por algún motivo, desde local 
   if (descargar == TRUE) {
-  # archivo = "deso"
-  url = paste0("https://github.com/bastianolea/economia_chile/raw/main/app/datos/", archivo, ".csv")
-  
-  message("cargando desde url: ", url) 
-  showNotification(ui = div(p("Cargando datos del Banco Central:"), 
-                            p(archivo, style = "margin-top: -10px; margin-bottom: -4px; opacity: 0.5;")), 
-                   duration = 3)
-  
-  data <- try(read.csv2(url))
-  
-  
+    url = paste0("https://github.com/bastianolea/economia_chile/raw/main/app/datos/", archivo, ".csv")
+    
+    message("cargando desde url: ", url) 
+    notificacion("Cargando datos remotos del Banco Central:", archivo)
+    
+    data <- try(read.csv2(url))
+    
+    # si falla, intentar cargar archivo local
     if ("try-error" %in% class(data)) {
       path = paste0("datos/", archivo, ".csv")
       message("cargando desde archivo local: ", path)
@@ -28,13 +35,14 @@ cargar_datos_web <- function(archivo = "pib", descargar = FALSE, local = FALSE) 
     if ("try-error" %in% class(data)) {
       data <- tibble()
     }
-  # cargar dato local
+    
+    # si se especifica, cargar dato local
   } else {
-    showNotification(ui = div(p("Cargando datos pre-guardados:"), 
-                              p(archivo, style = "margin-top: -10px; margin-bottom: -4px; opacity: 0.6;")),
-                     duration = 3)
-    path = paste0(ifelse(local == TRUE, "app/", ""), "datos/", archivo, ".csv")
     message("cargando desde archivo local: ", path)
+    notificacion("Cargando datos pre-guardados:", archivo)
+    
+    path = paste0(ifelse(local == TRUE, "app/", ""), "datos/", archivo, ".csv")
+    
     data <- try(read.csv2(path))
   }
   
