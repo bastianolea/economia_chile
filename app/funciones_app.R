@@ -1,15 +1,42 @@
 
-cargar_datos_web <- function(archivo = "pib", local = FALSE) {
+cargar_datos_web <- function(archivo = "pib", descargar = FALSE, local = FALSE) {
   
   #carga el dato desde github, y si no se puede por algún motivo, desde local 
+  if (descargar == TRUE) {
+  # archivo = "deso"
   url = paste0("https://github.com/bastianolea/economia_chile/raw/main/app/datos/", archivo, ".csv")
   
-  data <- read.csv2(path)
+  message("cargando desde url: ", url) 
+  showNotification(ui = div(p("Cargando datos del Banco Central:"), 
+                            p(archivo, style = "margin-top: -10px; margin-bottom: -4px; opacity: 0.5;")), 
+                   duration = 3)
   
-  if (length(data) <= 1 | local == TRUE) {
-    path = paste0("datos/", archivo, ".csv")
-   data <- read.csv2(path) 
+  data <- try(read.csv2(url))
+  
+  
+    if ("try-error" %in% class(data)) {
+      path = paste0("datos/", archivo, ".csv")
+      message("cargando desde archivo local: ", path)
+      data <- try(read.csv2(path))
+      
+    } else if (length(data) == 0) {
+      path = paste0("datos/", archivo, ".csv")
+      message("cargando desde archivo local: ", path)
+      data <- try(read.csv2(path))
+    }
+    
+    if ("try-error" %in% class(data)) {
+      data <- tibble()
+    }
+  } else {
+    showNotification(ui = div(p("Cargando datos pre-guardados:"), 
+                              p(archivo, style = "margin-top: -10px; margin-bottom: -4px; opacity: 0.6;")),
+                     duration = 3)
+    path = paste0(ifelse(local == TRUE, "app/", ""), "datos/", archivo, ".csv")
+    message("cargando desde archivo local: ", path)
+    data <- try(read.csv2(path))
   }
+  
   return(data)
 }
 
@@ -108,24 +135,24 @@ porcentaje_flechita <- function(dato, juicio = "bueno") {
 
 formateador_cifra <- function(dato, unidad = "miles de millones", texto = 2018) {
   if (unidad == "miles de millones") {
-    p(paste0("$", miles(dato)), "(miles de millones)")
+    paste(paste0("$", miles(dato)), "(miles de millones)")
     
   } else if (unidad == "porcentaje") {
-    p(porcentaje(dato), paste0("(% respecto a ", texto, ")"))
+    paste(porcentaje(dato), paste0("(% respecto a ", texto, ")"))
     
   } else if (unidad == "porciento") {
-    p(porcentaje(dato), paste0("(", texto, ")"))
+    paste(porcentaje(dato), paste0("(", texto, ")"))
     
   } else if (unidad == "pesos") {
-    p(paste0("$", miles(dato)), "(pesos)")
+    paste(paste0("$", miles(dato)), "(pesos)")
     
   } else if (unidad == "índice 1000") {
-    p(paste0(miles(dato), " (índice: ", texto, " = 1.000)"))
+    paste(paste0(miles(dato), " (índice: ", texto, " = 1.000)"))
     
   } else if (unidad == "índice 100") {
-    p(paste0(miles(dato), " (índice: ", texto, " = 100)"))
+    paste(paste0(miles(dato), " (índice: ", texto, " = 100)"))
   } else {
-    p(paste0("$", miles(dato)), "(miles de millones)")
+    paste(paste0("$", miles(dato)), "(miles de millones)")
   }
 }
 
@@ -179,78 +206,51 @@ calcular_metricas <- function(datos) {
 
 # interfaces ----
 dato_ui <- function(datos_pib, unidad = "miles de millones", año_base = 2018, subir = "bueno") {
-  # versión vertical
-  # div(
-  #   div(style = "display: flex;",
-  #       
-  #       div(style = "flex: 1; border: 2px solid red;",
-  #           
-  #           div(style = "min-height: 70px;",
-  #               strong("Valor actual"),
-  #               p(formateador_cifra(datos_pib$ultimo$valor, unidad, año_base),
-  #                 style = "margin-top: -8px; font-size: 9%;")
-  #           ),
-  #           
-  #           
-  #           porcentaje_flechita(datos_pib$cambio$valor, juicio = subir),
-  #           p(class = "texto-bajo-porcentaje", 
-  #             "versus cifra anterior", 
-  #             paste0("(", format(datos_pib$penultimo$fecha, "%m/%y"), ")"))
-  #       ),
-  #       
-  #       div(style = "flex: 1; margin-left: 6px; border: 2px solid red;",
-  #           
-  #           div(style = "min-height: 70px;",
-  #               strong("Hace un año"),
-  #               p(formateador_cifra(datos_pib$hace_un_año$valor, unidad, año_base),
-  #                 style = "margin-top: -8px; font-size: 90%;")
-  #           ),
-  #           
-  #           porcentaje_flechita(datos_pib$hace_un_año_p, juicio = subir),
-  #           p(class = "texto-bajo-porcentaje", 
-  #             "versus hace 12 meses",
-  #             paste0("(", format(datos_pib$hace_un_año$fecha, "%m/%y"), ")"))
-  #       )
-  #   )
-  # )
-  div(
+  
+  estilo_texto_izquierdo = "flex: 1; font-size: 110%; text-align: right; 
+                            padding-top: 8px; margin-bottom: 0; margin-right: 28px;"
+  
+  estilo_cifra_izquierda = "font-size: 120%; margin-top: 0px; line-height: 1.1;"
+  
+  estilo_texto_derecha = "margin-left: 10px; margin-top: -6px; margin-right: 0; padding-right: 0;"
+  
+  output <- div(
     # fila 1
-    div(style = "display: flex;",
+    div(style = "display: flex; margin-bottom: -4px;",
         # cuadro izq
-        div(style = "flex: 1; text-align: right; padding-top: 8px; margin-right: 12px;",
-            strong("Valor actual:"),
-            p(formateador_cifra(datos_pib$ultimo$valor, unidad, año_base),
-              style = "margin-top: -10px; font-size: 9%;")
+        div(style = estilo_texto_izquierdo,
+            strong("Valor actual"),
+            p(style = estilo_cifra_izquierda,
+              formateador_cifra(datos_pib$ultimo$valor, unidad, año_base))
         ),
         # cuadro der
         div(style = "flex: 1;",
             porcentaje_flechita(datos_pib$cambio$valor, juicio = subir),
-            p(class = "texto-bajo-porcentaje",
+            p(style = estilo_texto_derecha,
               "versus cifra anterior",
               paste0("(", fecha_redactada(datos_pib$penultimo$fecha), ")")
             )
-            
-            
         )
     ),
     # fila 2
     div(style = "display: flex;",
         # cuadro izq
-        div(style = "flex: 1; text-align: right; padding-top: 8px; margin-right: 12px;",
+        div(style = estilo_texto_izquierdo,
             strong("Hace un año"),
-            p(formateador_cifra(datos_pib$hace_un_año$valor, unidad, año_base),
-              style = "margin-top: -10px; font-size: 90%;")
+            p(style = estilo_cifra_izquierda,
+              formateador_cifra(datos_pib$hace_un_año$valor, unidad, año_base))
         ),
         # cuadro der
         div(style = "flex: 1;",
             porcentaje_flechita(datos_pib$hace_un_año_p, juicio = subir),
-            p(class = "texto-bajo-porcentaje",
+            p(style = estilo_texto_derecha,
               "versus hace un año",
               paste0("(", fecha_redactada(datos_pib$hace_un_año$fecha), ")")
             )
         )
     )
   )
+  return(output)
 }
 
 
@@ -265,8 +265,8 @@ tendencia_ui <- function(datos, fecha_corte, input, subir = "bueno") {
   if (nrow(datos_variacion) == 0 & input$fecha_corte == "3 meses") {
     # browser()
     # if (unique(datos$variacion$serie) == "PIB a precios corrientes") {
-      datos_variacion <- datos$variacion |> 
-        slice(1)
+    datos_variacion <- datos$variacion |> 
+      slice(1)
     # }
   }
   
@@ -376,7 +376,7 @@ panel_vacio <- function(width, ...) {
 panel_titular <- function(titulo, subtitulo) {
   div(style = "margin-bottom: 12px; line-height: 1.1;",
       h3(titulo),
-      em(subtitulo, style = "font-size: 105%;")
+      em(subtitulo, style = "font-size: 130%;")
   )
 }
 
@@ -397,7 +397,7 @@ panel_tendencia <- function(texto, ui) {
 
 panel_cuadro_resumen <- function(titulo = "Resumen", output) {
   panel(4, 
-        h4(titulo),
+        h4(titulo, style = "margin-bottom: 4px;"),
         div(
           htmlOutput(output) |> withSpinner(proxy.height = 180)
         ))
@@ -410,7 +410,7 @@ panel_grafico_variacion <- function(titulo, output) {
   panel(8, 
         div(#style = "height: 220px;",
           h4(titulo),
-          plotOutput(output, height = 180) |> withSpinner()
+          plotOutput(output, height = 190) |> withSpinner()
         )
   )
 }
@@ -504,7 +504,7 @@ grafico_variacion <- function(dato, escala = "mensual", subir = "bueno"
                        # labels = ~percent_format(.x, big.mark = ".", decimal.mark = ",")
                        # labels = ~scales::percent(.x-1, big.mark = ".", decimal.mark = ",", accuracy = 0.01)
                        labels = ~scales::percent(.x, big.mark = ".", decimal.mark = ",", accuracy = decimales_texto)
-                       ) +
+    ) +
     scale_fill_manual(values = c("Aumento" = color_subir,
                                  "Disminución" = color_bajar,
                                  "Igual" = color_neutro), 

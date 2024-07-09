@@ -5,69 +5,35 @@ library(dplyr)
 library(scales)
 library(lubridate)
 library(ggplot2)
-library(fresh)
 library(shades)
 
+descargar = TRUE #descargar datos desde GitHub, o cargar datos locales
+
 # setup ----
-# setwd("app")
 
-# color_fondo = "#202020"
-# color_texto = "#FFFFFF"
-# color_paneles = "#707070"
-# color_panel_detalle = "#505050"
-# color_positivo = "green"
-# color_negativo = "red"
-# color_neutro = "blue"
-
-# color_fondo = "#2A3950"
-# color_texto = "#FFFFFF"
-# color_paneles = "#974063"
-# color_panel_detalle = "#974063"
-# color_positivo = "#96E472"
-# color_negativo = "#F44868"
-# color_neutro = "blue"
-# color_titulo_paneles = "#FFFFFF"
-
-# color_fondo = "#1D2D45"
-# color_texto = "#BAA1ED"
-# color_secundario = "#594484"
-
-color_principal = "#594484"
+# color_principal = "#594484"
 color_principal = "#4D4484"
-# color_principal = "#FF007E"
 
 color_fondo = color_principal |> lightness(10) |> chroma(20)
 color_detalle = color_principal |> lightness(15) |> chroma(40)
-color_destacado = color_principal |> lightness(40) |> chroma(65)
+color_destacado = color_principal |> lightness(50) |> chroma(65)
 
 # color_secundario = color_principal |> lightness(45)
 # color_secundario_detalle = color_principal |> lightness(55) |> chroma(40)
 color_secundario = color_principal |> lightness(35)
 color_secundario_detalle = color_principal |> lightness(44) |> chroma(40)
-
 color_texto = color_principal |> lightness(80)
 
-
-# shades::swatch(
-#   c(
-#     color_fondo,
-#     color_detalle,
-#     color_destacado,
-#     color_secundario,
-#     color_secundario_detalle,
-#     color_texto
-#   ),
-#   bg = "#151515"
-# )
-
-
-# color_paneles = color_secundario
-# color_panel_detalle = color_secundario |> lightness(40)
-# color_titulo_paneles = "#BFC8FF"
-# 
-# color_titulos = color_secundario
-# color_detalle = color_panel_detalle
-# color_destacado = color_paneles
+# previsualizar colores
+shades::swatch(
+  c(
+    color_fondo,
+    color_detalle,
+    color_destacado,
+    color_secundario, color_secundario_detalle,
+    color_texto
+  ),
+  bg = "#151515")
 
 color_positivo = "#96E472"
 color_negativo = "#F44868"
@@ -77,20 +43,25 @@ source("funciones_app.R", local = TRUE)
 
 options(spinner.type = 8, spinner.color = color_detalle)
 
+# ui ----
 ui <- fluidPage(title = "Economía chilena", lang = "es", 
                 includeCSS("style.css"),
+                # useWaiter(),
                 
-                # tipografías
+                ## tipografías ----
                 tags$style(HTML("@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');")),
                 tags$style(HTML("@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');")),
                 
-                # css ----
+                ## css ----
                 # texto cuerpo
                 tags$style(HTML("body {
                   background-color: ", color_fondo, ";
                   color: ", color_texto, ";
                   font-family: 'Archivo Narrow';
                   font-size: 140%}")),
+                
+                tags$style(HTML("em {
+                font-size: 140% }")),
                 
                 # títulos
                 tags$style(HTML("h1, h2, h3, h4, h5 {
@@ -106,6 +77,9 @@ ui <- fluidPage(title = "Economía chilena", lang = "es",
                 
                 tags$style(HTML("hr {
                   border-top: 2px solid ", color_detalle, ";}")),
+                
+                tags$style(HTML("a, a:hover {
+                  color:", color_destacado, ";}")),
                 
                 # estilo paneles por defecto
                 tags$style(HTML("
@@ -175,16 +149,20 @@ ui <- fluidPage(title = "Economía chilena", lang = "es",
          .dropdown-item:hover {
          color: red;
          background-color: ", color_secundario, " !important;
-         }
-  ")),
+         }")),
                 
+                
+                tags$style(HTML(".shiny-notification {
+                                background-color:", color_secundario, ";
+                                border: 2px ", color_secundario_detalle, " solid;
+                                color:", color_fondo, ";}")),
                 
                 
                 # responsividad del alto de paneles: si la app es en dos columnas, largo fijo; si es en una columna, largo ajustado al contenido
                 tags$style(HTML("
                     @media (min-width: 765px) {
                       .panel {
-                        min-height: 240px;
+                        min-height: 250px;
                         height: auto !important;}")),
                 
                 # —----
@@ -192,7 +170,16 @@ ui <- fluidPage(title = "Economía chilena", lang = "es",
                 
                 fluidRow(
                   column(12,
-                         h1("Indicadores económicos de Chile")
+                         h1("Indicadores económicos de Chile"),
+                         
+                         div(markdown("[Bastián Olea Herrera](https://bastianolea.github.io/shiny_apps/)"), 
+                             style = "margin-top: 16px; margin-bottom: 16px; font-family: 'Archivo', sans-serif; font-weight: 900;"),
+                         
+                         div(style = "font-size: 130%;",
+                         p("Tablero que reune los principales indicadores para comprender la situación económica del país."),
+                         
+                         p(markdown("Todos los datos son obtenidos directamente desde la base de datos estadísticos del [Banco Central](https://si3.bcentral.cl/siete). Los datos se actualizan automáticamente dos veces al día."))
+                         )
                   )
                 ),
                 
@@ -223,23 +210,9 @@ ui <- fluidPage(title = "Economía chilena", lang = "es",
                          ),
                   ),
                   
-                  
                   ## tendencias ----
-                  column(12, style = "padding: 24px;",
-                         panel_tendencia("El PIB",
-                                         "pib_tendencia"),
-                         panel_tendencia("El Imacec",
-                                         "imacec_tendencia"),
-                         panel_tendencia("El IPC",
-                                         "ipc_tendencia"),
-                         panel_tendencia("El valor de la UF",
-                                         "uf_tendencia"),
-                         panel_tendencia("El IPSA",
-                                         "ipsa_tendencia"),
-                         panel_tendencia("El desempleo",
-                                         "desempleo_tendencia"),
-                         panel_tendencia("El valor de las remuneraciones",
-                                         "remuneraciones_tendencia")
+                  column(12, style = "padding: 24px; margin-bottom: -20px;",
+                         uiOutput("tendencias_ui") |> withSpinner(color = color_secundario, proxy.height = 400)
                   )
                 ),
                 
@@ -338,7 +311,7 @@ ui <- fluidPage(title = "Economía chilena", lang = "es",
                       fila_indicador(
                         panel_titular(titulo = "Índice real de remuneraciones",
                                       subtitulo = "Remuneración por hora ordinaria, considerando la variación del Índice de Precios al Consumidor."),
-                        panel_cuadro_resumen("Resumen remuneraciones", "remuneraciones_ui"),
+                        panel_cuadro_resumen("Remuneraciones", "remuneraciones_ui"),
                         
                         panel_grafico_variacion("Variación mensual de las remuneraciones reales",
                                                 "remuneraciones_g_var"),
@@ -351,7 +324,7 @@ ui <- fluidPage(title = "Economía chilena", lang = "es",
                 
                 # firma ----
                 fluidRow(
-                  column(12, style = "opacity: 1; font-size: 90%; margin-top: 24px;",
+                  column(12, style = "opacity: 1; font-size: 90%; margin-top: 0;",
                          
                          markdown("Desarrollado y programado por [Bastián Olea Herrera,](https://bastian.olea.biz) usando el lenguaje de programación estadístico R."),
                          
@@ -371,14 +344,29 @@ server <- function(input, output) {
   ## cargar datos ----
   # setwd("app")
   
-  pib <- readRDS("datos/pib.rds")
-  imacec <- readRDS("datos/imacec.rds")
-  ipc <- readRDS("datos/ipc.rds")
-  ipsa <- readRDS("datos/ipsa.rds")
-  desempleo <- readRDS("datos/desempleo.rds")
-  uf <- readRDS("datos/uf.rds")
-  desocupados <- readRDS("datos/desocupados.rds")
-  remuneraciones <- readRDS("datos/remuneraciones.rds")
+  # pib <- readRDS("datos/pib.rds")
+  # imacec <- readRDS("datos/imacec.rds")
+  # ipc <- readRDS("datos/ipc.rds")
+  # ipsa <- readRDS("datos/ipsa.rds")
+  # desempleo <- readRDS("datos/desempleo.rds")
+  # uf <- readRDS("datos/uf.rds")
+  # desocupados <- readRDS("datos/desocupados.rds")
+  # remuneraciones <- readRDS("datos/remuneraciones.rds")
+  
+  # waiter_show()
+  
+  local = FALSE #cargar datos locales desde el inicio del proyecto, o desde la carpeta app
+  
+  pib <- cargar_datos_web("pib", descargar, local)
+  imacec <- cargar_datos_web("imacec", descargar, local)
+  ipc <- cargar_datos_web("ipc", descargar, local)
+  ipsa <- cargar_datos_web("ipsa", descargar, local)
+  desempleo <- cargar_datos_web("desempleo", descargar, local)
+  uf <- cargar_datos_web("uf", descargar, local)
+  # desocupados <- cargar_datos_web("desocupados")
+  remuneraciones <- cargar_datos_web("remuneraciones", descargar, local)
+  
+  # waiter_hide()
   
   
   ## calcular indicadores ----
@@ -406,8 +394,8 @@ server <- function(input, output) {
     filter(serie == "Tasa  de  desempleo  (porcentaje)") |> 
     calcular_metricas()
   
-  datos_desocupados <- desocupados |> 
-    calcular_metricas()
+  # datos_desocupados <- desocupados |> 
+  #   calcular_metricas()
   
   datos_remuneraciones <- remuneraciones |> 
     filter(serie == "Índice real de remuneraciones") |> 
@@ -438,6 +426,25 @@ server <- function(input, output) {
   output$ipsa_tendencia <- renderUI(tendencia_ui(datos_ipsa, fecha_corte(), input, subir = "bueno"))
   output$desempleo_tendencia <- renderUI(tendencia_ui(datos_desempleo, fecha_corte(), input, subir = "malo"))
   output$remuneraciones_tendencia <- renderUI(tendencia_ui(datos_remuneraciones, fecha_corte(), input, subir = "bueno"))
+  
+  output$tendencias_ui <- renderUI({
+    div(
+      panel_tendencia("El PIB",
+                      "pib_tendencia"),
+      panel_tendencia("El Imacec",
+                      "imacec_tendencia"),
+      panel_tendencia("El IPC",
+                      "ipc_tendencia"),
+      panel_tendencia("El valor de la UF",
+                      "uf_tendencia"),
+      panel_tendencia("El IPSA",
+                      "ipsa_tendencia"),
+      panel_tendencia("El desempleo",
+                      "desempleo_tendencia"),
+      panel_tendencia("El valor de las remuneraciones",
+                      "remuneraciones_tendencia")
+    )
+  })
   
   ## cuadros interfaces ----
   # para panel_cuadro_resumen() en ui

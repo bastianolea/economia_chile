@@ -1,0 +1,12 @@
+name: economia_chile
+title: economia_chile
+username: bastianoleah
+account: bastianoleah
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 12292552
+bundleId: 8840420
+url: https://bastianoleah.shinyapps.io/economia_chile/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
