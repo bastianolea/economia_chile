@@ -1,15 +1,9 @@
-*.csv
-*.xlsx
-*.xls
-*.feather
-*.parquet
 *.pdf
 *.Rproj
 *.dta
 *.rar
 *.zip
 *.png
-*.html
 *.rdb
 *.rdx
 *.Rproj.user

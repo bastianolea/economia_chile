@@ -1,4 +1,11 @@
 
+cargar_datos_web <- function() {
+  #carga el dato desde github, y si no se puede por algún motivo, desde local 
+  
+  
+}
+
+
 prop_a_porcentaje <- function(x, decimales = 2) {
   x_porcentaje <- round(100*(x-1), decimales)
   

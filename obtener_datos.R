@@ -20,12 +20,14 @@ desempleo <- obtener_desempleo()
 
 uf <- obtener_uf()
 
+remuneraciones <- obtener_remuneraciones()
+
 # hay que automatizarla primero
 # canasta <- obtener_canasta()
 
 # desocupados <- obtener_desocupados()
 
-remuneraciones <- obtener_remuneraciones()
+
 
 # guardar ----
 # # guardar datos obtenidos
@@ -37,12 +39,12 @@ remuneraciones <- obtener_remuneraciones()
 # saveRDS(uf, "app/datos/uf.rds")
 
 # guardar datos nuevos solo si han cambiado
-guardar_solo_con_cambios(pib, "app/datos/pib.rds")
-guardar_solo_con_cambios(pib_regional, "app/datos/pib_regional.rds")
-guardar_solo_con_cambios(imacec, "app/datos/imacec.rds")
-guardar_solo_con_cambios(ipc, "app/datos/ipc.rds")
-guardar_solo_con_cambios(ipsa, "app/datos/ipsa.rds")
-guardar_solo_con_cambios(desempleo, "app/datos/desempleo.rds")
-guardar_solo_con_cambios(uf, "app/datos/uf.rds")
+guardar_solo_con_cambios(pib, "app/datos/pib.csv")
+guardar_solo_con_cambios(pib_regional, "app/datos/pib_regional.csv")
+guardar_solo_con_cambios(imacec, "app/datos/imacec.csv")
+guardar_solo_con_cambios(ipc, "app/datos/ipc.csv")
+guardar_solo_con_cambios(ipsa, "app/datos/ipsa.csv")
+guardar_solo_con_cambios(desempleo, "app/datos/desempleo.csv")
+guardar_solo_con_cambios(uf, "app/datos/uf.csv")
+guardar_solo_con_cambios(remuneraciones, "app/datos/remuneraciones.csv")
 # guardar_solo_con_cambios(desocupados, "app/datos/desocupados.rds")
-guardar_solo_con_cambios(remuneraciones, "app/datos/remuneraciones.rds")

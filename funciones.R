@@ -306,7 +306,8 @@ guardar_solo_con_cambios <- function(dato_nuevo, ruta = "app/datos/pib.rds") {
           mutate(fecha_scraping = Sys.Date())
         
         # guardar
-        saveRDS(dato_nuevo, ruta)
+        # saveRDS(dato_nuevo, ruta)
+        write.csv2(dato_nuevo, ruta)
         
       } else {
         message("dato ", ruta, " sin diferencias, omitiendo")
