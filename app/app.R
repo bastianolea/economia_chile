@@ -24,16 +24,16 @@ color_secundario = color_principal |> lightness(35)
 color_secundario_detalle = color_principal |> lightness(44) |> chroma(40)
 color_texto = color_principal |> lightness(80)
 
-# previsualizar colores
-shades::swatch(
-  c(
-    color_fondo,
-    color_detalle,
-    color_destacado,
-    color_secundario, color_secundario_detalle,
-    color_texto
-  ),
-  bg = "#151515")
+# # previsualizar colores
+# shades::swatch(
+#   c(
+#     color_fondo,
+#     color_detalle,
+#     color_destacado,
+#     color_secundario, color_secundario_detalle,
+#     color_texto
+#   ),
+#   bg = "#151515")
 
 color_positivo = "#96E472"
 color_negativo = "#F44868"
@@ -342,32 +342,39 @@ ui <- fluidPage(title = "Economía chilena", lang = "es",
 server <- function(input, output) {
   
   ## cargar datos ----
-  # setwd("app")
   
-  # pib <- readRDS("datos/pib.rds")
-  # imacec <- readRDS("datos/imacec.rds")
-  # ipc <- readRDS("datos/ipc.rds")
-  # ipsa <- readRDS("datos/ipsa.rds")
-  # desempleo <- readRDS("datos/desempleo.rds")
-  # uf <- readRDS("datos/uf.rds")
-  # desocupados <- readRDS("datos/desocupados.rds")
-  # remuneraciones <- readRDS("datos/remuneraciones.rds")
-  
-  # waiter_show()
+  # opción 1: cargar datos locales
+  # pib <- read.csv2("datos/pib.csv")
+  # imacec <- read.csv2("datos/imacec.csv")
+  # ipc <- read.csv2("datos/ipc.csv")
+  # ipsa <- read.csv2("datos/ipsa.csv")
+  # desempleo <- read.csv2("datos/desempleo.csv")
+  # uf <- read.csv2("datos/uf.csv")
+  # remuneraciones <- read.csv2("datos/remuneraciones.csv")
   
   local = FALSE #cargar datos locales desde el inicio del proyecto, o desde la carpeta app
   
-  pib <- cargar_datos_web("pib", descargar, local)
-  imacec <- cargar_datos_web("imacec", descargar, local)
-  ipc <- cargar_datos_web("ipc", descargar, local)
-  ipsa <- cargar_datos_web("ipsa", descargar, local)
-  desempleo <- cargar_datos_web("desempleo", descargar, local)
-  uf <- cargar_datos_web("uf", descargar, local)
-  # desocupados <- cargar_datos_web("desocupados")
-  remuneraciones <- cargar_datos_web("remuneraciones", descargar, local)
+  # opción 2: cargar datos individuales desde GitHub
+  # pib <- cargar_datos_web("pib", descargar, local)
+  # imacec <- cargar_datos_web("imacec", descargar, local)
+  # ipc <- cargar_datos_web("ipc", descargar, local)
+  # ipsa <- cargar_datos_web("ipsa", descargar, local)
+  # desempleo <- cargar_datos_web("desempleo", descargar, local)
+  # uf <- cargar_datos_web("uf", descargar, local)
+  # remuneraciones <- cargar_datos_web("remuneraciones", descargar, local)
   
-  # waiter_hide()
+  # opción 3: cargar un solo archivo desde GitHub, que son los datos unidos
+  descargar = FALSE; local = FALSE
+  datos <- cargar_datos_web("datos_economia_chile", descargar, local)
+  # browser()
   
+  pib <- datos |> filter(dato == "pib")
+  imacec <- datos |> filter(dato == "imacec")
+  ipc <- datos |> filter(dato == "ipc")
+  ipsa <- datos |> filter(dato == "ipsa")
+  desempleo <- datos |> filter(dato == "desempleo")
+  uf <- datos |> filter(dato == "uf")
+  remuneraciones <- datos |> filter(dato == "remuneraciones")
   
   ## calcular indicadores ----
   datos_pib <- pib |> 

@@ -28,6 +28,7 @@ cargar_datos_web <- function(archivo = "pib", descargar = FALSE, local = FALSE) 
     if ("try-error" %in% class(data)) {
       data <- tibble()
     }
+  # cargar dato local
   } else {
     showNotification(ui = div(p("Cargando datos pre-guardados:"), 
                               p(archivo, style = "margin-top: -10px; margin-bottom: -4px; opacity: 0.6;")),

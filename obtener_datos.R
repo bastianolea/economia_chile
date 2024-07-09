@@ -48,3 +48,23 @@ guardar_solo_con_cambios(desempleo, "app/datos/desempleo.csv")
 guardar_solo_con_cambios(uf, "app/datos/uf.csv")
 guardar_solo_con_cambios(remuneraciones, "app/datos/remuneraciones.csv")
 # guardar_solo_con_cambios(desocupados, "app/datos/desocupados.rds")
+
+
+# unificar ----
+
+message("uniendo datos...")
+
+# unir todos los datos en un solo dataframe
+datos_unidos <- bind_rows(pib |> mutate(dato = "pib"),
+                          # pib_regional |> mutate(dato = "pib_regional"),
+                          imacec |> mutate(dato = "imacec"),
+                          ipc |> mutate(dato = "ipc"),
+                          ipsa |> mutate(dato = "ipsa"),
+                          desempleo |> mutate(dato = "desempleo"),
+                          uf |> mutate(dato = "uf"),
+                          remuneraciones |> mutate(dato = "remuneraciones")
+) |> 
+  mutate(fecha_union = Sys.Date())
+
+# guardar dato unido
+write.csv2(datos_unidos, "app/datos/datos_economia_chile.csv")

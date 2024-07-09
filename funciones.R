@@ -295,7 +295,7 @@ guardar_solo_con_cambios <- function(dato_nuevo, ruta = "app/datos/pib.rds") {
     } else {
       
       # si dato existe, cargar dato anterior
-      dato_anterior <- readRDS(ruta) |> select(-any_of("fecha_scraping"))
+      dato_anterior <- read.csv2(ruta) |> select(-any_of("fecha_scraping"))
       
       # comparar dato nuevo con dato anterior
       if (length(all.equal(dato_nuevo, dato_anterior)) > 1) {
