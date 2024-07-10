@@ -12,6 +12,7 @@ mes_a_numeric <- function(x) {
          "jul" = 7,
          "ago" = 8,
          "sep" = 9,
+         "sept" = 9,
          "oct" = 10,
          "nov" = 11,
          "dic" = 12)
