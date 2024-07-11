@@ -524,7 +524,7 @@ obtener_inversion_extranjera <- function(descargar = TRUE) {
 cargar_precio_cobre_anterior <- function() {
   message("cargando Excel del precio del cobre del año anterior...")
   
-  indicador_cobre_0 <- read_excel("fuentes/bc_precio_cobre/indicador.xls", 
+  indicador_cobre_0 <- read_excel("fuentes/bc_precio_cobre/Indicador.xls", 
                                   .name_repair = "unique_quiet")
   
   indicador_cobre_1 <- indicador_cobre_0 |> 
