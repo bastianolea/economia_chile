@@ -14,6 +14,8 @@ Los datos de este repositorio se actualizan automáticamente cada 12 horas por m
 - UF
 - Tasa de desempleo
 - Índice de remuneraciones reales
+- Inversión extranjera **(nuevo)**
+- Precio del cobre **(nuevo)**
 
 
 ![](otros/pantallazos/pantallazo1.png)
@@ -22,7 +24,20 @@ Los datos de este repositorio se actualizan automáticamente cada 12 horas por m
 
 ![](otros/pantallazos/pantallazo3.png)
 
+----
 
+### Actualizaciones
+#### Actualización 11/07/2024
+- Nuevo indicador: inversión extranjera directa (IED)
+- Nuevo indicador: precio del cobre
+- Interpretación automática de las tendencias de aumento/disminución
+
+#### Lanzamiento 08/07/2024
+Lanzamiento de la app
+
+----
+
+### Funcionamiento
 El script `obtener_datos.R` realiza el web scraping desde el Banco Central, y guarda los resultados sólo si es que encuentra diferencias con los datos preexistentes. Este script es ejecutado cada 12 horas en GitHub Actions. Toma aprox. 5 minutos en ejecutarse, y si encuentra datos nuevos, los sube al repositorio. El script de automatización, con las especificaciones del contenedor que crea, se encuentran en `.github/workflows/scrapear_bancocentral.yaml`.
 
 La aplicación web, por su parte, carga los datos directamente desde el repositorio de GitHub, en formato .csv, y por lo tanto, la aplicación cuenta con datos actualizados sin necesidad de actualizar la aplicación misma, ya que obtiene sus datos remotamente. Si por algún motivo no se pudieran cargar los datos desde el repositorio, la app tiene versiones antiguas de los datos como plan B. 
@@ -31,10 +46,14 @@ Podrían obtenerse los datos desde la app directamente por medio de scraping usa
 
 La app en sí se caracteriza por estar completamente optimizada en su estructura de código, dado que todos los elementos son generados con funciones. Por lo tanto, basta con copiar y pegar aproximadamente 6 bloques breves de código para agregar un indicador nuevo, incluyendo la automatización de su obtención de datos.
 
+
+
 ### Fuentes
 - [Banco Central, Base de datos estadística](https://si3.bcentral.cl/siete)
+- [Banco Central, Inversión Extranjera Directa](https://www.bcentral.cl/areas/estadisticas/inversion-extranjera-directa-ied)
+- [Banco Central, Indicadores diarios: Precio del Cobre, dólares por libra (Dólar)](https://si3.bcentral.cl/Indicadoressiete/secure/IndicadoresDiarios.aspx)
+
 
 ### Referencias
-https://www.gavinrozzi.com/post/automating-scraping-gh-actions/
-
-https://si3.bcentral.cl/SetGraficos/
+- https://www.gavinrozzi.com/post/automating-scraping-gh-actions/
+- https://si3.bcentral.cl/SetGraficos/
