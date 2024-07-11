@@ -1983,632 +1983,813 @@
 "1982";"Índice de Costos Laborales";"2024-3-1";104,7;2024;NA;3;"remuneraciones";NA;2024-07-10
 "1983";"Índice de Costos Laborales";"2024-4-1";105,3;2024;NA;4;"remuneraciones";NA;2024-07-10
 "1984";"Índice de Costos Laborales";"2024-5-1";105,7;2024;NA;5;"remuneraciones";NA;2024-07-10
-"1985";"Inversión extranjera directa (pasivos)";"2003-1-1";600,17375845711;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"1986";"Inversión extranjera directa (pasivos)";"2003-2-1";357,016149982226;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"1987";"Inversión extranjera directa (pasivos)";"2003-3-1";208,352952883904;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"1988";"Inversión extranjera directa (pasivos)";"2003-4-1";415,354859815014;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"1989";"Inversión extranjera directa (pasivos)";"2003-5-1";300,63004825212;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"1990";"Inversión extranjera directa (pasivos)";"2003-6-1";403,885189587901;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"1991";"Inversión extranjera directa (pasivos)";"2003-7-1";372,296292363173;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"1992";"Inversión extranjera directa (pasivos)";"2003-8-1";378,643560722004;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"1993";"Inversión extranjera directa (pasivos)";"2003-9-1";142,428650163666;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"1994";"Inversión extranjera directa (pasivos)";"2003-10-1";13,9150520936702;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"1995";"Inversión extranjera directa (pasivos)";"2003-11-1";11,0544450422757;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"1996";"Inversión extranjera directa (pasivos)";"2003-12-1";281,977462387204;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"1997";"Inversión extranjera directa (pasivos)";"2004-1-1";252,085151457021;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"1998";"Inversión extranjera directa (pasivos)";"2004-2-1";645,113286829611;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"1999";"Inversión extranjera directa (pasivos)";"2004-3-1";460,39236310266;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2000";"Inversión extranjera directa (pasivos)";"2004-4-1";365,23731805337;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2001";"Inversión extranjera directa (pasivos)";"2004-5-1";-82,5692568242272;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2002";"Inversión extranjera directa (pasivos)";"2004-6-1";-84,6902993542675;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2003";"Inversión extranjera directa (pasivos)";"2004-7-1";1778,54132731414;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2004";"Inversión extranjera directa (pasivos)";"2004-8-1";489,110977758383;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2005";"Inversión extranjera directa (pasivos)";"2004-9-1";606,03540498499;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2006";"Inversión extranjera directa (pasivos)";"2004-10-1";-59,7157847890523;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2007";"Inversión extranjera directa (pasivos)";"2004-11-1";133,075516734431;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2008";"Inversión extranjera directa (pasivos)";"2004-12-1";466,115402356985;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2009";"Inversión extranjera directa (pasivos)";"2005-1-1";340,14984160383;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2010";"Inversión extranjera directa (pasivos)";"2005-2-1";620,945372031606;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2011";"Inversión extranjera directa (pasivos)";"2005-3-1";-37,1528149533956;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2012";"Inversión extranjera directa (pasivos)";"2005-4-1";733,518325100587;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2013";"Inversión extranjera directa (pasivos)";"2005-5-1";607,174191502441;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2014";"Inversión extranjera directa (pasivos)";"2005-6-1";687,221039147193;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2015";"Inversión extranjera directa (pasivos)";"2005-7-1";920,333316041289;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2016";"Inversión extranjera directa (pasivos)";"2005-8-1";660,01566372644;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2017";"Inversión extranjera directa (pasivos)";"2005-9-1";512,822735476975;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2018";"Inversión extranjera directa (pasivos)";"2005-10-1";781,777357073195;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2019";"Inversión extranjera directa (pasivos)";"2005-11-1";247,399514693644;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2020";"Inversión extranjera directa (pasivos)";"2005-12-1";-83,3727124907002;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2021";"Inversión extranjera directa (pasivos)";"2006-1-1";799,822123283497;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2022";"Inversión extranjera directa (pasivos)";"2006-2-1";1303,55214740778;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2023";"Inversión extranjera directa (pasivos)";"2006-3-1";1781,24253655669;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2024";"Inversión extranjera directa (pasivos)";"2006-4-1";127,566522240418;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2025";"Inversión extranjera directa (pasivos)";"2006-5-1";151,472440330416;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2026";"Inversión extranjera directa (pasivos)";"2006-6-1";-1045,77140939526;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2027";"Inversión extranjera directa (pasivos)";"2006-7-1";344,019192871236;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2028";"Inversión extranjera directa (pasivos)";"2006-8-1";880,913692006676;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2029";"Inversión extranjera directa (pasivos)";"2006-9-1";1389,56483409444;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2030";"Inversión extranjera directa (pasivos)";"2006-10-1";-861,209543829441;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2031";"Inversión extranjera directa (pasivos)";"2006-11-1";-524,907702274719;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2032";"Inversión extranjera directa (pasivos)";"2006-12-1";409,068650074882;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2033";"Inversión extranjera directa (pasivos)";"2007-1-1";874,836549788698;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2034";"Inversión extranjera directa (pasivos)";"2007-2-1";1470,40841218663;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2035";"Inversión extranjera directa (pasivos)";"2007-3-1";1409,18371938301;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2036";"Inversión extranjera directa (pasivos)";"2007-4-1";1084,9629822632;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2037";"Inversión extranjera directa (pasivos)";"2007-5-1";971,466152203044;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2038";"Inversión extranjera directa (pasivos)";"2007-6-1";409,89738376883;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2039";"Inversión extranjera directa (pasivos)";"2007-7-1";1315,5600629288;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2040";"Inversión extranjera directa (pasivos)";"2007-8-1";972,72560759955;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2041";"Inversión extranjera directa (pasivos)";"2007-9-1";623,85006040681;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2042";"Inversión extranjera directa (pasivos)";"2007-10-1";1541,86203570429;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2043";"Inversión extranjera directa (pasivos)";"2007-11-1";993,351435292844;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2044";"Inversión extranjera directa (pasivos)";"2007-12-1";-1122,87981304809;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2045";"Inversión extranjera directa (pasivos)";"2008-1-1";1982,29923996591;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2046";"Inversión extranjera directa (pasivos)";"2008-2-1";2007,27195363146;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2047";"Inversión extranjera directa (pasivos)";"2008-3-1";1491,05013836741;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2048";"Inversión extranjera directa (pasivos)";"2008-4-1";1914,61217656158;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2049";"Inversión extranjera directa (pasivos)";"2008-5-1";1455,74420392924;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2050";"Inversión extranjera directa (pasivos)";"2008-6-1";-40,7183326211684;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2051";"Inversión extranjera directa (pasivos)";"2008-7-1";1151,04861624017;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2052";"Inversión extranjera directa (pasivos)";"2008-8-1";1345,35886108871;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2053";"Inversión extranjera directa (pasivos)";"2008-9-1";2335,90939301552;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2054";"Inversión extranjera directa (pasivos)";"2008-10-1";1345,33486404075;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2055";"Inversión extranjera directa (pasivos)";"2008-11-1";2502,35735383498;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2056";"Inversión extranjera directa (pasivos)";"2008-12-1";1321,50948331431;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2057";"Inversión extranjera directa (pasivos)";"2009-1-1";2576,4588002496;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2058";"Inversión extranjera directa (pasivos)";"2009-2-1";-285,025289114487;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2059";"Inversión extranjera directa (pasivos)";"2009-3-1";1362,48400859016;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2060";"Inversión extranjera directa (pasivos)";"2009-4-1";1308,06885936257;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2061";"Inversión extranjera directa (pasivos)";"2009-5-1";-813,625065290595;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2062";"Inversión extranjera directa (pasivos)";"2009-6-1";778,810788840626;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2063";"Inversión extranjera directa (pasivos)";"2009-7-1";1293,13198272229;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2064";"Inversión extranjera directa (pasivos)";"2009-8-1";1282,92970914773;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2065";"Inversión extranjera directa (pasivos)";"2009-9-1";521,619866500132;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2066";"Inversión extranjera directa (pasivos)";"2009-10-1";1099,06160890045;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2067";"Inversión extranjera directa (pasivos)";"2009-11-1";1066,12626960651;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2068";"Inversión extranjera directa (pasivos)";"2009-12-1";2560,28045937403;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2069";"Inversión extranjera directa (pasivos)";"2010-1-1";1947,03666826158;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2070";"Inversión extranjera directa (pasivos)";"2010-2-1";2079,21779745657;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2071";"Inversión extranjera directa (pasivos)";"2010-3-1";1107,81846205848;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2072";"Inversión extranjera directa (pasivos)";"2010-4-1";755,042134103815;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2073";"Inversión extranjera directa (pasivos)";"2010-5-1";682,637631847059;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2074";"Inversión extranjera directa (pasivos)";"2010-6-1";376,568989415751;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2075";"Inversión extranjera directa (pasivos)";"2010-7-1";1785,82039316207;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2076";"Inversión extranjera directa (pasivos)";"2010-8-1";1971,80388116135;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2077";"Inversión extranjera directa (pasivos)";"2010-9-1";1729,8976880189;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2078";"Inversión extranjera directa (pasivos)";"2010-10-1";915,475314269939;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2079";"Inversión extranjera directa (pasivos)";"2010-11-1";802,642690569442;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2080";"Inversión extranjera directa (pasivos)";"2010-12-1";695,481506700025;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2081";"Inversión extranjera directa (pasivos)";"2011-1-1";2458,9054550271;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2082";"Inversión extranjera directa (pasivos)";"2011-2-1";2102,51561924844;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2083";"Inversión extranjera directa (pasivos)";"2011-3-1";2276,23934480667;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2084";"Inversión extranjera directa (pasivos)";"2011-4-1";1213,90303846637;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2085";"Inversión extranjera directa (pasivos)";"2011-5-1";758,771604276641;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2086";"Inversión extranjera directa (pasivos)";"2011-6-1";201,092016578778;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2087";"Inversión extranjera directa (pasivos)";"2011-7-1";1128,62864665936;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2088";"Inversión extranjera directa (pasivos)";"2011-8-1";1617,31867044847;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2089";"Inversión extranjera directa (pasivos)";"2011-9-1";1980,19458108916;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2090";"Inversión extranjera directa (pasivos)";"2011-10-1";2608,45114445065;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2091";"Inversión extranjera directa (pasivos)";"2011-11-1";8064,90066562834;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2092";"Inversión extranjera directa (pasivos)";"2011-12-1";1958,54260214733;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2093";"Inversión extranjera directa (pasivos)";"2012-1-1";1562,62830524535;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2094";"Inversión extranjera directa (pasivos)";"2012-2-1";1410,81578072495;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2095";"Inversión extranjera directa (pasivos)";"2012-3-1";1689,45002702828;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2096";"Inversión extranjera directa (pasivos)";"2012-4-1";2160,07527650477;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2097";"Inversión extranjera directa (pasivos)";"2012-5-1";2117,04637802815;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2098";"Inversión extranjera directa (pasivos)";"2012-6-1";3897,53982773139;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2099";"Inversión extranjera directa (pasivos)";"2012-7-1";1603,14642314922;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2100";"Inversión extranjera directa (pasivos)";"2012-8-1";2153,89889221171;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2101";"Inversión extranjera directa (pasivos)";"2012-9-1";3182,7002082999;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2102";"Inversión extranjera directa (pasivos)";"2012-10-1";3573,41013268253;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2103";"Inversión extranjera directa (pasivos)";"2012-11-1";3029,26208317094;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2104";"Inversión extranjera directa (pasivos)";"2012-12-1";5421,99734128365;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2105";"Inversión extranjera directa (pasivos)";"2013-1-1";1278,30988291723;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2106";"Inversión extranjera directa (pasivos)";"2013-2-1";1690,8577586068;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2107";"Inversión extranjera directa (pasivos)";"2013-3-1";4699,83352187366;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2108";"Inversión extranjera directa (pasivos)";"2013-4-1";-3678,24542927235;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2109";"Inversión extranjera directa (pasivos)";"2013-5-1";1904,23838217808;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2110";"Inversión extranjera directa (pasivos)";"2013-6-1";2274,95491262918;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2111";"Inversión extranjera directa (pasivos)";"2013-7-1";3958,35245912281;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2112";"Inversión extranjera directa (pasivos)";"2013-8-1";2089,30773865631;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2113";"Inversión extranjera directa (pasivos)";"2013-9-1";357,519139576408;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2114";"Inversión extranjera directa (pasivos)";"2013-10-1";2656,65588630274;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2115";"Inversión extranjera directa (pasivos)";"2013-11-1";1608,00689019747;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2116";"Inversión extranjera directa (pasivos)";"2013-12-1";2280,96570122971;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2117";"Inversión extranjera directa (pasivos)";"2014-1-1";1477,89188674283;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2118";"Inversión extranjera directa (pasivos)";"2014-2-1";2626,88040389602;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2119";"Inversión extranjera directa (pasivos)";"2014-3-1";1536,22157209779;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2120";"Inversión extranjera directa (pasivos)";"2014-4-1";2329,19304237194;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2121";"Inversión extranjera directa (pasivos)";"2014-5-1";307,32338626738;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2122";"Inversión extranjera directa (pasivos)";"2014-6-1";1818,87672571806;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2123";"Inversión extranjera directa (pasivos)";"2014-7-1";1221,95297223042;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2124";"Inversión extranjera directa (pasivos)";"2014-8-1";1564,64691547474;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2125";"Inversión extranjera directa (pasivos)";"2014-9-1";4704,15789205326;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2126";"Inversión extranjera directa (pasivos)";"2014-10-1";3045,27928693566;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2127";"Inversión extranjera directa (pasivos)";"2014-11-1";3375,00031847933;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2128";"Inversión extranjera directa (pasivos)";"2014-12-1";1520,40744668716;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2129";"Inversión extranjera directa (pasivos)";"2015-1-1";506,425802441622;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2130";"Inversión extranjera directa (pasivos)";"2015-2-1";589,266493738173;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2131";"Inversión extranjera directa (pasivos)";"2015-3-1";1217,72437715568;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2132";"Inversión extranjera directa (pasivos)";"2015-4-1";290,090557755435;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2133";"Inversión extranjera directa (pasivos)";"2015-5-1";1273,50314718728;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2134";"Inversión extranjera directa (pasivos)";"2015-6-1";1587,9376439624;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2135";"Inversión extranjera directa (pasivos)";"2015-7-1";-288,180364104613;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2136";"Inversión extranjera directa (pasivos)";"2015-8-1";579,541726052094;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2137";"Inversión extranjera directa (pasivos)";"2015-9-1";9504,31822704359;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2138";"Inversión extranjera directa (pasivos)";"2015-10-1";1155,84795676927;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2139";"Inversión extranjera directa (pasivos)";"2015-11-1";1179,09816044231;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2140";"Inversión extranjera directa (pasivos)";"2015-12-1";170,711900649386;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2141";"Inversión extranjera directa (pasivos)";"2016-1-1";1545,99860622748;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2142";"Inversión extranjera directa (pasivos)";"2016-2-1";857,029450084958;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2143";"Inversión extranjera directa (pasivos)";"2016-3-1";1596,74690922142;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2144";"Inversión extranjera directa (pasivos)";"2016-4-1";917,743326455926;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2145";"Inversión extranjera directa (pasivos)";"2016-5-1";942,51088917217;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2146";"Inversión extranjera directa (pasivos)";"2016-6-1";959,958049888189;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2147";"Inversión extranjera directa (pasivos)";"2016-7-1";994,141080504938;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2148";"Inversión extranjera directa (pasivos)";"2016-8-1";1033,78126615616;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2149";"Inversión extranjera directa (pasivos)";"2016-9-1";845,008667977733;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2150";"Inversión extranjera directa (pasivos)";"2016-10-1";1128,65189354208;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2151";"Inversión extranjera directa (pasivos)";"2016-11-1";484,27345035788;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2152";"Inversión extranjera directa (pasivos)";"2016-12-1";56,988572900221;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2153";"Inversión extranjera directa (pasivos)";"2017-1-1";1250,11525066673;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2154";"Inversión extranjera directa (pasivos)";"2017-2-1";1127,08836621286;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2155";"Inversión extranjera directa (pasivos)";"2017-3-1";-123,750273803921;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2156";"Inversión extranjera directa (pasivos)";"2017-4-1";-1248,91757839915;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2157";"Inversión extranjera directa (pasivos)";"2017-5-1";668,345299151577;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2158";"Inversión extranjera directa (pasivos)";"2017-6-1";-154,901169768114;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2159";"Inversión extranjera directa (pasivos)";"2017-7-1";608,031958138454;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2160";"Inversión extranjera directa (pasivos)";"2017-8-1";1004,18295912584;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2161";"Inversión extranjera directa (pasivos)";"2017-9-1";390,321907777516;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2162";"Inversión extranjera directa (pasivos)";"2017-10-1";1354,81865489122;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2163";"Inversión extranjera directa (pasivos)";"2017-11-1";501,629420281323;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2164";"Inversión extranjera directa (pasivos)";"2017-12-1";-139,781276061835;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2165";"Inversión extranjera directa (pasivos)";"2018-1-1";4301,66839023238;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2166";"Inversión extranjera directa (pasivos)";"2018-2-1";385,413135086763;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2167";"Inversión extranjera directa (pasivos)";"2018-3-1";1485,47480212801;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2168";"Inversión extranjera directa (pasivos)";"2018-4-1";1645,20881416869;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2169";"Inversión extranjera directa (pasivos)";"2018-5-1";677,305702651135;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2170";"Inversión extranjera directa (pasivos)";"2018-6-1";-4048,41394692508;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2171";"Inversión extranjera directa (pasivos)";"2018-7-1";1462,51233740029;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2172";"Inversión extranjera directa (pasivos)";"2018-8-1";918,954916976739;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2173";"Inversión extranjera directa (pasivos)";"2018-9-1";301,047546473826;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2174";"Inversión extranjera directa (pasivos)";"2018-10-1";1429,08819036491;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2175";"Inversión extranjera directa (pasivos)";"2018-11-1";3840,76608904779;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2176";"Inversión extranjera directa (pasivos)";"2018-12-1";-4456,39404255659;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2177";"Inversión extranjera directa (pasivos)";"2019-1-1";1387,16485924519;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2178";"Inversión extranjera directa (pasivos)";"2019-2-1";-332,876150110463;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2179";"Inversión extranjera directa (pasivos)";"2019-3-1";1416,56472935199;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2180";"Inversión extranjera directa (pasivos)";"2019-4-1";3115,50568724784;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2181";"Inversión extranjera directa (pasivos)";"2019-5-1";-804,258094541518;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2182";"Inversión extranjera directa (pasivos)";"2019-6-1";2117,33555190486;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2183";"Inversión extranjera directa (pasivos)";"2019-7-1";2969,07931203184;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2184";"Inversión extranjera directa (pasivos)";"2019-8-1";417,64050867011;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2185";"Inversión extranjera directa (pasivos)";"2019-9-1";1478,41755128278;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2186";"Inversión extranjera directa (pasivos)";"2019-10-1";1367,72538202354;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2187";"Inversión extranjera directa (pasivos)";"2019-11-1";249,571875244365;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2188";"Inversión extranjera directa (pasivos)";"2019-12-1";197,219766409377;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2189";"Inversión extranjera directa (pasivos)";"2020-1-1";4555,22129466307;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2190";"Inversión extranjera directa (pasivos)";"2020-2-1";419,285726217325;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2191";"Inversión extranjera directa (pasivos)";"2020-3-1";1762,22780863329;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2192";"Inversión extranjera directa (pasivos)";"2020-4-1";1026,13838316809;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2193";"Inversión extranjera directa (pasivos)";"2020-5-1";288,820979864879;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2194";"Inversión extranjera directa (pasivos)";"2020-6-1";1392,15598040116;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2195";"Inversión extranjera directa (pasivos)";"2020-7-1";1464,02336441094;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2196";"Inversión extranjera directa (pasivos)";"2020-8-1";485,413482191672;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2197";"Inversión extranjera directa (pasivos)";"2020-9-1";-707,878068319371;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2198";"Inversión extranjera directa (pasivos)";"2020-10-1";1094,18829702597;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2199";"Inversión extranjera directa (pasivos)";"2020-11-1";300,291687263969;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2200";"Inversión extranjera directa (pasivos)";"2020-12-1";-632,491646903026;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2201";"Inversión extranjera directa (pasivos)";"2021-1-1";1124,20465914417;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2202";"Inversión extranjera directa (pasivos)";"2021-2-1";6398,00065089725;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2203";"Inversión extranjera directa (pasivos)";"2021-3-1";1939,78798383768;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2204";"Inversión extranjera directa (pasivos)";"2021-4-1";3347,39594645748;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2205";"Inversión extranjera directa (pasivos)";"2021-5-1";-788,694306541204;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2206";"Inversión extranjera directa (pasivos)";"2021-6-1";2323,60656274999;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2207";"Inversión extranjera directa (pasivos)";"2021-7-1";3448,79561264887;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2208";"Inversión extranjera directa (pasivos)";"2021-8-1";1412,71673840439;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2209";"Inversión extranjera directa (pasivos)";"2021-9-1";-799,826773527505;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2210";"Inversión extranjera directa (pasivos)";"2021-10-1";1596,69636914183;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2211";"Inversión extranjera directa (pasivos)";"2021-11-1";-3129,17959499855;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2212";"Inversión extranjera directa (pasivos)";"2021-12-1";-1696,60152966061;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2213";"Inversión extranjera directa (pasivos)";"2022-1-1";1829,98128190479;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2214";"Inversión extranjera directa (pasivos)";"2022-2-1";400,724605693419;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2215";"Inversión extranjera directa (pasivos)";"2022-3-1";1844,6035929728;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2216";"Inversión extranjera directa (pasivos)";"2022-4-1";3388,36597881261;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2217";"Inversión extranjera directa (pasivos)";"2022-5-1";1611,87116956897;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2218";"Inversión extranjera directa (pasivos)";"2022-6-1";1084,42684962744;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2219";"Inversión extranjera directa (pasivos)";"2022-7-1";723,926038150056;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2220";"Inversión extranjera directa (pasivos)";"2022-8-1";1202,46315552916;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2221";"Inversión extranjera directa (pasivos)";"2022-9-1";1383,56804825834;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2222";"Inversión extranjera directa (pasivos)";"2022-10-1";1501,20705568011;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2223";"Inversión extranjera directa (pasivos)";"2022-11-1";2242,84390090682;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2224";"Inversión extranjera directa (pasivos)";"2022-12-1";1022,6174323261;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2225";"Inversión extranjera directa (pasivos)";"2023-1-1";1705,48219176909;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2226";"Inversión extranjera directa (pasivos)";"2023-2-1";1099,37150184961;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2227";"Inversión extranjera directa (pasivos)";"2023-3-1";1663,18617583192;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2228";"Inversión extranjera directa (pasivos)";"2023-4-1";3291,91138747987;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2229";"Inversión extranjera directa (pasivos)";"2023-5-1";1404,29355301305;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2230";"Inversión extranjera directa (pasivos)";"2023-6-1";2298,34092382284;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2231";"Inversión extranjera directa (pasivos)";"2023-7-1";2718,08944668758;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2232";"Inversión extranjera directa (pasivos)";"2023-8-1";2590,19726319771;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2233";"Inversión extranjera directa (pasivos)";"2023-9-1";1651,19698381646;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2234";"Inversión extranjera directa (pasivos)";"2023-10-1";1700,64487362441;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2235";"Inversión extranjera directa (pasivos)";"2023-11-1";1233,74089746858;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2236";"Inversión extranjera directa (pasivos)";"2023-12-1";381,380726820841;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2237";"Inversión extranjera directa (pasivos)";"2024-1-1";1896,5405461308;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2238";"Inversión extranjera directa (pasivos)";"2024-2-1";1473,50010414195;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2239";"Inversión extranjera directa (pasivos)";"2024-3-1";831,688407391858;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2240";"Inversión extranjera directa (pasivos)";"2024-4-1";2402,88065021035;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2241";"Inversión extranjera directa (pasivos)";"2024-5-1";1638,34270552541;NA;NA;NA;"inversion_extranjera";NA;2024-07-10
-"2242";"Precio del cobre";"2024-1-1";3,87;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2243";"Precio del cobre";"2024-1-2";3,87;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2244";"Precio del cobre";"2024-1-3";3,84;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2245";"Precio del cobre";"2024-1-4";3,83;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2246";"Precio del cobre";"2024-1-5";3,82;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2247";"Precio del cobre";"2024-1-6";3,82;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2248";"Precio del cobre";"2024-1-7";3,82;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2249";"Precio del cobre";"2024-1-8";3,8;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2250";"Precio del cobre";"2024-1-9";3,79;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2251";"Precio del cobre";"2024-1-10";3,78;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2252";"Precio del cobre";"2024-1-11";3,75;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2253";"Precio del cobre";"2024-1-12";3,75;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2254";"Precio del cobre";"2024-1-13";3,75;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2255";"Precio del cobre";"2024-1-14";3,75;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2256";"Precio del cobre";"2024-1-15";3,75;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2257";"Precio del cobre";"2024-1-16";3,74;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2258";"Precio del cobre";"2024-1-17";3,76;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2259";"Precio del cobre";"2024-1-18";3,75;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2260";"Precio del cobre";"2024-1-19";3,71;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2261";"Precio del cobre";"2024-1-20";3,71;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2262";"Precio del cobre";"2024-1-21";3,71;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2263";"Precio del cobre";"2024-1-22";3,73;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2264";"Precio del cobre";"2024-1-23";3,75;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2265";"Precio del cobre";"2024-1-24";3,74;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2266";"Precio del cobre";"2024-1-25";3,77;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2267";"Precio del cobre";"2024-1-26";3,84;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2268";"Precio del cobre";"2024-1-27";3,84;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2269";"Precio del cobre";"2024-1-28";3,84;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2270";"Precio del cobre";"2024-1-29";3,85;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2271";"Precio del cobre";"2024-1-30";3,83;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2272";"Precio del cobre";"2024-1-31";3,84;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2273";"Precio del cobre";"2024-2-1";3,86;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2274";"Precio del cobre";"2024-2-2";3,86;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2275";"Precio del cobre";"2024-2-3";3,86;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2276";"Precio del cobre";"2024-2-4";3,86;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2277";"Precio del cobre";"2024-2-5";3,82;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2278";"Precio del cobre";"2024-2-6";3,8;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2279";"Precio del cobre";"2024-2-7";3,74;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2280";"Precio del cobre";"2024-2-8";3,76;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2281";"Precio del cobre";"2024-2-9";3,72;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2282";"Precio del cobre";"2024-2-10";3,72;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2283";"Precio del cobre";"2024-2-11";3,72;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2284";"Precio del cobre";"2024-2-12";3,67;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2285";"Precio del cobre";"2024-2-13";3,66;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2286";"Precio del cobre";"2024-2-14";3,69;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2287";"Precio del cobre";"2024-2-15";3,7;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2288";"Precio del cobre";"2024-2-16";3,67;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2289";"Precio del cobre";"2024-2-17";3,67;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2290";"Precio del cobre";"2024-2-18";3,67;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2291";"Precio del cobre";"2024-2-19";3,73;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2292";"Precio del cobre";"2024-2-20";3,81;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2293";"Precio del cobre";"2024-2-21";3,79;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2294";"Precio del cobre";"2024-2-22";3,82;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2295";"Precio del cobre";"2024-2-23";3,84;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2296";"Precio del cobre";"2024-2-24";3,84;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2297";"Precio del cobre";"2024-2-25";3,84;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2298";"Precio del cobre";"2024-2-26";3,86;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2299";"Precio del cobre";"2024-2-27";3,84;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2300";"Precio del cobre";"2024-2-28";3,79;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2301";"Precio del cobre";"2024-2-29";3,8;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2302";"Precio del cobre";"2024-2-30";3,8;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2303";"Precio del cobre";"2024-2-31";3,8;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2304";"Precio del cobre";"2024-3-1";3,79;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2305";"Precio del cobre";"2024-3-2";3,79;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2306";"Precio del cobre";"2024-3-3";3,79;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2307";"Precio del cobre";"2024-3-4";3,81;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2308";"Precio del cobre";"2024-3-5";3,82;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2309";"Precio del cobre";"2024-3-6";3,84;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2310";"Precio del cobre";"2024-3-7";3,81;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2311";"Precio del cobre";"2024-3-8";3,85;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2312";"Precio del cobre";"2024-3-9";3,85;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2313";"Precio del cobre";"2024-3-10";3,85;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2314";"Precio del cobre";"2024-3-11";3,88;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2315";"Precio del cobre";"2024-3-12";3,85;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2316";"Precio del cobre";"2024-3-13";3,88;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2317";"Precio del cobre";"2024-3-14";3,88;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2318";"Precio del cobre";"2024-3-15";4,01;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2319";"Precio del cobre";"2024-3-16";4,01;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2320";"Precio del cobre";"2024-3-17";4,01;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2321";"Precio del cobre";"2024-3-18";3,98;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2322";"Precio del cobre";"2024-3-19";4,07;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2323";"Precio del cobre";"2024-3-20";4,08;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2324";"Precio del cobre";"2024-3-21";4,02;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2325";"Precio del cobre";"2024-3-22";4;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2326";"Precio del cobre";"2024-3-23";4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2327";"Precio del cobre";"2024-3-24";4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2328";"Precio del cobre";"2024-3-25";4,01;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2329";"Precio del cobre";"2024-3-26";3,97;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2330";"Precio del cobre";"2024-3-27";3,97;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2331";"Precio del cobre";"2024-3-28";3,97;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2332";"Precio del cobre";"2024-3-29";3,97;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2333";"Precio del cobre";"2024-3-30";3,97;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2334";"Precio del cobre";"2024-3-31";3,97;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2335";"Precio del cobre";"2024-4-1";3,97;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2336";"Precio del cobre";"2024-4-2";3,98;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2337";"Precio del cobre";"2024-4-3";3,98;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2338";"Precio del cobre";"2024-4-4";4,03;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2339";"Precio del cobre";"2024-4-5";4,15;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2340";"Precio del cobre";"2024-4-6";4,15;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2341";"Precio del cobre";"2024-4-7";4,15;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2342";"Precio del cobre";"2024-4-8";4,19;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2343";"Precio del cobre";"2024-4-9";4,18;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2344";"Precio del cobre";"2024-4-10";4,21;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2345";"Precio del cobre";"2024-4-11";4,21;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2346";"Precio del cobre";"2024-4-12";4,19;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2347";"Precio del cobre";"2024-4-13";4,19;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2348";"Precio del cobre";"2024-4-14";4,19;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2349";"Precio del cobre";"2024-4-15";4,18;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2350";"Precio del cobre";"2024-4-16";4,23;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2351";"Precio del cobre";"2024-4-17";4,31;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2352";"Precio del cobre";"2024-4-18";4,24;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2353";"Precio del cobre";"2024-4-19";4,3;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2354";"Precio del cobre";"2024-4-20";4,3;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2355";"Precio del cobre";"2024-4-21";4,3;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2356";"Precio del cobre";"2024-4-22";4,38;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2357";"Precio del cobre";"2024-4-23";4,44;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2358";"Precio del cobre";"2024-4-24";4,42;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2359";"Precio del cobre";"2024-4-25";4,36;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2360";"Precio del cobre";"2024-4-26";4,38;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2361";"Precio del cobre";"2024-4-27";4,38;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2362";"Precio del cobre";"2024-4-28";4,38;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2363";"Precio del cobre";"2024-4-29";4,42;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2364";"Precio del cobre";"2024-4-30";4,47;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2365";"Precio del cobre";"2024-4-31";4,47;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2366";"Precio del cobre";"2024-5-1";4,47;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2367";"Precio del cobre";"2024-5-2";4,57;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2368";"Precio del cobre";"2024-5-3";4,44;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2369";"Precio del cobre";"2024-5-4";4,44;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2370";"Precio del cobre";"2024-5-5";4,44;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2371";"Precio del cobre";"2024-5-6";4,37;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2372";"Precio del cobre";"2024-5-7";4,44;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2373";"Precio del cobre";"2024-5-8";4,44;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2374";"Precio del cobre";"2024-5-9";4,49;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2375";"Precio del cobre";"2024-5-10";4,43;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2376";"Precio del cobre";"2024-5-11";4,43;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2377";"Precio del cobre";"2024-5-12";4,43;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2378";"Precio del cobre";"2024-5-13";4,44;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2379";"Precio del cobre";"2024-5-14";4,49;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2380";"Precio del cobre";"2024-5-15";4,57;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2381";"Precio del cobre";"2024-5-16";4,54;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2382";"Precio del cobre";"2024-5-17";4,59;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2383";"Precio del cobre";"2024-5-18";4,59;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2384";"Precio del cobre";"2024-5-19";4,59;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2385";"Precio del cobre";"2024-5-20";4,69;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2386";"Precio del cobre";"2024-5-21";4,69;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2387";"Precio del cobre";"2024-5-22";4,81;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2388";"Precio del cobre";"2024-5-23";4,87;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2389";"Precio del cobre";"2024-5-24";4,67;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2390";"Precio del cobre";"2024-5-25";4,67;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2391";"Precio del cobre";"2024-5-26";4,67;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2392";"Precio del cobre";"2024-5-27";4,68;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2393";"Precio del cobre";"2024-5-28";4,63;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2394";"Precio del cobre";"2024-5-29";4,63;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2395";"Precio del cobre";"2024-5-30";4,71;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2396";"Precio del cobre";"2024-5-31";4,68;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2397";"Precio del cobre";"2024-6-1";4,68;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2398";"Precio del cobre";"2024-6-2";4,68;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2399";"Precio del cobre";"2024-6-3";4,54;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2400";"Precio del cobre";"2024-6-4";4,5;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2401";"Precio del cobre";"2024-6-5";4,54;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2402";"Precio del cobre";"2024-6-6";4,45;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2403";"Precio del cobre";"2024-6-7";4,45;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2404";"Precio del cobre";"2024-6-8";4,45;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2405";"Precio del cobre";"2024-6-9";4,45;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2406";"Precio del cobre";"2024-6-10";4,55;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2407";"Precio del cobre";"2024-6-11";4,37;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2408";"Precio del cobre";"2024-6-12";4,43;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2409";"Precio del cobre";"2024-6-13";4,37;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2410";"Precio del cobre";"2024-6-14";4,45;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2411";"Precio del cobre";"2024-6-15";4,45;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2412";"Precio del cobre";"2024-6-16";4,45;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2413";"Precio del cobre";"2024-6-17";4,38;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2414";"Precio del cobre";"2024-6-18";4,36;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2415";"Precio del cobre";"2024-6-19";4,33;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2416";"Precio del cobre";"2024-6-20";4,33;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2417";"Precio del cobre";"2024-6-21";4,32;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2418";"Precio del cobre";"2024-6-22";4,32;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2419";"Precio del cobre";"2024-6-23";4,32;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2420";"Precio del cobre";"2024-6-24";4,41;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2421";"Precio del cobre";"2024-6-25";4,33;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2422";"Precio del cobre";"2024-6-26";4,32;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2423";"Precio del cobre";"2024-6-27";4,27;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2424";"Precio del cobre";"2024-6-28";4,26;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2425";"Precio del cobre";"2024-6-29";4,26;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2426";"Precio del cobre";"2024-6-30";4,26;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2427";"Precio del cobre";"2024-6-31";4,26;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2428";"Precio del cobre";"2024-7-1";4,25;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2429";"Precio del cobre";"2024-7-2";4,29;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2430";"Precio del cobre";"2024-7-3";4,3;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2431";"Precio del cobre";"2024-7-4";4,32;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2432";"Precio del cobre";"2024-7-5";4,41;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2433";"Precio del cobre";"2024-7-6";4,41;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2434";"Precio del cobre";"2024-7-7";4,41;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2435";"Precio del cobre";"2024-7-8";4,42;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2436";"Precio del cobre";"2024-7-9";4,44;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2437";"Precio del cobre";"2024-7-10";4,43;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2438";"Precio del cobre";"2024-7-11";4,4;NA;NA;NA;"precio_cobre";TRUE;2024-07-10
-"2439";"Precio del cobre";"2024-7-12";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2440";"Precio del cobre";"2024-7-13";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2441";"Precio del cobre";"2024-7-14";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2442";"Precio del cobre";"2024-7-15";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2443";"Precio del cobre";"2024-7-16";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2444";"Precio del cobre";"2024-7-17";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2445";"Precio del cobre";"2024-7-18";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2446";"Precio del cobre";"2024-7-19";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2447";"Precio del cobre";"2024-7-20";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2448";"Precio del cobre";"2024-7-21";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2449";"Precio del cobre";"2024-7-22";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2450";"Precio del cobre";"2024-7-23";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2451";"Precio del cobre";"2024-7-24";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2452";"Precio del cobre";"2024-7-25";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2453";"Precio del cobre";"2024-7-26";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2454";"Precio del cobre";"2024-7-27";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2455";"Precio del cobre";"2024-7-28";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2456";"Precio del cobre";"2024-7-29";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2457";"Precio del cobre";"2024-7-30";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2458";"Precio del cobre";"2024-7-31";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2459";"Precio del cobre";"2024-8-1";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2460";"Precio del cobre";"2024-8-2";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2461";"Precio del cobre";"2024-8-3";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2462";"Precio del cobre";"2024-8-4";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2463";"Precio del cobre";"2024-8-5";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2464";"Precio del cobre";"2024-8-6";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2465";"Precio del cobre";"2024-8-7";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2466";"Precio del cobre";"2024-8-8";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2467";"Precio del cobre";"2024-8-9";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2468";"Precio del cobre";"2024-8-10";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2469";"Precio del cobre";"2024-8-11";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2470";"Precio del cobre";"2024-8-12";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2471";"Precio del cobre";"2024-8-13";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2472";"Precio del cobre";"2024-8-14";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2473";"Precio del cobre";"2024-8-15";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2474";"Precio del cobre";"2024-8-16";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2475";"Precio del cobre";"2024-8-17";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2476";"Precio del cobre";"2024-8-18";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2477";"Precio del cobre";"2024-8-19";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2478";"Precio del cobre";"2024-8-20";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2479";"Precio del cobre";"2024-8-21";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2480";"Precio del cobre";"2024-8-22";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2481";"Precio del cobre";"2024-8-23";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2482";"Precio del cobre";"2024-8-24";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2483";"Precio del cobre";"2024-8-25";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2484";"Precio del cobre";"2024-8-26";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2485";"Precio del cobre";"2024-8-27";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2486";"Precio del cobre";"2024-8-28";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2487";"Precio del cobre";"2024-8-29";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2488";"Precio del cobre";"2024-8-30";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2489";"Precio del cobre";"2024-8-31";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2490";"Precio del cobre";"2024-9-1";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2491";"Precio del cobre";"2024-9-2";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2492";"Precio del cobre";"2024-9-3";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2493";"Precio del cobre";"2024-9-4";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2494";"Precio del cobre";"2024-9-5";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2495";"Precio del cobre";"2024-9-6";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2496";"Precio del cobre";"2024-9-7";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2497";"Precio del cobre";"2024-9-8";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2498";"Precio del cobre";"2024-9-9";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2499";"Precio del cobre";"2024-9-10";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2500";"Precio del cobre";"2024-9-11";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2501";"Precio del cobre";"2024-9-12";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2502";"Precio del cobre";"2024-9-13";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2503";"Precio del cobre";"2024-9-14";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2504";"Precio del cobre";"2024-9-15";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2505";"Precio del cobre";"2024-9-16";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2506";"Precio del cobre";"2024-9-17";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2507";"Precio del cobre";"2024-9-18";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2508";"Precio del cobre";"2024-9-19";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2509";"Precio del cobre";"2024-9-20";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2510";"Precio del cobre";"2024-9-21";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2511";"Precio del cobre";"2024-9-22";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2512";"Precio del cobre";"2024-9-23";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2513";"Precio del cobre";"2024-9-24";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2514";"Precio del cobre";"2024-9-25";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2515";"Precio del cobre";"2024-9-26";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2516";"Precio del cobre";"2024-9-27";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2517";"Precio del cobre";"2024-9-28";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2518";"Precio del cobre";"2024-9-29";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2519";"Precio del cobre";"2024-9-30";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2520";"Precio del cobre";"2024-9-31";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2521";"Precio del cobre";"2024-10-1";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2522";"Precio del cobre";"2024-10-2";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2523";"Precio del cobre";"2024-10-3";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2524";"Precio del cobre";"2024-10-4";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2525";"Precio del cobre";"2024-10-5";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2526";"Precio del cobre";"2024-10-6";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2527";"Precio del cobre";"2024-10-7";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2528";"Precio del cobre";"2024-10-8";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2529";"Precio del cobre";"2024-10-9";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2530";"Precio del cobre";"2024-10-10";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2531";"Precio del cobre";"2024-10-11";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2532";"Precio del cobre";"2024-10-12";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2533";"Precio del cobre";"2024-10-13";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2534";"Precio del cobre";"2024-10-14";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2535";"Precio del cobre";"2024-10-15";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2536";"Precio del cobre";"2024-10-16";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2537";"Precio del cobre";"2024-10-17";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2538";"Precio del cobre";"2024-10-18";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2539";"Precio del cobre";"2024-10-19";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2540";"Precio del cobre";"2024-10-20";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2541";"Precio del cobre";"2024-10-21";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2542";"Precio del cobre";"2024-10-22";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2543";"Precio del cobre";"2024-10-23";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2544";"Precio del cobre";"2024-10-24";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2545";"Precio del cobre";"2024-10-25";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2546";"Precio del cobre";"2024-10-26";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2547";"Precio del cobre";"2024-10-27";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2548";"Precio del cobre";"2024-10-28";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2549";"Precio del cobre";"2024-10-29";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2550";"Precio del cobre";"2024-10-30";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2551";"Precio del cobre";"2024-10-31";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2552";"Precio del cobre";"2024-11-1";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2553";"Precio del cobre";"2024-11-2";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2554";"Precio del cobre";"2024-11-3";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2555";"Precio del cobre";"2024-11-4";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2556";"Precio del cobre";"2024-11-5";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2557";"Precio del cobre";"2024-11-6";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2558";"Precio del cobre";"2024-11-7";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2559";"Precio del cobre";"2024-11-8";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2560";"Precio del cobre";"2024-11-9";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2561";"Precio del cobre";"2024-11-10";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2562";"Precio del cobre";"2024-11-11";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2563";"Precio del cobre";"2024-11-12";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2564";"Precio del cobre";"2024-11-13";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2565";"Precio del cobre";"2024-11-14";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2566";"Precio del cobre";"2024-11-15";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2567";"Precio del cobre";"2024-11-16";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2568";"Precio del cobre";"2024-11-17";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2569";"Precio del cobre";"2024-11-18";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2570";"Precio del cobre";"2024-11-19";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2571";"Precio del cobre";"2024-11-20";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2572";"Precio del cobre";"2024-11-21";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2573";"Precio del cobre";"2024-11-22";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2574";"Precio del cobre";"2024-11-23";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2575";"Precio del cobre";"2024-11-24";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2576";"Precio del cobre";"2024-11-25";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2577";"Precio del cobre";"2024-11-26";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2578";"Precio del cobre";"2024-11-27";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2579";"Precio del cobre";"2024-11-28";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2580";"Precio del cobre";"2024-11-29";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2581";"Precio del cobre";"2024-11-30";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2582";"Precio del cobre";"2024-11-31";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2583";"Precio del cobre";"2024-12-1";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2584";"Precio del cobre";"2024-12-2";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2585";"Precio del cobre";"2024-12-3";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2586";"Precio del cobre";"2024-12-4";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2587";"Precio del cobre";"2024-12-5";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2588";"Precio del cobre";"2024-12-6";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2589";"Precio del cobre";"2024-12-7";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2590";"Precio del cobre";"2024-12-8";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2591";"Precio del cobre";"2024-12-9";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2592";"Precio del cobre";"2024-12-10";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2593";"Precio del cobre";"2024-12-11";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2594";"Precio del cobre";"2024-12-12";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2595";"Precio del cobre";"2024-12-13";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2596";"Precio del cobre";"2024-12-14";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2597";"Precio del cobre";"2024-12-15";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2598";"Precio del cobre";"2024-12-16";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2599";"Precio del cobre";"2024-12-17";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2600";"Precio del cobre";"2024-12-18";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2601";"Precio del cobre";"2024-12-19";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2602";"Precio del cobre";"2024-12-20";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2603";"Precio del cobre";"2024-12-21";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2604";"Precio del cobre";"2024-12-22";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2605";"Precio del cobre";"2024-12-23";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2606";"Precio del cobre";"2024-12-24";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2607";"Precio del cobre";"2024-12-25";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2608";"Precio del cobre";"2024-12-26";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2609";"Precio del cobre";"2024-12-27";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2610";"Precio del cobre";"2024-12-28";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2611";"Precio del cobre";"2024-12-29";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2612";"Precio del cobre";"2024-12-30";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
-"2613";"Precio del cobre";"2024-12-31";4,4;NA;NA;NA;"precio_cobre";FALSE;2024-07-10
+"1985";"Inversión extranjera directa (pasivos)";"2003-1-1";600,17375845711;2003;NA;1;"inversion_extranjera";NA;2024-07-10
+"1986";"Inversión extranjera directa (pasivos)";"2003-2-1";357,016149982226;2003;NA;2;"inversion_extranjera";NA;2024-07-10
+"1987";"Inversión extranjera directa (pasivos)";"2003-3-1";208,352952883904;2003;NA;3;"inversion_extranjera";NA;2024-07-10
+"1988";"Inversión extranjera directa (pasivos)";"2003-4-1";415,354859815014;2003;NA;4;"inversion_extranjera";NA;2024-07-10
+"1989";"Inversión extranjera directa (pasivos)";"2003-5-1";300,63004825212;2003;NA;5;"inversion_extranjera";NA;2024-07-10
+"1990";"Inversión extranjera directa (pasivos)";"2003-6-1";403,885189587901;2003;NA;6;"inversion_extranjera";NA;2024-07-10
+"1991";"Inversión extranjera directa (pasivos)";"2003-7-1";372,296292363173;2003;NA;7;"inversion_extranjera";NA;2024-07-10
+"1992";"Inversión extranjera directa (pasivos)";"2003-8-1";378,643560722004;2003;NA;8;"inversion_extranjera";NA;2024-07-10
+"1993";"Inversión extranjera directa (pasivos)";"2003-9-1";142,428650163666;2003;NA;9;"inversion_extranjera";NA;2024-07-10
+"1994";"Inversión extranjera directa (pasivos)";"2003-10-1";13,9150520936702;2003;NA;10;"inversion_extranjera";NA;2024-07-10
+"1995";"Inversión extranjera directa (pasivos)";"2003-11-1";11,0544450422757;2003;NA;11;"inversion_extranjera";NA;2024-07-10
+"1996";"Inversión extranjera directa (pasivos)";"2003-12-1";281,977462387204;2003;NA;12;"inversion_extranjera";NA;2024-07-10
+"1997";"Inversión extranjera directa (pasivos)";"2004-1-1";252,085151457021;2004;NA;1;"inversion_extranjera";NA;2024-07-10
+"1998";"Inversión extranjera directa (pasivos)";"2004-2-1";645,113286829611;2004;NA;2;"inversion_extranjera";NA;2024-07-10
+"1999";"Inversión extranjera directa (pasivos)";"2004-3-1";460,39236310266;2004;NA;3;"inversion_extranjera";NA;2024-07-10
+"2000";"Inversión extranjera directa (pasivos)";"2004-4-1";365,23731805337;2004;NA;4;"inversion_extranjera";NA;2024-07-10
+"2001";"Inversión extranjera directa (pasivos)";"2004-5-1";-82,5692568242272;2004;NA;5;"inversion_extranjera";NA;2024-07-10
+"2002";"Inversión extranjera directa (pasivos)";"2004-6-1";-84,6902993542675;2004;NA;6;"inversion_extranjera";NA;2024-07-10
+"2003";"Inversión extranjera directa (pasivos)";"2004-7-1";1778,54132731414;2004;NA;7;"inversion_extranjera";NA;2024-07-10
+"2004";"Inversión extranjera directa (pasivos)";"2004-8-1";489,110977758383;2004;NA;8;"inversion_extranjera";NA;2024-07-10
+"2005";"Inversión extranjera directa (pasivos)";"2004-9-1";606,03540498499;2004;NA;9;"inversion_extranjera";NA;2024-07-10
+"2006";"Inversión extranjera directa (pasivos)";"2004-10-1";-59,7157847890523;2004;NA;10;"inversion_extranjera";NA;2024-07-10
+"2007";"Inversión extranjera directa (pasivos)";"2004-11-1";133,075516734431;2004;NA;11;"inversion_extranjera";NA;2024-07-10
+"2008";"Inversión extranjera directa (pasivos)";"2004-12-1";466,115402356985;2004;NA;12;"inversion_extranjera";NA;2024-07-10
+"2009";"Inversión extranjera directa (pasivos)";"2005-1-1";340,14984160383;2005;NA;1;"inversion_extranjera";NA;2024-07-10
+"2010";"Inversión extranjera directa (pasivos)";"2005-2-1";620,945372031606;2005;NA;2;"inversion_extranjera";NA;2024-07-10
+"2011";"Inversión extranjera directa (pasivos)";"2005-3-1";-37,1528149533956;2005;NA;3;"inversion_extranjera";NA;2024-07-10
+"2012";"Inversión extranjera directa (pasivos)";"2005-4-1";733,518325100587;2005;NA;4;"inversion_extranjera";NA;2024-07-10
+"2013";"Inversión extranjera directa (pasivos)";"2005-5-1";607,174191502441;2005;NA;5;"inversion_extranjera";NA;2024-07-10
+"2014";"Inversión extranjera directa (pasivos)";"2005-6-1";687,221039147193;2005;NA;6;"inversion_extranjera";NA;2024-07-10
+"2015";"Inversión extranjera directa (pasivos)";"2005-7-1";920,333316041289;2005;NA;7;"inversion_extranjera";NA;2024-07-10
+"2016";"Inversión extranjera directa (pasivos)";"2005-8-1";660,01566372644;2005;NA;8;"inversion_extranjera";NA;2024-07-10
+"2017";"Inversión extranjera directa (pasivos)";"2005-9-1";512,822735476975;2005;NA;9;"inversion_extranjera";NA;2024-07-10
+"2018";"Inversión extranjera directa (pasivos)";"2005-10-1";781,777357073195;2005;NA;10;"inversion_extranjera";NA;2024-07-10
+"2019";"Inversión extranjera directa (pasivos)";"2005-11-1";247,399514693644;2005;NA;11;"inversion_extranjera";NA;2024-07-10
+"2020";"Inversión extranjera directa (pasivos)";"2005-12-1";-83,3727124907002;2005;NA;12;"inversion_extranjera";NA;2024-07-10
+"2021";"Inversión extranjera directa (pasivos)";"2006-1-1";799,822123283497;2006;NA;1;"inversion_extranjera";NA;2024-07-10
+"2022";"Inversión extranjera directa (pasivos)";"2006-2-1";1303,55214740778;2006;NA;2;"inversion_extranjera";NA;2024-07-10
+"2023";"Inversión extranjera directa (pasivos)";"2006-3-1";1781,24253655669;2006;NA;3;"inversion_extranjera";NA;2024-07-10
+"2024";"Inversión extranjera directa (pasivos)";"2006-4-1";127,566522240418;2006;NA;4;"inversion_extranjera";NA;2024-07-10
+"2025";"Inversión extranjera directa (pasivos)";"2006-5-1";151,472440330416;2006;NA;5;"inversion_extranjera";NA;2024-07-10
+"2026";"Inversión extranjera directa (pasivos)";"2006-6-1";-1045,77140939526;2006;NA;6;"inversion_extranjera";NA;2024-07-10
+"2027";"Inversión extranjera directa (pasivos)";"2006-7-1";344,019192871236;2006;NA;7;"inversion_extranjera";NA;2024-07-10
+"2028";"Inversión extranjera directa (pasivos)";"2006-8-1";880,913692006676;2006;NA;8;"inversion_extranjera";NA;2024-07-10
+"2029";"Inversión extranjera directa (pasivos)";"2006-9-1";1389,56483409444;2006;NA;9;"inversion_extranjera";NA;2024-07-10
+"2030";"Inversión extranjera directa (pasivos)";"2006-10-1";-861,209543829441;2006;NA;10;"inversion_extranjera";NA;2024-07-10
+"2031";"Inversión extranjera directa (pasivos)";"2006-11-1";-524,907702274719;2006;NA;11;"inversion_extranjera";NA;2024-07-10
+"2032";"Inversión extranjera directa (pasivos)";"2006-12-1";409,068650074882;2006;NA;12;"inversion_extranjera";NA;2024-07-10
+"2033";"Inversión extranjera directa (pasivos)";"2007-1-1";874,836549788698;2007;NA;1;"inversion_extranjera";NA;2024-07-10
+"2034";"Inversión extranjera directa (pasivos)";"2007-2-1";1470,40841218663;2007;NA;2;"inversion_extranjera";NA;2024-07-10
+"2035";"Inversión extranjera directa (pasivos)";"2007-3-1";1409,18371938301;2007;NA;3;"inversion_extranjera";NA;2024-07-10
+"2036";"Inversión extranjera directa (pasivos)";"2007-4-1";1084,9629822632;2007;NA;4;"inversion_extranjera";NA;2024-07-10
+"2037";"Inversión extranjera directa (pasivos)";"2007-5-1";971,466152203044;2007;NA;5;"inversion_extranjera";NA;2024-07-10
+"2038";"Inversión extranjera directa (pasivos)";"2007-6-1";409,89738376883;2007;NA;6;"inversion_extranjera";NA;2024-07-10
+"2039";"Inversión extranjera directa (pasivos)";"2007-7-1";1315,5600629288;2007;NA;7;"inversion_extranjera";NA;2024-07-10
+"2040";"Inversión extranjera directa (pasivos)";"2007-8-1";972,72560759955;2007;NA;8;"inversion_extranjera";NA;2024-07-10
+"2041";"Inversión extranjera directa (pasivos)";"2007-9-1";623,85006040681;2007;NA;9;"inversion_extranjera";NA;2024-07-10
+"2042";"Inversión extranjera directa (pasivos)";"2007-10-1";1541,86203570429;2007;NA;10;"inversion_extranjera";NA;2024-07-10
+"2043";"Inversión extranjera directa (pasivos)";"2007-11-1";993,351435292844;2007;NA;11;"inversion_extranjera";NA;2024-07-10
+"2044";"Inversión extranjera directa (pasivos)";"2007-12-1";-1122,87981304809;2007;NA;12;"inversion_extranjera";NA;2024-07-10
+"2045";"Inversión extranjera directa (pasivos)";"2008-1-1";1982,29923996591;2008;NA;1;"inversion_extranjera";NA;2024-07-10
+"2046";"Inversión extranjera directa (pasivos)";"2008-2-1";2007,27195363146;2008;NA;2;"inversion_extranjera";NA;2024-07-10
+"2047";"Inversión extranjera directa (pasivos)";"2008-3-1";1491,05013836741;2008;NA;3;"inversion_extranjera";NA;2024-07-10
+"2048";"Inversión extranjera directa (pasivos)";"2008-4-1";1914,61217656158;2008;NA;4;"inversion_extranjera";NA;2024-07-10
+"2049";"Inversión extranjera directa (pasivos)";"2008-5-1";1455,74420392924;2008;NA;5;"inversion_extranjera";NA;2024-07-10
+"2050";"Inversión extranjera directa (pasivos)";"2008-6-1";-40,7183326211684;2008;NA;6;"inversion_extranjera";NA;2024-07-10
+"2051";"Inversión extranjera directa (pasivos)";"2008-7-1";1151,04861624017;2008;NA;7;"inversion_extranjera";NA;2024-07-10
+"2052";"Inversión extranjera directa (pasivos)";"2008-8-1";1345,35886108871;2008;NA;8;"inversion_extranjera";NA;2024-07-10
+"2053";"Inversión extranjera directa (pasivos)";"2008-9-1";2335,90939301552;2008;NA;9;"inversion_extranjera";NA;2024-07-10
+"2054";"Inversión extranjera directa (pasivos)";"2008-10-1";1345,33486404075;2008;NA;10;"inversion_extranjera";NA;2024-07-10
+"2055";"Inversión extranjera directa (pasivos)";"2008-11-1";2502,35735383498;2008;NA;11;"inversion_extranjera";NA;2024-07-10
+"2056";"Inversión extranjera directa (pasivos)";"2008-12-1";1321,50948331431;2008;NA;12;"inversion_extranjera";NA;2024-07-10
+"2057";"Inversión extranjera directa (pasivos)";"2009-1-1";2576,4588002496;2009;NA;1;"inversion_extranjera";NA;2024-07-10
+"2058";"Inversión extranjera directa (pasivos)";"2009-2-1";-285,025289114487;2009;NA;2;"inversion_extranjera";NA;2024-07-10
+"2059";"Inversión extranjera directa (pasivos)";"2009-3-1";1362,48400859016;2009;NA;3;"inversion_extranjera";NA;2024-07-10
+"2060";"Inversión extranjera directa (pasivos)";"2009-4-1";1308,06885936257;2009;NA;4;"inversion_extranjera";NA;2024-07-10
+"2061";"Inversión extranjera directa (pasivos)";"2009-5-1";-813,625065290595;2009;NA;5;"inversion_extranjera";NA;2024-07-10
+"2062";"Inversión extranjera directa (pasivos)";"2009-6-1";778,810788840626;2009;NA;6;"inversion_extranjera";NA;2024-07-10
+"2063";"Inversión extranjera directa (pasivos)";"2009-7-1";1293,13198272229;2009;NA;7;"inversion_extranjera";NA;2024-07-10
+"2064";"Inversión extranjera directa (pasivos)";"2009-8-1";1282,92970914773;2009;NA;8;"inversion_extranjera";NA;2024-07-10
+"2065";"Inversión extranjera directa (pasivos)";"2009-9-1";521,619866500132;2009;NA;9;"inversion_extranjera";NA;2024-07-10
+"2066";"Inversión extranjera directa (pasivos)";"2009-10-1";1099,06160890045;2009;NA;10;"inversion_extranjera";NA;2024-07-10
+"2067";"Inversión extranjera directa (pasivos)";"2009-11-1";1066,12626960651;2009;NA;11;"inversion_extranjera";NA;2024-07-10
+"2068";"Inversión extranjera directa (pasivos)";"2009-12-1";2560,28045937403;2009;NA;12;"inversion_extranjera";NA;2024-07-10
+"2069";"Inversión extranjera directa (pasivos)";"2010-1-1";1947,03666826158;2010;NA;1;"inversion_extranjera";NA;2024-07-10
+"2070";"Inversión extranjera directa (pasivos)";"2010-2-1";2079,21779745657;2010;NA;2;"inversion_extranjera";NA;2024-07-10
+"2071";"Inversión extranjera directa (pasivos)";"2010-3-1";1107,81846205848;2010;NA;3;"inversion_extranjera";NA;2024-07-10
+"2072";"Inversión extranjera directa (pasivos)";"2010-4-1";755,042134103815;2010;NA;4;"inversion_extranjera";NA;2024-07-10
+"2073";"Inversión extranjera directa (pasivos)";"2010-5-1";682,637631847059;2010;NA;5;"inversion_extranjera";NA;2024-07-10
+"2074";"Inversión extranjera directa (pasivos)";"2010-6-1";376,568989415751;2010;NA;6;"inversion_extranjera";NA;2024-07-10
+"2075";"Inversión extranjera directa (pasivos)";"2010-7-1";1785,82039316207;2010;NA;7;"inversion_extranjera";NA;2024-07-10
+"2076";"Inversión extranjera directa (pasivos)";"2010-8-1";1971,80388116135;2010;NA;8;"inversion_extranjera";NA;2024-07-10
+"2077";"Inversión extranjera directa (pasivos)";"2010-9-1";1729,8976880189;2010;NA;9;"inversion_extranjera";NA;2024-07-10
+"2078";"Inversión extranjera directa (pasivos)";"2010-10-1";915,475314269939;2010;NA;10;"inversion_extranjera";NA;2024-07-10
+"2079";"Inversión extranjera directa (pasivos)";"2010-11-1";802,642690569442;2010;NA;11;"inversion_extranjera";NA;2024-07-10
+"2080";"Inversión extranjera directa (pasivos)";"2010-12-1";695,481506700025;2010;NA;12;"inversion_extranjera";NA;2024-07-10
+"2081";"Inversión extranjera directa (pasivos)";"2011-1-1";2458,9054550271;2011;NA;1;"inversion_extranjera";NA;2024-07-10
+"2082";"Inversión extranjera directa (pasivos)";"2011-2-1";2102,51561924844;2011;NA;2;"inversion_extranjera";NA;2024-07-10
+"2083";"Inversión extranjera directa (pasivos)";"2011-3-1";2276,23934480667;2011;NA;3;"inversion_extranjera";NA;2024-07-10
+"2084";"Inversión extranjera directa (pasivos)";"2011-4-1";1213,90303846637;2011;NA;4;"inversion_extranjera";NA;2024-07-10
+"2085";"Inversión extranjera directa (pasivos)";"2011-5-1";758,771604276641;2011;NA;5;"inversion_extranjera";NA;2024-07-10
+"2086";"Inversión extranjera directa (pasivos)";"2011-6-1";201,092016578778;2011;NA;6;"inversion_extranjera";NA;2024-07-10
+"2087";"Inversión extranjera directa (pasivos)";"2011-7-1";1128,62864665936;2011;NA;7;"inversion_extranjera";NA;2024-07-10
+"2088";"Inversión extranjera directa (pasivos)";"2011-8-1";1617,31867044847;2011;NA;8;"inversion_extranjera";NA;2024-07-10
+"2089";"Inversión extranjera directa (pasivos)";"2011-9-1";1980,19458108916;2011;NA;9;"inversion_extranjera";NA;2024-07-10
+"2090";"Inversión extranjera directa (pasivos)";"2011-10-1";2608,45114445065;2011;NA;10;"inversion_extranjera";NA;2024-07-10
+"2091";"Inversión extranjera directa (pasivos)";"2011-11-1";8064,90066562834;2011;NA;11;"inversion_extranjera";NA;2024-07-10
+"2092";"Inversión extranjera directa (pasivos)";"2011-12-1";1958,54260214733;2011;NA;12;"inversion_extranjera";NA;2024-07-10
+"2093";"Inversión extranjera directa (pasivos)";"2012-1-1";1562,62830524535;2012;NA;1;"inversion_extranjera";NA;2024-07-10
+"2094";"Inversión extranjera directa (pasivos)";"2012-2-1";1410,81578072495;2012;NA;2;"inversion_extranjera";NA;2024-07-10
+"2095";"Inversión extranjera directa (pasivos)";"2012-3-1";1689,45002702828;2012;NA;3;"inversion_extranjera";NA;2024-07-10
+"2096";"Inversión extranjera directa (pasivos)";"2012-4-1";2160,07527650477;2012;NA;4;"inversion_extranjera";NA;2024-07-10
+"2097";"Inversión extranjera directa (pasivos)";"2012-5-1";2117,04637802815;2012;NA;5;"inversion_extranjera";NA;2024-07-10
+"2098";"Inversión extranjera directa (pasivos)";"2012-6-1";3897,53982773139;2012;NA;6;"inversion_extranjera";NA;2024-07-10
+"2099";"Inversión extranjera directa (pasivos)";"2012-7-1";1603,14642314922;2012;NA;7;"inversion_extranjera";NA;2024-07-10
+"2100";"Inversión extranjera directa (pasivos)";"2012-8-1";2153,89889221171;2012;NA;8;"inversion_extranjera";NA;2024-07-10
+"2101";"Inversión extranjera directa (pasivos)";"2012-9-1";3182,7002082999;2012;NA;9;"inversion_extranjera";NA;2024-07-10
+"2102";"Inversión extranjera directa (pasivos)";"2012-10-1";3573,41013268253;2012;NA;10;"inversion_extranjera";NA;2024-07-10
+"2103";"Inversión extranjera directa (pasivos)";"2012-11-1";3029,26208317094;2012;NA;11;"inversion_extranjera";NA;2024-07-10
+"2104";"Inversión extranjera directa (pasivos)";"2012-12-1";5421,99734128365;2012;NA;12;"inversion_extranjera";NA;2024-07-10
+"2105";"Inversión extranjera directa (pasivos)";"2013-1-1";1278,30988291723;2013;NA;1;"inversion_extranjera";NA;2024-07-10
+"2106";"Inversión extranjera directa (pasivos)";"2013-2-1";1690,8577586068;2013;NA;2;"inversion_extranjera";NA;2024-07-10
+"2107";"Inversión extranjera directa (pasivos)";"2013-3-1";4699,83352187366;2013;NA;3;"inversion_extranjera";NA;2024-07-10
+"2108";"Inversión extranjera directa (pasivos)";"2013-4-1";-3678,24542927235;2013;NA;4;"inversion_extranjera";NA;2024-07-10
+"2109";"Inversión extranjera directa (pasivos)";"2013-5-1";1904,23838217808;2013;NA;5;"inversion_extranjera";NA;2024-07-10
+"2110";"Inversión extranjera directa (pasivos)";"2013-6-1";2274,95491262918;2013;NA;6;"inversion_extranjera";NA;2024-07-10
+"2111";"Inversión extranjera directa (pasivos)";"2013-7-1";3958,35245912281;2013;NA;7;"inversion_extranjera";NA;2024-07-10
+"2112";"Inversión extranjera directa (pasivos)";"2013-8-1";2089,30773865631;2013;NA;8;"inversion_extranjera";NA;2024-07-10
+"2113";"Inversión extranjera directa (pasivos)";"2013-9-1";357,519139576408;2013;NA;9;"inversion_extranjera";NA;2024-07-10
+"2114";"Inversión extranjera directa (pasivos)";"2013-10-1";2656,65588630274;2013;NA;10;"inversion_extranjera";NA;2024-07-10
+"2115";"Inversión extranjera directa (pasivos)";"2013-11-1";1608,00689019747;2013;NA;11;"inversion_extranjera";NA;2024-07-10
+"2116";"Inversión extranjera directa (pasivos)";"2013-12-1";2280,96570122971;2013;NA;12;"inversion_extranjera";NA;2024-07-10
+"2117";"Inversión extranjera directa (pasivos)";"2014-1-1";1477,89188674283;2014;NA;1;"inversion_extranjera";NA;2024-07-10
+"2118";"Inversión extranjera directa (pasivos)";"2014-2-1";2626,88040389602;2014;NA;2;"inversion_extranjera";NA;2024-07-10
+"2119";"Inversión extranjera directa (pasivos)";"2014-3-1";1536,22157209779;2014;NA;3;"inversion_extranjera";NA;2024-07-10
+"2120";"Inversión extranjera directa (pasivos)";"2014-4-1";2329,19304237194;2014;NA;4;"inversion_extranjera";NA;2024-07-10
+"2121";"Inversión extranjera directa (pasivos)";"2014-5-1";307,32338626738;2014;NA;5;"inversion_extranjera";NA;2024-07-10
+"2122";"Inversión extranjera directa (pasivos)";"2014-6-1";1818,87672571806;2014;NA;6;"inversion_extranjera";NA;2024-07-10
+"2123";"Inversión extranjera directa (pasivos)";"2014-7-1";1221,95297223042;2014;NA;7;"inversion_extranjera";NA;2024-07-10
+"2124";"Inversión extranjera directa (pasivos)";"2014-8-1";1564,64691547474;2014;NA;8;"inversion_extranjera";NA;2024-07-10
+"2125";"Inversión extranjera directa (pasivos)";"2014-9-1";4704,15789205326;2014;NA;9;"inversion_extranjera";NA;2024-07-10
+"2126";"Inversión extranjera directa (pasivos)";"2014-10-1";3045,27928693566;2014;NA;10;"inversion_extranjera";NA;2024-07-10
+"2127";"Inversión extranjera directa (pasivos)";"2014-11-1";3375,00031847933;2014;NA;11;"inversion_extranjera";NA;2024-07-10
+"2128";"Inversión extranjera directa (pasivos)";"2014-12-1";1520,40744668716;2014;NA;12;"inversion_extranjera";NA;2024-07-10
+"2129";"Inversión extranjera directa (pasivos)";"2015-1-1";506,425802441622;2015;NA;1;"inversion_extranjera";NA;2024-07-10
+"2130";"Inversión extranjera directa (pasivos)";"2015-2-1";589,266493738173;2015;NA;2;"inversion_extranjera";NA;2024-07-10
+"2131";"Inversión extranjera directa (pasivos)";"2015-3-1";1217,72437715568;2015;NA;3;"inversion_extranjera";NA;2024-07-10
+"2132";"Inversión extranjera directa (pasivos)";"2015-4-1";290,090557755435;2015;NA;4;"inversion_extranjera";NA;2024-07-10
+"2133";"Inversión extranjera directa (pasivos)";"2015-5-1";1273,50314718728;2015;NA;5;"inversion_extranjera";NA;2024-07-10
+"2134";"Inversión extranjera directa (pasivos)";"2015-6-1";1587,9376439624;2015;NA;6;"inversion_extranjera";NA;2024-07-10
+"2135";"Inversión extranjera directa (pasivos)";"2015-7-1";-288,180364104613;2015;NA;7;"inversion_extranjera";NA;2024-07-10
+"2136";"Inversión extranjera directa (pasivos)";"2015-8-1";579,541726052094;2015;NA;8;"inversion_extranjera";NA;2024-07-10
+"2137";"Inversión extranjera directa (pasivos)";"2015-9-1";9504,31822704359;2015;NA;9;"inversion_extranjera";NA;2024-07-10
+"2138";"Inversión extranjera directa (pasivos)";"2015-10-1";1155,84795676927;2015;NA;10;"inversion_extranjera";NA;2024-07-10
+"2139";"Inversión extranjera directa (pasivos)";"2015-11-1";1179,09816044231;2015;NA;11;"inversion_extranjera";NA;2024-07-10
+"2140";"Inversión extranjera directa (pasivos)";"2015-12-1";170,711900649386;2015;NA;12;"inversion_extranjera";NA;2024-07-10
+"2141";"Inversión extranjera directa (pasivos)";"2016-1-1";1545,99860622748;2016;NA;1;"inversion_extranjera";NA;2024-07-10
+"2142";"Inversión extranjera directa (pasivos)";"2016-2-1";857,029450084958;2016;NA;2;"inversion_extranjera";NA;2024-07-10
+"2143";"Inversión extranjera directa (pasivos)";"2016-3-1";1596,74690922142;2016;NA;3;"inversion_extranjera";NA;2024-07-10
+"2144";"Inversión extranjera directa (pasivos)";"2016-4-1";917,743326455926;2016;NA;4;"inversion_extranjera";NA;2024-07-10
+"2145";"Inversión extranjera directa (pasivos)";"2016-5-1";942,51088917217;2016;NA;5;"inversion_extranjera";NA;2024-07-10
+"2146";"Inversión extranjera directa (pasivos)";"2016-6-1";959,958049888189;2016;NA;6;"inversion_extranjera";NA;2024-07-10
+"2147";"Inversión extranjera directa (pasivos)";"2016-7-1";994,141080504938;2016;NA;7;"inversion_extranjera";NA;2024-07-10
+"2148";"Inversión extranjera directa (pasivos)";"2016-8-1";1033,78126615616;2016;NA;8;"inversion_extranjera";NA;2024-07-10
+"2149";"Inversión extranjera directa (pasivos)";"2016-9-1";845,008667977733;2016;NA;9;"inversion_extranjera";NA;2024-07-10
+"2150";"Inversión extranjera directa (pasivos)";"2016-10-1";1128,65189354208;2016;NA;10;"inversion_extranjera";NA;2024-07-10
+"2151";"Inversión extranjera directa (pasivos)";"2016-11-1";484,27345035788;2016;NA;11;"inversion_extranjera";NA;2024-07-10
+"2152";"Inversión extranjera directa (pasivos)";"2016-12-1";56,988572900221;2016;NA;12;"inversion_extranjera";NA;2024-07-10
+"2153";"Inversión extranjera directa (pasivos)";"2017-1-1";1250,11525066673;2017;NA;1;"inversion_extranjera";NA;2024-07-10
+"2154";"Inversión extranjera directa (pasivos)";"2017-2-1";1127,08836621286;2017;NA;2;"inversion_extranjera";NA;2024-07-10
+"2155";"Inversión extranjera directa (pasivos)";"2017-3-1";-123,750273803921;2017;NA;3;"inversion_extranjera";NA;2024-07-10
+"2156";"Inversión extranjera directa (pasivos)";"2017-4-1";-1248,91757839915;2017;NA;4;"inversion_extranjera";NA;2024-07-10
+"2157";"Inversión extranjera directa (pasivos)";"2017-5-1";668,345299151577;2017;NA;5;"inversion_extranjera";NA;2024-07-10
+"2158";"Inversión extranjera directa (pasivos)";"2017-6-1";-154,901169768114;2017;NA;6;"inversion_extranjera";NA;2024-07-10
+"2159";"Inversión extranjera directa (pasivos)";"2017-7-1";608,031958138454;2017;NA;7;"inversion_extranjera";NA;2024-07-10
+"2160";"Inversión extranjera directa (pasivos)";"2017-8-1";1004,18295912584;2017;NA;8;"inversion_extranjera";NA;2024-07-10
+"2161";"Inversión extranjera directa (pasivos)";"2017-9-1";390,321907777516;2017;NA;9;"inversion_extranjera";NA;2024-07-10
+"2162";"Inversión extranjera directa (pasivos)";"2017-10-1";1354,81865489122;2017;NA;10;"inversion_extranjera";NA;2024-07-10
+"2163";"Inversión extranjera directa (pasivos)";"2017-11-1";501,629420281323;2017;NA;11;"inversion_extranjera";NA;2024-07-10
+"2164";"Inversión extranjera directa (pasivos)";"2017-12-1";-139,781276061835;2017;NA;12;"inversion_extranjera";NA;2024-07-10
+"2165";"Inversión extranjera directa (pasivos)";"2018-1-1";4301,66839023238;2018;NA;1;"inversion_extranjera";NA;2024-07-10
+"2166";"Inversión extranjera directa (pasivos)";"2018-2-1";385,413135086763;2018;NA;2;"inversion_extranjera";NA;2024-07-10
+"2167";"Inversión extranjera directa (pasivos)";"2018-3-1";1485,47480212801;2018;NA;3;"inversion_extranjera";NA;2024-07-10
+"2168";"Inversión extranjera directa (pasivos)";"2018-4-1";1645,20881416869;2018;NA;4;"inversion_extranjera";NA;2024-07-10
+"2169";"Inversión extranjera directa (pasivos)";"2018-5-1";677,305702651135;2018;NA;5;"inversion_extranjera";NA;2024-07-10
+"2170";"Inversión extranjera directa (pasivos)";"2018-6-1";-4048,41394692508;2018;NA;6;"inversion_extranjera";NA;2024-07-10
+"2171";"Inversión extranjera directa (pasivos)";"2018-7-1";1462,51233740029;2018;NA;7;"inversion_extranjera";NA;2024-07-10
+"2172";"Inversión extranjera directa (pasivos)";"2018-8-1";918,954916976739;2018;NA;8;"inversion_extranjera";NA;2024-07-10
+"2173";"Inversión extranjera directa (pasivos)";"2018-9-1";301,047546473826;2018;NA;9;"inversion_extranjera";NA;2024-07-10
+"2174";"Inversión extranjera directa (pasivos)";"2018-10-1";1429,08819036491;2018;NA;10;"inversion_extranjera";NA;2024-07-10
+"2175";"Inversión extranjera directa (pasivos)";"2018-11-1";3840,76608904779;2018;NA;11;"inversion_extranjera";NA;2024-07-10
+"2176";"Inversión extranjera directa (pasivos)";"2018-12-1";-4456,39404255659;2018;NA;12;"inversion_extranjera";NA;2024-07-10
+"2177";"Inversión extranjera directa (pasivos)";"2019-1-1";1387,16485924519;2019;NA;1;"inversion_extranjera";NA;2024-07-10
+"2178";"Inversión extranjera directa (pasivos)";"2019-2-1";-332,876150110463;2019;NA;2;"inversion_extranjera";NA;2024-07-10
+"2179";"Inversión extranjera directa (pasivos)";"2019-3-1";1416,56472935199;2019;NA;3;"inversion_extranjera";NA;2024-07-10
+"2180";"Inversión extranjera directa (pasivos)";"2019-4-1";3115,50568724784;2019;NA;4;"inversion_extranjera";NA;2024-07-10
+"2181";"Inversión extranjera directa (pasivos)";"2019-5-1";-804,258094541518;2019;NA;5;"inversion_extranjera";NA;2024-07-10
+"2182";"Inversión extranjera directa (pasivos)";"2019-6-1";2117,33555190486;2019;NA;6;"inversion_extranjera";NA;2024-07-10
+"2183";"Inversión extranjera directa (pasivos)";"2019-7-1";2969,07931203184;2019;NA;7;"inversion_extranjera";NA;2024-07-10
+"2184";"Inversión extranjera directa (pasivos)";"2019-8-1";417,64050867011;2019;NA;8;"inversion_extranjera";NA;2024-07-10
+"2185";"Inversión extranjera directa (pasivos)";"2019-9-1";1478,41755128278;2019;NA;9;"inversion_extranjera";NA;2024-07-10
+"2186";"Inversión extranjera directa (pasivos)";"2019-10-1";1367,72538202354;2019;NA;10;"inversion_extranjera";NA;2024-07-10
+"2187";"Inversión extranjera directa (pasivos)";"2019-11-1";249,571875244365;2019;NA;11;"inversion_extranjera";NA;2024-07-10
+"2188";"Inversión extranjera directa (pasivos)";"2019-12-1";197,219766409377;2019;NA;12;"inversion_extranjera";NA;2024-07-10
+"2189";"Inversión extranjera directa (pasivos)";"2020-1-1";4555,22129466307;2020;NA;1;"inversion_extranjera";NA;2024-07-10
+"2190";"Inversión extranjera directa (pasivos)";"2020-2-1";419,285726217325;2020;NA;2;"inversion_extranjera";NA;2024-07-10
+"2191";"Inversión extranjera directa (pasivos)";"2020-3-1";1762,22780863329;2020;NA;3;"inversion_extranjera";NA;2024-07-10
+"2192";"Inversión extranjera directa (pasivos)";"2020-4-1";1026,13838316809;2020;NA;4;"inversion_extranjera";NA;2024-07-10
+"2193";"Inversión extranjera directa (pasivos)";"2020-5-1";288,820979864879;2020;NA;5;"inversion_extranjera";NA;2024-07-10
+"2194";"Inversión extranjera directa (pasivos)";"2020-6-1";1392,15598040116;2020;NA;6;"inversion_extranjera";NA;2024-07-10
+"2195";"Inversión extranjera directa (pasivos)";"2020-7-1";1464,02336441094;2020;NA;7;"inversion_extranjera";NA;2024-07-10
+"2196";"Inversión extranjera directa (pasivos)";"2020-8-1";485,413482191672;2020;NA;8;"inversion_extranjera";NA;2024-07-10
+"2197";"Inversión extranjera directa (pasivos)";"2020-9-1";-707,878068319371;2020;NA;9;"inversion_extranjera";NA;2024-07-10
+"2198";"Inversión extranjera directa (pasivos)";"2020-10-1";1094,18829702597;2020;NA;10;"inversion_extranjera";NA;2024-07-10
+"2199";"Inversión extranjera directa (pasivos)";"2020-11-1";300,291687263969;2020;NA;11;"inversion_extranjera";NA;2024-07-10
+"2200";"Inversión extranjera directa (pasivos)";"2020-12-1";-632,491646903026;2020;NA;12;"inversion_extranjera";NA;2024-07-10
+"2201";"Inversión extranjera directa (pasivos)";"2021-1-1";1124,20465914417;2021;NA;1;"inversion_extranjera";NA;2024-07-10
+"2202";"Inversión extranjera directa (pasivos)";"2021-2-1";6398,00065089725;2021;NA;2;"inversion_extranjera";NA;2024-07-10
+"2203";"Inversión extranjera directa (pasivos)";"2021-3-1";1939,78798383768;2021;NA;3;"inversion_extranjera";NA;2024-07-10
+"2204";"Inversión extranjera directa (pasivos)";"2021-4-1";3347,39594645748;2021;NA;4;"inversion_extranjera";NA;2024-07-10
+"2205";"Inversión extranjera directa (pasivos)";"2021-5-1";-788,694306541204;2021;NA;5;"inversion_extranjera";NA;2024-07-10
+"2206";"Inversión extranjera directa (pasivos)";"2021-6-1";2323,60656274999;2021;NA;6;"inversion_extranjera";NA;2024-07-10
+"2207";"Inversión extranjera directa (pasivos)";"2021-7-1";3448,79561264887;2021;NA;7;"inversion_extranjera";NA;2024-07-10
+"2208";"Inversión extranjera directa (pasivos)";"2021-8-1";1412,71673840439;2021;NA;8;"inversion_extranjera";NA;2024-07-10
+"2209";"Inversión extranjera directa (pasivos)";"2021-9-1";-799,826773527505;2021;NA;9;"inversion_extranjera";NA;2024-07-10
+"2210";"Inversión extranjera directa (pasivos)";"2021-10-1";1596,69636914183;2021;NA;10;"inversion_extranjera";NA;2024-07-10
+"2211";"Inversión extranjera directa (pasivos)";"2021-11-1";-3129,17959499855;2021;NA;11;"inversion_extranjera";NA;2024-07-10
+"2212";"Inversión extranjera directa (pasivos)";"2021-12-1";-1696,60152966061;2021;NA;12;"inversion_extranjera";NA;2024-07-10
+"2213";"Inversión extranjera directa (pasivos)";"2022-1-1";1829,98128190479;2022;NA;1;"inversion_extranjera";NA;2024-07-10
+"2214";"Inversión extranjera directa (pasivos)";"2022-2-1";400,724605693419;2022;NA;2;"inversion_extranjera";NA;2024-07-10
+"2215";"Inversión extranjera directa (pasivos)";"2022-3-1";1844,6035929728;2022;NA;3;"inversion_extranjera";NA;2024-07-10
+"2216";"Inversión extranjera directa (pasivos)";"2022-4-1";3388,36597881261;2022;NA;4;"inversion_extranjera";NA;2024-07-10
+"2217";"Inversión extranjera directa (pasivos)";"2022-5-1";1611,87116956897;2022;NA;5;"inversion_extranjera";NA;2024-07-10
+"2218";"Inversión extranjera directa (pasivos)";"2022-6-1";1084,42684962744;2022;NA;6;"inversion_extranjera";NA;2024-07-10
+"2219";"Inversión extranjera directa (pasivos)";"2022-7-1";723,926038150056;2022;NA;7;"inversion_extranjera";NA;2024-07-10
+"2220";"Inversión extranjera directa (pasivos)";"2022-8-1";1202,46315552916;2022;NA;8;"inversion_extranjera";NA;2024-07-10
+"2221";"Inversión extranjera directa (pasivos)";"2022-9-1";1383,56804825834;2022;NA;9;"inversion_extranjera";NA;2024-07-10
+"2222";"Inversión extranjera directa (pasivos)";"2022-10-1";1501,20705568011;2022;NA;10;"inversion_extranjera";NA;2024-07-10
+"2223";"Inversión extranjera directa (pasivos)";"2022-11-1";2242,84390090682;2022;NA;11;"inversion_extranjera";NA;2024-07-10
+"2224";"Inversión extranjera directa (pasivos)";"2022-12-1";1022,6174323261;2022;NA;12;"inversion_extranjera";NA;2024-07-10
+"2225";"Inversión extranjera directa (pasivos)";"2023-1-1";1705,48219176909;2023;NA;1;"inversion_extranjera";NA;2024-07-10
+"2226";"Inversión extranjera directa (pasivos)";"2023-2-1";1099,37150184961;2023;NA;2;"inversion_extranjera";NA;2024-07-10
+"2227";"Inversión extranjera directa (pasivos)";"2023-3-1";1663,18617583192;2023;NA;3;"inversion_extranjera";NA;2024-07-10
+"2228";"Inversión extranjera directa (pasivos)";"2023-4-1";3291,91138747987;2023;NA;4;"inversion_extranjera";NA;2024-07-10
+"2229";"Inversión extranjera directa (pasivos)";"2023-5-1";1404,29355301305;2023;NA;5;"inversion_extranjera";NA;2024-07-10
+"2230";"Inversión extranjera directa (pasivos)";"2023-6-1";2298,34092382284;2023;NA;6;"inversion_extranjera";NA;2024-07-10
+"2231";"Inversión extranjera directa (pasivos)";"2023-7-1";2718,08944668758;2023;NA;7;"inversion_extranjera";NA;2024-07-10
+"2232";"Inversión extranjera directa (pasivos)";"2023-8-1";2590,19726319771;2023;NA;8;"inversion_extranjera";NA;2024-07-10
+"2233";"Inversión extranjera directa (pasivos)";"2023-9-1";1651,19698381646;2023;NA;9;"inversion_extranjera";NA;2024-07-10
+"2234";"Inversión extranjera directa (pasivos)";"2023-10-1";1700,64487362441;2023;NA;10;"inversion_extranjera";NA;2024-07-10
+"2235";"Inversión extranjera directa (pasivos)";"2023-11-1";1233,74089746858;2023;NA;11;"inversion_extranjera";NA;2024-07-10
+"2236";"Inversión extranjera directa (pasivos)";"2023-12-1";381,380726820841;2023;NA;12;"inversion_extranjera";NA;2024-07-10
+"2237";"Inversión extranjera directa (pasivos)";"2024-1-1";1896,5405461308;2024;NA;1;"inversion_extranjera";NA;2024-07-10
+"2238";"Inversión extranjera directa (pasivos)";"2024-2-1";1473,50010414195;2024;NA;2;"inversion_extranjera";NA;2024-07-10
+"2239";"Inversión extranjera directa (pasivos)";"2024-3-1";831,688407391858;2024;NA;3;"inversion_extranjera";NA;2024-07-10
+"2240";"Inversión extranjera directa (pasivos)";"2024-4-1";2402,88065021035;2024;NA;4;"inversion_extranjera";NA;2024-07-10
+"2241";"Inversión extranjera directa (pasivos)";"2024-5-1";1638,34270552541;2024;NA;5;"inversion_extranjera";NA;2024-07-10
+"2242";"Precio del cobre";"2023-01-03";3,8145;2023;NA;1;"precio_cobre";NA;2024-07-10
+"2243";"Precio del cobre";"2023-01-04";3,7942;2023;NA;1;"precio_cobre";NA;2024-07-10
+"2244";"Precio del cobre";"2023-01-05";3,768;2023;NA;1;"precio_cobre";NA;2024-07-10
+"2245";"Precio del cobre";"2023-01-06";3,7358;2023;NA;1;"precio_cobre";NA;2024-07-10
+"2246";"Precio del cobre";"2023-01-07";3,7358;2023;NA;1;"precio_cobre";NA;2024-07-10
+"2247";"Precio del cobre";"2023-01-08";3,7358;2023;NA;1;"precio_cobre";NA;2024-07-10
+"2248";"Precio del cobre";"2023-01-09";3,7928;2023;NA;1;"precio_cobre";NA;2024-07-10
+"2249";"Precio del cobre";"2023-01-10";3,8873;2023;NA;1;"precio_cobre";NA;2024-07-10
+"2250";"Precio del cobre";"2023-01-11";4,0066;2023;NA;1;"precio_cobre";NA;2024-07-10
+"2251";"Precio del cobre";"2023-01-12";4,0327;2023;NA;1;"precio_cobre";NA;2024-07-10
+"2252";"Precio del cobre";"2023-01-13";4,1311;2023;NA;1;"precio_cobre";NA;2024-07-10
+"2253";"Precio del cobre";"2023-01-14";4,1311;2023;NA;1;"precio_cobre";NA;2024-07-10
+"2254";"Precio del cobre";"2023-01-15";4,1311;2023;NA;1;"precio_cobre";NA;2024-07-10
+"2255";"Precio del cobre";"2023-01-16";4,1591;2023;NA;1;"precio_cobre";NA;2024-07-10
+"2256";"Precio del cobre";"2023-01-17";4,1588;2023;NA;1;"precio_cobre";NA;2024-07-10
+"2257";"Precio del cobre";"2023-01-18";4,1224;2023;NA;1;"precio_cobre";NA;2024-07-10
+"2258";"Precio del cobre";"2023-01-19";4,2107;2023;NA;1;"precio_cobre";NA;2024-07-10
+"2259";"Precio del cobre";"2023-01-20";4,2302;2023;NA;1;"precio_cobre";NA;2024-07-10
+"2260";"Precio del cobre";"2023-01-21";4,2302;2023;NA;1;"precio_cobre";NA;2024-07-10
+"2261";"Precio del cobre";"2023-01-22";4,2302;2023;NA;1;"precio_cobre";NA;2024-07-10
+"2262";"Precio del cobre";"2023-01-23";4,2189;2023;NA;1;"precio_cobre";NA;2024-07-10
+"2263";"Precio del cobre";"2023-01-24";4,222;2023;NA;1;"precio_cobre";NA;2024-07-10
+"2264";"Precio del cobre";"2023-01-25";4,2324;2023;NA;1;"precio_cobre";NA;2024-07-10
+"2265";"Precio del cobre";"2023-01-26";4,2144;2023;NA;1;"precio_cobre";NA;2024-07-10
+"2266";"Precio del cobre";"2023-01-27";4,2137;2023;NA;1;"precio_cobre";NA;2024-07-10
+"2267";"Precio del cobre";"2023-01-28";4,2137;2023;NA;1;"precio_cobre";NA;2024-07-10
+"2268";"Precio del cobre";"2023-01-29";4,2137;2023;NA;1;"precio_cobre";NA;2024-07-10
+"2269";"Precio del cobre";"2023-01-30";4,2214;2023;NA;1;"precio_cobre";NA;2024-07-10
+"2270";"Precio del cobre";"2023-01-31";4,1923;2023;NA;1;"precio_cobre";NA;2024-07-10
+"2271";"Precio del cobre";"2023-02-01";4,1678;2023;NA;2;"precio_cobre";NA;2024-07-10
+"2272";"Precio del cobre";"2023-02-02";4,1729;2023;NA;2;"precio_cobre";NA;2024-07-10
+"2273";"Precio del cobre";"2023-02-03";4,1098;2023;NA;2;"precio_cobre";NA;2024-07-10
+"2274";"Precio del cobre";"2023-02-04";4,1098;2023;NA;2;"precio_cobre";NA;2024-07-10
+"2275";"Precio del cobre";"2023-02-05";4,1098;2023;NA;2;"precio_cobre";NA;2024-07-10
+"2276";"Precio del cobre";"2023-02-06";4,0952;2023;NA;2;"precio_cobre";NA;2024-07-10
+"2277";"Precio del cobre";"2023-02-07";4,0603;2023;NA;2;"precio_cobre";NA;2024-07-10
+"2278";"Precio del cobre";"2023-02-08";4,0089;2023;NA;2;"precio_cobre";NA;2024-07-10
+"2279";"Precio del cobre";"2023-02-09";4,0338;2023;NA;2;"precio_cobre";NA;2024-07-10
+"2280";"Precio del cobre";"2023-02-10";4,0206;2023;NA;2;"precio_cobre";NA;2024-07-10
+"2281";"Precio del cobre";"2023-02-11";4,0206;2023;NA;2;"precio_cobre";NA;2024-07-10
+"2282";"Precio del cobre";"2023-02-12";4,0206;2023;NA;2;"precio_cobre";NA;2024-07-10
+"2283";"Precio del cobre";"2023-02-13";4,0607;2023;NA;2;"precio_cobre";NA;2024-07-10
+"2284";"Precio del cobre";"2023-02-14";4,0047;2023;NA;2;"precio_cobre";NA;2024-07-10
+"2285";"Precio del cobre";"2023-02-15";4,0445;2023;NA;2;"precio_cobre";NA;2024-07-10
+"2286";"Precio del cobre";"2023-02-16";4,0465;2023;NA;2;"precio_cobre";NA;2024-07-10
+"2287";"Precio del cobre";"2023-02-17";4,0038;2023;NA;2;"precio_cobre";NA;2024-07-10
+"2288";"Precio del cobre";"2023-02-18";4,0038;2023;NA;2;"precio_cobre";NA;2024-07-10
+"2289";"Precio del cobre";"2023-02-19";4,0038;2023;NA;2;"precio_cobre";NA;2024-07-10
+"2290";"Precio del cobre";"2023-02-20";4,0785;2023;NA;2;"precio_cobre";NA;2024-07-10
+"2291";"Precio del cobre";"2023-02-21";4,0598;2023;NA;2;"precio_cobre";NA;2024-07-10
+"2292";"Precio del cobre";"2023-02-22";4,1348;2023;NA;2;"precio_cobre";NA;2024-07-10
+"2293";"Precio del cobre";"2023-02-23";4,1656;2023;NA;2;"precio_cobre";NA;2024-07-10
+"2294";"Precio del cobre";"2023-02-24";4,1291;2023;NA;2;"precio_cobre";NA;2024-07-10
+"2295";"Precio del cobre";"2023-02-25";4,1291;2023;NA;2;"precio_cobre";NA;2024-07-10
+"2296";"Precio del cobre";"2023-02-26";4,1291;2023;NA;2;"precio_cobre";NA;2024-07-10
+"2297";"Precio del cobre";"2023-02-27";4,0302;2023;NA;2;"precio_cobre";NA;2024-07-10
+"2298";"Precio del cobre";"2023-02-28";3,9413;2023;NA;2;"precio_cobre";NA;2024-07-10
+"2299";"Precio del cobre";"2023-03-01";3,9839;2023;NA;3;"precio_cobre";NA;2024-07-10
+"2300";"Precio del cobre";"2023-03-02";4,0601;2023;NA;3;"precio_cobre";NA;2024-07-10
+"2301";"Precio del cobre";"2023-03-03";4,1205;2023;NA;3;"precio_cobre";NA;2024-07-10
+"2302";"Precio del cobre";"2023-03-04";4,1205;2023;NA;3;"precio_cobre";NA;2024-07-10
+"2303";"Precio del cobre";"2023-03-05";4,1205;2023;NA;3;"precio_cobre";NA;2024-07-10
+"2304";"Precio del cobre";"2023-03-06";4,0498;2023;NA;3;"precio_cobre";NA;2024-07-10
+"2305";"Precio del cobre";"2023-03-07";4,0617;2023;NA;3;"precio_cobre";NA;2024-07-10
+"2306";"Precio del cobre";"2023-03-08";4,034;2023;NA;3;"precio_cobre";NA;2024-07-10
+"2307";"Precio del cobre";"2023-03-09";3,9633;2023;NA;3;"precio_cobre";NA;2024-07-10
+"2308";"Precio del cobre";"2023-03-10";4,0307;2023;NA;3;"precio_cobre";NA;2024-07-10
+"2309";"Precio del cobre";"2023-03-11";4,0307;2023;NA;3;"precio_cobre";NA;2024-07-10
+"2310";"Precio del cobre";"2023-03-12";4,0307;2023;NA;3;"precio_cobre";NA;2024-07-10
+"2311";"Precio del cobre";"2023-03-13";4,0063;2023;NA;3;"precio_cobre";NA;2024-07-10
+"2312";"Precio del cobre";"2023-03-14";4,013;2023;NA;3;"precio_cobre";NA;2024-07-10
+"2313";"Precio del cobre";"2023-03-15";4,0453;2023;NA;3;"precio_cobre";NA;2024-07-10
+"2314";"Precio del cobre";"2023-03-16";3,9957;2023;NA;3;"precio_cobre";NA;2024-07-10
+"2315";"Precio del cobre";"2023-03-17";3,8468;2023;NA;3;"precio_cobre";NA;2024-07-10
+"2316";"Precio del cobre";"2023-03-18";3,8468;2023;NA;3;"precio_cobre";NA;2024-07-10
+"2317";"Precio del cobre";"2023-03-19";3,8468;2023;NA;3;"precio_cobre";NA;2024-07-10
+"2318";"Precio del cobre";"2023-03-20";3,8595;2023;NA;3;"precio_cobre";NA;2024-07-10
+"2319";"Precio del cobre";"2023-03-21";3,8888;2023;NA;3;"precio_cobre";NA;2024-07-10
+"2320";"Precio del cobre";"2023-03-22";3,9469;2023;NA;3;"precio_cobre";NA;2024-07-10
+"2321";"Precio del cobre";"2023-03-23";3,974;2023;NA;3;"precio_cobre";NA;2024-07-10
+"2322";"Precio del cobre";"2023-03-24";4,0372;2023;NA;3;"precio_cobre";NA;2024-07-10
+"2323";"Precio del cobre";"2023-03-25";4,0372;2023;NA;3;"precio_cobre";NA;2024-07-10
+"2324";"Precio del cobre";"2023-03-26";4,0372;2023;NA;3;"precio_cobre";NA;2024-07-10
+"2325";"Precio del cobre";"2023-03-27";4,0973;2023;NA;3;"precio_cobre";NA;2024-07-10
+"2326";"Precio del cobre";"2023-03-28";4,0423;2023;NA;3;"precio_cobre";NA;2024-07-10
+"2327";"Precio del cobre";"2023-03-29";4,0603;2023;NA;3;"precio_cobre";NA;2024-07-10
+"2328";"Precio del cobre";"2023-03-30";4,068;2023;NA;3;"precio_cobre";NA;2024-07-10
+"2329";"Precio del cobre";"2023-03-31";4,0863;2023;NA;3;"precio_cobre";NA;2024-07-10
+"2330";"Precio del cobre";"2023-04-01";4,0863;2023;NA;4;"precio_cobre";NA;2024-07-10
+"2331";"Precio del cobre";"2023-04-02";4,0863;2023;NA;4;"precio_cobre";NA;2024-07-10
+"2332";"Precio del cobre";"2023-04-03";4,0838;2023;NA;4;"precio_cobre";NA;2024-07-10
+"2333";"Precio del cobre";"2023-04-04";4,084;2023;NA;4;"precio_cobre";NA;2024-07-10
+"2334";"Precio del cobre";"2023-04-05";4,0447;2023;NA;4;"precio_cobre";NA;2024-07-10
+"2335";"Precio del cobre";"2023-04-06";3,9646;2023;NA;4;"precio_cobre";NA;2024-07-10
+"2336";"Precio del cobre";"2023-04-07";3,9646;2023;NA;4;"precio_cobre";NA;2024-07-10
+"2337";"Precio del cobre";"2023-04-08";3,9646;2023;NA;4;"precio_cobre";NA;2024-07-10
+"2338";"Precio del cobre";"2023-04-09";3,9646;2023;NA;4;"precio_cobre";NA;2024-07-10
+"2339";"Precio del cobre";"2023-04-10";3,9847;2023;NA;4;"precio_cobre";NA;2024-07-10
+"2340";"Precio del cobre";"2023-04-11";3,9947;2023;NA;4;"precio_cobre";NA;2024-07-10
+"2341";"Precio del cobre";"2023-04-12";3,9947;2023;NA;4;"precio_cobre";NA;2024-07-10
+"2342";"Precio del cobre";"2023-04-13";4,015;2023;NA;4;"precio_cobre";NA;2024-07-10
+"2343";"Precio del cobre";"2023-04-14";4,0446;2023;NA;4;"precio_cobre";NA;2024-07-10
+"2344";"Precio del cobre";"2023-04-15";4,0446;2023;NA;4;"precio_cobre";NA;2024-07-10
+"2345";"Precio del cobre";"2023-04-16";4,0446;2023;NA;4;"precio_cobre";NA;2024-07-10
+"2346";"Precio del cobre";"2023-04-17";4,1122;2023;NA;4;"precio_cobre";NA;2024-07-10
+"2347";"Precio del cobre";"2023-04-18";4,0961;2023;NA;4;"precio_cobre";NA;2024-07-10
+"2348";"Precio del cobre";"2023-04-19";4,0656;2023;NA;4;"precio_cobre";NA;2024-07-10
+"2349";"Precio del cobre";"2023-04-20";4,0844;2023;NA;4;"precio_cobre";NA;2024-07-10
+"2350";"Precio del cobre";"2023-04-21";4,0587;2023;NA;4;"precio_cobre";NA;2024-07-10
+"2351";"Precio del cobre";"2023-04-22";4,0587;2023;NA;4;"precio_cobre";NA;2024-07-10
+"2352";"Precio del cobre";"2023-04-23";4,0587;2023;NA;4;"precio_cobre";NA;2024-07-10
+"2353";"Precio del cobre";"2023-04-24";4,0213;2023;NA;4;"precio_cobre";NA;2024-07-10
+"2354";"Precio del cobre";"2023-04-25";3,9819;2023;NA;4;"precio_cobre";NA;2024-07-10
+"2355";"Precio del cobre";"2023-04-26";3,9508;2023;NA;4;"precio_cobre";NA;2024-07-10
+"2356";"Precio del cobre";"2023-04-27";3,8583;2023;NA;4;"precio_cobre";NA;2024-07-10
+"2357";"Precio del cobre";"2023-04-28";3,8716;2023;NA;4;"precio_cobre";NA;2024-07-10
+"2358";"Precio del cobre";"2023-04-29";3,8716;2023;NA;4;"precio_cobre";NA;2024-07-10
+"2359";"Precio del cobre";"2023-04-30";3,8716;2023;NA;4;"precio_cobre";NA;2024-07-10
+"2360";"Precio del cobre";"2023-05-01";3,8716;2023;NA;5;"precio_cobre";NA;2024-07-10
+"2361";"Precio del cobre";"2023-05-02";3,8871;2023;NA;5;"precio_cobre";NA;2024-07-10
+"2362";"Precio del cobre";"2023-05-03";3,8905;2023;NA;5;"precio_cobre";NA;2024-07-10
+"2363";"Precio del cobre";"2023-05-04";3,851;2023;NA;5;"precio_cobre";NA;2024-07-10
+"2364";"Precio del cobre";"2023-05-05";3,8296;2023;NA;5;"precio_cobre";NA;2024-07-10
+"2365";"Precio del cobre";"2023-05-06";3,8296;2023;NA;5;"precio_cobre";NA;2024-07-10
+"2366";"Precio del cobre";"2023-05-07";3,8296;2023;NA;5;"precio_cobre";NA;2024-07-10
+"2367";"Precio del cobre";"2023-05-08";3,844;2023;NA;5;"precio_cobre";NA;2024-07-10
+"2368";"Precio del cobre";"2023-05-09";3,8829;2023;NA;5;"precio_cobre";NA;2024-07-10
+"2369";"Precio del cobre";"2023-05-10";3,8829;2023;NA;5;"precio_cobre";NA;2024-07-10
+"2370";"Precio del cobre";"2023-05-11";3,8838;2023;NA;5;"precio_cobre";NA;2024-07-10
+"2371";"Precio del cobre";"2023-05-12";3,8267;2023;NA;5;"precio_cobre";NA;2024-07-10
+"2372";"Precio del cobre";"2023-05-13";3,8267;2023;NA;5;"precio_cobre";NA;2024-07-10
+"2373";"Precio del cobre";"2023-05-14";3,8267;2023;NA;5;"precio_cobre";NA;2024-07-10
+"2374";"Precio del cobre";"2023-05-15";3,6892;2023;NA;5;"precio_cobre";NA;2024-07-10
+"2375";"Precio del cobre";"2023-05-16";3,7298;2023;NA;5;"precio_cobre";NA;2024-07-10
+"2376";"Precio del cobre";"2023-05-17";3,7278;2023;NA;5;"precio_cobre";NA;2024-07-10
+"2377";"Precio del cobre";"2023-05-18";3,6625;2023;NA;5;"precio_cobre";NA;2024-07-10
+"2378";"Precio del cobre";"2023-05-19";3,748;2023;NA;5;"precio_cobre";NA;2024-07-10
+"2379";"Precio del cobre";"2023-05-20";3,748;2023;NA;5;"precio_cobre";NA;2024-07-10
+"2380";"Precio del cobre";"2023-05-21";3,748;2023;NA;5;"precio_cobre";NA;2024-07-10
+"2381";"Precio del cobre";"2023-05-22";3,6871;2023;NA;5;"precio_cobre";NA;2024-07-10
+"2382";"Precio del cobre";"2023-05-23";3,7199;2023;NA;5;"precio_cobre";NA;2024-07-10
+"2383";"Precio del cobre";"2023-05-24";3,6567;2023;NA;5;"precio_cobre";NA;2024-07-10
+"2384";"Precio del cobre";"2023-05-25";3,645;2023;NA;5;"precio_cobre";NA;2024-07-10
+"2385";"Precio del cobre";"2023-05-26";3,5615;2023;NA;5;"precio_cobre";NA;2024-07-10
+"2386";"Precio del cobre";"2023-05-27";3,5615;2023;NA;5;"precio_cobre";NA;2024-07-10
+"2387";"Precio del cobre";"2023-05-28";3,5615;2023;NA;5;"precio_cobre";NA;2024-07-10
+"2388";"Precio del cobre";"2023-05-29";3,5901;2023;NA;5;"precio_cobre";NA;2024-07-10
+"2389";"Precio del cobre";"2023-05-30";3,6769;2023;NA;5;"precio_cobre";NA;2024-07-10
+"2390";"Precio del cobre";"2023-05-31";3,6769;2023;NA;5;"precio_cobre";NA;2024-07-10
+"2391";"Precio del cobre";"2023-06-01";3,6755;2023;NA;6;"precio_cobre";NA;2024-07-10
+"2392";"Precio del cobre";"2023-06-02";3,6605;2023;NA;6;"precio_cobre";NA;2024-07-10
+"2393";"Precio del cobre";"2023-06-03";3,6605;2023;NA;6;"precio_cobre";NA;2024-07-10
+"2394";"Precio del cobre";"2023-06-04";3,6605;2023;NA;6;"precio_cobre";NA;2024-07-10
+"2395";"Precio del cobre";"2023-06-05";3,7376;2023;NA;6;"precio_cobre";NA;2024-07-10
+"2396";"Precio del cobre";"2023-06-06";3,7347;2023;NA;6;"precio_cobre";NA;2024-07-10
+"2397";"Precio del cobre";"2023-06-07";3,7789;2023;NA;6;"precio_cobre";NA;2024-07-10
+"2398";"Precio del cobre";"2023-06-08";3,7803;2023;NA;6;"precio_cobre";NA;2024-07-10
+"2399";"Precio del cobre";"2023-06-09";3,7613;2023;NA;6;"precio_cobre";NA;2024-07-10
+"2400";"Precio del cobre";"2023-06-10";3,7613;2023;NA;6;"precio_cobre";NA;2024-07-10
+"2401";"Precio del cobre";"2023-06-11";3,7613;2023;NA;6;"precio_cobre";NA;2024-07-10
+"2402";"Precio del cobre";"2023-06-12";3,7812;2023;NA;6;"precio_cobre";NA;2024-07-10
+"2403";"Precio del cobre";"2023-06-13";3,7871;2023;NA;6;"precio_cobre";NA;2024-07-10
+"2404";"Precio del cobre";"2023-06-14";3,7567;2023;NA;6;"precio_cobre";NA;2024-07-10
+"2405";"Precio del cobre";"2023-06-15";3,8329;2023;NA;6;"precio_cobre";NA;2024-07-10
+"2406";"Precio del cobre";"2023-06-16";3,8598;2023;NA;6;"precio_cobre";NA;2024-07-10
+"2407";"Precio del cobre";"2023-06-17";3,8598;2023;NA;6;"precio_cobre";NA;2024-07-10
+"2408";"Precio del cobre";"2023-06-18";3,8598;2023;NA;6;"precio_cobre";NA;2024-07-10
+"2409";"Precio del cobre";"2023-06-19";3,881;2023;NA;6;"precio_cobre";NA;2024-07-10
+"2410";"Precio del cobre";"2023-06-20";3,8805;2023;NA;6;"precio_cobre";NA;2024-07-10
+"2411";"Precio del cobre";"2023-06-21";3,8805;2023;NA;6;"precio_cobre";NA;2024-07-10
+"2412";"Precio del cobre";"2023-06-22";3,8764;2023;NA;6;"precio_cobre";NA;2024-07-10
+"2413";"Precio del cobre";"2023-06-23";3,9038;2023;NA;6;"precio_cobre";NA;2024-07-10
+"2414";"Precio del cobre";"2023-06-24";3,9038;2023;NA;6;"precio_cobre";NA;2024-07-10
+"2415";"Precio del cobre";"2023-06-25";3,9038;2023;NA;6;"precio_cobre";NA;2024-07-10
+"2416";"Precio del cobre";"2023-06-26";3,9038;2023;NA;6;"precio_cobre";NA;2024-07-10
+"2417";"Precio del cobre";"2023-06-27";3,8915;2023;NA;6;"precio_cobre";NA;2024-07-10
+"2418";"Precio del cobre";"2023-06-28";3,8202;2023;NA;6;"precio_cobre";NA;2024-07-10
+"2419";"Precio del cobre";"2023-06-29";3,8021;2023;NA;6;"precio_cobre";NA;2024-07-10
+"2420";"Precio del cobre";"2023-06-30";3,7465;2023;NA;6;"precio_cobre";NA;2024-07-10
+"2421";"Precio del cobre";"2023-07-01";3,7465;2023;NA;7;"precio_cobre";NA;2024-07-10
+"2422";"Precio del cobre";"2023-07-02";3,7465;2023;NA;7;"precio_cobre";NA;2024-07-10
+"2423";"Precio del cobre";"2023-07-03";3,7091;2023;NA;7;"precio_cobre";NA;2024-07-10
+"2424";"Precio del cobre";"2023-07-04";3,7749;2023;NA;7;"precio_cobre";NA;2024-07-10
+"2425";"Precio del cobre";"2023-07-05";3,8089;2023;NA;7;"precio_cobre";NA;2024-07-10
+"2426";"Precio del cobre";"2023-07-06";3,7857;2023;NA;7;"precio_cobre";NA;2024-07-10
+"2427";"Precio del cobre";"2023-07-07";3,7667;2023;NA;7;"precio_cobre";NA;2024-07-10
+"2428";"Precio del cobre";"2023-07-08";3,7667;2023;NA;7;"precio_cobre";NA;2024-07-10
+"2429";"Precio del cobre";"2023-07-09";3,7667;2023;NA;7;"precio_cobre";NA;2024-07-10
+"2430";"Precio del cobre";"2023-07-10";3,7404;2023;NA;7;"precio_cobre";NA;2024-07-10
+"2431";"Precio del cobre";"2023-07-11";3,7923;2023;NA;7;"precio_cobre";NA;2024-07-10
+"2432";"Precio del cobre";"2023-07-12";3,7905;2023;NA;7;"precio_cobre";NA;2024-07-10
+"2433";"Precio del cobre";"2023-07-13";3,7671;2023;NA;7;"precio_cobre";NA;2024-07-10
+"2434";"Precio del cobre";"2023-07-14";3,8505;2023;NA;7;"precio_cobre";NA;2024-07-10
+"2435";"Precio del cobre";"2023-07-15";3,8505;2023;NA;7;"precio_cobre";NA;2024-07-10
+"2436";"Precio del cobre";"2023-07-16";3,8505;2023;NA;7;"precio_cobre";NA;2024-07-10
+"2437";"Precio del cobre";"2023-07-17";3,9404;2023;NA;7;"precio_cobre";NA;2024-07-10
+"2438";"Precio del cobre";"2023-07-18";3,9289;2023;NA;7;"precio_cobre";NA;2024-07-10
+"2439";"Precio del cobre";"2023-07-19";3,8411;2023;NA;7;"precio_cobre";NA;2024-07-10
+"2440";"Precio del cobre";"2023-07-20";3,8306;2023;NA;7;"precio_cobre";NA;2024-07-10
+"2441";"Precio del cobre";"2023-07-21";3,811;2023;NA;7;"precio_cobre";NA;2024-07-10
+"2442";"Precio del cobre";"2023-07-22";3,811;2023;NA;7;"precio_cobre";NA;2024-07-10
+"2443";"Precio del cobre";"2023-07-23";3,811;2023;NA;7;"precio_cobre";NA;2024-07-10
+"2444";"Precio del cobre";"2023-07-24";3,8378;2023;NA;7;"precio_cobre";NA;2024-07-10
+"2445";"Precio del cobre";"2023-07-25";3,8204;2023;NA;7;"precio_cobre";NA;2024-07-10
+"2446";"Precio del cobre";"2023-07-26";3,85;2023;NA;7;"precio_cobre";NA;2024-07-10
+"2447";"Precio del cobre";"2023-07-27";3,9196;2023;NA;7;"precio_cobre";NA;2024-07-10
+"2448";"Precio del cobre";"2023-07-28";3,8906;2023;NA;7;"precio_cobre";NA;2024-07-10
+"2449";"Precio del cobre";"2023-07-29";3,8906;2023;NA;7;"precio_cobre";NA;2024-07-10
+"2450";"Precio del cobre";"2023-07-30";3,8906;2023;NA;7;"precio_cobre";NA;2024-07-10
+"2451";"Precio del cobre";"2023-07-31";3,8683;2023;NA;7;"precio_cobre";NA;2024-07-10
+"2452";"Precio del cobre";"2023-08-01";3,9125;2023;NA;8;"precio_cobre";NA;2024-07-10
+"2453";"Precio del cobre";"2023-08-02";3,9917;2023;NA;8;"precio_cobre";NA;2024-07-10
+"2454";"Precio del cobre";"2023-08-03";3,8983;2023;NA;8;"precio_cobre";NA;2024-07-10
+"2455";"Precio del cobre";"2023-08-04";3,8416;2023;NA;8;"precio_cobre";NA;2024-07-10
+"2456";"Precio del cobre";"2023-08-05";3,8416;2023;NA;8;"precio_cobre";NA;2024-07-10
+"2457";"Precio del cobre";"2023-08-06";3,8416;2023;NA;8;"precio_cobre";NA;2024-07-10
+"2458";"Precio del cobre";"2023-08-07";3,8876;2023;NA;8;"precio_cobre";NA;2024-07-10
+"2459";"Precio del cobre";"2023-08-08";3,8661;2023;NA;8;"precio_cobre";NA;2024-07-10
+"2460";"Precio del cobre";"2023-08-09";3,8266;2023;NA;8;"precio_cobre";NA;2024-07-10
+"2461";"Precio del cobre";"2023-08-10";3,7662;2023;NA;8;"precio_cobre";NA;2024-07-10
+"2462";"Precio del cobre";"2023-08-11";3,7935;2023;NA;8;"precio_cobre";NA;2024-07-10
+"2463";"Precio del cobre";"2023-08-12";3,7935;2023;NA;8;"precio_cobre";NA;2024-07-10
+"2464";"Precio del cobre";"2023-08-13";3,7935;2023;NA;8;"precio_cobre";NA;2024-07-10
+"2465";"Precio del cobre";"2023-08-14";3,787;2023;NA;8;"precio_cobre";NA;2024-07-10
+"2466";"Precio del cobre";"2023-08-15";3,787;2023;NA;8;"precio_cobre";NA;2024-07-10
+"2467";"Precio del cobre";"2023-08-16";3,7447;2023;NA;8;"precio_cobre";NA;2024-07-10
+"2468";"Precio del cobre";"2023-08-17";3,6939;2023;NA;8;"precio_cobre";NA;2024-07-10
+"2469";"Precio del cobre";"2023-08-18";3,6811;2023;NA;8;"precio_cobre";NA;2024-07-10
+"2470";"Precio del cobre";"2023-08-19";3,6811;2023;NA;8;"precio_cobre";NA;2024-07-10
+"2471";"Precio del cobre";"2023-08-20";3,6811;2023;NA;8;"precio_cobre";NA;2024-07-10
+"2472";"Precio del cobre";"2023-08-21";3,7199;2023;NA;8;"precio_cobre";NA;2024-07-10
+"2473";"Precio del cobre";"2023-08-22";3,7257;2023;NA;8;"precio_cobre";NA;2024-07-10
+"2474";"Precio del cobre";"2023-08-23";3,7372;2023;NA;8;"precio_cobre";NA;2024-07-10
+"2475";"Precio del cobre";"2023-08-24";3,7788;2023;NA;8;"precio_cobre";NA;2024-07-10
+"2476";"Precio del cobre";"2023-08-25";3,8212;2023;NA;8;"precio_cobre";NA;2024-07-10
+"2477";"Precio del cobre";"2023-08-26";3,8212;2023;NA;8;"precio_cobre";NA;2024-07-10
+"2478";"Precio del cobre";"2023-08-27";3,8212;2023;NA;8;"precio_cobre";NA;2024-07-10
+"2479";"Precio del cobre";"2023-08-28";3,7769;2023;NA;8;"precio_cobre";NA;2024-07-10
+"2480";"Precio del cobre";"2023-08-29";3,7736;2023;NA;8;"precio_cobre";NA;2024-07-10
+"2481";"Precio del cobre";"2023-08-30";3,7736;2023;NA;8;"precio_cobre";NA;2024-07-10
+"2482";"Precio del cobre";"2023-08-31";3,8152;2023;NA;8;"precio_cobre";NA;2024-07-10
+"2483";"Precio del cobre";"2023-09-01";3,8309;2023;NA;9;"precio_cobre";NA;2024-07-10
+"2484";"Precio del cobre";"2023-09-02";3,8309;2023;NA;9;"precio_cobre";NA;2024-07-10
+"2485";"Precio del cobre";"2023-09-03";3,8309;2023;NA;9;"precio_cobre";NA;2024-07-10
+"2486";"Precio del cobre";"2023-09-04";3,8123;2023;NA;9;"precio_cobre";NA;2024-07-10
+"2487";"Precio del cobre";"2023-09-05";3,8462;2023;NA;9;"precio_cobre";NA;2024-07-10
+"2488";"Precio del cobre";"2023-09-06";3,8271;2023;NA;9;"precio_cobre";NA;2024-07-10
+"2489";"Precio del cobre";"2023-09-07";3,8476;2023;NA;9;"precio_cobre";NA;2024-07-10
+"2490";"Precio del cobre";"2023-09-08";3,7915;2023;NA;9;"precio_cobre";NA;2024-07-10
+"2491";"Precio del cobre";"2023-09-09";3,7915;2023;NA;9;"precio_cobre";NA;2024-07-10
+"2492";"Precio del cobre";"2023-09-10";3,7915;2023;NA;9;"precio_cobre";NA;2024-07-10
+"2493";"Precio del cobre";"2023-09-11";3,7691;2023;NA;9;"precio_cobre";NA;2024-07-10
+"2494";"Precio del cobre";"2023-09-12";3,7326;2023;NA;9;"precio_cobre";NA;2024-07-10
+"2495";"Precio del cobre";"2023-09-13";3,7991;2023;NA;9;"precio_cobre";NA;2024-07-10
+"2496";"Precio del cobre";"2023-09-14";3,7955;2023;NA;9;"precio_cobre";NA;2024-07-10
+"2497";"Precio del cobre";"2023-09-15";3,8091;2023;NA;9;"precio_cobre";NA;2024-07-10
+"2498";"Precio del cobre";"2023-09-16";3,8091;2023;NA;9;"precio_cobre";NA;2024-07-10
+"2499";"Precio del cobre";"2023-09-17";3,8091;2023;NA;9;"precio_cobre";NA;2024-07-10
+"2500";"Precio del cobre";"2023-09-18";3,8091;2023;NA;9;"precio_cobre";NA;2024-07-10
+"2501";"Precio del cobre";"2023-09-19";3,8091;2023;NA;9;"precio_cobre";NA;2024-07-10
+"2502";"Precio del cobre";"2023-09-20";3,7976;2023;NA;9;"precio_cobre";NA;2024-07-10
+"2503";"Precio del cobre";"2023-09-21";3,7347;2023;NA;9;"precio_cobre";NA;2024-07-10
+"2504";"Precio del cobre";"2023-09-22";3,7565;2023;NA;9;"precio_cobre";NA;2024-07-10
+"2505";"Precio del cobre";"2023-09-23";3,7565;2023;NA;9;"precio_cobre";NA;2024-07-10
+"2506";"Precio del cobre";"2023-09-24";3,7565;2023;NA;9;"precio_cobre";NA;2024-07-10
+"2507";"Precio del cobre";"2023-09-25";3,6876;2023;NA;9;"precio_cobre";NA;2024-07-10
+"2508";"Precio del cobre";"2023-09-26";3,7021;2023;NA;9;"precio_cobre";NA;2024-07-10
+"2509";"Precio del cobre";"2023-09-27";3,663;2023;NA;9;"precio_cobre";NA;2024-07-10
+"2510";"Precio del cobre";"2023-09-28";3,6443;2023;NA;9;"precio_cobre";NA;2024-07-10
+"2511";"Precio del cobre";"2023-09-29";3,6544;2023;NA;9;"precio_cobre";NA;2024-07-10
+"2512";"Precio del cobre";"2023-09-30";3,6544;2023;NA;9;"precio_cobre";NA;2024-07-10
+"2513";"Precio del cobre";"2023-10-01";3,6544;2023;NA;10;"precio_cobre";NA;2024-07-10
+"2514";"Precio del cobre";"2023-10-02";3,7045;2023;NA;10;"precio_cobre";NA;2024-07-10
+"2515";"Precio del cobre";"2023-10-03";3,7252;2023;NA;10;"precio_cobre";NA;2024-07-10
+"2516";"Precio del cobre";"2023-10-04";3,6188;2023;NA;10;"precio_cobre";NA;2024-07-10
+"2517";"Precio del cobre";"2023-10-05";3,5966;2023;NA;10;"precio_cobre";NA;2024-07-10
+"2518";"Precio del cobre";"2023-10-06";3,5721;2023;NA;10;"precio_cobre";NA;2024-07-10
+"2519";"Precio del cobre";"2023-10-07";3,5721;2023;NA;10;"precio_cobre";NA;2024-07-10
+"2520";"Precio del cobre";"2023-10-08";3,5721;2023;NA;10;"precio_cobre";NA;2024-07-10
+"2521";"Precio del cobre";"2023-10-09";3,5721;2023;NA;10;"precio_cobre";NA;2024-07-10
+"2522";"Precio del cobre";"2023-10-10";3,5488;2023;NA;10;"precio_cobre";NA;2024-07-10
+"2523";"Precio del cobre";"2023-10-11";3,6466;2023;NA;10;"precio_cobre";NA;2024-07-10
+"2524";"Precio del cobre";"2023-10-12";3,6038;2023;NA;10;"precio_cobre";NA;2024-07-10
+"2525";"Precio del cobre";"2023-10-13";3,6045;2023;NA;10;"precio_cobre";NA;2024-07-10
+"2526";"Precio del cobre";"2023-10-14";3,6045;2023;NA;10;"precio_cobre";NA;2024-07-10
+"2527";"Precio del cobre";"2023-10-15";3,6045;2023;NA;10;"precio_cobre";NA;2024-07-10
+"2528";"Precio del cobre";"2023-10-16";3,5906;2023;NA;10;"precio_cobre";NA;2024-07-10
+"2529";"Precio del cobre";"2023-10-17";3,5724;2023;NA;10;"precio_cobre";NA;2024-07-10
+"2530";"Precio del cobre";"2023-10-18";3,5904;2023;NA;10;"precio_cobre";NA;2024-07-10
+"2531";"Precio del cobre";"2023-10-19";3,5847;2023;NA;10;"precio_cobre";NA;2024-07-10
+"2532";"Precio del cobre";"2023-10-20";3,5841;2023;NA;10;"precio_cobre";NA;2024-07-10
+"2533";"Precio del cobre";"2023-10-21";3,5841;2023;NA;10;"precio_cobre";NA;2024-07-10
+"2534";"Precio del cobre";"2023-10-22";3,5841;2023;NA;10;"precio_cobre";NA;2024-07-10
+"2535";"Precio del cobre";"2023-10-23";3,5961;2023;NA;10;"precio_cobre";NA;2024-07-10
+"2536";"Precio del cobre";"2023-10-24";3,5742;2023;NA;10;"precio_cobre";NA;2024-07-10
+"2537";"Precio del cobre";"2023-10-25";3,5838;2023;NA;10;"precio_cobre";NA;2024-07-10
+"2538";"Precio del cobre";"2023-10-26";3,622;2023;NA;10;"precio_cobre";NA;2024-07-10
+"2539";"Precio del cobre";"2023-10-27";3,622;2023;NA;10;"precio_cobre";NA;2024-07-10
+"2540";"Precio del cobre";"2023-10-28";3,622;2023;NA;10;"precio_cobre";NA;2024-07-10
+"2541";"Precio del cobre";"2023-10-29";3,622;2023;NA;10;"precio_cobre";NA;2024-07-10
+"2542";"Precio del cobre";"2023-10-30";3,61;2023;NA;10;"precio_cobre";NA;2024-07-10
+"2543";"Precio del cobre";"2023-10-31";3,6424;2023;NA;10;"precio_cobre";NA;2024-07-10
+"2544";"Precio del cobre";"2023-11-01";3,6424;2023;NA;11;"precio_cobre";NA;2024-07-10
+"2545";"Precio del cobre";"2023-11-02";3,66;2023;NA;11;"precio_cobre";NA;2024-07-10
+"2546";"Precio del cobre";"2023-11-03";3,6424;2023;NA;11;"precio_cobre";NA;2024-07-10
+"2547";"Precio del cobre";"2023-11-04";3,6424;2023;NA;11;"precio_cobre";NA;2024-07-10
+"2548";"Precio del cobre";"2023-11-05";3,6424;2023;NA;11;"precio_cobre";NA;2024-07-10
+"2549";"Precio del cobre";"2023-11-06";3,6578;2023;NA;11;"precio_cobre";NA;2024-07-10
+"2550";"Precio del cobre";"2023-11-07";3,6722;2023;NA;11;"precio_cobre";NA;2024-07-10
+"2551";"Precio del cobre";"2023-11-08";3,7003;2023;NA;11;"precio_cobre";NA;2024-07-10
+"2552";"Precio del cobre";"2023-11-09";3,6746;2023;NA;11;"precio_cobre";NA;2024-07-10
+"2553";"Precio del cobre";"2023-11-10";3,6553;2023;NA;11;"precio_cobre";NA;2024-07-10
+"2554";"Precio del cobre";"2023-11-11";3,6553;2023;NA;11;"precio_cobre";NA;2024-07-10
+"2555";"Precio del cobre";"2023-11-12";3,6553;2023;NA;11;"precio_cobre";NA;2024-07-10
+"2556";"Precio del cobre";"2023-11-13";3,6597;2023;NA;11;"precio_cobre";NA;2024-07-10
+"2557";"Precio del cobre";"2023-11-14";3,6082;2023;NA;11;"precio_cobre";NA;2024-07-10
+"2558";"Precio del cobre";"2023-11-15";3,6656;2023;NA;11;"precio_cobre";NA;2024-07-10
+"2559";"Precio del cobre";"2023-11-16";3,6941;2023;NA;11;"precio_cobre";NA;2024-07-10
+"2560";"Precio del cobre";"2023-11-17";3,7069;2023;NA;11;"precio_cobre";NA;2024-07-10
+"2561";"Precio del cobre";"2023-11-18";3,7069;2023;NA;11;"precio_cobre";NA;2024-07-10
+"2562";"Precio del cobre";"2023-11-19";3,7069;2023;NA;11;"precio_cobre";NA;2024-07-10
+"2563";"Precio del cobre";"2023-11-20";3,6841;2023;NA;11;"precio_cobre";NA;2024-07-10
+"2564";"Precio del cobre";"2023-11-21";3,7051;2023;NA;11;"precio_cobre";NA;2024-07-10
+"2565";"Precio del cobre";"2023-11-22";3,7831;2023;NA;11;"precio_cobre";NA;2024-07-10
+"2566";"Precio del cobre";"2023-11-23";3,7889;2023;NA;11;"precio_cobre";NA;2024-07-10
+"2567";"Precio del cobre";"2023-11-24";3,7435;2023;NA;11;"precio_cobre";NA;2024-07-10
+"2568";"Precio del cobre";"2023-11-25";3,7435;2023;NA;11;"precio_cobre";NA;2024-07-10
+"2569";"Precio del cobre";"2023-11-26";3,7435;2023;NA;11;"precio_cobre";NA;2024-07-10
+"2570";"Precio del cobre";"2023-11-27";3,7678;2023;NA;11;"precio_cobre";NA;2024-07-10
+"2571";"Precio del cobre";"2023-11-28";3,7783;2023;NA;11;"precio_cobre";NA;2024-07-10
+"2572";"Precio del cobre";"2023-11-29";3,7464;2023;NA;11;"precio_cobre";NA;2024-07-10
+"2573";"Precio del cobre";"2023-11-30";3,8047;2023;NA;11;"precio_cobre";NA;2024-07-10
+"2574";"Precio del cobre";"2023-12-01";3,7814;2023;NA;12;"precio_cobre";NA;2024-07-10
+"2575";"Precio del cobre";"2023-12-02";3,7814;2023;NA;12;"precio_cobre";NA;2024-07-10
+"2576";"Precio del cobre";"2023-12-03";3,7814;2023;NA;12;"precio_cobre";NA;2024-07-10
+"2577";"Precio del cobre";"2023-12-04";3,8045;2023;NA;12;"precio_cobre";NA;2024-07-10
+"2578";"Precio del cobre";"2023-12-05";3,873;2023;NA;12;"precio_cobre";NA;2024-07-10
+"2579";"Precio del cobre";"2023-12-06";3,7933;2023;NA;12;"precio_cobre";NA;2024-07-10
+"2580";"Precio del cobre";"2023-12-07";3,7434;2023;NA;12;"precio_cobre";NA;2024-07-10
+"2581";"Precio del cobre";"2023-12-08";3,7434;2023;NA;12;"precio_cobre";NA;2024-07-10
+"2582";"Precio del cobre";"2023-12-09";3,7434;2023;NA;12;"precio_cobre";NA;2024-07-10
+"2583";"Precio del cobre";"2023-12-10";3,7434;2023;NA;12;"precio_cobre";NA;2024-07-10
+"2584";"Precio del cobre";"2023-12-11";3,7201;2023;NA;12;"precio_cobre";NA;2024-07-10
+"2585";"Precio del cobre";"2023-12-12";3,7949;2023;NA;12;"precio_cobre";NA;2024-07-10
+"2586";"Precio del cobre";"2023-12-13";3,7418;2023;NA;12;"precio_cobre";NA;2024-07-10
+"2587";"Precio del cobre";"2023-12-14";3,7466;2023;NA;12;"precio_cobre";NA;2024-07-10
+"2588";"Precio del cobre";"2023-12-15";3,7365;2023;NA;12;"precio_cobre";NA;2024-07-10
+"2589";"Precio del cobre";"2023-12-16";3,7365;2023;NA;12;"precio_cobre";NA;2024-07-10
+"2590";"Precio del cobre";"2023-12-17";3,7365;2023;NA;12;"precio_cobre";NA;2024-07-10
+"2591";"Precio del cobre";"2023-12-18";3,8377;2023;NA;12;"precio_cobre";NA;2024-07-10
+"2592";"Precio del cobre";"2023-12-19";3,835;2023;NA;12;"precio_cobre";NA;2024-07-10
+"2593";"Precio del cobre";"2023-12-20";3,8074;2023;NA;12;"precio_cobre";NA;2024-07-10
+"2594";"Precio del cobre";"2023-12-21";3,8558;2023;NA;12;"precio_cobre";NA;2024-07-10
+"2595";"Precio del cobre";"2023-12-22";3,8504;2023;NA;12;"precio_cobre";NA;2024-07-10
+"2596";"Precio del cobre";"2023-12-23";3,8504;2023;NA;12;"precio_cobre";NA;2024-07-10
+"2597";"Precio del cobre";"2023-12-24";3,8504;2023;NA;12;"precio_cobre";NA;2024-07-10
+"2598";"Precio del cobre";"2023-12-25";3,8504;2023;NA;12;"precio_cobre";NA;2024-07-10
+"2599";"Precio del cobre";"2023-12-26";3,8594;2023;NA;12;"precio_cobre";NA;2024-07-10
+"2600";"Precio del cobre";"2023-12-27";3,8481;2023;NA;12;"precio_cobre";NA;2024-07-10
+"2601";"Precio del cobre";"2023-12-28";3,8481;2023;NA;12;"precio_cobre";NA;2024-07-10
+"2602";"Precio del cobre";"2023-12-29";3,8959;2023;NA;12;"precio_cobre";NA;2024-07-10
+"2603";"Precio del cobre";"2024-1-1";3,87;2024;NA;1;"precio_cobre";FALSE;2024-07-10
+"2604";"Precio del cobre";"2024-1-2";3,87;2024;NA;1;"precio_cobre";TRUE;2024-07-10
+"2605";"Precio del cobre";"2024-1-3";3,84;2024;NA;1;"precio_cobre";TRUE;2024-07-10
+"2606";"Precio del cobre";"2024-1-4";3,83;2024;NA;1;"precio_cobre";TRUE;2024-07-10
+"2607";"Precio del cobre";"2024-1-5";3,82;2024;NA;1;"precio_cobre";TRUE;2024-07-10
+"2608";"Precio del cobre";"2024-1-6";3,82;2024;NA;1;"precio_cobre";FALSE;2024-07-10
+"2609";"Precio del cobre";"2024-1-7";3,82;2024;NA;1;"precio_cobre";FALSE;2024-07-10
+"2610";"Precio del cobre";"2024-1-8";3,8;2024;NA;1;"precio_cobre";TRUE;2024-07-10
+"2611";"Precio del cobre";"2024-1-9";3,79;2024;NA;1;"precio_cobre";TRUE;2024-07-10
+"2612";"Precio del cobre";"2024-1-10";3,78;2024;NA;1;"precio_cobre";TRUE;2024-07-10
+"2613";"Precio del cobre";"2024-1-11";3,75;2024;NA;1;"precio_cobre";TRUE;2024-07-10
+"2614";"Precio del cobre";"2024-1-12";3,75;2024;NA;1;"precio_cobre";TRUE;2024-07-10
+"2615";"Precio del cobre";"2024-1-13";3,75;2024;NA;1;"precio_cobre";FALSE;2024-07-10
+"2616";"Precio del cobre";"2024-1-14";3,75;2024;NA;1;"precio_cobre";FALSE;2024-07-10
+"2617";"Precio del cobre";"2024-1-15";3,75;2024;NA;1;"precio_cobre";TRUE;2024-07-10
+"2618";"Precio del cobre";"2024-1-16";3,74;2024;NA;1;"precio_cobre";TRUE;2024-07-10
+"2619";"Precio del cobre";"2024-1-17";3,76;2024;NA;1;"precio_cobre";TRUE;2024-07-10
+"2620";"Precio del cobre";"2024-1-18";3,75;2024;NA;1;"precio_cobre";TRUE;2024-07-10
+"2621";"Precio del cobre";"2024-1-19";3,71;2024;NA;1;"precio_cobre";TRUE;2024-07-10
+"2622";"Precio del cobre";"2024-1-20";3,71;2024;NA;1;"precio_cobre";FALSE;2024-07-10
+"2623";"Precio del cobre";"2024-1-21";3,71;2024;NA;1;"precio_cobre";FALSE;2024-07-10
+"2624";"Precio del cobre";"2024-1-22";3,73;2024;NA;1;"precio_cobre";TRUE;2024-07-10
+"2625";"Precio del cobre";"2024-1-23";3,75;2024;NA;1;"precio_cobre";TRUE;2024-07-10
+"2626";"Precio del cobre";"2024-1-24";3,74;2024;NA;1;"precio_cobre";TRUE;2024-07-10
+"2627";"Precio del cobre";"2024-1-25";3,77;2024;NA;1;"precio_cobre";TRUE;2024-07-10
+"2628";"Precio del cobre";"2024-1-26";3,84;2024;NA;1;"precio_cobre";TRUE;2024-07-10
+"2629";"Precio del cobre";"2024-1-27";3,84;2024;NA;1;"precio_cobre";FALSE;2024-07-10
+"2630";"Precio del cobre";"2024-1-28";3,84;2024;NA;1;"precio_cobre";FALSE;2024-07-10
+"2631";"Precio del cobre";"2024-1-29";3,85;2024;NA;1;"precio_cobre";TRUE;2024-07-10
+"2632";"Precio del cobre";"2024-1-30";3,83;2024;NA;1;"precio_cobre";TRUE;2024-07-10
+"2633";"Precio del cobre";"2024-1-31";3,84;2024;NA;1;"precio_cobre";TRUE;2024-07-10
+"2634";"Precio del cobre";"2024-2-1";3,86;2024;NA;2;"precio_cobre";TRUE;2024-07-10
+"2635";"Precio del cobre";"2024-2-2";3,86;2024;NA;2;"precio_cobre";TRUE;2024-07-10
+"2636";"Precio del cobre";"2024-2-3";3,86;2024;NA;2;"precio_cobre";FALSE;2024-07-10
+"2637";"Precio del cobre";"2024-2-4";3,86;2024;NA;2;"precio_cobre";FALSE;2024-07-10
+"2638";"Precio del cobre";"2024-2-5";3,82;2024;NA;2;"precio_cobre";TRUE;2024-07-10
+"2639";"Precio del cobre";"2024-2-6";3,8;2024;NA;2;"precio_cobre";TRUE;2024-07-10
+"2640";"Precio del cobre";"2024-2-7";3,74;2024;NA;2;"precio_cobre";TRUE;2024-07-10
+"2641";"Precio del cobre";"2024-2-8";3,76;2024;NA;2;"precio_cobre";TRUE;2024-07-10
+"2642";"Precio del cobre";"2024-2-9";3,72;2024;NA;2;"precio_cobre";TRUE;2024-07-10
+"2643";"Precio del cobre";"2024-2-10";3,72;2024;NA;2;"precio_cobre";FALSE;2024-07-10
+"2644";"Precio del cobre";"2024-2-11";3,72;2024;NA;2;"precio_cobre";FALSE;2024-07-10
+"2645";"Precio del cobre";"2024-2-12";3,67;2024;NA;2;"precio_cobre";TRUE;2024-07-10
+"2646";"Precio del cobre";"2024-2-13";3,66;2024;NA;2;"precio_cobre";TRUE;2024-07-10
+"2647";"Precio del cobre";"2024-2-14";3,69;2024;NA;2;"precio_cobre";TRUE;2024-07-10
+"2648";"Precio del cobre";"2024-2-15";3,7;2024;NA;2;"precio_cobre";TRUE;2024-07-10
+"2649";"Precio del cobre";"2024-2-16";3,67;2024;NA;2;"precio_cobre";TRUE;2024-07-10
+"2650";"Precio del cobre";"2024-2-17";3,67;2024;NA;2;"precio_cobre";FALSE;2024-07-10
+"2651";"Precio del cobre";"2024-2-18";3,67;2024;NA;2;"precio_cobre";FALSE;2024-07-10
+"2652";"Precio del cobre";"2024-2-19";3,73;2024;NA;2;"precio_cobre";TRUE;2024-07-10
+"2653";"Precio del cobre";"2024-2-20";3,81;2024;NA;2;"precio_cobre";TRUE;2024-07-10
+"2654";"Precio del cobre";"2024-2-21";3,79;2024;NA;2;"precio_cobre";TRUE;2024-07-10
+"2655";"Precio del cobre";"2024-2-22";3,82;2024;NA;2;"precio_cobre";TRUE;2024-07-10
+"2656";"Precio del cobre";"2024-2-23";3,84;2024;NA;2;"precio_cobre";TRUE;2024-07-10
+"2657";"Precio del cobre";"2024-2-24";3,84;2024;NA;2;"precio_cobre";FALSE;2024-07-10
+"2658";"Precio del cobre";"2024-2-25";3,84;2024;NA;2;"precio_cobre";FALSE;2024-07-10
+"2659";"Precio del cobre";"2024-2-26";3,86;2024;NA;2;"precio_cobre";TRUE;2024-07-10
+"2660";"Precio del cobre";"2024-2-27";3,84;2024;NA;2;"precio_cobre";TRUE;2024-07-10
+"2661";"Precio del cobre";"2024-2-28";3,79;2024;NA;2;"precio_cobre";TRUE;2024-07-10
+"2662";"Precio del cobre";"2024-2-29";3,8;2024;NA;2;"precio_cobre";TRUE;2024-07-10
+"2663";"Precio del cobre";"2024-3-1";3,79;2024;NA;3;"precio_cobre";TRUE;2024-07-10
+"2664";"Precio del cobre";"2024-3-2";3,79;2024;NA;3;"precio_cobre";FALSE;2024-07-10
+"2665";"Precio del cobre";"2024-3-3";3,79;2024;NA;3;"precio_cobre";FALSE;2024-07-10
+"2666";"Precio del cobre";"2024-3-4";3,81;2024;NA;3;"precio_cobre";TRUE;2024-07-10
+"2667";"Precio del cobre";"2024-3-5";3,82;2024;NA;3;"precio_cobre";TRUE;2024-07-10
+"2668";"Precio del cobre";"2024-3-6";3,84;2024;NA;3;"precio_cobre";TRUE;2024-07-10
+"2669";"Precio del cobre";"2024-3-7";3,81;2024;NA;3;"precio_cobre";TRUE;2024-07-10
+"2670";"Precio del cobre";"2024-3-8";3,85;2024;NA;3;"precio_cobre";TRUE;2024-07-10
+"2671";"Precio del cobre";"2024-3-9";3,85;2024;NA;3;"precio_cobre";FALSE;2024-07-10
+"2672";"Precio del cobre";"2024-3-10";3,85;2024;NA;3;"precio_cobre";FALSE;2024-07-10
+"2673";"Precio del cobre";"2024-3-11";3,88;2024;NA;3;"precio_cobre";TRUE;2024-07-10
+"2674";"Precio del cobre";"2024-3-12";3,85;2024;NA;3;"precio_cobre";TRUE;2024-07-10
+"2675";"Precio del cobre";"2024-3-13";3,88;2024;NA;3;"precio_cobre";TRUE;2024-07-10
+"2676";"Precio del cobre";"2024-3-14";3,88;2024;NA;3;"precio_cobre";TRUE;2024-07-10
+"2677";"Precio del cobre";"2024-3-15";4,01;2024;NA;3;"precio_cobre";TRUE;2024-07-10
+"2678";"Precio del cobre";"2024-3-16";4,01;2024;NA;3;"precio_cobre";FALSE;2024-07-10
+"2679";"Precio del cobre";"2024-3-17";4,01;2024;NA;3;"precio_cobre";FALSE;2024-07-10
+"2680";"Precio del cobre";"2024-3-18";3,98;2024;NA;3;"precio_cobre";TRUE;2024-07-10
+"2681";"Precio del cobre";"2024-3-19";4,07;2024;NA;3;"precio_cobre";TRUE;2024-07-10
+"2682";"Precio del cobre";"2024-3-20";4,08;2024;NA;3;"precio_cobre";TRUE;2024-07-10
+"2683";"Precio del cobre";"2024-3-21";4,02;2024;NA;3;"precio_cobre";TRUE;2024-07-10
+"2684";"Precio del cobre";"2024-3-22";4;2024;NA;3;"precio_cobre";TRUE;2024-07-10
+"2685";"Precio del cobre";"2024-3-23";4;2024;NA;3;"precio_cobre";FALSE;2024-07-10
+"2686";"Precio del cobre";"2024-3-24";4;2024;NA;3;"precio_cobre";FALSE;2024-07-10
+"2687";"Precio del cobre";"2024-3-25";4,01;2024;NA;3;"precio_cobre";TRUE;2024-07-10
+"2688";"Precio del cobre";"2024-3-26";3,97;2024;NA;3;"precio_cobre";TRUE;2024-07-10
+"2689";"Precio del cobre";"2024-3-27";3,97;2024;NA;3;"precio_cobre";TRUE;2024-07-10
+"2690";"Precio del cobre";"2024-3-28";3,97;2024;NA;3;"precio_cobre";TRUE;2024-07-10
+"2691";"Precio del cobre";"2024-3-29";3,97;2024;NA;3;"precio_cobre";FALSE;2024-07-10
+"2692";"Precio del cobre";"2024-3-30";3,97;2024;NA;3;"precio_cobre";FALSE;2024-07-10
+"2693";"Precio del cobre";"2024-3-31";3,97;2024;NA;3;"precio_cobre";FALSE;2024-07-10
+"2694";"Precio del cobre";"2024-4-1";3,97;2024;NA;4;"precio_cobre";TRUE;2024-07-10
+"2695";"Precio del cobre";"2024-4-2";3,98;2024;NA;4;"precio_cobre";TRUE;2024-07-10
+"2696";"Precio del cobre";"2024-4-3";3,98;2024;NA;4;"precio_cobre";TRUE;2024-07-10
+"2697";"Precio del cobre";"2024-4-4";4,03;2024;NA;4;"precio_cobre";TRUE;2024-07-10
+"2698";"Precio del cobre";"2024-4-5";4,15;2024;NA;4;"precio_cobre";TRUE;2024-07-10
+"2699";"Precio del cobre";"2024-4-6";4,15;2024;NA;4;"precio_cobre";FALSE;2024-07-10
+"2700";"Precio del cobre";"2024-4-7";4,15;2024;NA;4;"precio_cobre";FALSE;2024-07-10
+"2701";"Precio del cobre";"2024-4-8";4,19;2024;NA;4;"precio_cobre";TRUE;2024-07-10
+"2702";"Precio del cobre";"2024-4-9";4,18;2024;NA;4;"precio_cobre";TRUE;2024-07-10
+"2703";"Precio del cobre";"2024-4-10";4,21;2024;NA;4;"precio_cobre";TRUE;2024-07-10
+"2704";"Precio del cobre";"2024-4-11";4,21;2024;NA;4;"precio_cobre";TRUE;2024-07-10
+"2705";"Precio del cobre";"2024-4-12";4,19;2024;NA;4;"precio_cobre";TRUE;2024-07-10
+"2706";"Precio del cobre";"2024-4-13";4,19;2024;NA;4;"precio_cobre";FALSE;2024-07-10
+"2707";"Precio del cobre";"2024-4-14";4,19;2024;NA;4;"precio_cobre";FALSE;2024-07-10
+"2708";"Precio del cobre";"2024-4-15";4,18;2024;NA;4;"precio_cobre";TRUE;2024-07-10
+"2709";"Precio del cobre";"2024-4-16";4,23;2024;NA;4;"precio_cobre";TRUE;2024-07-10
+"2710";"Precio del cobre";"2024-4-17";4,31;2024;NA;4;"precio_cobre";TRUE;2024-07-10
+"2711";"Precio del cobre";"2024-4-18";4,24;2024;NA;4;"precio_cobre";TRUE;2024-07-10
+"2712";"Precio del cobre";"2024-4-19";4,3;2024;NA;4;"precio_cobre";TRUE;2024-07-10
+"2713";"Precio del cobre";"2024-4-20";4,3;2024;NA;4;"precio_cobre";FALSE;2024-07-10
+"2714";"Precio del cobre";"2024-4-21";4,3;2024;NA;4;"precio_cobre";FALSE;2024-07-10
+"2715";"Precio del cobre";"2024-4-22";4,38;2024;NA;4;"precio_cobre";TRUE;2024-07-10
+"2716";"Precio del cobre";"2024-4-23";4,44;2024;NA;4;"precio_cobre";TRUE;2024-07-10
+"2717";"Precio del cobre";"2024-4-24";4,42;2024;NA;4;"precio_cobre";TRUE;2024-07-10
+"2718";"Precio del cobre";"2024-4-25";4,36;2024;NA;4;"precio_cobre";TRUE;2024-07-10
+"2719";"Precio del cobre";"2024-4-26";4,38;2024;NA;4;"precio_cobre";TRUE;2024-07-10
+"2720";"Precio del cobre";"2024-4-27";4,38;2024;NA;4;"precio_cobre";FALSE;2024-07-10
+"2721";"Precio del cobre";"2024-4-28";4,38;2024;NA;4;"precio_cobre";FALSE;2024-07-10
+"2722";"Precio del cobre";"2024-4-29";4,42;2024;NA;4;"precio_cobre";TRUE;2024-07-10
+"2723";"Precio del cobre";"2024-4-30";4,47;2024;NA;4;"precio_cobre";TRUE;2024-07-10
+"2724";"Precio del cobre";"2024-5-1";4,47;2024;NA;5;"precio_cobre";FALSE;2024-07-10
+"2725";"Precio del cobre";"2024-5-2";4,57;2024;NA;5;"precio_cobre";TRUE;2024-07-10
+"2726";"Precio del cobre";"2024-5-3";4,44;2024;NA;5;"precio_cobre";TRUE;2024-07-10
+"2727";"Precio del cobre";"2024-5-4";4,44;2024;NA;5;"precio_cobre";FALSE;2024-07-10
+"2728";"Precio del cobre";"2024-5-5";4,44;2024;NA;5;"precio_cobre";FALSE;2024-07-10
+"2729";"Precio del cobre";"2024-5-6";4,37;2024;NA;5;"precio_cobre";TRUE;2024-07-10
+"2730";"Precio del cobre";"2024-5-7";4,44;2024;NA;5;"precio_cobre";TRUE;2024-07-10
+"2731";"Precio del cobre";"2024-5-8";4,44;2024;NA;5;"precio_cobre";TRUE;2024-07-10
+"2732";"Precio del cobre";"2024-5-9";4,49;2024;NA;5;"precio_cobre";TRUE;2024-07-10
+"2733";"Precio del cobre";"2024-5-10";4,43;2024;NA;5;"precio_cobre";TRUE;2024-07-10
+"2734";"Precio del cobre";"2024-5-11";4,43;2024;NA;5;"precio_cobre";FALSE;2024-07-10
+"2735";"Precio del cobre";"2024-5-12";4,43;2024;NA;5;"precio_cobre";FALSE;2024-07-10
+"2736";"Precio del cobre";"2024-5-13";4,44;2024;NA;5;"precio_cobre";TRUE;2024-07-10
+"2737";"Precio del cobre";"2024-5-14";4,49;2024;NA;5;"precio_cobre";TRUE;2024-07-10
+"2738";"Precio del cobre";"2024-5-15";4,57;2024;NA;5;"precio_cobre";TRUE;2024-07-10
+"2739";"Precio del cobre";"2024-5-16";4,54;2024;NA;5;"precio_cobre";TRUE;2024-07-10
+"2740";"Precio del cobre";"2024-5-17";4,59;2024;NA;5;"precio_cobre";TRUE;2024-07-10
+"2741";"Precio del cobre";"2024-5-18";4,59;2024;NA;5;"precio_cobre";FALSE;2024-07-10
+"2742";"Precio del cobre";"2024-5-19";4,59;2024;NA;5;"precio_cobre";FALSE;2024-07-10
+"2743";"Precio del cobre";"2024-5-20";4,69;2024;NA;5;"precio_cobre";TRUE;2024-07-10
+"2744";"Precio del cobre";"2024-5-21";4,69;2024;NA;5;"precio_cobre";FALSE;2024-07-10
+"2745";"Precio del cobre";"2024-5-22";4,81;2024;NA;5;"precio_cobre";TRUE;2024-07-10
+"2746";"Precio del cobre";"2024-5-23";4,87;2024;NA;5;"precio_cobre";TRUE;2024-07-10
+"2747";"Precio del cobre";"2024-5-24";4,67;2024;NA;5;"precio_cobre";TRUE;2024-07-10
+"2748";"Precio del cobre";"2024-5-25";4,67;2024;NA;5;"precio_cobre";FALSE;2024-07-10
+"2749";"Precio del cobre";"2024-5-26";4,67;2024;NA;5;"precio_cobre";FALSE;2024-07-10
+"2750";"Precio del cobre";"2024-5-27";4,68;2024;NA;5;"precio_cobre";TRUE;2024-07-10
+"2751";"Precio del cobre";"2024-5-28";4,63;2024;NA;5;"precio_cobre";TRUE;2024-07-10
+"2752";"Precio del cobre";"2024-5-29";4,63;2024;NA;5;"precio_cobre";TRUE;2024-07-10
+"2753";"Precio del cobre";"2024-5-30";4,71;2024;NA;5;"precio_cobre";TRUE;2024-07-10
+"2754";"Precio del cobre";"2024-5-31";4,68;2024;NA;5;"precio_cobre";TRUE;2024-07-10
+"2755";"Precio del cobre";"2024-6-1";4,68;2024;NA;6;"precio_cobre";FALSE;2024-07-10
+"2756";"Precio del cobre";"2024-6-2";4,68;2024;NA;6;"precio_cobre";FALSE;2024-07-10
+"2757";"Precio del cobre";"2024-6-3";4,54;2024;NA;6;"precio_cobre";TRUE;2024-07-10
+"2758";"Precio del cobre";"2024-6-4";4,5;2024;NA;6;"precio_cobre";TRUE;2024-07-10
+"2759";"Precio del cobre";"2024-6-5";4,54;2024;NA;6;"precio_cobre";TRUE;2024-07-10
+"2760";"Precio del cobre";"2024-6-6";4,45;2024;NA;6;"precio_cobre";TRUE;2024-07-10
+"2761";"Precio del cobre";"2024-6-7";4,45;2024;NA;6;"precio_cobre";TRUE;2024-07-10
+"2762";"Precio del cobre";"2024-6-8";4,45;2024;NA;6;"precio_cobre";FALSE;2024-07-10
+"2763";"Precio del cobre";"2024-6-9";4,45;2024;NA;6;"precio_cobre";FALSE;2024-07-10
+"2764";"Precio del cobre";"2024-6-10";4,55;2024;NA;6;"precio_cobre";TRUE;2024-07-10
+"2765";"Precio del cobre";"2024-6-11";4,37;2024;NA;6;"precio_cobre";TRUE;2024-07-10
+"2766";"Precio del cobre";"2024-6-12";4,43;2024;NA;6;"precio_cobre";TRUE;2024-07-10
+"2767";"Precio del cobre";"2024-6-13";4,37;2024;NA;6;"precio_cobre";TRUE;2024-07-10
+"2768";"Precio del cobre";"2024-6-14";4,45;2024;NA;6;"precio_cobre";TRUE;2024-07-10
+"2769";"Precio del cobre";"2024-6-15";4,45;2024;NA;6;"precio_cobre";FALSE;2024-07-10
+"2770";"Precio del cobre";"2024-6-16";4,45;2024;NA;6;"precio_cobre";FALSE;2024-07-10
+"2771";"Precio del cobre";"2024-6-17";4,38;2024;NA;6;"precio_cobre";TRUE;2024-07-10
+"2772";"Precio del cobre";"2024-6-18";4,36;2024;NA;6;"precio_cobre";TRUE;2024-07-10
+"2773";"Precio del cobre";"2024-6-19";4,33;2024;NA;6;"precio_cobre";TRUE;2024-07-10
+"2774";"Precio del cobre";"2024-6-20";4,33;2024;NA;6;"precio_cobre";FALSE;2024-07-10
+"2775";"Precio del cobre";"2024-6-21";4,32;2024;NA;6;"precio_cobre";TRUE;2024-07-10
+"2776";"Precio del cobre";"2024-6-22";4,32;2024;NA;6;"precio_cobre";FALSE;2024-07-10
+"2777";"Precio del cobre";"2024-6-23";4,32;2024;NA;6;"precio_cobre";FALSE;2024-07-10
+"2778";"Precio del cobre";"2024-6-24";4,41;2024;NA;6;"precio_cobre";TRUE;2024-07-10
+"2779";"Precio del cobre";"2024-6-25";4,33;2024;NA;6;"precio_cobre";TRUE;2024-07-10
+"2780";"Precio del cobre";"2024-6-26";4,32;2024;NA;6;"precio_cobre";TRUE;2024-07-10
+"2781";"Precio del cobre";"2024-6-27";4,27;2024;NA;6;"precio_cobre";TRUE;2024-07-10
+"2782";"Precio del cobre";"2024-6-28";4,26;2024;NA;6;"precio_cobre";TRUE;2024-07-10
+"2783";"Precio del cobre";"2024-6-29";4,26;2024;NA;6;"precio_cobre";FALSE;2024-07-10
+"2784";"Precio del cobre";"2024-6-30";4,26;2024;NA;6;"precio_cobre";FALSE;2024-07-10
+"2785";"Precio del cobre";"2024-7-1";4,25;2024;NA;7;"precio_cobre";TRUE;2024-07-10
+"2786";"Precio del cobre";"2024-7-2";4,29;2024;NA;7;"precio_cobre";TRUE;2024-07-10
+"2787";"Precio del cobre";"2024-7-3";4,3;2024;NA;7;"precio_cobre";TRUE;2024-07-10
+"2788";"Precio del cobre";"2024-7-4";4,32;2024;NA;7;"precio_cobre";TRUE;2024-07-10
+"2789";"Precio del cobre";"2024-7-5";4,41;2024;NA;7;"precio_cobre";TRUE;2024-07-10
+"2790";"Precio del cobre";"2024-7-6";4,41;2024;NA;7;"precio_cobre";FALSE;2024-07-10
+"2791";"Precio del cobre";"2024-7-7";4,41;2024;NA;7;"precio_cobre";FALSE;2024-07-10
+"2792";"Precio del cobre";"2024-7-8";4,42;2024;NA;7;"precio_cobre";TRUE;2024-07-10
+"2793";"Precio del cobre";"2024-7-9";4,44;2024;NA;7;"precio_cobre";TRUE;2024-07-10
+"2794";"Precio del cobre";"2024-7-10";4,43;2024;NA;7;"precio_cobre";TRUE;2024-07-10

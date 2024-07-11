@@ -392,7 +392,7 @@ descargar_inversion_extranjera <- function() {
   url_inversion_extranjera = "https://si3.bcentral.cl/estadisticas/Principal1/excel/SE/BDP/Excel/Mensual/Cuenta_Financiera_categoria.xlsx"
   
   download.file(url_inversion_extranjera, 
-                destfile = "otros/bc_inv_extranjera/Cuenta_Financiera_categoria.xlsx")
+                destfile = "fuentes/bc_inv_extranjera/Cuenta_Financiera_categoria.xlsx")
 }
 
 
@@ -400,12 +400,12 @@ obtener_inversion_extranjera <- function(descargar = TRUE) {
   
   # descargar archivo excel
   if (descargar) {
-  descargar_inversion_extranjera()
+    descargar_inversion_extranjera()
   }
   
   # cargar local    
   message("cargando excel...")
-  invext <- read_excel("otros/bc_inv_extranjera/Cuenta_Financiera_categoria.xlsx",
+  invext <- read_excel("fuentes/bc_inv_extranjera/Cuenta_Financiera_categoria.xlsx",
                        .name_repair = "unique_quiet")
   
   message("limpiando...")
@@ -517,14 +517,46 @@ obtener_inversion_extranjera <- function(descargar = TRUE) {
   
   stopifnot(nrow(invext_6) > 100)
   
-  return(invext_6 |> select(serie, fecha, valor))
+  return(invext_6 |> select(serie, fecha,  año, mes, valor))
 }
+
+
+cargar_precio_cobre_anterior <- function() {
+  message("cargando Excel del precio del cobre del año anterior...")
+  
+  indicador_cobre_0 <- read_excel("fuentes/bc_precio_cobre/indicador.xls", 
+                                  .name_repair = "unique_quiet")
+  
+  indicador_cobre_1 <- indicador_cobre_0 |> 
+    row_to_names(3) |> 
+    clean_names() |> 
+    mutate(fecha = janitor::excel_numeric_to_date(as.numeric(dia))) |> 
+    fill(valor, .direction = "downup") |> 
+    mutate(fecha = as.character(fecha)) |> 
+    mutate(año = str_extract(fecha, "\\d{4}"),
+           mes = str_extract(fecha, "-\\d+-") |> str_remove_all("-"),
+           dia = str_extract(fecha, "\\d+$")) |> 
+    mutate(año = as.numeric(año),
+           mes = as.numeric(mes),
+           dia = as.numeric(dia)) |> 
+    mutate(valor = as.numeric(valor))
+  
+  indicador_cobre_2 <- indicador_cobre_1 |> 
+    filter(!is.na(valor), 
+           !is.na(año),
+           !is.na(mes),
+           !is.na(dia))
+  
+  return(indicador_cobre_2)
+}
+
 
 obtener_precio_cobre <- function() {
   message("obteniendo precio del cobre desde web del Banco Central...")
   
   url_precio_cobre = "https://si3.bcentral.cl/Indicadoressiete/secure/Serie.aspx?gcode=LIBRA_COBRE&param=cgBnAE8AOQBlAGcAIwBiAFUALQBsAEcAYgBOAEkASQBCAEcAegBFAFkAeABkADgASAA2AG8AdgB2AFMAUgBYADIAQwBzAEEAMQBJAG8ATwBzAEgATABGAE4AagB1AFcAYgB2AFAAZwBhADIAbABWAHcAXwBXAGgATAAkAFIAVAB1AEIAbAB3AFoAdQBRAFgAZwA5AHgAdgAwACQATwBZADcAMwAuAGIARwBFAFIASwAuAHQA"
   
+  año_e = 2024 #solo va a funcionar por 2024
   sitio_cobre <- session(url_precio_cobre) |> 
     read_html()
   
@@ -545,15 +577,24 @@ obtener_precio_cobre <- function() {
   tabla_cobre_3 <- tabla_cobre_2 |> 
     mutate(mes_t = mes,
            mes = str_extract(mes, "...") |> tolower() |> mes_a_numeric()) |> 
+    mutate(año = año_e) |> 
     # mutate(fecha = as.Date(paste(2024, mes, dia), tryFormats = c("%Y %m %d")))
-    mutate(fecha = paste(2024, mes, dia, sep = "-"))
+    mutate(fecha = paste(año, mes, dia, sep = "-"))
   
   tabla_cobre_4 <- tabla_cobre_3 |> 
     arrange(mes, dia) |> 
     fill(valor, .direction = "downup") |> 
+    filter(as.Date(fecha) <= Sys.Date())
+  
+  # cargar valor del año pasado
+  cobre_anterior <- cargar_precio_cobre_anterior()
+  
+  # anexar valor del año pasado
+  tabla_cobre_5 <- bind_rows(tabla_cobre_4, cobre_anterior) |> 
+    arrange(año, mes, dia) |> 
     mutate(serie = "Precio del cobre")
   
-  stopifnot(nrow(tabla_cobre_4) > 12)
+  stopifnot(nrow(tabla_cobre_5) > 12)
   
-  return(tabla_cobre_4 |> select(serie, fecha, valor, con_dato))
+  return(tabla_cobre_5 |> select(serie, fecha, año, mes, valor, con_dato))
 }

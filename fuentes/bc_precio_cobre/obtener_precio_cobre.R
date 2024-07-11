@@ -33,3 +33,16 @@ tabla_cobre_4 <- tabla_cobre_3 |>
 # guardar ----
 write.csv2(tabla_cobre_4 |> select(serie, fecha, valor),
            "app/datos/precio_cobre.csv")
+
+
+
+# obtener de archivo descargable ----
+# https://si3.bcentral.cl/Indicadoressiete/secure/Serie.aspx?gcode=LIBRA_COBRE&param=cgBnAE8AOQBlAGcAIwBiAFUALQBsAEcAYgBOAEkASQBCAEcAegBFAFkAeABkADgASAA2AG8AdgB2AFMAUgBYADIAQwBzAEEAMQBJAG8ATwBzAEgATABGAE4AagB1AFcAYgB2AFAAZwBhADIAbABWAHcAXwBXAGgATAAkAFIAVAB1AEIAbAB3AFoAdQBRAFgAZwA5AHgAdgAwACQATwBZADcAMwAuAGIARwBFAFIASwAuAHQA
+
+indicador_cobre_0 <- read_excel("fuentes/bc_precio_cobre/indicador.xls")
+
+indicador_cobre <- indicador_cobre |> 
+  row_to_names(3) |> 
+  clean_names() |> 
+  mutate(fecha = janitor::excel_numeric_to_date(as.numeric(dia))) |> 
+  fill(valor, .direction = "downup")

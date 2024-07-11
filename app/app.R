@@ -7,7 +7,7 @@ library(lubridate)
 library(ggplot2)
 library(shades)
 
-descargar = TRUE #descargar datos desde GitHub, o cargar datos locales
+descargar = FALSE #descargar datos desde GitHub, o cargar datos locales
 
 # setup ----
 
@@ -266,6 +266,20 @@ ui <- fluidPage(
                                   "ipc_g_hist")
         ),
         
+        ## inversión extranjera ----
+        fila_indicador(
+          panel_titular(titulo = "Inversión Extranjera Directa (IED)",
+                        subtitulo = "Refiere a la transferencia de capital desde empresas extranjeras como inversión a largo plazo en Chile."),
+          
+          panel_cuadro_resumen("Inversión Extranjera", "invext_ui"),
+          
+          panel_grafico_variacion("Variación mensual de la Inversión Extranjera",
+                                  "invext_g_var"),
+          
+          panel_grafico_historico("Evolución de la Inversión Extranjera",
+                                  "invext_g_hist")
+        ),
+        
         ## uf ----
         fila_indicador(
           panel_titular(titulo = "Unidad de Fomento (UF)",
@@ -321,6 +335,20 @@ ui <- fluidPage(
           
           panel_grafico_historico("Evolución de las remuneraciones reales",
                                   "remuneraciones_g_hist")
+        ),
+        
+        ## precio del cobre ----
+        fila_indicador(
+          panel_titular(titulo = "Precio del cobre",
+                        subtitulo = "El precio del cobre es una variable externa a la economía chilena, pero que afecta la planificación presupuestos nacionales y la economía nacional."),
+          
+          panel_cuadro_resumen("Resumen precio del cobre", "cobre_ui"),
+          
+          panel_grafico_variacion("Variación mensual del precio del cobre",
+                                  "cobre_g_var"),
+          
+          panel_grafico_historico("Evolución del precio del cobre",
+                                  "cobre_g_hist")
         )
     )
   ),
@@ -365,10 +393,12 @@ server <- function(input, output) {
   # desempleo <- cargar_datos_web("desempleo", descargar, local)
   # uf <- cargar_datos_web("uf", descargar, local)
   # remuneraciones <- cargar_datos_web("remuneraciones", descargar, local)
+  # invext <- cargar_datos_web("inversion_extrangera", descargar = FALSE)
   
   
   # opción 3: cargar un solo archivo desde GitHub, que son los datos unidos
   # descargar = FALSE; local = FALSE #para probar localmente
+  # datos <- cargar_datos_web("datos_economia_chile", descargar = FALSE, local = TRUE)
   datos <- cargar_datos_web("datos_economia_chile", descargar, local)
   
   # separar dato unido en piezas
@@ -379,6 +409,10 @@ server <- function(input, output) {
   desempleo <- datos |> filter(dato == "desempleo")
   uf <- datos |> filter(dato == "uf")
   remuneraciones <- datos |> filter(dato == "remuneraciones")
+  
+  # nuevos
+  invext <- datos |> filter(dato == "inversion_extranjera")
+  cobre <- datos |> filter(dato == "precio_cobre")
   
   
   ## calcular indicadores ----
@@ -410,6 +444,12 @@ server <- function(input, output) {
     filter(serie == "Índice real de remuneraciones") |> 
     calcular_metricas()
   
+  # nuevos
+  datos_invext <- invext |> 
+    calcular_metricas()
+  
+  datos_cobre <- cobre |> 
+    calcular_metricas()
   
   # fecha ----
   fecha_corte <- reactive({
@@ -436,6 +476,11 @@ server <- function(input, output) {
   output$desempleo_tendencia <- renderUI(tendencia_ui(datos_desempleo, fecha_corte(), input, subir = "malo"))
   output$remuneraciones_tendencia <- renderUI(tendencia_ui(datos_remuneraciones, fecha_corte(), input, subir = "bueno"))
   
+  # nuevas
+  output$invext_tendencia <- renderUI(tendencia_ui(datos_invext, fecha_corte(), input, subir = "bueno"))
+  output$cobre_tendencia <- renderUI(tendencia_ui(datos_cobre, fecha_corte(), input, subir = "bueno"))
+  
+  
   # generar una sola salida ui para que se carguen todos juntos
   output$tendencias_ui <- renderUI({
     div(
@@ -445,6 +490,8 @@ server <- function(input, output) {
                       "imacec_tendencia"),
       panel_tendencia("El IPC",
                       "ipc_tendencia"),
+      panel_tendencia("La inversión extranjera",
+                      "invext_tendencia"), #nueva
       panel_tendencia("El valor de la UF",
                       "uf_tendencia"),
       panel_tendencia("El IPSA",
@@ -452,7 +499,9 @@ server <- function(input, output) {
       panel_tendencia("El desempleo",
                       "desempleo_tendencia"),
       panel_tendencia("El valor de las remuneraciones",
-                      "remuneraciones_tendencia")
+                      "remuneraciones_tendencia"),
+      panel_tendencia("El precio del cobre",
+                      "cobre_tendencia") #nueva
     )
   })
   
@@ -460,13 +509,17 @@ server <- function(input, output) {
   ## cuadros indicadores ----
   # cuadritos con cifras para panel de indicadores
   # para panel_cuadro_resumen() en ui
-  output$pib_ui <- renderUI(dato_ui(datos_pib))
+  output$pib_ui <- renderUI(dato_ui(datos_pib, unidad = "miles de millones"))
   output$imacec_ui <- renderUI(dato_ui(datos_imacec, unidad = "índice 100", año_base = 2018))
-  output$ipc_ui <- renderUI(dato_ui(datos_ipc, unidad = "índice 100", año_base = 2023, subir = "neutro"))
-  output$uf_ui <- renderUI(dato_ui(datos_uf, unidad = "pesos", subir = "neutro"))
+  output$ipc_ui <- renderUI(dato_ui(datos_ipc, unidad = "índice 100", año_base = 2023, subir = "malo"))
+  output$uf_ui <- renderUI(dato_ui(datos_uf, unidad = "pesos", subir = "malo"))
   output$ipsa_ui <- renderUI(dato_ui(datos_ipsa, unidad = "índice 1000", año_base = 2003))
   output$desempleo_ui <- renderUI(dato_ui(datos_desempleo, unidad = "porciento", año_base = "% fuerza de trabajo", subir = "malo"))
   output$remuneraciones_ui <- renderUI(dato_ui(datos_remuneraciones, unidad = "índice 100", año_base = 2023))
+  
+  # nuevos
+  output$invext_ui <- renderUI(dato_ui(datos_invext, unidad = "millones de dólares"))
+  output$cobre_ui <- renderUI(dato_ui(datos_cobre, unidad = "dólares por libra", diario = TRUE))
   
   
   ## gráficos variación ----
@@ -478,6 +531,10 @@ server <- function(input, output) {
   output$desempleo_g_var <- renderPlot(grafico_variacion(datos_desempleo, subir = "malo"))
   output$remuneraciones_g_var <- renderPlot(grafico_variacion(datos_remuneraciones))
   
+  # nuevos
+  output$invext_g_var <- renderPlot(grafico_variacion(datos_invext))
+  output$cobre_g_var <- renderPlot(grafico_variacion(datos_cobre, mensualizar = TRUE))
+  
   
   ## gráficos históricos ----
   output$pib_g_hist <- renderPlot(grafico_historico(datos_pib, escala = "trimestre"))
@@ -487,6 +544,10 @@ server <- function(input, output) {
   output$ipsa_g_hist <- renderPlot(grafico_historico(datos_ipsa))
   output$desempleo_g_hist <- renderPlot(grafico_historico(datos_desempleo))
   output$remuneraciones_g_hist <- renderPlot(grafico_historico(datos_remuneraciones))
+  
+  # nuevos
+  output$invext_g_hist <- renderPlot(grafico_historico(datos_invext))
+  output$cobre_g_hist <- renderPlot(grafico_historico(datos_cobre))
   
 }
 

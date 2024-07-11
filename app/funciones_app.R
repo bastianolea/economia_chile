@@ -38,10 +38,9 @@ cargar_datos_web <- function(archivo = "pib", descargar = FALSE, local = FALSE) 
     
     # si se especifica, cargar dato local
   } else {
-    message("cargando desde archivo local: ", path)
-    notificacion("Cargando datos pre-guardados:", archivo)
-    
     path = paste0(ifelse(local == TRUE, "app/", ""), "datos/", archivo, ".csv")
+    message("cargando desde archivo local: ", path)
+    if (local == FALSE) notificacion("Cargando datos pre-guardados:", archivo)
     
     data <- try(read.csv2(path))
   }
@@ -76,8 +75,12 @@ numeric_a_mes <- function(x) {
                 "12" = "dic")
 }
 
-fecha_redactada <- function(fecha) {
-  paste(numeric_a_mes(month(fecha)), format(fecha, "%Y"))
+fecha_redactada <- function(fecha, diario = FALSE) {
+  if (diario == FALSE) {
+    paste(numeric_a_mes(month(fecha)), format(fecha, "%Y"))
+  } else if (diario == TRUE) {
+    paste(format(fecha, "%d"), "de", numeric_a_mes(month(fecha)), format(fecha, "%Y"))
+  }
 }
 
 mes_a_trimestre <- function(x) {
@@ -123,7 +126,9 @@ flechita <- function(x, juicio = "bueno") {
                      x == 1 ~ color_neutro,
                      x > 1 ~ color_subir)
   
-  ajuste_flecha_abajo <- ifelse(x < 1, "margin-top: 10px;", "")
+  # ajuste_flecha_abajo <- ifelse(x < 1, "margin-top: 10px;", "")
+  ajuste_flecha_abajo <- ifelse(x < 1, "margin-bottom: -10px;", "")
+  # ajuste_flecha_abajo <- ""
   
   div(flechita,
       style = paste("font-size: 110%;", ajuste_flecha_abajo, "color:", color, ";"))
@@ -160,20 +165,30 @@ formateador_cifra <- function(dato, unidad = "miles de millones", texto = 2018) 
     
   } else if (unidad == "índice 100") {
     paste(paste0(miles(dato), " (índice: ", texto, " = 100)"))
+    
+    # } else if (unidad == "millones de dólares") {
+    #   paste(paste0("$", miles(dato)), "(millones de dólares)")
+    #   
+  } else if (unidad == "dólares por libra") {
+    paste(paste0("$", format(round(dato, 2), big.mark = ".", decimal.mark = ",")), 
+          "(dólares por libra)")
+    
   } else {
-    paste(paste0("$", miles(dato)), "(miles de millones)")
+    # paste(paste0("$", miles(dato)), "(miles de millones)")
+    paste(paste0("$", miles(dato)), paste0("(", unidad, ")"))
   }
 }
 
 # calculos ----
 calcular_metricas <- function(datos) {
   # browser()
-  
+  # datos <- invext
   # ordenar
   datos <- datos |> 
     group_by(serie) |> 
-    arrange(desc(año), desc(mes)) |> 
-    mutate(fecha = as_date(fecha))
+    # arrange(desc(año), desc(mes)) |> 
+    mutate(fecha = as_date(fecha)) |> 
+    arrange(desc(fecha))
   
   # ultimos x años
   datos_recientes <- datos |> 
@@ -186,9 +201,9 @@ calcular_metricas <- function(datos) {
     filter(fecha <= max(fecha) %m-% months(12)) |> 
     slice(1)
   
-  hace_dos_años <- datos |> 
-    filter(fecha <= max(fecha) %m-% months(24)) |> 
-    slice(1)
+  # hace_dos_años <- datos |> 
+  #   filter(fecha <= max(fecha) %m-% months(24)) |> 
+  #   slice(1)
   
   # cambio porcentual entre cada fecha
   variacion <- datos_recientes |> 
@@ -206,15 +221,21 @@ calcular_metricas <- function(datos) {
                  "ultimo" = ultimo,
                  "penultimo" = penultimo,
                  "hace_un_año" = hace_un_año,
-                 "hace_un_año_p" = ultimo$valor/hace_un_año$valor,
-                 "hace_dos_años" = hace_dos_años
+                 "hace_un_año_p" = ultimo$valor/hace_un_año$valor
+                 # "hace_dos_años" = hace_dos_años
   )
   
   return(output)
 }
 
+
 # interfaces ----
-dato_ui <- function(datos_pib, unidad = "miles de millones", año_base = 2018, subir = "bueno") {
+dato_ui <- function(datos_pib, 
+                    unidad = "miles de millones", 
+                    año_base = 2018, 
+                    subir = "bueno",
+                    diario = FALSE
+                    ) {
   
   estilo_texto_izquierdo = "flex: 1; font-size: 110%; text-align: right; 
                             padding-top: 8px; margin-bottom: 0; margin-right: 28px;"
@@ -237,7 +258,7 @@ dato_ui <- function(datos_pib, unidad = "miles de millones", año_base = 2018, s
             porcentaje_flechita(datos_pib$cambio$valor, juicio = subir),
             p(style = estilo_texto_derecha,
               "versus cifra anterior",
-              paste0("(", fecha_redactada(datos_pib$penultimo$fecha), ")")
+              paste0("(", fecha_redactada(datos_pib$penultimo$fecha, diario), ")")
             )
         )
     ),
@@ -254,7 +275,7 @@ dato_ui <- function(datos_pib, unidad = "miles de millones", año_base = 2018, s
             porcentaje_flechita(datos_pib$hace_un_año_p, juicio = subir),
             p(style = estilo_texto_derecha,
               "versus hace un año",
-              paste0("(", fecha_redactada(datos_pib$hace_un_año$fecha), ")")
+              paste0("(", fecha_redactada(datos_pib$hace_un_año$fecha, diario), ")")
             )
         )
     )
@@ -279,8 +300,8 @@ tendencia_ui <- function(datos, fecha_corte, input, subir = "bueno") {
     # }
   }
   
-  variacion <- mean(datos_variacion$valor, na.rm = T) |> 
-    round(3)
+  # se aplica redondeo para simplificar comparaciones, para que un 0.01 no sea reducción, sino que se vea como 0 (para cambiarlo hay que ajustar la accuracy del scales::percent mas abajo en esta función)
+  variacion <- mean(datos_variacion$valor, na.rm = T) |> round(3)
   
   if (variacion > 1) {
     tendencia = "aumentó"
@@ -321,7 +342,7 @@ tendencia_ui <- function(datos, fecha_corte, input, subir = "bueno") {
   flecha <- flechita(variacion, juicio = subir)
   
   # variación en porcentaje
-  tendencia_cifra <- scales::percent(variacion-1, big.mark = ".", decimal.mark = ",", accuracy = 0.01)
+  tendencia_cifra <- scales::percent(variacion-1, big.mark = ".", decimal.mark = ",", accuracy = 0.1)
   
   if (variacion-1 == 0.00) {
     tendencia_cifra = "0%"
@@ -436,7 +457,8 @@ panel_grafico_historico <- function(titulo, output) {
 
 
 # gráficos ----
-grafico_variacion <- function(dato, escala = "mensual", subir = "bueno"
+grafico_variacion <- function(dato, escala = "mensual", subir = "bueno",
+                              mensualizar = FALSE
                               # color_fondo = color_secundario
 ) {
   
@@ -454,8 +476,18 @@ grafico_variacion <- function(dato, escala = "mensual", subir = "bueno"
     color_neutro = color_neutro
   }
   
+  # por si el dato no viene por meses, se calcula el promedio mensual
+  if (mensualizar == TRUE) {
+    # browser()
+    dato$variacion <- dato$variacion |> 
+      group_by(año, mes) |> 
+      summarize(valor = mean(valor, na.rm = T),
+                fecha = min(fecha), .groups = "drop")
+  }
+  
   dato_2 <- dato$variacion |> 
     ungroup() |> 
+    arrange(desc(fecha)) |> 
     slice(1:12) |> 
     mutate(valor = valor-1) |> 
     mutate(direccion = ifelse(valor > 0, "Aumento", "Disminución"),
