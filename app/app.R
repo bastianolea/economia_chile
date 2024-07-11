@@ -171,7 +171,7 @@ ui <- fluidPage(
                style = "margin-top: 16px; margin-bottom: 16px; font-family: 'Archivo', sans-serif; font-weight: 900;"),
            
            div(style = "font-size: 130%;",
-               p("Tablero que reune los principales indicadores para comprender la situación económica del país."),
+               p("Tablero que reúne los principales indicadores para comprender la situación económica del país."),
                
                p(markdown("Todos los datos son obtenidos directamente desde la base de datos estadísticos del [Banco Central](https://si3.bcentral.cl/siete). Los datos se actualizan automáticamente dos veces al día."))
            )
@@ -208,6 +208,7 @@ ui <- fluidPage(
     
     ## tendencias ----
     column(12, style = "padding: 24px; margin-bottom: -20px;",
+           # se hacen todas juntas en server
            uiOutput("tendencias_ui") |> withSpinner(color = color_secundario, proxy.height = 400)
     )
   ),
@@ -481,27 +482,55 @@ server <- function(input, output) {
   output$cobre_tendencia <- renderUI(tendencia_ui(datos_cobre, fecha_corte(), input, subir = "bueno"))
   
   
+  output$pib_tendencia_texto <- renderText(tendencia_texto(datos_pib, fecha_corte(), input))
+  output$imacec_tendencia_texto <- renderText(tendencia_texto(datos_imacec, fecha_corte(), input))
+  output$ipc_tendencia_texto <- renderText(tendencia_texto(datos_ipc, fecha_corte(), input))
+  output$uf_tendencia_texto <- renderText(tendencia_texto(datos_uf, fecha_corte(), input))
+  output$ipsa_tendencia_texto <- renderText(tendencia_texto(datos_ipsa, fecha_corte(), input))
+  output$desempleo_tendencia_texto <- renderText(tendencia_texto(datos_desempleo, fecha_corte(), input))
+  output$remuneraciones_tendencia_texto <- renderText(tendencia_texto(datos_remuneraciones, fecha_corte(), input))
+  
+  output$invext_tendencia_texto <- renderText(tendencia_texto(datos_invext, fecha_corte(), input))
+  output$cobre_tendencia_texto <- renderText(tendencia_texto(datos_cobre, fecha_corte(), input))
+  
   # generar una sola salida ui para que se carguen todos juntos
   output$tendencias_ui <- renderUI({
     div(
       panel_tendencia("El PIB",
-                      "pib_tendencia"),
+                      "pib_tendencia",
+                      "pib_tendencia_texto"),
+      
       panel_tendencia("El Imacec",
-                      "imacec_tendencia"),
+                      "imacec_tendencia",
+                      "imacec_tendencia_texto"),
+      
       panel_tendencia("El IPC",
-                      "ipc_tendencia"),
+                      "ipc_tendencia",
+                      "ipc_tendencia_texto"),
+      
       panel_tendencia("La inversión extranjera",
-                      "invext_tendencia"), #nueva
+                      "invext_tendencia",
+                      "invext_tendencia_texto"), #nueva
+      
       panel_tendencia("El valor de la UF",
-                      "uf_tendencia"),
+                      "uf_tendencia",
+                      "uf_tendencia_texto"),
+      
       panel_tendencia("El IPSA",
-                      "ipsa_tendencia"),
+                      "ipsa_tendencia",
+                      "ipsa_tendencia_texto"),
+      
       panel_tendencia("El desempleo",
-                      "desempleo_tendencia"),
+                      "desempleo_tendencia",
+                      "desempleo_tendencia_texto"),
+      
       panel_tendencia("El valor de las remuneraciones",
-                      "remuneraciones_tendencia"),
+                      "remuneraciones_tendencia",
+                      "remuneraciones_tendencia_texto"),
+      
       panel_tendencia("El precio del cobre",
-                      "cobre_tendencia") #nueva
+                      "cobre_tendencia",
+                      "cobre_tendencia_texto") #nueva
     )
   })
   

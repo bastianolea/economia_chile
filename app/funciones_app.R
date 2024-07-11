@@ -235,7 +235,7 @@ dato_ui <- function(datos_pib,
                     año_base = 2018, 
                     subir = "bueno",
                     diario = FALSE
-                    ) {
+) {
   
   estilo_texto_izquierdo = "flex: 1; font-size: 110%; text-align: right; 
                             padding-top: 8px; margin-bottom: 0; margin-right: 28px;"
@@ -283,8 +283,7 @@ dato_ui <- function(datos_pib,
   return(output)
 }
 
-
-tendencia_ui <- function(datos, fecha_corte, input, subir = "bueno") {
+variacion_corte_fecha <- function(datos, fecha_corte, input) {
   req(datos)
   req(fecha_corte)
   
@@ -302,14 +301,32 @@ tendencia_ui <- function(datos, fecha_corte, input, subir = "bueno") {
   
   # se aplica redondeo para simplificar comparaciones, para que un 0.01 no sea reducción, sino que se vea como 0 (para cambiarlo hay que ajustar la accuracy del scales::percent mas abajo en esta función)
   variacion <- mean(datos_variacion$valor, na.rm = T) |> round(3)
+  return(variacion)
+}
+
+tendencia_ui <- function(datos, fecha_corte, input, subir = "bueno") {
+  # req(datos)
+  # req(fecha_corte)
+  # 
+  # datos_variacion <- datos$variacion |> 
+  #   filter(fecha >= fecha_corte) 
+  # 
+  # # correción para indicadores que se cortan antes de tener alguna medición
+  # if (nrow(datos_variacion) == 0 & input$fecha_corte == "3 meses") {
+  #   # browser()
+  #   # if (unique(datos$variacion$serie) == "PIB a precios corrientes") {
+  #   datos_variacion <- datos$variacion |> 
+  #     slice(1)
+  #   # }
+  # }
+  # 
+  # # se aplica redondeo para simplificar comparaciones, para que un 0.01 no sea reducción, sino que se vea como 0 (para cambiarlo hay que ajustar la accuracy del scales::percent mas abajo en esta función)
+  # variacion <- mean(datos_variacion$valor, na.rm = T) |> round(3)
+  # 
   
-  if (variacion > 1) {
-    tendencia = "aumentó"
-  } else if (variacion == 1) {
-    tendencia = "se mantuvo"
-  } else if (variacion < 1) {
-    tendencia = "disminuyó"
-  }
+  variacion <- variacion_corte_fecha(datos, fecha_corte, input)
+  
+  tendencia <- calcular_tendencia(variacion) #en texto
   
   # determinar si subir es bueno o malo
   if (subir == "bueno") {
@@ -359,13 +376,87 @@ tendencia_ui <- function(datos, fecha_corte, input, subir = "bueno") {
   
   # crear html
   out <- div(
-    div(flecha, style = "display: inline-block;"),
-    div(tendencia_2, style = "display: inline-block;"),
-    div(articulo, style = "display: inline-block;"),
-    div(tendencia_cifra, style = "display: inline-block;")
+    div(
+      div(flecha, style = "display: inline-block;"),
+      div(tendencia_2, style = "display: inline-block;"),
+      div(articulo, style = "display: inline-block;"),
+      div(tendencia_cifra, style = "display: inline-block;")
+    )
+    # 
+    # div(em("Esto significa que..."))
   )
   
   return(out)
+}
+
+calcular_tendencia <- function(variacion) {
+  if (variacion > 1) {
+    tendencia = "aumentó"
+  } else if (variacion == 1) {
+    tendencia = "se mantuvo"
+  } else if (variacion < 1) {
+    tendencia = "disminuyó"
+  }
+  return(tendencia)
+}
+
+tendencia_texto <- function(datos, fecha_corte, input) {
+  # browser()
+  
+  # sacar los datos
+  dato <- datos$datos$dato[1]
+  variacion <- variacion_corte_fecha(datos, fecha_corte, input)
+  tendencia <- calcular_tendencia(variacion)
+  
+  
+  if (dato == "pib") {
+    texto <- case_when(tendencia == "aumentó" ~ "",
+                       tendencia == "disminuyó" ~ "",
+                       tendencia == "se mantuvo" ~ ""
+    )
+  } else if (dato == "imacec") {
+    texto <- case_when(tendencia == "aumentó" ~ "",
+                       tendencia == "disminuyó" ~ "",
+                       tendencia == "se mantuvo" ~ ""
+    )
+  } else if (dato == "ipc") {
+    texto <- case_when(tendencia == "aumentó" ~ "",
+                       tendencia == "disminuyó" ~ "",
+                       tendencia == "se mantuvo" ~ ""
+    )
+  } else if (dato == "invext") {
+    texto <- case_when(tendencia == "aumentó" ~ "",
+                       tendencia == "disminuyó" ~ "",
+                       tendencia == "se mantuvo" ~ ""
+    )
+  } else if (dato == "uf") {
+    texto <- case_when(tendencia == "aumentó" ~ "",
+                       tendencia == "disminuyó" ~ "",
+                       tendencia == "se mantuvo" ~ ""
+    )
+  } else if (dato == "ipsa") {
+    texto <- case_when(tendencia == "aumentó" ~ "",
+                       tendencia == "disminuyó" ~ "",
+                       tendencia == "se mantuvo" ~ ""
+    )
+  } else if (dato == "desempleo") {
+    texto <- case_when(tendencia == "aumentó" ~ "",
+                       tendencia == "disminuyó" ~ "",
+                       tendencia == "se mantuvo" ~ ""
+    )
+  } else if (dato == "remuneraciones") {
+    texto <- case_when(tendencia == "aumentó" ~ "",
+                       tendencia == "disminuyó" ~ "",
+                       tendencia == "se mantuvo" ~ ""
+    )
+  } else if (dato == "cobre") {
+    texto <- case_when(tendencia == "aumentó" ~ "",
+                       tendencia == "disminuyó" ~ "",
+                       tendencia == "se mantuvo" ~ ""
+    )
+  }
+  
+  return(texto)
 }
 
 
@@ -411,7 +502,8 @@ panel_titular <- function(titulo, subtitulo) {
 }
 
 
-panel_tendencia <- function(texto, ui) {
+panel_tendencia <- function(texto, ui,
+                            texto_interpretacion = "Significa que...") {
   panel_texto(8,
               div(style = paste("display: inline-block; margin-right: 4px; color:", color_detalle, ";"),
                   p("⏺︎︎")
@@ -421,6 +513,11 @@ panel_tendencia <- function(texto, ui) {
               ),
               div(style = "display: inline-block;",
                   uiOutput(ui) 
+              ),
+              div(style = "margin-left: 20px; margin-top: -10px; 
+                  font-size: 60%; opacity: 80%;",
+                  # em("Esto significa que...")
+                  em(textOutput(texto_interpretacion))
               )
   )
 }
