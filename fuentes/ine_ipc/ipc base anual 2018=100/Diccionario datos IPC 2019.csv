@@ -1,0 +1,369 @@
+﻿Orden;Glosa;Descripción
+1;FUENTE;Corresponde al establecimiento donde se va a buscar los precios
+2;DIVISION;Código de división de canasta IPC
+3;GRUPO;Código de grupo de canasta IPC
+4;CLASE;Código de clase de canasta IPC
+5;SUBCLASE;Código de subclase de canasta IPC
+6;PRODUCTO;Código de producto de canasta IPC
+7;VARIEDAD;Código de variedad de canasta IPC
+8;Glosa_Producto;Descripción de producto del IPC
+9;pm_Enero2019;Precio promedio Enero 2019
+10;pm_Febrero2019;Precio promedio Febrero 2019
+11;pm_Marzo2019;Precio promedio Marzo 2019
+12;pm_Abril2019;Precio promedio Abril 2019
+13;pm_Mayo2019;Precio promedio Mayo 2019
+14;pm_Junio2019;Precio promedio Junio 2019
+15;pm_Julio2019;Precio promedio Julio 2019
+16;pm_Agosto2019;Precio promedio Agosto 2019
+17;pm_Septiembre2019;Precio promedio Septiembre 2019
+18;pm_Octubre2019;Precio promedio Octubre 2019
+19;pm_Noviembre2019;Precio promedio Noviembre 2019
+20;pm_Diciembre2019;Precio promedio Diciembre 2019
+21;pm_Enero2020;Precio promedio Enero 2020
+22;pm_Febrero2020;Precio promedio Febrero 2020
+23;pm_Marzo2020;Precio promedio Marzo 2020
+24;pm_Abril2020;Precio promedio Abril 2020
+25;pm_Mayo2020;Precio promedio Mayo 2020
+26;pm_Junio2020;Precio promedio Junio 2020
+27;pm_Julio2020;Precio promedio Julio 2020
+28;pm_Agosto2020;Precio promedio Agosto 2020
+29;pm_Septiembre2020;Precio promedio Septiembre 2020
+30;pm_Octubre2020;Precio promedio Octubre 2020
+31;pm_Noviembre2020;Precio promedio Noviembre 2020
+32;pm_Diciembre2020;Precio promedio Diciembre 2020
+33;pm_Enero2021;Precio promedio Enero 2021
+34;pm_Febrero2021;Precio promedio Febrero 2021
+35;pm_Marzo2021;Precio promedio Marzo 2021
+36;pm_Abril2021;Precio promedio Abril 2021
+37;pm_Mayo2021;Precio promedio Mayo 2021
+38;pm_Junio2021;Precio promedio Junio 2021
+39;pm_Julio2021;Precio promedio Julio 2021
+40;pm_Agosto2021;Precio promedio Agosto 2021
+41;pm_Septiembre2021;Precio promedio Septiembre 2021
+42;pm_Octubre2021;Precio promedio Octubre 2021
+43;pm_Noviembre2021;Precio promedio Noviembre 2021
+44;pm_Diciembre2021;Precio promedio Diciembre 2021
+45;pm_Enero2022;Precio promedio Enero 2022
+46;pm_Febrero2022;Precio promedio Febrero 2022
+47;pm_Marzo2022;Precio promedio Marzo 2022
+48;pm_Abril2022;Precio promedio Abril 2022
+49;pm_Mayo2022;Precio promedio Mayo 2022
+50;pm_Junio2022;Precio promedio Junio 2022
+51;pm_Julio2022;Precio promedio Julio 2022
+52;pm_Agosto2022;Precio promedio Agosto 2022
+53;pm_Septiembre2022;Precio promedio Septiembre 2022
+54;pm_Octubre2022;Precio promedio Octubre 2022
+55;pm_Noviembre2022;Precio promedio Noviembre 2022
+56;pm_Diciembre2022;Precio promedio Diciembre 2022
+57;pm_Enero2023;Precio promedio Enero 2023
+58;pm_Febrero2023;Precio promedio Febrero 2023
+59;pm_Marzo2023;Precio promedio Marzo 2023
+60;pm_Abril2023;Precio promedio Abril 2023
+61;pm_Mayo2023;Precio promedio Mayo 2023
+62;pm_Junio2023;Precio promedio Junio 2023
+63;pm_Julio2023;Precio promedio Julio 2023
+64;pm_Agosto2023;Precio promedio Agosto 2023
+65;pm_Septiembre2023;Precio promedio Septiembre 2023
+66;pm_Octubre2023;Precio promedio Octubre 2023
+67;pm_Noviembre2023;Precio promedio Noviembre 2023
+68;pm_Diciembre2023;Precio promedio Diciembre 2023
+69;pm_16_Enero2019;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+70;pm_16_Febrero2019;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+71;pm_16_Marzo2019;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+72;pm_16_Abril2019;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+73;pm_16_Mayo2019;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+74;pm_16_Junio2019;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+75;pm_16_Julio2019;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+76;pm_16_Agosto2019;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+77;pm_16_Septiembre2019;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+78;pm_16_Octubre2019;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+79;pm_16_Noviembre2019;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+80;pm_16_Diciembre2019;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+81;pm_16_Enero2020;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+82;pm_16_Febrero2020;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+83;pm_16_Marzo2020;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+84;pm_16_Abril2020;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+85;pm_16_Mayo2020;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+86;pm_16_Junio2020;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+87;pm_16_Julio2020;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+88;pm_16_Agosto2020;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+89;pm_16_Septiembre2020;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+90;pm_16_Octubre2020;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+91;pm_16_Noviembre2020;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+92;pm_16_Diciembre2020;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+93;pm_16_Enero2021;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+94;pm_16_Febrero2021;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+95;pm_16_Marzo2021;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+96;pm_16_Abril2021;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+97;pm_16_Mayo2021;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+98;pm_16_Junio2021;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+99;pm_16_Julio2021;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+100;pm_16_Agosto2021;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+101;pm_16_Septiembre2021;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+102;pm_16_Octubre2021;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+103;pm_16_Noviembre2021;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+104;pm_16_Diciembre2021;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+105;pm_16_Enero2022;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+106;pm_16_Febrero2022;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+107;pm_16_Marzo2022;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+108;pm_16_Abril2022;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+109;pm_16_Mayo2022;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+110;pm_16_Junio2022;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+111;pm_16_Julio2022;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+112;pm_16_Agosto2022;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+113;pm_16_Septiembre2022;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+114;pm_16_Octubre2022;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+115;pm_16_Noviembre2022;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+116;pm_16_Diciembre2022;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+117;pm_16_Enero2023;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+118;pm_16_Febrero2023;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+119;pm_16_Marzo2023;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+120;pm_16_Abril2023;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+121;pm_16_Mayo2023;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+122;pm_16_Junio2023;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+123;pm_16_Julio2023;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+124;pm_16_Agosto2023;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+125;pm_16_Septiembre2023;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+126;pm_16_Octubre2023;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+127;pm_16_Noviembre2023;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+128;pm_16_Diciembre2023;Corresponde a precio de reemplazo no comparable, que se guarda para comparar con el mes siguiente
+129;Reemplaza_Enero2019;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+130;Reemplaza_Febrero2019;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+131;Reemplaza_Marzo2019;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+132;Reemplaza_Abril2019;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+133;Reemplaza_Mayo2019;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+134;Reemplaza_Junio2019;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+135;Reemplaza_Julio2019;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+136;Reemplaza_Agosto2019;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+137;Reemplaza_Septiembre2019;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+138;Reemplaza_Octubre2019;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+139;Reemplaza_Noviembre2019;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+140;Reemplaza_Diciembre2019;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+141;Reemplaza_Enero2020;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+142;Reemplaza_Febrero2020;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+143;Reemplaza_Marzo2020;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+144;Reemplaza_Abril2020;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+145;Reemplaza_Mayo2020;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+146;Reemplaza_Junio2020;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+147;Reemplaza_Julio2020;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+148;Reemplaza_Agosto2020;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+149;Reemplaza_Septiembre2020;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+150;Reemplaza_Octubre2020;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+151;Reemplaza_Noviembre2020;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+152;Reemplaza_Diciembre2020;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+153;Reemplaza_Enero2021;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+154;Reemplaza_Febrero2021;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+155;Reemplaza_Marzo2021;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+156;Reemplaza_Abril2021;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+157;Reemplaza_Mayo2021;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+158;Reemplaza_Junio2021;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+159;Reemplaza_Julio2021;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+160;Reemplaza_Agosto2021;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+161;Reemplaza_Septiembre2021;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+162;Reemplaza_Octubre2021;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+163;Reemplaza_Noviembre2021;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+164;Reemplaza_Diciembre2021;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+165;Reemplaza_Enero2022;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+166;Reemplaza_Febrero2022;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+167;Reemplaza_Marzo2022;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+168;Reemplaza_Abril2022;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+169;Reemplaza_Mayo2022;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+170;Reemplaza_Junio2022;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+171;Reemplaza_Julio2022;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+172;Reemplaza_Agosto2022;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+173;Reemplaza_Septiembre2022;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+174;Reemplaza_Octubre2022;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+175;Reemplaza_Noviembre2022;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+176;Reemplaza_Diciembre2022;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+177;Reemplaza_Enero2023;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+178;Reemplaza_Febrero2023;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+179;Reemplaza_Marzo2023;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+180;Reemplaza_Abril2023;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+181;Reemplaza_Mayo2023;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+182;Reemplaza_Junio2023;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+183;Reemplaza_Julio2023;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+184;Reemplaza_Agosto2023;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+185;Reemplaza_Septiembre2023;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+186;Reemplaza_Octubre2023;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+187;Reemplaza_Noviembre2023;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+188;Reemplaza_Diciembre2023;"Señala si el reemplazo es aceptado o no, ""SI"" aceptado, ""NO"" rechazado"
+189;Estado_lev_Enero2019;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+190;Estado_lev_Febrero2019;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+191;Estado_lev_Marzo2019;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+192;Estado_lev_Abril2019;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+193;Estado_lev_Mayo2019;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+194;Estado_lev_Junio2019;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+195;Estado_lev_Julio2019;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+196;Estado_lev_Agosto2019;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+197;Estado_lev_Septiembre2019;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+198;Estado_lev_Octubre2019;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+199;Estado_lev_Noviembre2019;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+200;Estado_lev_Diciembre2019;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+201;Estado_lev_Enero2020;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+202;Estado_lev_Febrero2020;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+203;Estado_lev_Marzo2020;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+204;Estado_lev_Abril2020;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+205;Estado_lev_Mayo2020;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+206;Estado_lev_Junio2020;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+207;Estado_lev_Julio2020;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+208;Estado_lev_Agosto2020;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+209;Estado_lev_Septiembre2020;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+210;Estado_lev_Octubre2020;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+211;Estado_lev_Noviembre2020;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+212;Estado_lev_Diciembre2020;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+213;Estado_lev_Enero2021;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+214;Estado_lev_Febrero2021;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+215;Estado_lev_Marzo2021;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+216;Estado_lev_Abril2021;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+217;Estado_lev_Mayo2021;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+218;Estado_lev_Junio2021;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+219;Estado_lev_Julio2021;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+220;Estado_lev_Agosto2021;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+221;Estado_lev_Septiembre2021;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+222;Estado_lev_Octubre2021;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+223;Estado_lev_Noviembre2021;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+224;Estado_lev_Diciembre2021;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+225;Estado_lev_Enero2022;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+226;Estado_lev_Febrero2022;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+227;Estado_lev_Marzo2022;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+228;Estado_lev_Abril2022;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+229;Estado_lev_Mayo2022;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+230;Estado_lev_Junio2022;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+231;Estado_lev_Julio2022;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+232;Estado_lev_Agosto2022;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+233;Estado_lev_Septiembre2022;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+234;Estado_lev_Octubre2022;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+235;Estado_lev_Noviembre2022;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+236;Estado_lev_Diciembre2022;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+237;Estado_lev_Enero2023;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+238;Estado_lev_Febrero2023;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+239;Estado_lev_Marzo2023;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+240;Estado_lev_Abril2023;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+241;Estado_lev_Mayo2023;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+242;Estado_lev_Junio2023;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+243;Estado_lev_Julio2023;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+244;Estado_lev_Agosto2023;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+245;Estado_lev_Septiembre2023;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+246;Estado_lev_Octubre2023;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+247;Estado_lev_Noviembre2023;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+248;Estado_lev_Diciembre2023;"Señala si se levanto en el mes, Código ""1""  se levanto, Código ""0"" no se levanto"
+249;Cantidad_Ene2019;Es la cantidad relacionado a la unidad de medida
+250;Cantidad_Feb2019;Es la cantidad relacionado a la unidad de medida
+251;Cantidad_Mar2019;Es la cantidad relacionado a la unidad de medida
+252;Cantidad_Abr2019;Es la cantidad relacionado a la unidad de medida
+253;Cantidad_May2019;Es la cantidad relacionado a la unidad de medida
+254;Cantidad_Jun2019;Es la cantidad relacionado a la unidad de medida
+255;Cantidad_Jul2019;Es la cantidad relacionado a la unidad de medida
+256;Cantidad_Ago2019;Es la cantidad relacionado a la unidad de medida
+257;Cantidad_Sep2019;Es la cantidad relacionado a la unidad de medida
+258;Cantidad_Oct2019;Es la cantidad relacionado a la unidad de medida
+259;Cantidad_Nov2019;Es la cantidad relacionado a la unidad de medida
+260;Cantidad_Dic2019;Es la cantidad relacionado a la unidad de medida
+261;Cantidad_Ene2020;Es la cantidad relacionado a la unidad de medida
+262;Cantidad_Feb2020;Es la cantidad relacionado a la unidad de medida
+263;Cantidad_Mar2020;Es la cantidad relacionado a la unidad de medida
+264;Cantidad_Abr2020;Es la cantidad relacionado a la unidad de medida
+265;Cantidad_May2020;Es la cantidad relacionado a la unidad de medida
+266;Cantidad_Jun2020;Es la cantidad relacionado a la unidad de medida
+267;Cantidad_Jul2020;Es la cantidad relacionado a la unidad de medida
+268;Cantidad_Ago2020;Es la cantidad relacionado a la unidad de medida
+269;Cantidad_Sep2020;Es la cantidad relacionado a la unidad de medida
+270;Cantidad_Oct2020;Es la cantidad relacionado a la unidad de medida
+271;Cantidad_Nov2020;Es la cantidad relacionado a la unidad de medida
+272;Cantidad_Dic2020;Es la cantidad relacionado a la unidad de medida
+273;Cantidad_Ene2021;Es la cantidad relacionado a la unidad de medida
+274;Cantidad_Feb2021;Es la cantidad relacionado a la unidad de medida
+275;Cantidad_Mar2021;Es la cantidad relacionado a la unidad de medida
+276;Cantidad_Abr2021;Es la cantidad relacionado a la unidad de medida
+277;Cantidad_May2021;Es la cantidad relacionado a la unidad de medida
+278;Cantidad_Jun2021;Es la cantidad relacionado a la unidad de medida
+279;Cantidad_Jul2021;Es la cantidad relacionado a la unidad de medida
+280;Cantidad_Ago2021;Es la cantidad relacionado a la unidad de medida
+281;Cantidad_Sep2021;Es la cantidad relacionado a la unidad de medida
+282;Cantidad_Oct2021;Es la cantidad relacionado a la unidad de medida
+283;Cantidad_Nov2021;Es la cantidad relacionado a la unidad de medida
+284;Cantidad_Dic2021;Es la cantidad relacionado a la unidad de medida
+285;Cantidad_Ene2022;Es la cantidad relacionado a la unidad de medida
+286;Cantidad_Feb2022;Es la cantidad relacionado a la unidad de medida
+287;Cantidad_Mar2022;Es la cantidad relacionado a la unidad de medida
+288;Cantidad_Abr2022;Es la cantidad relacionado a la unidad de medida
+289;Cantidad_May2022;Es la cantidad relacionado a la unidad de medida
+290;Cantidad_Jun2022;Es la cantidad relacionado a la unidad de medida
+291;Cantidad_Jul2022;Es la cantidad relacionado a la unidad de medida
+292;Cantidad_Ago2022;Es la cantidad relacionado a la unidad de medida
+293;Cantidad_Sep2022;Es la cantidad relacionado a la unidad de medida
+294;Cantidad_Oct2022;Es la cantidad relacionado a la unidad de medida
+295;Cantidad_Nov2022;Es la cantidad relacionado a la unidad de medida
+296;Cantidad_Dic2022;Es la cantidad relacionado a la unidad de medida
+297;Cantidad_Ene2023;Es la cantidad relacionado a la unidad de medida
+298;Cantidad_Feb2023;Es la cantidad relacionado a la unidad de medida
+299;Cantidad_Mar2023;Es la cantidad relacionado a la unidad de medida
+300;Cantidad_Abr2023;Es la cantidad relacionado a la unidad de medida
+301;Cantidad_May2023;Es la cantidad relacionado a la unidad de medida
+302;Cantidad_Jun2023;Es la cantidad relacionado a la unidad de medida
+303;Cantidad_Jul2023;Es la cantidad relacionado a la unidad de medida
+304;Cantidad_Ago2023;Es la cantidad relacionado a la unidad de medida
+305;Cantidad_Sep2023;Es la cantidad relacionado a la unidad de medida
+306;Cantidad_Oct2023;Es la cantidad relacionado a la unidad de medida
+307;Cantidad_Nov2023;Es la cantidad relacionado a la unidad de medida
+308;Cantidad_Dic2023;Es la cantidad relacionado a la unidad de medida
+309;Unidad_Ene2019;Es la unidad de medida, relacionada a la cantidad
+310;Unidad_Feb2019;Es la unidad de medida, relacionada a la cantidad
+311;Unidad_Mar2019;Es la unidad de medida, relacionada a la cantidad
+312;Unidad_Abr2019;Es la unidad de medida, relacionada a la cantidad
+313;Unidad_May2019;Es la unidad de medida, relacionada a la cantidad
+314;Unidad_Jun2019;Es la unidad de medida, relacionada a la cantidad
+315;Unidad_Jul2019;Es la unidad de medida, relacionada a la cantidad
+316;Unidad_Ago2019;Es la unidad de medida, relacionada a la cantidad
+317;Unidad_Sep2019;Es la unidad de medida, relacionada a la cantidad
+318;Unidad_Oct2019;Es la unidad de medida, relacionada a la cantidad
+319;Unidad_Nov2019;Es la unidad de medida, relacionada a la cantidad
+320;Unidad_Dic2019;Es la unidad de medida, relacionada a la cantidad
+321;Unidad_Ene2020;Es la unidad de medida, relacionada a la cantidad
+322;Unidad_Feb2020;Es la unidad de medida, relacionada a la cantidad
+323;Unidad_Mar2020;Es la unidad de medida, relacionada a la cantidad
+324;Unidad_Abr2020;Es la unidad de medida, relacionada a la cantidad
+325;Unidad_May2020;Es la unidad de medida, relacionada a la cantidad
+326;Unidad_Jun2020;Es la unidad de medida, relacionada a la cantidad
+327;Unidad_Jul2020;Es la unidad de medida, relacionada a la cantidad
+328;Unidad_Ago2020;Es la unidad de medida, relacionada a la cantidad
+329;Unidad_Sep2020;Es la unidad de medida, relacionada a la cantidad
+330;Unidad_Oct2020;Es la unidad de medida, relacionada a la cantidad
+331;Unidad_Nov2020;Es la unidad de medida, relacionada a la cantidad
+332;Unidad_Dic2020;Es la unidad de medida, relacionada a la cantidad
+333;Unidad_Ene2021;Es la unidad de medida, relacionada a la cantidad
+334;Unidad_Feb2021;Es la unidad de medida, relacionada a la cantidad
+335;Unidad_Mar2021;Es la unidad de medida, relacionada a la cantidad
+336;Unidad_Abr2021;Es la unidad de medida, relacionada a la cantidad
+337;Unidad_May2021;Es la unidad de medida, relacionada a la cantidad
+338;Unidad_Jun2021;Es la unidad de medida, relacionada a la cantidad
+339;Unidad_Jul2021;Es la unidad de medida, relacionada a la cantidad
+340;Unidad_Ago2021;Es la unidad de medida, relacionada a la cantidad
+341;Unidad_Sep2021;Es la unidad de medida, relacionada a la cantidad
+342;Unidad_Oct2021;Es la unidad de medida, relacionada a la cantidad
+343;Unidad_Nov2021;Es la unidad de medida, relacionada a la cantidad
+344;Unidad_Dic2021;Es la unidad de medida, relacionada a la cantidad
+345;Unidad_Ene2022;Es la unidad de medida, relacionada a la cantidad
+346;Unidad_Feb2022;Es la unidad de medida, relacionada a la cantidad
+347;Unidad_Mar2022;Es la unidad de medida, relacionada a la cantidad
+348;Unidad_Abr2022;Es la unidad de medida, relacionada a la cantidad
+349;Unidad_May2022;Es la unidad de medida, relacionada a la cantidad
+350;Unidad_Jun2022;Es la unidad de medida, relacionada a la cantidad
+351;Unidad_Jul2022;Es la unidad de medida, relacionada a la cantidad
+352;Unidad_Ago2022;Es la unidad de medida, relacionada a la cantidad
+353;Unidad_Sep2022;Es la unidad de medida, relacionada a la cantidad
+354;Unidad_Oct2022;Es la unidad de medida, relacionada a la cantidad
+355;Unidad_Nov2022;Es la unidad de medida, relacionada a la cantidad
+356;Unidad_Dic2022;Es la unidad de medida, relacionada a la cantidad
+357;Unidad_Ene2023;Es la unidad de medida, relacionada a la cantidad
+358;Unidad_Feb2023;Es la unidad de medida, relacionada a la cantidad
+359;Unidad_Mar2023;Es la unidad de medida, relacionada a la cantidad
+360;Unidad_Abr2023;Es la unidad de medida, relacionada a la cantidad
+361;Unidad_May2023;Es la unidad de medida, relacionada a la cantidad
+362;Unidad_Jun2023;Es la unidad de medida, relacionada a la cantidad
+363;Unidad_Jul2023;Es la unidad de medida, relacionada a la cantidad
+364;Unidad_Ago2023;Es la unidad de medida, relacionada a la cantidad
+365;Unidad_Sep2023;Es la unidad de medida, relacionada a la cantidad
+366;Unidad_Oct2023;Es la unidad de medida, relacionada a la cantidad
+367;Unidad_Nov2023;Es la unidad de medida, relacionada a la cantidad
+368;Unidad_Dic2023;Es la unidad de medida, relacionada a la cantidad
