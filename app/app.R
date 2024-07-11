@@ -7,7 +7,7 @@ library(lubridate)
 library(ggplot2)
 library(shades)
 
-descargar = FALSE #descargar datos desde GitHub, o cargar datos locales
+descargar = TRUE #descargar datos desde GitHub, o cargar datos locales
 
 # setup ----
 
@@ -253,18 +253,19 @@ ui <- fluidPage(
                                   "imacec_g_hist")
         ),
         
-        ## ipc ----
+        
+        ## ipsa ----
         fila_indicador(
-          panel_titular(titulo = "Índice de Precios al Consumidor (IPC)",
-                        subtitulo = "Mide la variación de los precios de una canasta de bienes y servicios representativa del consumo de los hogares urbanos en Chile."),
+          panel_titular(titulo = "Índice de Precios Selectivo de Acciones (IPSA)",
+                        subtitulo = "Indicador de desempeño de las acciones con mayor capitalización en la Bolsa de Comercio de Santiago."),
           
-          panel_cuadro_resumen("Resumen IPC", "ipc_ui"),
+          panel_cuadro_resumen("Resumen IPSA", "ipsa_ui"),
           
-          panel_grafico_variacion("Variación mensual del IPC",
-                                  "ipc_g_var"),
+          panel_grafico_variacion("Variación mensual del IPSA",
+                                  "ipsa_g_var"),
           
-          panel_grafico_historico("Evolución del IPC",
-                                  "ipc_g_hist")
+          panel_grafico_historico("Evolución del IPSA",
+                                  "ipsa_g_hist")
         ),
         
         ## inversión extranjera ----
@@ -279,6 +280,20 @@ ui <- fluidPage(
           
           panel_grafico_historico("Evolución de la Inversión Extranjera",
                                   "invext_g_hist")
+        ),
+        
+        ## ipc ----
+        fila_indicador(
+          panel_titular(titulo = "Índice de Precios al Consumidor (IPC)",
+                        subtitulo = "Mide la variación de los precios de una canasta de bienes y servicios representativa del consumo de los hogares urbanos en Chile."),
+          
+          panel_cuadro_resumen("Resumen IPC", "ipc_ui"),
+          
+          panel_grafico_variacion("Variación mensual del IPC",
+                                  "ipc_g_var"),
+          
+          panel_grafico_historico("Evolución del IPC",
+                                  "ipc_g_hist")
         ),
         
         ## uf ----
@@ -296,19 +311,6 @@ ui <- fluidPage(
           
         ),
         
-        ## ipsa ----
-        fila_indicador(
-          panel_titular(titulo = "Índice de Precios Selectivo de Acciones (IPSA)",
-                        subtitulo = "Indicador de desempeño de las acciones con mayor capitalización en la Bolsa de Comercio de Santiago."),
-          
-          panel_cuadro_resumen("Resumen IPSA", "ipsa_ui"),
-          
-          panel_grafico_variacion("Variación mensual del IPSA",
-                                  "ipsa_g_var"),
-          
-          panel_grafico_historico("Evolución del IPSA",
-                                  "ipsa_g_hist")
-        ),
         
         ## desempleo ----
         fila_indicador(
@@ -504,21 +506,21 @@ server <- function(input, output) {
                       "imacec_tendencia",
                       "imacec_tendencia_texto"),
       
-      panel_tendencia("El IPC",
-                      "ipc_tendencia",
-                      "ipc_tendencia_texto"),
-      
       panel_tendencia("La inversión extranjera",
                       "invext_tendencia",
                       "invext_tendencia_texto"), #nueva
       
-      panel_tendencia("El valor de la UF",
-                      "uf_tendencia",
-                      "uf_tendencia_texto"),
-      
       panel_tendencia("El IPSA",
                       "ipsa_tendencia",
                       "ipsa_tendencia_texto"),
+      
+      panel_tendencia("El IPC",
+                      "ipc_tendencia",
+                      "ipc_tendencia_texto"),
+      
+      panel_tendencia("El valor de la UF",
+                      "uf_tendencia",
+                      "uf_tendencia_texto"),
       
       panel_tendencia("El desempleo",
                       "desempleo_tendencia",

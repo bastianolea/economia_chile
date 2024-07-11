@@ -410,49 +410,49 @@ tendencia_texto <- function(datos, fecha_corte, input) {
   
   
   if (dato == "pib") {
-    texto <- case_when(tendencia == "aumentó" ~ "",
-                       tendencia == "disminuyó" ~ "",
-                       tendencia == "se mantuvo" ~ ""
+    texto <- case_when(tendencia == "aumentó" ~ "Significa que la economía del país está creciendo en la producción, inversión, y prestación de servicios",
+                       tendencia == "disminuyó" ~ "Significa que la economía está decreciendo, debido a una baja en al producción, la inversión, o la prestación de servicios",
+                       tendencia == "se mantuvo" ~ "Esto significa que la producción, inversión y prestación de servicios se ha mantenido"
     )
   } else if (dato == "imacec") {
-    texto <- case_when(tendencia == "aumentó" ~ "",
-                       tendencia == "disminuyó" ~ "",
-                       tendencia == "se mantuvo" ~ ""
+    texto <- case_when(tendencia == "aumentó" ~ "Significa que la actividad de los distintos sectores de la economía del país está en aumento",
+                       tendencia == "disminuyó" ~ "Significa que la actividad económica del país está bajando",
+                       tendencia == "se mantuvo" ~ "Significa que la actividad económica del país se ha mantenido en los mismos niveles"
     )
   } else if (dato == "ipc") {
-    texto <- case_when(tendencia == "aumentó" ~ "",
-                       tendencia == "disminuyó" ~ "",
-                       tendencia == "se mantuvo" ~ ""
+    texto <- case_when(tendencia == "aumentó" ~ "Indica que los precios de los bienes y servicios más comunes han subido",
+                       tendencia == "disminuyó" ~ "Indica que los precios de los bienes y servicios más comunes están bajando",
+                       tendencia == "se mantuvo" ~ "Esto indica que los precios de los bienes y servicios más comunes se han mantenido"
     )
-  } else if (dato == "invext") {
-    texto <- case_when(tendencia == "aumentó" ~ "",
-                       tendencia == "disminuyó" ~ "",
-                       tendencia == "se mantuvo" ~ ""
+  } else if (dato == "inversion_extranjera") {
+    texto <- case_when(tendencia == "aumentó" ~ "Significa que las empresas extranjeras están creando nuevas empresas en el país, y aumentando su inversión en empresas chilenas",
+                       tendencia == "disminuyó" ~ "Significa que empresas extranjeras están invirtiendo menos en empresas o creación de empresas en el país",
+                       tendencia == "se mantuvo" ~ "Significa que el nivel de inversión de las empresas extranjeras en crear nuevas empresas o controlar empresas chilenas se ha mantenido"
     )
   } else if (dato == "uf") {
-    texto <- case_when(tendencia == "aumentó" ~ "",
-                       tendencia == "disminuyó" ~ "",
-                       tendencia == "se mantuvo" ~ ""
+    texto <- case_when(tendencia == "aumentó" ~ "Refleja que el precio de bienes y servicios ha subido, por lo que la UF se alinea a estos aumentos",
+                       tendencia == "disminuyó" ~ "Refleja que el precio de bienes y servicios ha bajado, por lo que la UF se alinea a esta disminución",
+                       tendencia == "se mantuvo" ~ "Refleja que el precio de bienes y servicios se ha mantenido estable"
     )
   } else if (dato == "ipsa") {
-    texto <- case_when(tendencia == "aumentó" ~ "",
-                       tendencia == "disminuyó" ~ "",
-                       tendencia == "se mantuvo" ~ ""
+    texto <- case_when(tendencia == "aumentó" ~ "Significa que mejoró el desempeño de las acciones de las mayores compañías del país, reflejando crecimiento económico",
+                       tendencia == "disminuyó" ~ "Significa que el desempeño de las acciones de las mayores compañías del país está empeorando, indicando recesión económica",
+                       tendencia == "se mantuvo" ~ "Significa que el desempeño de las acciones de las mayores compañías del país se ha mantenido estable"
     )
   } else if (dato == "desempleo") {
-    texto <- case_when(tendencia == "aumentó" ~ "",
-                       tendencia == "disminuyó" ~ "",
-                       tendencia == "se mantuvo" ~ ""
+    texto <- case_when(tendencia == "aumentó" ~ "Significa que ha aumentado la cantidad de personas sin trabajo",
+                       tendencia == "disminuyó" ~ "Significa que hay más puestos de trabajo en Chile, y por lo tanto está disminuyendo la cantidad de personas sin trabajo",
+                       tendencia == "se mantuvo" ~ "Significa que la cantidad de chilenos/as sin trabajo se ha mantenido"
     )
   } else if (dato == "remuneraciones") {
-    texto <- case_when(tendencia == "aumentó" ~ "",
-                       tendencia == "disminuyó" ~ "",
-                       tendencia == "se mantuvo" ~ ""
+    texto <- case_when(tendencia == "aumentó" ~ "Significa que los ingresos de los chilenos están aumentando, a pesar de la inflación",
+                       tendencia == "disminuyó" ~ "Significa que los ingresos de los chilenos están bajando, producto de la inflación",
+                       tendencia == "se mantuvo" ~ "Significa que los ingresos de los chilenos han aumentado lo suficiente como para anular el efecto negativo de la inflación"
     )
-  } else if (dato == "cobre") {
-    texto <- case_when(tendencia == "aumentó" ~ "",
-                       tendencia == "disminuyó" ~ "",
-                       tendencia == "se mantuvo" ~ ""
+  } else if (dato == "precio_cobre") {
+    texto <- case_when(tendencia == "aumentó" ~ "Indica que el cobre está subiendo de precio a nivel mundial, beneficiando el presupuesto del Estado y la planificación económica a futuro",
+                       tendencia == "disminuyó" ~ "Indica que el precio del cobre está bajando en el mercado mundial, lo que afectará el presupuesto del Estado a futuro",
+                       tendencia == "se mantuvo" ~ "Indica que el precio del cobre a nivel mundial se ha mantenido, lo que significa estabilidad para los presupuestos nacionales"
     )
   }
   
@@ -515,7 +515,7 @@ panel_tendencia <- function(texto, ui,
                   uiOutput(ui) 
               ),
               div(style = "margin-left: 20px; margin-top: -10px; 
-                  font-size: 60%; opacity: 80%;",
+                  font-size: 55%; opacity: 70%; line-height: 1.05;",
                   # em("Esto significa que...")
                   em(textOutput(texto_interpretacion))
               )
