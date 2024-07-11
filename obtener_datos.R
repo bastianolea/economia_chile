@@ -2,10 +2,14 @@ library(dplyr)
 library(rvest)
 library(stringr)
 library(tidyr)
+library(readxl)
+library(janitor)
 
 source("funciones.R")
 
+
 # obtener datos ----
+
 pib <- obtener_pib()
 
 pib_regional <- obtener_pib_regional()
@@ -22,14 +26,22 @@ uf <- obtener_uf()
 
 remuneraciones <- obtener_remuneraciones()
 
+# nuevos 
+inversion_extranjera <- obtener_inversion_extranjera()
+
+precio_cobre <- obtener_precio_cobre()
+
+
+
 # hay que automatizarla primero
 # canasta <- obtener_canasta()
-
+# 
 # desocupados <- obtener_desocupados()
 
 
 
 # guardar ----
+
 # # guardar datos obtenidos
 # saveRDS(pib, "app/datos/pib.rds")
 # saveRDS(imacec, "app/datos/imacec.rds")
@@ -47,7 +59,11 @@ guardar_solo_con_cambios(ipsa, "app/datos/ipsa.csv")
 guardar_solo_con_cambios(desempleo, "app/datos/desempleo.csv")
 guardar_solo_con_cambios(uf, "app/datos/uf.csv")
 guardar_solo_con_cambios(remuneraciones, "app/datos/remuneraciones.csv")
-# guardar_solo_con_cambios(desocupados, "app/datos/desocupados.rds")
+
+# nuevos
+guardar_solo_con_cambios(inversion_extranjera, "app/datos/inversion_extranjera.csv")
+guardar_solo_con_cambios(precio_cobre, "app/datos/precio_cobre.csv")
+
 
 
 # unificar ----
@@ -62,7 +78,9 @@ datos_unidos <- bind_rows(pib |> mutate(dato = "pib"),
                           ipsa |> mutate(dato = "ipsa"),
                           desempleo |> mutate(dato = "desempleo"),
                           uf |> mutate(dato = "uf"),
-                          remuneraciones |> mutate(dato = "remuneraciones")
+                          remuneraciones |> mutate(dato = "remuneraciones"),
+                          inversion_extranjera |> mutate(dato = "inversion_extranjera"),
+                          precio_cobre |> mutate(dato = "precio_cobre")
 ) |> 
   mutate(fecha_union = Sys.Date())
 

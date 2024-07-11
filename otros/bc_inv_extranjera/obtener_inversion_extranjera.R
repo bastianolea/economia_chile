@@ -15,7 +15,8 @@ download.file(url_inversion_extranjera,
 
 # cargar ----
 # cargar local              
-invext <- read_excel("otros/bc_inv_extranjera/Cuenta_Financiera_categoria.xlsx")
+invext <- read_excel("otros/bc_inv_extranjera/Cuenta_Financiera_categoria.xlsx",
+                     .name_repair = "unique_quiet")
 
 # limpieza ----
 
@@ -98,7 +99,6 @@ cifras_invext <- invext_3 |>
   unname()
 
 
-
 # unir columnas ----
 # unimos las columnas para obtenerun dataframe tidy
 invext_4 <- tibble("año" = años_invext,
@@ -122,7 +122,7 @@ invext_6 <- invext_5 |>
   # meses en número
   mutate(mes = mes_a_numeric(mes_t)) |> 
   # crear fecha
-  mutate(fecha = as.Date(paste(año, mes, 1),tryFormats = c("%Y %m %d"))) |> 
+  mutate(fecha = as.Date(paste(año, mes, 1), tryFormats = c("%Y %m %d"))) |> 
   mutate(serie = "Inversión extranjera directa (pasivos)")
 
 # guardar
