@@ -60,6 +60,8 @@ scrapear_tabla_bc <- function(url, convertir = TRUE) {
       read_html() |> 
       html_table(convert = convertir)
     
+    Sys.sleep(1)
+    
     dato_1 <- dato_0[[1]] |> 
       janitor::clean_names() |> 
       select(-1)
