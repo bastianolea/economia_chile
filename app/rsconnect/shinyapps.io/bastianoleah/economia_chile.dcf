@@ -5,7 +5,7 @@ account: bastianoleah
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 12292552
-bundleId: 8843032
+bundleId: 8853667
 url: https://bastianoleah.shinyapps.io/economia_chile/
 version: 1
 asMultiple: FALSE
