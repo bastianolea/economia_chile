@@ -60,7 +60,7 @@ ui <- fluidPage(
       font-family: 'Archivo Narrow';
       font-size: 140%}"),
   
-  css("em {font-size: 140% }"),
+  css("em {font-size: 140%;}"),
   
   # títulos
   css("h1, h2, h3, h4, h5 {
@@ -174,6 +174,18 @@ ui <- fluidPage(
                p("Tablero que reúne los principales indicadores para comprender la situación económica del país."),
                
                p(markdown("Todos los datos son obtenidos directamente desde la base de datos estadísticos del [Banco Central](https://si3.bcentral.cl/siete). Los datos se actualizan automáticamente dos veces al día."))
+           ),
+           
+           # fechas de actualización
+           div(style = "text-align: end; margin-bottom: -10px;",
+               div(style = paste("display: inline-block; font-size: 90%; opacity: .4; color:", color_destacado, ";"),
+                   
+                   p(style = "display: inline-block;", "Última actualización de datos:", 
+                     em(style = "font-size: 90%;", textOutput("ultima_actualizacion", inline = T))),
+                   
+                   p(style = "margin-left: 6px; display: inline-block;", "Dato más reciente:", 
+                     em(style = "font-size: 90%;", textOutput("dato_mas_reciente", inline = T))),
+               )
            )
     )
   ),
@@ -417,6 +429,7 @@ server <- function(input, output) {
   invext <- datos |> filter(dato == "inversion_extranjera")
   cobre <- datos |> filter(dato == "precio_cobre")
   
+  # browser()
   
   ## calcular indicadores ----
   datos_pib <- pib |> 
@@ -455,6 +468,25 @@ server <- function(input, output) {
     calcular_metricas()
   
   # fecha ----
+  output$dato_mas_reciente <- renderText({
+    # fecha_max <- max(as.Date(datos$fecha), na.rm = TRUE)
+    # format(fecha_max, "%d/%m/%Y")
+    
+    fecha_max <- datos |> 
+      filter(dato != "uf") |> 
+      mutate(fecha = as.Date(fecha)) |> 
+      filter(fecha == max(fecha)) |> 
+      pull(fecha)
+    
+    format(fecha_max, "%d/%m/%Y")
+  })
+  
+  output$ultima_actualizacion <- renderText({
+    fecha_max <- max(as.Date(datos$fecha_union), na.rm = TRUE)
+    
+    format(fecha_max, "%d/%m/%Y")
+  })
+  
   fecha_corte <- reactive({
     if (input$fecha_corte == "3 meses") {
       corte = 3
