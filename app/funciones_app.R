@@ -79,7 +79,7 @@ fecha_redactada <- function(fecha, diario = FALSE) {
   if (diario == FALSE) {
     paste(numeric_a_mes(month(fecha)), format(fecha, "%Y"))
   } else if (diario == TRUE) {
-    paste(format(fecha, "%d"), "de", numeric_a_mes(month(fecha)), format(fecha, "%Y"))
+    paste0(format(fecha, "%d"), "/", numeric_a_mes(month(fecha)), "/", format(fecha, "%Y"))
   }
 }
 
@@ -238,7 +238,7 @@ dato_ui <- function(datos_pib,
 ) {
   
   estilo_texto_izquierdo = "flex: 1; font-size: 110%; text-align: right; 
-                            padding-top: 8px; margin-bottom: 0; margin-right: 28px;"
+                            padding-top: 8px; margin-bottom: 0; margin-right: 18px;"
   
   estilo_cifra_izquierda = "font-size: 120%; margin-top: 0px; line-height: 1.1;"
   

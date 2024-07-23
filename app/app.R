@@ -88,15 +88,26 @@ ui <- fluidPage(
       padding: 12px;
       margin: 0;}"),
   
-  #colores pickers
+  # colores picker fecha
   css(".btn.dropdown-toggle {/* color del picker mismo */
       color:", color_texto, ";
       background-color:", color_fondo, ";
       font-weight: 800;
       font-size: 135%;
       border: 0;
+      padding: 3px;
       border-radius: 0;
-      border-bottom: 3px", color_destacado, "solid;
+      border-bottom: 4px", color_destacado, "solid;
+      margin-bottom: -1px;
+      }
+      
+      .selected>.dropdown-toggle.btn-default .open>.dropdown-toggle.btn-default,
+      .btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover
+      {
+      color:", color_fondo, ";
+      background-color:", color_destacado, ";
+      background-image: none;
+      border-color:", color_detalle, ";
       }
       
       .dropdown-menu, .divider {
@@ -357,7 +368,7 @@ ui <- fluidPage(
           panel_titular(titulo = "Precio del cobre",
                         subtitulo = "El precio del cobre es una variable externa a la economía chilena, pero que afecta la planificación presupuestos nacionales y la economía nacional."),
           
-          panel_cuadro_resumen("Resumen precio del cobre", "cobre_ui"),
+          panel_cuadro_resumen("Precio del cobre", "cobre_ui"),
           
           panel_grafico_variacion("Variación mensual del precio del cobre",
                                   "cobre_g_var"),
