@@ -27,6 +27,11 @@ Los datos de este repositorio se actualizan automáticamente cada 12 horas por m
 ----
 
 ### Actualizaciones
+
+#### Actualización 22/07/2024
+- Indicador de fecha de actualización de los datos, y de dato más reciente (excluyendo la UF, que es diaria)
+- Ajustes menores de la interfaz
+
 #### Actualización 11/07/2024
 - Nuevo indicador: inversión extranjera directa (IED)
 - Nuevo indicador: precio del cobre
