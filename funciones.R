@@ -101,10 +101,20 @@ limpiar_tabla_bc <- function(dato_1, frecuencia = "mensual",
   dato_2 <- dato_1b |> 
     mutate(valor = cifra_comas_a_numeric(valor))
   
+  # revisiones
   stopifnot(any(is.na(dato_2$año)) == FALSE)
-  if (chequear_missings_valor == TRUE) stopifnot(any(is.na(dato_2$valor)) == FALSE)
   
-  return(dato_2)  
+  if (chequear_missings_valor == TRUE) {
+    # stopifnot(any(is.na(dato_2$valor)) == FALSE)
+    if (any(is.na(dato_2$valor))) {
+      warning("limpiar_tabla_bc(): datos perdidos en columna valor")
+    }
+  }
+  
+  dato_3 <- dato_2 |>
+    filter(!is.na(valor))
+  
+  return(dato_3)  
 }
 
 
