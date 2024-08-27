@@ -1,5 +1,6 @@
 library(dplyr)
 library(rvest)
+library(polite)
 library(stringr)
 library(tidyr)
 library(readxl)
