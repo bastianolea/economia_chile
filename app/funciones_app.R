@@ -18,18 +18,18 @@ cargar_datos_web <- function(archivo = "pib", descargar = FALSE, local = FALSE) 
     message("cargando desde url: ", url) 
     notificacion("Cargando datos remotos del Banco Central:", archivo)
     
-    data <- try(read.csv2(url))
+    data <- try(read_csv2(url))
     
     # si falla, intentar cargar archivo local
     if ("try-error" %in% class(data)) {
       path = paste0("datos/", archivo, ".csv")
       message("cargando desde archivo local: ", path)
-      data <- try(read.csv2(path))
+      data <- try(read_csv2(path))
       
     } else if (length(data) == 0) {
       path = paste0("datos/", archivo, ".csv")
       message("cargando desde archivo local: ", path)
-      data <- try(read.csv2(path))
+      data <- try(read_csv2(path))
     }
     
     if ("try-error" %in% class(data)) {
@@ -42,7 +42,7 @@ cargar_datos_web <- function(archivo = "pib", descargar = FALSE, local = FALSE) 
     message("cargando desde archivo local: ", path)
     if (local == FALSE) notificacion("Cargando datos pre-guardados:", archivo)
     
-    data <- try(read.csv2(path))
+    data <- try(read_csv2(path))
   }
   
   return(data)
@@ -308,6 +308,8 @@ tendencia_ui <- function(datos, fecha_corte, input, subir = "bueno") {
   # req(datos)
   # req(fecha_corte)
   # 
+  # fecha_corte <- fecha_corte()
+  # datos <- datos_prod_industrial
   # datos_variacion <- datos$variacion |> 
   #   filter(fecha >= fecha_corte) 
   # 
@@ -323,7 +325,7 @@ tendencia_ui <- function(datos, fecha_corte, input, subir = "bueno") {
   # # se aplica redondeo para simplificar comparaciones, para que un 0.01 no sea reducción, sino que se vea como 0 (para cambiarlo hay que ajustar la accuracy del scales::percent mas abajo en esta función)
   # variacion <- mean(datos_variacion$valor, na.rm = T) |> round(3)
   # 
-  
+  # browser()
   variacion <- variacion_corte_fecha(datos, fecha_corte, input)
   
   tendencia <- calcular_tendencia(variacion) #en texto
@@ -453,6 +455,11 @@ tendencia_texto <- function(datos, fecha_corte, input) {
     texto <- case_when(tendencia == "aumentó" ~ "Indica que el cobre está subiendo de precio a nivel mundial, beneficiando el presupuesto del Estado y la planificación económica a futuro",
                        tendencia == "disminuyó" ~ "Indica que el precio del cobre está bajando en el mercado mundial, lo que afectará el presupuesto del Estado a futuro",
                        tendencia == "se mantuvo" ~ "Indica que el precio del cobre a nivel mundial se ha mantenido, lo que significa estabilidad para los presupuestos nacionales"
+    )
+  } else if (dato == "prod_industrial") {
+    texto <- case_when(tendencia == "aumentó" ~ "Indica que el volumen de la producción nacional en actividades como minería, manufactura y energías está aumentando",
+                       tendencia == "disminuyó" ~ "Indica que el volumen de la producción nacional en actividades como minería, manufactura y energías se ha mantenido constante",
+                       tendencia == "se mantuvo" ~ "Indica que el volumen de la producción nacional en actividades como minería, manufactura y energías está disminuyendo"
     )
   }
   

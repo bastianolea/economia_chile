@@ -52,6 +52,20 @@ Podrían obtenerse los datos desde la app directamente por medio de scraping usa
 La app en sí se caracteriza por estar completamente optimizada en su estructura de código, dado que todos los elementos son generados con funciones. Por lo tanto, basta con copiar y pegar aproximadamente 6 bloques breves de código para agregar un indicador nuevo, incluyendo la automatización de su obtención de datos.
 
 
+#### Agregar una nueva fuente
+
+1. crear una función `obtener_fuente()`, posiblemente usando las funciones `scrapear_tabla_bc()` y `limpiar_tabla_bc()`
+2. agregar la función al script `obtener_datos.R`, y también al `bind_rows()` para uqe se agregue a la base de datos final
+3. cargar el dato específico en la app, filtrando la base por el id del dato (`datos |> filter(dato == "fuente")`) 
+4. filtrar el dato por la `serie` apropiada, y usando `calcular_metricas()` para que se calcule todo lo necesario
+5. agregar el dato a la tabla de tendencias con `tendencia_ui()`
+6. crear el texto con `tendencia_texto()`, peor primero hay que especificar dentro de esa función la interpretación de si el valor sube, baja o se mantiene
+7. crear el panel de tendencias con `panel_tendencia()`, que usa los dos outputs de los pasos 5 y 6
+8. crear el panel de cuadritos en el UI
+9. crear los outputs para el panel de cuadritos con las funciones `dato_ui()`, `grafico_variacion()` y `grafico_historico()`
+
+Si bien son muchos pasos, todos son muy cortos. Sería posible automatizarlos todos (especificando una vez el id del dato y algunos metadatos del dato para que se produzca todo lo demás de forma automática), pero no creo que valga la pena
+
 
 ### Fuentes
 - [Banco Central, Base de datos estadística](https://si3.bcentral.cl/siete)

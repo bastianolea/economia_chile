@@ -2,12 +2,13 @@ library(shiny)
 library(shinyWidgets)
 library(shinycssloaders)
 library(dplyr)
+library(readr)
 library(scales)
 library(lubridate)
 library(ggplot2)
 library(shades)
 
-descargar = TRUE #descargar datos desde GitHub, o cargar datos locales
+descargar = FALSE #descargar datos desde GitHub, o cargar datos locales
 
 # setup ----
 
@@ -375,6 +376,20 @@ ui <- fluidPage(
           
           panel_grafico_historico("Evolución del precio del cobre",
                                   "cobre_g_hist")
+        ),
+        
+        ## producción industrial ----
+        fila_indicador(
+          panel_titular(titulo = "Producción industrial",
+                        subtitulo = "El índice de producción industrial indica la evolución mensual del volumen de la producción de las actividades de minería, manufactural, energía, y otras."),
+          
+          panel_cuadro_resumen("Producción industrial", "prod_industrial_ui"),
+          
+          panel_grafico_variacion("Variación mensual del índice de producción industrial",
+                                  "prod_industrial_g_var"),
+          
+          panel_grafico_historico("Evolución del índice de producción industrial",
+                                  "prod_industrial_g_hist")
         )
     )
   ),
@@ -440,6 +455,9 @@ server <- function(input, output) {
   invext <- datos |> filter(dato == "inversion_extranjera")
   cobre <- datos |> filter(dato == "precio_cobre")
   
+  # nuevos nuevos
+  prod_industrial <- datos |> filter(dato == "prod_industrial")
+  
   # browser()
   
   ## calcular indicadores ----
@@ -471,12 +489,20 @@ server <- function(input, output) {
     filter(serie == "Índice real de remuneraciones") |> 
     calcular_metricas()
   
+  
   # nuevos
   datos_invext <- invext |> 
     calcular_metricas()
   
   datos_cobre <- cobre |> 
     calcular_metricas()
+  
+  # nuevos nuevos
+  datos_prod_industrial <- prod_industrial |> 
+    filter(serie == "Índice de producción industrial, INE (base 2018=100)") |> 
+    calcular_metricas()
+  # browser()
+  
   
   # fecha ----
   output$dato_mas_reciente <- renderText({
@@ -526,6 +552,9 @@ server <- function(input, output) {
   output$invext_tendencia <- renderUI(tendencia_ui(datos_invext, fecha_corte(), input, subir = "bueno"))
   output$cobre_tendencia <- renderUI(tendencia_ui(datos_cobre, fecha_corte(), input, subir = "bueno"))
   
+  # nuevas nuevas
+  output$prod_industrial_tendencia <- renderUI(tendencia_ui(datos_prod_industrial, fecha_corte(), input, subir = "bueno"))
+  
   
   output$pib_tendencia_texto <- renderText(tendencia_texto(datos_pib, fecha_corte(), input))
   output$imacec_tendencia_texto <- renderText(tendencia_texto(datos_imacec, fecha_corte(), input))
@@ -535,8 +564,16 @@ server <- function(input, output) {
   output$desempleo_tendencia_texto <- renderText(tendencia_texto(datos_desempleo, fecha_corte(), input))
   output$remuneraciones_tendencia_texto <- renderText(tendencia_texto(datos_remuneraciones, fecha_corte(), input))
   
+  #nuevas
   output$invext_tendencia_texto <- renderText(tendencia_texto(datos_invext, fecha_corte(), input))
   output$cobre_tendencia_texto <- renderText(tendencia_texto(datos_cobre, fecha_corte(), input))
+  
+  #nuevas nuevas
+  output$prod_industrial_tendencia_texto <- renderText({
+    # browser()
+    tendencia_texto(datos_prod_industrial, fecha_corte(), input)
+    })
+  
   
   # generar una sola salida ui para que se carguen todos juntos
   output$tendencias_ui <- renderUI({
@@ -575,7 +612,11 @@ server <- function(input, output) {
       
       panel_tendencia("El precio del cobre",
                       "cobre_tendencia",
-                      "cobre_tendencia_texto") #nueva
+                      "cobre_tendencia_texto"), #nueva
+      
+      panel_tendencia("La producción industrial",
+                      "prod_industrial_tendencia",
+                      "prod_industrial_tendencia_texto") #nueva nueva
     )
   })
   
@@ -595,6 +636,10 @@ server <- function(input, output) {
   output$invext_ui <- renderUI(dato_ui(datos_invext, unidad = "millones de dólares"))
   output$cobre_ui <- renderUI(dato_ui(datos_cobre, unidad = "dólares por libra", diario = TRUE))
   
+  # nuevos nuevos
+  output$prod_industrial_ui <- renderUI(dato_ui(datos_prod_industrial, unidad = "índice 100", año_base = 2018))
+  
+  
   
   ## gráficos variación ----
   output$pib_g_var <- renderPlot(grafico_variacion(datos_pib, escala = "trimestre"))
@@ -609,6 +654,10 @@ server <- function(input, output) {
   output$invext_g_var <- renderPlot(grafico_variacion(datos_invext))
   output$cobre_g_var <- renderPlot(grafico_variacion(datos_cobre, mensualizar = TRUE))
   
+  # nuevos nuevos
+  output$prod_industrial_g_var <- renderPlot(grafico_variacion(datos_prod_industrial))
+  
+  
   
   ## gráficos históricos ----
   output$pib_g_hist <- renderPlot(grafico_historico(datos_pib, escala = "trimestre"))
@@ -622,7 +671,9 @@ server <- function(input, output) {
   # nuevos
   output$invext_g_hist <- renderPlot(grafico_historico(datos_invext))
   output$cobre_g_hist <- renderPlot(grafico_historico(datos_cobre))
-  
+ 
+   # nuevos nuevos
+  output$prod_industrial_g_hist <- renderPlot(grafico_historico(datos_prod_industrial))
 }
 
 shinyApp(ui = ui, server = server)

@@ -27,10 +27,15 @@ uf <- obtener_uf()
 
 remuneraciones <- obtener_remuneraciones()
 
-# nuevos 
+## nuevos ----
 inversion_extranjera <- obtener_inversion_extranjera()
 
 precio_cobre <- obtener_precio_cobre()
+
+## nuevos nuevos ----
+# actividad en minería e industria
+# índice de producción industrial
+prod_industrial <- obtener_prod_industrial()
 
 
 
@@ -61,10 +66,13 @@ guardar_solo_con_cambios(desempleo, "app/datos/desempleo.csv")
 guardar_solo_con_cambios(uf, "app/datos/uf.csv")
 guardar_solo_con_cambios(remuneraciones, "app/datos/remuneraciones.csv")
 
+
 # nuevos
 guardar_solo_con_cambios(inversion_extranjera, "app/datos/inversion_extranjera.csv")
 guardar_solo_con_cambios(precio_cobre, "app/datos/precio_cobre.csv")
 
+# nuevos nuevos
+guardar_solo_con_cambios(prod_industrial, "app/datos/prod_industrial.csv")
 
 
 # unificar ----
@@ -81,9 +89,13 @@ datos_unidos <- bind_rows(pib |> mutate(dato = "pib"),
                           uf |> mutate(dato = "uf"),
                           remuneraciones |> mutate(dato = "remuneraciones"),
                           inversion_extranjera |> mutate(dato = "inversion_extranjera"),
-                          precio_cobre |> mutate(dato = "precio_cobre")
+                          precio_cobre |> mutate(dato = "precio_cobre"), 
+                          prod_industrial |> mutate(dato = "prod_industrial")
 ) |> 
   mutate(fecha_union = Sys.Date())
+
+# datos_unidos |>
+#   filter(dato == "prod_industrial")
 
 # guardar dato unido
 write.csv2(datos_unidos, "app/datos/datos_economia_chile.csv")

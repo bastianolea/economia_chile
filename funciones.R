@@ -284,7 +284,27 @@ obtener_remuneraciones <- function() {
 }
 
 
+obtener_prod_industrial <- function() {
+# producción industrial
+# https://si3.bcentral.cl/Siete/ES/Siete/Cuadro/CAP_ESTADIST_MACRO/MN_EST_MACRO_IV/PEM_INDSEC/PEM_INDSEC
+# https://si3.bcentral.cl/Siete/ES/Siete/Cuadro/CAP_IND_SEC/MN_IND_SEC20/IS_PI2014?id5=SI&idSerie=F034.PRN.IND.INE.2014.0.M
 
+message("obtienendo Indicadores sectores industriales (Base 2014=100) desde web del Banco Central...")
+
+dato_1 <- scrapear_tabla_bc("https://si3.bcentral.cl/Siete/ES/Siete/Cuadro/CAP_ESTADIST_MACRO/MN_EST_MACRO_IV/PEM_INDSEC/PEM_INDSEC")
+
+message("limpiando datos...")
+dato_2 <- dato_1 |> 
+  limpiar_tabla_bc(chequear_missings_valor = FALSE)
+
+stopifnot(length(dato_2) >= 3)
+stopifnot(nrow(dato_2) > 12)
+
+return(dato_2)
+}
+
+# formación de capital fijo
+# https://si3.bcentral.cl/Siete/ES/Siete/Cuadro/CAP_CCNN/MN_CCNN76/CCNN2013_S4_P2_DUPLICADO?id5=SI&idSerie=F033.FKIM.FLU.N.CLP.2013.0.A
 
 
 
