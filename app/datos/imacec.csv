@@ -1,427 +1,427 @@
 "";"serie";"fecha";"valor";"año";"mes";"fecha_scraping"
-"1";"Imacec empalmado, serie original (índice 2018=100)";"2013-1-1";86,6;2013;1;2024-12-10
-"2";"Imacec empalmado, serie original (índice 2018=100)";"2013-2-1";82,2;2013;2;2024-12-10
-"3";"Imacec empalmado, serie original (índice 2018=100)";"2013-3-1";93;2013;3;2024-12-10
-"4";"Imacec empalmado, serie original (índice 2018=100)";"2013-4-1";91,4;2013;4;2024-12-10
-"5";"Imacec empalmado, serie original (índice 2018=100)";"2013-5-1";90,7;2013;5;2024-12-10
-"6";"Imacec empalmado, serie original (índice 2018=100)";"2013-6-1";88,6;2013;6;2024-12-10
-"7";"Imacec empalmado, serie original (índice 2018=100)";"2013-7-1";85,5;2013;7;2024-12-10
-"8";"Imacec empalmado, serie original (índice 2018=100)";"2013-8-1";88,9;2013;8;2024-12-10
-"9";"Imacec empalmado, serie original (índice 2018=100)";"2013-9-1";85,3;2013;9;2024-12-10
-"10";"Imacec empalmado, serie original (índice 2018=100)";"2013-10-1";92,3;2013;10;2024-12-10
-"11";"Imacec empalmado, serie original (índice 2018=100)";"2013-11-1";94,5;2013;11;2024-12-10
-"12";"Imacec empalmado, serie original (índice 2018=100)";"2013-12-1";97;2013;12;2024-12-10
-"13";"Imacec empalmado, serie original (índice 2018=100)";"2014-1-1";88,1;2014;1;2024-12-10
-"14";"Imacec empalmado, serie original (índice 2018=100)";"2014-2-1";84,8;2014;2;2024-12-10
-"15";"Imacec empalmado, serie original (índice 2018=100)";"2014-3-1";95,3;2014;3;2024-12-10
-"16";"Imacec empalmado, serie original (índice 2018=100)";"2014-4-1";92,9;2014;4;2024-12-10
-"17";"Imacec empalmado, serie original (índice 2018=100)";"2014-5-1";92,5;2014;5;2024-12-10
-"18";"Imacec empalmado, serie original (índice 2018=100)";"2014-6-1";89,9;2014;6;2024-12-10
-"19";"Imacec empalmado, serie original (índice 2018=100)";"2014-7-1";86,1;2014;7;2024-12-10
-"20";"Imacec empalmado, serie original (índice 2018=100)";"2014-8-1";89,6;2014;8;2024-12-10
-"21";"Imacec empalmado, serie original (índice 2018=100)";"2014-9-1";87,4;2014;9;2024-12-10
-"22";"Imacec empalmado, serie original (índice 2018=100)";"2014-10-1";94;2014;10;2024-12-10
-"23";"Imacec empalmado, serie original (índice 2018=100)";"2014-11-1";95,3;2014;11;2024-12-10
-"24";"Imacec empalmado, serie original (índice 2018=100)";"2014-12-1";99,5;2014;12;2024-12-10
-"25";"Imacec empalmado, serie original (índice 2018=100)";"2015-1-1";90,5;2015;1;2024-12-10
-"26";"Imacec empalmado, serie original (índice 2018=100)";"2015-2-1";87;2015;2;2024-12-10
-"27";"Imacec empalmado, serie original (índice 2018=100)";"2015-3-1";97,4;2015;3;2024-12-10
-"28";"Imacec empalmado, serie original (índice 2018=100)";"2015-4-1";95,1;2015;4;2024-12-10
-"29";"Imacec empalmado, serie original (índice 2018=100)";"2015-5-1";93,7;2015;5;2024-12-10
-"30";"Imacec empalmado, serie original (índice 2018=100)";"2015-6-1";92,1;2015;6;2024-12-10
-"31";"Imacec empalmado, serie original (índice 2018=100)";"2015-7-1";88,3;2015;7;2024-12-10
-"32";"Imacec empalmado, serie original (índice 2018=100)";"2015-8-1";90,8;2015;8;2024-12-10
-"33";"Imacec empalmado, serie original (índice 2018=100)";"2015-9-1";90;2015;9;2024-12-10
-"34";"Imacec empalmado, serie original (índice 2018=100)";"2015-10-1";95,1;2015;10;2024-12-10
-"35";"Imacec empalmado, serie original (índice 2018=100)";"2015-11-1";97,4;2015;11;2024-12-10
-"36";"Imacec empalmado, serie original (índice 2018=100)";"2015-12-1";101,4;2015;12;2024-12-10
-"37";"Imacec empalmado, serie original (índice 2018=100)";"2016-1-1";92,1;2016;1;2024-12-10
-"38";"Imacec empalmado, serie original (índice 2018=100)";"2016-2-1";90,7;2016;2;2024-12-10
-"39";"Imacec empalmado, serie original (índice 2018=100)";"2016-3-1";100,1;2016;3;2024-12-10
-"40";"Imacec empalmado, serie original (índice 2018=100)";"2016-4-1";95,7;2016;4;2024-12-10
-"41";"Imacec empalmado, serie original (índice 2018=100)";"2016-5-1";95,7;2016;5;2024-12-10
-"42";"Imacec empalmado, serie original (índice 2018=100)";"2016-6-1";93,1;2016;6;2024-12-10
-"43";"Imacec empalmado, serie original (índice 2018=100)";"2016-7-1";89,2;2016;7;2024-12-10
-"44";"Imacec empalmado, serie original (índice 2018=100)";"2016-8-1";93,8;2016;8;2024-12-10
-"45";"Imacec empalmado, serie original (índice 2018=100)";"2016-9-1";91,5;2016;9;2024-12-10
-"46";"Imacec empalmado, serie original (índice 2018=100)";"2016-10-1";94,8;2016;10;2024-12-10
-"47";"Imacec empalmado, serie original (índice 2018=100)";"2016-11-1";98,7;2016;11;2024-12-10
-"48";"Imacec empalmado, serie original (índice 2018=100)";"2016-12-1";103,1;2016;12;2024-12-10
-"49";"Imacec empalmado, serie original (índice 2018=100)";"2017-1-1";92,5;2017;1;2024-12-10
-"50";"Imacec empalmado, serie original (índice 2018=100)";"2017-2-1";89,1;2017;2;2024-12-10
-"51";"Imacec empalmado, serie original (índice 2018=100)";"2017-3-1";100,4;2017;3;2024-12-10
-"52";"Imacec empalmado, serie original (índice 2018=100)";"2017-4-1";95,3;2017;4;2024-12-10
-"53";"Imacec empalmado, serie original (índice 2018=100)";"2017-5-1";97;2017;5;2024-12-10
-"54";"Imacec empalmado, serie original (índice 2018=100)";"2017-6-1";94,1;2017;6;2024-12-10
-"55";"Imacec empalmado, serie original (índice 2018=100)";"2017-7-1";90,9;2017;7;2024-12-10
-"56";"Imacec empalmado, serie original (índice 2018=100)";"2017-8-1";95,8;2017;8;2024-12-10
-"57";"Imacec empalmado, serie original (índice 2018=100)";"2017-9-1";92,9;2017;9;2024-12-10
-"58";"Imacec empalmado, serie original (índice 2018=100)";"2017-10-1";98;2017;10;2024-12-10
-"59";"Imacec empalmado, serie original (índice 2018=100)";"2017-11-1";102,2;2017;11;2024-12-10
-"60";"Imacec empalmado, serie original (índice 2018=100)";"2017-12-1";105,8;2017;12;2024-12-10
-"61";"Imacec empalmado, serie original (índice 2018=100)";"2018-1-1";96,6;2018;1;2024-12-10
-"62";"Imacec empalmado, serie original (índice 2018=100)";"2018-2-1";92,7;2018;2;2024-12-10
-"63";"Imacec empalmado, serie original (índice 2018=100)";"2018-3-1";105,3;2018;3;2024-12-10
-"64";"Imacec empalmado, serie original (índice 2018=100)";"2018-4-1";101,9;2018;4;2024-12-10
-"65";"Imacec empalmado, serie original (índice 2018=100)";"2018-5-1";101,7;2018;5;2024-12-10
-"66";"Imacec empalmado, serie original (índice 2018=100)";"2018-6-1";98,5;2018;6;2024-12-10
-"67";"Imacec empalmado, serie original (índice 2018=100)";"2018-7-1";93,9;2018;7;2024-12-10
-"68";"Imacec empalmado, serie original (índice 2018=100)";"2018-8-1";98,2;2018;8;2024-12-10
-"69";"Imacec empalmado, serie original (índice 2018=100)";"2018-9-1";94,3;2018;9;2024-12-10
-"70";"Imacec empalmado, serie original (índice 2018=100)";"2018-10-1";102,2;2018;10;2024-12-10
-"71";"Imacec empalmado, serie original (índice 2018=100)";"2018-11-1";105,6;2018;11;2024-12-10
-"72";"Imacec empalmado, serie original (índice 2018=100)";"2018-12-1";108,9;2018;12;2024-12-10
-"73";"Imacec empalmado, serie original (índice 2018=100)";"2019-1-1";98,5;2019;1;2024-12-10
-"74";"Imacec empalmado, serie original (índice 2018=100)";"2019-2-1";93,2;2019;2;2024-12-10
-"75";"Imacec empalmado, serie original (índice 2018=100)";"2019-3-1";106,4;2019;3;2024-12-10
-"76";"Imacec empalmado, serie original (índice 2018=100)";"2019-4-1";103,5;2019;4;2024-12-10
-"77";"Imacec empalmado, serie original (índice 2018=100)";"2019-5-1";103,2;2019;5;2024-12-10
-"78";"Imacec empalmado, serie original (índice 2018=100)";"2019-6-1";99,1;2019;6;2024-12-10
-"79";"Imacec empalmado, serie original (índice 2018=100)";"2019-7-1";96,5;2019;7;2024-12-10
-"80";"Imacec empalmado, serie original (índice 2018=100)";"2019-8-1";101,7;2019;8;2024-12-10
-"81";"Imacec empalmado, serie original (índice 2018=100)";"2019-9-1";97,3;2019;9;2024-12-10
-"82";"Imacec empalmado, serie original (índice 2018=100)";"2019-10-1";97,8;2019;10;2024-12-10
-"83";"Imacec empalmado, serie original (índice 2018=100)";"2019-11-1";100,3;2019;11;2024-12-10
-"84";"Imacec empalmado, serie original (índice 2018=100)";"2019-12-1";110;2019;12;2024-12-10
-"85";"Imacec empalmado, serie original (índice 2018=100)";"2020-1-1";99,7;2020;1;2024-12-10
-"86";"Imacec empalmado, serie original (índice 2018=100)";"2020-2-1";95,9;2020;2;2024-12-10
-"87";"Imacec empalmado, serie original (índice 2018=100)";"2020-3-1";101,9;2020;3;2024-12-10
-"88";"Imacec empalmado, serie original (índice 2018=100)";"2020-4-1";88,2;2020;4;2024-12-10
-"89";"Imacec empalmado, serie original (índice 2018=100)";"2020-5-1";86,8;2020;5;2024-12-10
-"90";"Imacec empalmado, serie original (índice 2018=100)";"2020-6-1";85,1;2020;6;2024-12-10
-"91";"Imacec empalmado, serie original (índice 2018=100)";"2020-7-1";85;2020;7;2024-12-10
-"92";"Imacec empalmado, serie original (índice 2018=100)";"2020-8-1";90,4;2020;8;2024-12-10
-"93";"Imacec empalmado, serie original (índice 2018=100)";"2020-9-1";92,1;2020;9;2024-12-10
-"94";"Imacec empalmado, serie original (índice 2018=100)";"2020-10-1";96,4;2020;10;2024-12-10
-"95";"Imacec empalmado, serie original (índice 2018=100)";"2020-11-1";101,3;2020;11;2024-12-10
-"96";"Imacec empalmado, serie original (índice 2018=100)";"2020-12-1";110,6;2020;12;2024-12-10
-"97";"Imacec empalmado, serie original (índice 2018=100)";"2021-1-1";96,4;2021;1;2024-12-10
-"98";"Imacec empalmado, serie original (índice 2018=100)";"2021-2-1";93,9;2021;2;2024-12-10
-"99";"Imacec empalmado, serie original (índice 2018=100)";"2021-3-1";108,8;2021;3;2024-12-10
-"100";"Imacec empalmado, serie original (índice 2018=100)";"2021-4-1";101,6;2021;4;2024-12-10
-"101";"Imacec empalmado, serie original (índice 2018=100)";"2021-5-1";103,6;2021;5;2024-12-10
-"102";"Imacec empalmado, serie original (índice 2018=100)";"2021-6-1";102,5;2021;6;2024-12-10
-"103";"Imacec empalmado, serie original (índice 2018=100)";"2021-7-1";99,8;2021;7;2024-12-10
-"104";"Imacec empalmado, serie original (índice 2018=100)";"2021-8-1";106,5;2021;8;2024-12-10
-"105";"Imacec empalmado, serie original (índice 2018=100)";"2021-9-1";104,6;2021;9;2024-12-10
-"106";"Imacec empalmado, serie original (índice 2018=100)";"2021-10-1";109,1;2021;10;2024-12-10
-"107";"Imacec empalmado, serie original (índice 2018=100)";"2021-11-1";114,9;2021;11;2024-12-10
-"108";"Imacec empalmado, serie original (índice 2018=100)";"2021-12-1";120,2;2021;12;2024-12-10
-"109";"Imacec empalmado, serie original (índice 2018=100)";"2022-1-1";103,7;2022;1;2024-12-10
-"110";"Imacec empalmado, serie original (índice 2018=100)";"2022-2-1";99,1;2022;2;2024-12-10
-"111";"Imacec empalmado, serie original (índice 2018=100)";"2022-3-1";115,2;2022;3;2024-12-10
-"112";"Imacec empalmado, serie original (índice 2018=100)";"2022-4-1";107;2022;4;2024-12-10
-"113";"Imacec empalmado, serie original (índice 2018=100)";"2022-5-1";108,9;2022;5;2024-12-10
-"114";"Imacec empalmado, serie original (índice 2018=100)";"2022-6-1";105,4;2022;6;2024-12-10
-"115";"Imacec empalmado, serie original (índice 2018=100)";"2022-7-1";100,1;2022;7;2024-12-10
-"116";"Imacec empalmado, serie original (índice 2018=100)";"2022-8-1";107,7;2022;8;2024-12-10
-"117";"Imacec empalmado, serie original (índice 2018=100)";"2022-9-1";104,7;2022;9;2024-12-10
-"118";"Imacec empalmado, serie original (índice 2018=100)";"2022-10-1";107;2022;10;2024-12-10
-"119";"Imacec empalmado, serie original (índice 2018=100)";"2022-11-1";110,9;2022;11;2024-12-10
-"120";"Imacec empalmado, serie original (índice 2018=100)";"2022-12-1";118,2;2022;12;2024-12-10
-"121";"Imacec empalmado, serie original (índice 2018=100)";"2023-1-1";105;2023;1;2024-12-10
-"122";"Imacec empalmado, serie original (índice 2018=100)";"2023-2-1";99,7;2023;2;2024-12-10
-"123";"Imacec empalmado, serie original (índice 2018=100)";"2023-3-1";114,1;2023;3;2024-12-10
-"124";"Imacec empalmado, serie original (índice 2018=100)";"2023-4-1";106,9;2023;4;2024-12-10
-"125";"Imacec empalmado, serie original (índice 2018=100)";"2023-5-1";108;2023;5;2024-12-10
-"126";"Imacec empalmado, serie original (índice 2018=100)";"2023-6-1";105,1;2023;6;2024-12-10
-"127";"Imacec empalmado, serie original (índice 2018=100)";"2023-7-1";102,4;2023;7;2024-12-10
-"128";"Imacec empalmado, serie original (índice 2018=100)";"2023-8-1";107;2023;8;2024-12-10
-"129";"Imacec empalmado, serie original (índice 2018=100)";"2023-9-1";105;2023;9;2024-12-10
-"130";"Imacec empalmado, serie original (índice 2018=100)";"2023-10-1";108,1;2023;10;2024-12-10
-"131";"Imacec empalmado, serie original (índice 2018=100)";"2023-11-1";112,1;2023;11;2024-12-10
-"132";"Imacec empalmado, serie original (índice 2018=100)";"2023-12-1";117,4;2023;12;2024-12-10
-"133";"Imacec empalmado, serie original (índice 2018=100)";"2024-1-1";107,6;2024;1;2024-12-10
-"134";"Imacec empalmado, serie original (índice 2018=100)";"2024-2-1";104,3;2024;2;2024-12-10
-"135";"Imacec empalmado, serie original (índice 2018=100)";"2024-3-1";114,9;2024;3;2024-12-10
-"136";"Imacec empalmado, serie original (índice 2018=100)";"2024-4-1";111,2;2024;4;2024-12-10
-"137";"Imacec empalmado, serie original (índice 2018=100)";"2024-5-1";108,9;2024;5;2024-12-10
-"138";"Imacec empalmado, serie original (índice 2018=100)";"2024-6-1";104,9;2024;6;2024-12-10
-"139";"Imacec empalmado, serie original (índice 2018=100)";"2024-7-1";106,7;2024;7;2024-12-10
-"140";"Imacec empalmado, serie original (índice 2018=100)";"2024-8-1";109,5;2024;8;2024-12-10
-"141";"Imacec empalmado, serie original (índice 2018=100)";"2024-9-1";105,3;2024;9;2024-12-10
-"142";"Imacec empalmado, serie original (índice 2018=100)";"2024-10-1";110,6;2024;10;2024-12-10
-"143";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2013-1-1";88,8;2013;1;2024-12-10
-"144";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2013-2-1";88,2;2013;2;2024-12-10
-"145";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2013-3-1";89;2013;3;2024-12-10
-"146";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2013-4-1";88,9;2013;4;2024-12-10
-"147";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2013-5-1";89,1;2013;5;2024-12-10
-"148";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2013-6-1";89,9;2013;6;2024-12-10
-"149";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2013-7-1";90,1;2013;7;2024-12-10
-"150";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2013-8-1";90,1;2013;8;2024-12-10
-"151";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2013-9-1";89,8;2013;9;2024-12-10
-"152";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2013-10-1";90,5;2013;10;2024-12-10
-"153";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2013-11-1";90,7;2013;11;2024-12-10
-"154";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2013-12-1";89,9;2013;12;2024-12-10
-"155";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2014-1-1";89,9;2014;1;2024-12-10
-"156";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2014-2-1";90,7;2014;2;2024-12-10
-"157";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2014-3-1";90,9;2014;3;2024-12-10
-"158";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2014-4-1";91,3;2014;4;2024-12-10
-"159";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2014-5-1";91,4;2014;5;2024-12-10
-"160";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2014-6-1";90,8;2014;6;2024-12-10
-"161";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2014-7-1";90,6;2014;7;2024-12-10
-"162";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2014-8-1";91;2014;8;2024-12-10
-"163";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2014-9-1";91;2014;9;2024-12-10
-"164";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2014-10-1";92,1;2014;10;2024-12-10
-"165";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2014-11-1";91,6;2014;11;2024-12-10
-"166";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2014-12-1";92,3;2014;12;2024-12-10
-"167";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2015-1-1";92,7;2015;1;2024-12-10
-"168";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2015-2-1";92,4;2015;2;2024-12-10
-"169";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2015-3-1";92,1;2015;3;2024-12-10
-"170";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2015-4-1";93,3;2015;4;2024-12-10
-"171";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2015-5-1";93;2015;5;2024-12-10
-"172";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2015-6-1";93,3;2015;6;2024-12-10
-"173";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2015-7-1";93,1;2015;7;2024-12-10
-"174";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2015-8-1";92,2;2015;8;2024-12-10
-"175";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2015-9-1";93,6;2015;9;2024-12-10
-"176";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2015-10-1";93,9;2015;10;2024-12-10
-"177";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2015-11-1";93,5;2015;11;2024-12-10
-"178";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2015-12-1";93,9;2015;12;2024-12-10
-"179";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2016-1-1";94,6;2016;1;2024-12-10
-"180";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2016-2-1";94,8;2016;2;2024-12-10
-"181";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2016-3-1";94,5;2016;3;2024-12-10
-"182";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2016-4-1";93,9;2016;4;2024-12-10
-"183";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2016-5-1";94;2016;5;2024-12-10
-"184";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2016-6-1";94,5;2016;6;2024-12-10
-"185";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2016-7-1";94,7;2016;7;2024-12-10
-"186";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2016-8-1";94,6;2016;8;2024-12-10
-"187";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2016-9-1";95,2;2016;9;2024-12-10
-"188";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2016-10-1";94,7;2016;10;2024-12-10
-"189";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2016-11-1";94,9;2016;11;2024-12-10
-"190";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2016-12-1";95;2016;12;2024-12-10
-"191";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2017-1-1";94,6;2017;1;2024-12-10
-"192";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2017-2-1";93,9;2017;2;2024-12-10
-"193";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2017-3-1";93,7;2017;3;2024-12-10
-"194";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2017-4-1";94,7;2017;4;2024-12-10
-"195";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2017-5-1";95,3;2017;5;2024-12-10
-"196";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2017-6-1";95,8;2017;6;2024-12-10
-"197";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2017-7-1";96,5;2017;7;2024-12-10
-"198";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2017-8-1";97,1;2017;8;2024-12-10
-"199";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2017-9-1";97,8;2017;9;2024-12-10
-"200";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2017-10-1";97,7;2017;10;2024-12-10
-"201";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2017-11-1";98,3;2017;11;2024-12-10
-"202";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2017-12-1";98,2;2017;12;2024-12-10
-"203";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2018-1-1";98,5;2018;1;2024-12-10
-"204";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2018-2-1";98,5;2018;2;2024-12-10
-"205";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2018-3-1";99,4;2018;3;2024-12-10
-"206";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2018-4-1";99,9;2018;4;2024-12-10
-"207";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2018-5-1";100,4;2018;5;2024-12-10
-"208";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2018-6-1";100,1;2018;6;2024-12-10
-"209";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2018-7-1";100;2018;7;2024-12-10
-"210";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2018-8-1";99,5;2018;8;2024-12-10
-"211";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2018-9-1";99,9;2018;9;2024-12-10
-"212";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2018-10-1";101,3;2018;10;2024-12-10
-"213";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2018-11-1";102,1;2018;11;2024-12-10
-"214";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2018-12-1";100,5;2018;12;2024-12-10
-"215";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2019-1-1";100,5;2019;1;2024-12-10
-"216";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2019-2-1";99,5;2019;2;2024-12-10
-"217";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2019-3-1";100,8;2019;3;2024-12-10
-"218";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2019-4-1";101,9;2019;4;2024-12-10
-"219";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2019-5-1";102;2019;5;2024-12-10
-"220";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2019-6-1";101,2;2019;6;2024-12-10
-"221";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2019-7-1";101,5;2019;7;2024-12-10
-"222";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2019-8-1";102,9;2019;8;2024-12-10
-"223";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2019-9-1";102;2019;9;2024-12-10
-"224";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2019-10-1";97,5;2019;10;2024-12-10
-"225";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2019-11-1";97,1;2019;11;2024-12-10
-"226";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2019-12-1";99,7;2019;12;2024-12-10
-"227";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2020-1-1";101,6;2020;1;2024-12-10
-"228";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2020-2-1";101,5;2020;2;2024-12-10
-"229";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2020-3-1";96;2020;3;2024-12-10
-"230";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2020-4-1";88,5;2020;4;2024-12-10
-"231";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2020-5-1";86,7;2020;5;2024-12-10
-"232";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2020-6-1";86,3;2020;6;2024-12-10
-"233";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2020-7-1";88,6;2020;7;2024-12-10
-"234";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2020-8-1";91,6;2020;8;2024-12-10
-"235";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2020-9-1";94,9;2020;9;2024-12-10
-"236";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2020-10-1";96,6;2020;10;2024-12-10
-"237";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2020-11-1";97,7;2020;11;2024-12-10
-"238";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2020-12-1";100;2020;12;2024-12-10
-"239";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2021-1-1";100;2021;1;2024-12-10
-"240";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2021-2-1";102,1;2021;2;2024-12-10
-"241";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2021-3-1";101,3;2021;3;2024-12-10
-"242";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2021-4-1";99,9;2021;4;2024-12-10
-"243";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2021-5-1";102,8;2021;5;2024-12-10
-"244";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2021-6-1";104,2;2021;6;2024-12-10
-"245";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2021-7-1";105,7;2021;7;2024-12-10
-"246";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2021-8-1";107;2021;8;2024-12-10
-"247";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2021-9-1";108,2;2021;9;2024-12-10
-"248";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2021-10-1";109,3;2021;10;2024-12-10
-"249";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2021-11-1";110,3;2021;11;2024-12-10
-"250";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2021-12-1";109,3;2021;12;2024-12-10
-"251";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2022-1-1";106,8;2022;1;2024-12-10
-"252";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2022-2-1";107;2022;2;2024-12-10
-"253";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2022-3-1";108,6;2022;3;2024-12-10
-"254";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2022-4-1";106,7;2022;4;2024-12-10
-"255";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2022-5-1";107,6;2022;5;2024-12-10
-"256";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2022-6-1";107,3;2022;6;2024-12-10
-"257";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2022-7-1";105,1;2022;7;2024-12-10
-"258";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2022-8-1";108,1;2022;8;2024-12-10
-"259";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2022-9-1";107,9;2022;9;2024-12-10
-"260";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2022-10-1";107,5;2022;10;2024-12-10
-"261";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2022-11-1";106,8;2022;11;2024-12-10
-"262";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2022-12-1";107,2;2022;12;2024-12-10
-"263";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2023-1-1";107,7;2023;1;2024-12-10
-"264";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2023-2-1";107,3;2023;2;2024-12-10
-"265";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2023-3-1";107,7;2023;3;2024-12-10
-"266";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2023-4-1";107,2;2023;4;2024-12-10
-"267";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2023-5-1";106,7;2023;5;2024-12-10
-"268";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2023-6-1";107;2023;6;2024-12-10
-"269";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2023-7-1";107,3;2023;7;2024-12-10
-"270";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2023-8-1";107,3;2023;8;2024-12-10
-"271";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2023-9-1";108,4;2023;9;2024-12-10
-"272";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2023-10-1";108,1;2023;10;2024-12-10
-"273";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2023-11-1";108,1;2023;11;2024-12-10
-"274";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2023-12-1";107,4;2023;12;2024-12-10
-"275";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2024-1-1";109,5;2024;1;2024-12-10
-"276";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2024-2-1";110,5;2024;2;2024-12-10
-"277";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2024-3-1";109,7;2024;3;2024-12-10
-"278";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2024-4-1";110,2;2024;4;2024-12-10
-"279";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2024-5-1";108,7;2024;5;2024-12-10
-"280";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2024-6-1";109,1;2024;6;2024-12-10
-"281";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2024-7-1";110,4;2024;7;2024-12-10
-"282";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2024-8-1";110,3;2024;8;2024-12-10
-"283";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2024-9-1";109,6;2024;9;2024-12-10
-"284";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2024-10-1";110;2024;10;2024-12-10
-"285";"Velocidad de expansión (porcentaje), referencia 2018";"2013-1-1";1;2013;1;2024-12-10
-"286";"Velocidad de expansión (porcentaje), referencia 2018";"2013-2-1";0,9;2013;2;2024-12-10
-"287";"Velocidad de expansión (porcentaje), referencia 2018";"2013-3-1";0,8;2013;3;2024-12-10
-"288";"Velocidad de expansión (porcentaje), referencia 2018";"2013-4-1";0,4;2013;4;2024-12-10
-"289";"Velocidad de expansión (porcentaje), referencia 2018";"2013-5-1";0,7;2013;5;2024-12-10
-"290";"Velocidad de expansión (porcentaje), referencia 2018";"2013-6-1";0,7;2013;6;2024-12-10
-"291";"Velocidad de expansión (porcentaje), referencia 2018";"2013-7-1";1,1;2013;7;2024-12-10
-"292";"Velocidad de expansión (porcentaje), referencia 2018";"2013-8-1";1,1;2013;8;2024-12-10
-"293";"Velocidad de expansión (porcentaje), referencia 2018";"2013-9-1";0,8;2013;9;2024-12-10
-"294";"Velocidad de expansión (porcentaje), referencia 2018";"2013-10-1";0,5;2013;10;2024-12-10
-"295";"Velocidad de expansión (porcentaje), referencia 2018";"2013-11-1";0,3;2013;11;2024-12-10
-"296";"Velocidad de expansión (porcentaje), referencia 2018";"2013-12-1";0,4;2013;12;2024-12-10
-"297";"Velocidad de expansión (porcentaje), referencia 2018";"2014-1-1";0;2014;1;2024-12-10
-"298";"Velocidad de expansión (porcentaje), referencia 2018";"2014-2-1";-0,1;2014;2;2024-12-10
-"299";"Velocidad de expansión (porcentaje), referencia 2018";"2014-3-1";0,2;2014;3;2024-12-10
-"300";"Velocidad de expansión (porcentaje), referencia 2018";"2014-4-1";0,9;2014;4;2024-12-10
-"301";"Velocidad de expansión (porcentaje), referencia 2018";"2014-5-1";1,1;2014;5;2024-12-10
-"302";"Velocidad de expansión (porcentaje), referencia 2018";"2014-6-1";0,7;2014;6;2024-12-10
-"303";"Velocidad de expansión (porcentaje), referencia 2018";"2014-7-1";0;2014;7;2024-12-10
-"304";"Velocidad de expansión (porcentaje), referencia 2018";"2014-8-1";-0,4;2014;8;2024-12-10
-"305";"Velocidad de expansión (porcentaje), referencia 2018";"2014-9-1";-0,3;2014;9;2024-12-10
-"306";"Velocidad de expansión (porcentaje), referencia 2018";"2014-10-1";0,5;2014;10;2024-12-10
-"307";"Velocidad de expansión (porcentaje), referencia 2018";"2014-11-1";0,9;2014;11;2024-12-10
-"308";"Velocidad de expansión (porcentaje), referencia 2018";"2014-12-1";1,3;2014;12;2024-12-10
-"309";"Velocidad de expansión (porcentaje), referencia 2018";"2015-1-1";0,9;2015;1;2024-12-10
-"310";"Velocidad de expansión (porcentaje), referencia 2018";"2015-2-1";1;2015;2;2024-12-10
-"311";"Velocidad de expansión (porcentaje), referencia 2018";"2015-3-1";0,5;2015;3;2024-12-10
-"312";"Velocidad de expansión (porcentaje), referencia 2018";"2015-4-1";0,5;2015;4;2024-12-10
-"313";"Velocidad de expansión (porcentaje), referencia 2018";"2015-5-1";0,4;2015;5;2024-12-10
-"314";"Velocidad de expansión (porcentaje), referencia 2018";"2015-6-1";0,9;2015;6;2024-12-10
-"315";"Velocidad de expansión (porcentaje), referencia 2018";"2015-7-1";0,5;2015;7;2024-12-10
-"316";"Velocidad de expansión (porcentaje), referencia 2018";"2015-8-1";0;2015;8;2024-12-10
-"317";"Velocidad de expansión (porcentaje), referencia 2018";"2015-9-1";-0,3;2015;9;2024-12-10
-"318";"Velocidad de expansión (porcentaje), referencia 2018";"2015-10-1";0,1;2015;10;2024-12-10
-"319";"Velocidad de expansión (porcentaje), referencia 2018";"2015-11-1";0,9;2015;11;2024-12-10
-"320";"Velocidad de expansión (porcentaje), referencia 2018";"2015-12-1";0,9;2015;12;2024-12-10
-"321";"Velocidad de expansión (porcentaje), referencia 2018";"2016-1-1";0,8;2016;1;2024-12-10
-"322";"Velocidad de expansión (porcentaje), referencia 2018";"2016-2-1";0,8;2016;2;2024-12-10
-"323";"Velocidad de expansión (porcentaje), referencia 2018";"2016-3-1";0,9;2016;3;2024-12-10
-"324";"Velocidad de expansión (porcentaje), referencia 2018";"2016-4-1";0,5;2016;4;2024-12-10
-"325";"Velocidad de expansión (porcentaje), referencia 2018";"2016-5-1";-0,3;2016;5;2024-12-10
-"326";"Velocidad de expansión (porcentaje), referencia 2018";"2016-6-1";-0,5;2016;6;2024-12-10
-"327";"Velocidad de expansión (porcentaje), referencia 2018";"2016-7-1";0;2016;7;2024-12-10
-"328";"Velocidad de expansión (porcentaje), referencia 2018";"2016-8-1";0,5;2016;8;2024-12-10
-"329";"Velocidad de expansión (porcentaje), referencia 2018";"2016-9-1";0,7;2016;9;2024-12-10
-"330";"Velocidad de expansión (porcentaje), referencia 2018";"2016-10-1";0,5;2016;10;2024-12-10
-"331";"Velocidad de expansión (porcentaje), referencia 2018";"2016-11-1";0,4;2016;11;2024-12-10
-"332";"Velocidad de expansión (porcentaje), referencia 2018";"2016-12-1";0;2016;12;2024-12-10
-"333";"Velocidad de expansión (porcentaje), referencia 2018";"2017-1-1";0;2017;1;2024-12-10
-"334";"Velocidad de expansión (porcentaje), referencia 2018";"2017-2-1";-0,5;2017;2;2024-12-10
-"335";"Velocidad de expansión (porcentaje), referencia 2018";"2017-3-1";-0,9;2017;3;2024-12-10
-"336";"Velocidad de expansión (porcentaje), referencia 2018";"2017-4-1";-0,8;2017;4;2024-12-10
-"337";"Velocidad de expansión (porcentaje), referencia 2018";"2017-5-1";0,1;2017;5;2024-12-10
-"338";"Velocidad de expansión (porcentaje), referencia 2018";"2017-6-1";1,3;2017;6;2024-12-10
-"339";"Velocidad de expansión (porcentaje), referencia 2018";"2017-7-1";1,9;2017;7;2024-12-10
-"340";"Velocidad de expansión (porcentaje), referencia 2018";"2017-8-1";2;2017;8;2024-12-10
-"341";"Velocidad de expansión (porcentaje), referencia 2018";"2017-9-1";2;2017;9;2024-12-10
-"342";"Velocidad de expansión (porcentaje), referencia 2018";"2017-10-1";1,7;2017;10;2024-12-10
-"343";"Velocidad de expansión (porcentaje), referencia 2018";"2017-11-1";1,5;2017;11;2024-12-10
-"344";"Velocidad de expansión (porcentaje), referencia 2018";"2017-12-1";1;2017;12;2024-12-10
-"345";"Velocidad de expansión (porcentaje), referencia 2018";"2018-1-1";0,8;2018;1;2024-12-10
-"346";"Velocidad de expansión (porcentaje), referencia 2018";"2018-2-1";0,4;2018;2;2024-12-10
-"347";"Velocidad de expansión (porcentaje), referencia 2018";"2018-3-1";0,7;2018;3;2024-12-10
-"348";"Velocidad de expansión (porcentaje), referencia 2018";"2018-4-1";0,9;2018;4;2024-12-10
-"349";"Velocidad de expansión (porcentaje), referencia 2018";"2018-5-1";1,5;2018;5;2024-12-10
-"350";"Velocidad de expansión (porcentaje), referencia 2018";"2018-6-1";1,4;2018;6;2024-12-10
-"351";"Velocidad de expansión (porcentaje), referencia 2018";"2018-7-1";0,9;2018;7;2024-12-10
-"352";"Velocidad de expansión (porcentaje), referencia 2018";"2018-8-1";0;2018;8;2024-12-10
-"353";"Velocidad de expansión (porcentaje), referencia 2018";"2018-9-1";-0,3;2018;9;2024-12-10
-"354";"Velocidad de expansión (porcentaje), referencia 2018";"2018-10-1";0,1;2018;10;2024-12-10
-"355";"Velocidad de expansión (porcentaje), referencia 2018";"2018-11-1";1,2;2018;11;2024-12-10
-"356";"Velocidad de expansión (porcentaje), referencia 2018";"2018-12-1";1,5;2018;12;2024-12-10
-"357";"Velocidad de expansión (porcentaje), referencia 2018";"2019-1-1";0,8;2019;1;2024-12-10
-"358";"Velocidad de expansión (porcentaje), referencia 2018";"2019-2-1";-1;2019;2;2024-12-10
-"359";"Velocidad de expansión (porcentaje), referencia 2018";"2019-3-1";-1;2019;3;2024-12-10
-"360";"Velocidad de expansión (porcentaje), referencia 2018";"2019-4-1";-0,3;2019;4;2024-12-10
-"361";"Velocidad de expansión (porcentaje), referencia 2018";"2019-5-1";1,4;2019;5;2024-12-10
-"362";"Velocidad de expansión (porcentaje), referencia 2018";"2019-6-1";1,4;2019;6;2024-12-10
-"363";"Velocidad de expansión (porcentaje), referencia 2018";"2019-7-1";0,8;2019;7;2024-12-10
-"364";"Velocidad de expansión (porcentaje), referencia 2018";"2019-8-1";0,3;2019;8;2024-12-10
-"365";"Velocidad de expansión (porcentaje), referencia 2018";"2019-9-1";0,5;2019;9;2024-12-10
-"366";"Velocidad de expansión (porcentaje), referencia 2018";"2019-10-1";-0,7;2019;10;2024-12-10
-"367";"Velocidad de expansión (porcentaje), referencia 2018";"2019-11-1";-2,9;2019;11;2024-12-10
-"368";"Velocidad de expansión (porcentaje), referencia 2018";"2019-12-1";-4;2019;12;2024-12-10
-"369";"Velocidad de expansión (porcentaje), referencia 2018";"2020-1-1";-1,4;2020;1;2024-12-10
-"370";"Velocidad de expansión (porcentaje), referencia 2018";"2020-2-1";2;2020;2;2024-12-10
-"371";"Velocidad de expansión (porcentaje), referencia 2018";"2020-3-1";1,6;2020;3;2024-12-10
-"372";"Velocidad de expansión (porcentaje), referencia 2018";"2020-4-1";-4,2;2020;4;2024-12-10
-"373";"Velocidad de expansión (porcentaje), referencia 2018";"2020-5-1";-10,4;2020;5;2024-12-10
-"374";"Velocidad de expansión (porcentaje), referencia 2018";"2020-6-1";-12,6;2020;6;2024-12-10
-"375";"Velocidad de expansión (porcentaje), referencia 2018";"2020-7-1";-8,5;2020;7;2024-12-10
-"376";"Velocidad de expansión (porcentaje), referencia 2018";"2020-8-1";-1,7;2020;8;2024-12-10
-"377";"Velocidad de expansión (porcentaje), referencia 2018";"2020-9-1";5,2;2020;9;2024-12-10
-"378";"Velocidad de expansión (porcentaje), referencia 2018";"2020-10-1";8,2;2020;10;2024-12-10
-"379";"Velocidad de expansión (porcentaje), referencia 2018";"2020-11-1";8,5;2020;11;2024-12-10
-"380";"Velocidad de expansión (porcentaje), referencia 2018";"2020-12-1";7;2020;12;2024-12-10
-"381";"Velocidad de expansión (porcentaje), referencia 2018";"2021-1-1";5,1;2021;1;2024-12-10
-"382";"Velocidad de expansión (porcentaje), referencia 2018";"2021-2-1";4,5;2021;2;2024-12-10
-"383";"Velocidad de expansión (porcentaje), referencia 2018";"2021-3-1";3,1;2021;3;2024-12-10
-"384";"Velocidad de expansión (porcentaje), referencia 2018";"2021-4-1";1,9;2021;4;2024-12-10
-"385";"Velocidad de expansión (porcentaje), referencia 2018";"2021-5-1";0,7;2021;5;2024-12-10
-"386";"Velocidad de expansión (porcentaje), referencia 2018";"2021-6-1";1,2;2021;6;2024-12-10
-"387";"Velocidad de expansión (porcentaje), referencia 2018";"2021-7-1";3,1;2021;7;2024-12-10
-"388";"Velocidad de expansión (porcentaje), referencia 2018";"2021-8-1";4,2;2021;8;2024-12-10
-"389";"Velocidad de expansión (porcentaje), referencia 2018";"2021-9-1";4,5;2021;9;2024-12-10
-"390";"Velocidad de expansión (porcentaje), referencia 2018";"2021-10-1";3,8;2021;10;2024-12-10
-"391";"Velocidad de expansión (porcentaje), referencia 2018";"2021-11-1";3,4;2021;11;2024-12-10
-"392";"Velocidad de expansión (porcentaje), referencia 2018";"2021-12-1";2,5;2021;12;2024-12-10
-"393";"Velocidad de expansión (porcentaje), referencia 2018";"2022-1-1";0,5;2022;1;2024-12-10
-"394";"Velocidad de expansión (porcentaje), referencia 2018";"2022-2-1";-1,4;2022;2;2024-12-10
-"395";"Velocidad de expansión (porcentaje), referencia 2018";"2022-3-1";-2;2022;3;2024-12-10
-"396";"Velocidad de expansión (porcentaje), referencia 2018";"2022-4-1";-1,2;2022;4;2024-12-10
-"397";"Velocidad de expansión (porcentaje), referencia 2018";"2022-5-1";-0,1;2022;5;2024-12-10
-"398";"Velocidad de expansión (porcentaje), referencia 2018";"2022-6-1";-0,3;2022;6;2024-12-10
-"399";"Velocidad de expansión (porcentaje), referencia 2018";"2022-7-1";-0,7;2022;7;2024-12-10
-"400";"Velocidad de expansión (porcentaje), referencia 2018";"2022-8-1";-0,7;2022;8;2024-12-10
-"401";"Velocidad de expansión (porcentaje), referencia 2018";"2022-9-1";-0,1;2022;9;2024-12-10
-"402";"Velocidad de expansión (porcentaje), referencia 2018";"2022-10-1";1,1;2022;10;2024-12-10
-"403";"Velocidad de expansión (porcentaje), referencia 2018";"2022-11-1";0,5;2022;11;2024-12-10
-"404";"Velocidad de expansión (porcentaje), referencia 2018";"2022-12-1";0,1;2022;12;2024-12-10
-"405";"Velocidad de expansión (porcentaje), referencia 2018";"2023-1-1";-0,6;2023;1;2024-12-10
-"406";"Velocidad de expansión (porcentaje), referencia 2018";"2023-2-1";0;2023;2;2024-12-10
-"407";"Velocidad de expansión (porcentaje), referencia 2018";"2023-3-1";0,4;2023;3;2024-12-10
-"408";"Velocidad de expansión (porcentaje), referencia 2018";"2023-4-1";0,1;2023;4;2024-12-10
-"409";"Velocidad de expansión (porcentaje), referencia 2018";"2023-5-1";-0,2;2023;5;2024-12-10
-"410";"Velocidad de expansión (porcentaje), referencia 2018";"2023-6-1";-0,5;2023;6;2024-12-10
-"411";"Velocidad de expansión (porcentaje), referencia 2018";"2023-7-1";-0,3;2023;7;2024-12-10
-"412";"Velocidad de expansión (porcentaje), referencia 2018";"2023-8-1";0;2023;8;2024-12-10
-"413";"Velocidad de expansión (porcentaje), referencia 2018";"2023-9-1";0,6;2023;9;2024-12-10
-"414";"Velocidad de expansión (porcentaje), referencia 2018";"2023-10-1";0,8;2023;10;2024-12-10
-"415";"Velocidad de expansión (porcentaje), referencia 2018";"2023-11-1";0,9;2023;11;2024-12-10
-"416";"Velocidad de expansión (porcentaje), referencia 2018";"2023-12-1";0,2;2023;12;2024-12-10
-"417";"Velocidad de expansión (porcentaje), referencia 2018";"2024-1-1";0,4;2024;1;2024-12-10
-"418";"Velocidad de expansión (porcentaje), referencia 2018";"2024-2-1";0,8;2024;2;2024-12-10
-"419";"Velocidad de expansión (porcentaje), referencia 2018";"2024-3-1";1,9;2024;3;2024-12-10
-"420";"Velocidad de expansión (porcentaje), referencia 2018";"2024-4-1";1,6;2024;4;2024-12-10
-"421";"Velocidad de expansión (porcentaje), referencia 2018";"2024-5-1";0,4;2024;5;2024-12-10
-"422";"Velocidad de expansión (porcentaje), referencia 2018";"2024-6-1";-0,5;2024;6;2024-12-10
-"423";"Velocidad de expansión (porcentaje), referencia 2018";"2024-7-1";-0,7;2024;7;2024-12-10
-"424";"Velocidad de expansión (porcentaje), referencia 2018";"2024-8-1";0,4;2024;8;2024-12-10
-"425";"Velocidad de expansión (porcentaje), referencia 2018";"2024-9-1";0,7;2024;9;2024-12-10
-"426";"Velocidad de expansión (porcentaje), referencia 2018";"2024-10-1";0,5;2024;10;2024-12-10
+"1";"Imacec empalmado, serie original (índice 2018=100)";"2013-1-1";86,6;2013;1;2024-12-11
+"2";"Imacec empalmado, serie original (índice 2018=100)";"2013-2-1";82,2;2013;2;2024-12-11
+"3";"Imacec empalmado, serie original (índice 2018=100)";"2013-3-1";93;2013;3;2024-12-11
+"4";"Imacec empalmado, serie original (índice 2018=100)";"2013-4-1";91,4;2013;4;2024-12-11
+"5";"Imacec empalmado, serie original (índice 2018=100)";"2013-5-1";90,7;2013;5;2024-12-11
+"6";"Imacec empalmado, serie original (índice 2018=100)";"2013-6-1";88,6;2013;6;2024-12-11
+"7";"Imacec empalmado, serie original (índice 2018=100)";"2013-7-1";85,5;2013;7;2024-12-11
+"8";"Imacec empalmado, serie original (índice 2018=100)";"2013-8-1";88,9;2013;8;2024-12-11
+"9";"Imacec empalmado, serie original (índice 2018=100)";"2013-9-1";85,3;2013;9;2024-12-11
+"10";"Imacec empalmado, serie original (índice 2018=100)";"2013-10-1";92,3;2013;10;2024-12-11
+"11";"Imacec empalmado, serie original (índice 2018=100)";"2013-11-1";94,5;2013;11;2024-12-11
+"12";"Imacec empalmado, serie original (índice 2018=100)";"2013-12-1";97;2013;12;2024-12-11
+"13";"Imacec empalmado, serie original (índice 2018=100)";"2014-1-1";88,1;2014;1;2024-12-11
+"14";"Imacec empalmado, serie original (índice 2018=100)";"2014-2-1";84,8;2014;2;2024-12-11
+"15";"Imacec empalmado, serie original (índice 2018=100)";"2014-3-1";95,3;2014;3;2024-12-11
+"16";"Imacec empalmado, serie original (índice 2018=100)";"2014-4-1";92,9;2014;4;2024-12-11
+"17";"Imacec empalmado, serie original (índice 2018=100)";"2014-5-1";92,5;2014;5;2024-12-11
+"18";"Imacec empalmado, serie original (índice 2018=100)";"2014-6-1";89,9;2014;6;2024-12-11
+"19";"Imacec empalmado, serie original (índice 2018=100)";"2014-7-1";86,1;2014;7;2024-12-11
+"20";"Imacec empalmado, serie original (índice 2018=100)";"2014-8-1";89,6;2014;8;2024-12-11
+"21";"Imacec empalmado, serie original (índice 2018=100)";"2014-9-1";87,4;2014;9;2024-12-11
+"22";"Imacec empalmado, serie original (índice 2018=100)";"2014-10-1";94;2014;10;2024-12-11
+"23";"Imacec empalmado, serie original (índice 2018=100)";"2014-11-1";95,3;2014;11;2024-12-11
+"24";"Imacec empalmado, serie original (índice 2018=100)";"2014-12-1";99,5;2014;12;2024-12-11
+"25";"Imacec empalmado, serie original (índice 2018=100)";"2015-1-1";90,5;2015;1;2024-12-11
+"26";"Imacec empalmado, serie original (índice 2018=100)";"2015-2-1";87;2015;2;2024-12-11
+"27";"Imacec empalmado, serie original (índice 2018=100)";"2015-3-1";97,4;2015;3;2024-12-11
+"28";"Imacec empalmado, serie original (índice 2018=100)";"2015-4-1";95,1;2015;4;2024-12-11
+"29";"Imacec empalmado, serie original (índice 2018=100)";"2015-5-1";93,7;2015;5;2024-12-11
+"30";"Imacec empalmado, serie original (índice 2018=100)";"2015-6-1";92,1;2015;6;2024-12-11
+"31";"Imacec empalmado, serie original (índice 2018=100)";"2015-7-1";88,3;2015;7;2024-12-11
+"32";"Imacec empalmado, serie original (índice 2018=100)";"2015-8-1";90,8;2015;8;2024-12-11
+"33";"Imacec empalmado, serie original (índice 2018=100)";"2015-9-1";90;2015;9;2024-12-11
+"34";"Imacec empalmado, serie original (índice 2018=100)";"2015-10-1";95,1;2015;10;2024-12-11
+"35";"Imacec empalmado, serie original (índice 2018=100)";"2015-11-1";97,4;2015;11;2024-12-11
+"36";"Imacec empalmado, serie original (índice 2018=100)";"2015-12-1";101,4;2015;12;2024-12-11
+"37";"Imacec empalmado, serie original (índice 2018=100)";"2016-1-1";92,1;2016;1;2024-12-11
+"38";"Imacec empalmado, serie original (índice 2018=100)";"2016-2-1";90,7;2016;2;2024-12-11
+"39";"Imacec empalmado, serie original (índice 2018=100)";"2016-3-1";100,1;2016;3;2024-12-11
+"40";"Imacec empalmado, serie original (índice 2018=100)";"2016-4-1";95,7;2016;4;2024-12-11
+"41";"Imacec empalmado, serie original (índice 2018=100)";"2016-5-1";95,7;2016;5;2024-12-11
+"42";"Imacec empalmado, serie original (índice 2018=100)";"2016-6-1";93,1;2016;6;2024-12-11
+"43";"Imacec empalmado, serie original (índice 2018=100)";"2016-7-1";89,2;2016;7;2024-12-11
+"44";"Imacec empalmado, serie original (índice 2018=100)";"2016-8-1";93,8;2016;8;2024-12-11
+"45";"Imacec empalmado, serie original (índice 2018=100)";"2016-9-1";91,5;2016;9;2024-12-11
+"46";"Imacec empalmado, serie original (índice 2018=100)";"2016-10-1";94,8;2016;10;2024-12-11
+"47";"Imacec empalmado, serie original (índice 2018=100)";"2016-11-1";98,7;2016;11;2024-12-11
+"48";"Imacec empalmado, serie original (índice 2018=100)";"2016-12-1";103,1;2016;12;2024-12-11
+"49";"Imacec empalmado, serie original (índice 2018=100)";"2017-1-1";92,5;2017;1;2024-12-11
+"50";"Imacec empalmado, serie original (índice 2018=100)";"2017-2-1";89,1;2017;2;2024-12-11
+"51";"Imacec empalmado, serie original (índice 2018=100)";"2017-3-1";100,4;2017;3;2024-12-11
+"52";"Imacec empalmado, serie original (índice 2018=100)";"2017-4-1";95,3;2017;4;2024-12-11
+"53";"Imacec empalmado, serie original (índice 2018=100)";"2017-5-1";97;2017;5;2024-12-11
+"54";"Imacec empalmado, serie original (índice 2018=100)";"2017-6-1";94,1;2017;6;2024-12-11
+"55";"Imacec empalmado, serie original (índice 2018=100)";"2017-7-1";90,9;2017;7;2024-12-11
+"56";"Imacec empalmado, serie original (índice 2018=100)";"2017-8-1";95,8;2017;8;2024-12-11
+"57";"Imacec empalmado, serie original (índice 2018=100)";"2017-9-1";92,9;2017;9;2024-12-11
+"58";"Imacec empalmado, serie original (índice 2018=100)";"2017-10-1";98;2017;10;2024-12-11
+"59";"Imacec empalmado, serie original (índice 2018=100)";"2017-11-1";102,2;2017;11;2024-12-11
+"60";"Imacec empalmado, serie original (índice 2018=100)";"2017-12-1";105,8;2017;12;2024-12-11
+"61";"Imacec empalmado, serie original (índice 2018=100)";"2018-1-1";96,6;2018;1;2024-12-11
+"62";"Imacec empalmado, serie original (índice 2018=100)";"2018-2-1";92,7;2018;2;2024-12-11
+"63";"Imacec empalmado, serie original (índice 2018=100)";"2018-3-1";105,3;2018;3;2024-12-11
+"64";"Imacec empalmado, serie original (índice 2018=100)";"2018-4-1";101,9;2018;4;2024-12-11
+"65";"Imacec empalmado, serie original (índice 2018=100)";"2018-5-1";101,7;2018;5;2024-12-11
+"66";"Imacec empalmado, serie original (índice 2018=100)";"2018-6-1";98,5;2018;6;2024-12-11
+"67";"Imacec empalmado, serie original (índice 2018=100)";"2018-7-1";93,9;2018;7;2024-12-11
+"68";"Imacec empalmado, serie original (índice 2018=100)";"2018-8-1";98,2;2018;8;2024-12-11
+"69";"Imacec empalmado, serie original (índice 2018=100)";"2018-9-1";94,3;2018;9;2024-12-11
+"70";"Imacec empalmado, serie original (índice 2018=100)";"2018-10-1";102,2;2018;10;2024-12-11
+"71";"Imacec empalmado, serie original (índice 2018=100)";"2018-11-1";105,6;2018;11;2024-12-11
+"72";"Imacec empalmado, serie original (índice 2018=100)";"2018-12-1";108,9;2018;12;2024-12-11
+"73";"Imacec empalmado, serie original (índice 2018=100)";"2019-1-1";98,5;2019;1;2024-12-11
+"74";"Imacec empalmado, serie original (índice 2018=100)";"2019-2-1";93,2;2019;2;2024-12-11
+"75";"Imacec empalmado, serie original (índice 2018=100)";"2019-3-1";106,4;2019;3;2024-12-11
+"76";"Imacec empalmado, serie original (índice 2018=100)";"2019-4-1";103,5;2019;4;2024-12-11
+"77";"Imacec empalmado, serie original (índice 2018=100)";"2019-5-1";103,2;2019;5;2024-12-11
+"78";"Imacec empalmado, serie original (índice 2018=100)";"2019-6-1";99,1;2019;6;2024-12-11
+"79";"Imacec empalmado, serie original (índice 2018=100)";"2019-7-1";96,5;2019;7;2024-12-11
+"80";"Imacec empalmado, serie original (índice 2018=100)";"2019-8-1";101,7;2019;8;2024-12-11
+"81";"Imacec empalmado, serie original (índice 2018=100)";"2019-9-1";97,3;2019;9;2024-12-11
+"82";"Imacec empalmado, serie original (índice 2018=100)";"2019-10-1";97,8;2019;10;2024-12-11
+"83";"Imacec empalmado, serie original (índice 2018=100)";"2019-11-1";100,3;2019;11;2024-12-11
+"84";"Imacec empalmado, serie original (índice 2018=100)";"2019-12-1";110;2019;12;2024-12-11
+"85";"Imacec empalmado, serie original (índice 2018=100)";"2020-1-1";99,7;2020;1;2024-12-11
+"86";"Imacec empalmado, serie original (índice 2018=100)";"2020-2-1";95,9;2020;2;2024-12-11
+"87";"Imacec empalmado, serie original (índice 2018=100)";"2020-3-1";101,9;2020;3;2024-12-11
+"88";"Imacec empalmado, serie original (índice 2018=100)";"2020-4-1";88,2;2020;4;2024-12-11
+"89";"Imacec empalmado, serie original (índice 2018=100)";"2020-5-1";86,8;2020;5;2024-12-11
+"90";"Imacec empalmado, serie original (índice 2018=100)";"2020-6-1";85,1;2020;6;2024-12-11
+"91";"Imacec empalmado, serie original (índice 2018=100)";"2020-7-1";85;2020;7;2024-12-11
+"92";"Imacec empalmado, serie original (índice 2018=100)";"2020-8-1";90,4;2020;8;2024-12-11
+"93";"Imacec empalmado, serie original (índice 2018=100)";"2020-9-1";92,1;2020;9;2024-12-11
+"94";"Imacec empalmado, serie original (índice 2018=100)";"2020-10-1";96,4;2020;10;2024-12-11
+"95";"Imacec empalmado, serie original (índice 2018=100)";"2020-11-1";101,3;2020;11;2024-12-11
+"96";"Imacec empalmado, serie original (índice 2018=100)";"2020-12-1";110,6;2020;12;2024-12-11
+"97";"Imacec empalmado, serie original (índice 2018=100)";"2021-1-1";96,4;2021;1;2024-12-11
+"98";"Imacec empalmado, serie original (índice 2018=100)";"2021-2-1";93,9;2021;2;2024-12-11
+"99";"Imacec empalmado, serie original (índice 2018=100)";"2021-3-1";108,8;2021;3;2024-12-11
+"100";"Imacec empalmado, serie original (índice 2018=100)";"2021-4-1";101,6;2021;4;2024-12-11
+"101";"Imacec empalmado, serie original (índice 2018=100)";"2021-5-1";103,6;2021;5;2024-12-11
+"102";"Imacec empalmado, serie original (índice 2018=100)";"2021-6-1";102,5;2021;6;2024-12-11
+"103";"Imacec empalmado, serie original (índice 2018=100)";"2021-7-1";99,8;2021;7;2024-12-11
+"104";"Imacec empalmado, serie original (índice 2018=100)";"2021-8-1";106,5;2021;8;2024-12-11
+"105";"Imacec empalmado, serie original (índice 2018=100)";"2021-9-1";104,6;2021;9;2024-12-11
+"106";"Imacec empalmado, serie original (índice 2018=100)";"2021-10-1";109,1;2021;10;2024-12-11
+"107";"Imacec empalmado, serie original (índice 2018=100)";"2021-11-1";114,9;2021;11;2024-12-11
+"108";"Imacec empalmado, serie original (índice 2018=100)";"2021-12-1";120,2;2021;12;2024-12-11
+"109";"Imacec empalmado, serie original (índice 2018=100)";"2022-1-1";103,7;2022;1;2024-12-11
+"110";"Imacec empalmado, serie original (índice 2018=100)";"2022-2-1";99,1;2022;2;2024-12-11
+"111";"Imacec empalmado, serie original (índice 2018=100)";"2022-3-1";115,2;2022;3;2024-12-11
+"112";"Imacec empalmado, serie original (índice 2018=100)";"2022-4-1";107;2022;4;2024-12-11
+"113";"Imacec empalmado, serie original (índice 2018=100)";"2022-5-1";108,9;2022;5;2024-12-11
+"114";"Imacec empalmado, serie original (índice 2018=100)";"2022-6-1";105,4;2022;6;2024-12-11
+"115";"Imacec empalmado, serie original (índice 2018=100)";"2022-7-1";100,1;2022;7;2024-12-11
+"116";"Imacec empalmado, serie original (índice 2018=100)";"2022-8-1";107,7;2022;8;2024-12-11
+"117";"Imacec empalmado, serie original (índice 2018=100)";"2022-9-1";104,7;2022;9;2024-12-11
+"118";"Imacec empalmado, serie original (índice 2018=100)";"2022-10-1";107;2022;10;2024-12-11
+"119";"Imacec empalmado, serie original (índice 2018=100)";"2022-11-1";110,9;2022;11;2024-12-11
+"120";"Imacec empalmado, serie original (índice 2018=100)";"2022-12-1";118,2;2022;12;2024-12-11
+"121";"Imacec empalmado, serie original (índice 2018=100)";"2023-1-1";105;2023;1;2024-12-11
+"122";"Imacec empalmado, serie original (índice 2018=100)";"2023-2-1";99,7;2023;2;2024-12-11
+"123";"Imacec empalmado, serie original (índice 2018=100)";"2023-3-1";114,1;2023;3;2024-12-11
+"124";"Imacec empalmado, serie original (índice 2018=100)";"2023-4-1";106,9;2023;4;2024-12-11
+"125";"Imacec empalmado, serie original (índice 2018=100)";"2023-5-1";108;2023;5;2024-12-11
+"126";"Imacec empalmado, serie original (índice 2018=100)";"2023-6-1";105,1;2023;6;2024-12-11
+"127";"Imacec empalmado, serie original (índice 2018=100)";"2023-7-1";102,4;2023;7;2024-12-11
+"128";"Imacec empalmado, serie original (índice 2018=100)";"2023-8-1";107;2023;8;2024-12-11
+"129";"Imacec empalmado, serie original (índice 2018=100)";"2023-9-1";105;2023;9;2024-12-11
+"130";"Imacec empalmado, serie original (índice 2018=100)";"2023-10-1";108,1;2023;10;2024-12-11
+"131";"Imacec empalmado, serie original (índice 2018=100)";"2023-11-1";112,1;2023;11;2024-12-11
+"132";"Imacec empalmado, serie original (índice 2018=100)";"2023-12-1";117,4;2023;12;2024-12-11
+"133";"Imacec empalmado, serie original (índice 2018=100)";"2024-1-1";107,6;2024;1;2024-12-11
+"134";"Imacec empalmado, serie original (índice 2018=100)";"2024-2-1";104,3;2024;2;2024-12-11
+"135";"Imacec empalmado, serie original (índice 2018=100)";"2024-3-1";114,9;2024;3;2024-12-11
+"136";"Imacec empalmado, serie original (índice 2018=100)";"2024-4-1";111,2;2024;4;2024-12-11
+"137";"Imacec empalmado, serie original (índice 2018=100)";"2024-5-1";108,9;2024;5;2024-12-11
+"138";"Imacec empalmado, serie original (índice 2018=100)";"2024-6-1";104,9;2024;6;2024-12-11
+"139";"Imacec empalmado, serie original (índice 2018=100)";"2024-7-1";106,7;2024;7;2024-12-11
+"140";"Imacec empalmado, serie original (índice 2018=100)";"2024-8-1";109,5;2024;8;2024-12-11
+"141";"Imacec empalmado, serie original (índice 2018=100)";"2024-9-1";105,3;2024;9;2024-12-11
+"142";"Imacec empalmado, serie original (índice 2018=100)";"2024-10-1";110,6;2024;10;2024-12-11
+"143";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2013-1-1";88,8;2013;1;2024-12-11
+"144";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2013-2-1";88,2;2013;2;2024-12-11
+"145";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2013-3-1";89;2013;3;2024-12-11
+"146";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2013-4-1";88,9;2013;4;2024-12-11
+"147";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2013-5-1";89,1;2013;5;2024-12-11
+"148";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2013-6-1";89,9;2013;6;2024-12-11
+"149";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2013-7-1";90,1;2013;7;2024-12-11
+"150";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2013-8-1";90,1;2013;8;2024-12-11
+"151";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2013-9-1";89,8;2013;9;2024-12-11
+"152";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2013-10-1";90,5;2013;10;2024-12-11
+"153";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2013-11-1";90,7;2013;11;2024-12-11
+"154";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2013-12-1";89,9;2013;12;2024-12-11
+"155";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2014-1-1";89,9;2014;1;2024-12-11
+"156";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2014-2-1";90,7;2014;2;2024-12-11
+"157";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2014-3-1";90,9;2014;3;2024-12-11
+"158";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2014-4-1";91,3;2014;4;2024-12-11
+"159";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2014-5-1";91,4;2014;5;2024-12-11
+"160";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2014-6-1";90,8;2014;6;2024-12-11
+"161";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2014-7-1";90,6;2014;7;2024-12-11
+"162";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2014-8-1";91;2014;8;2024-12-11
+"163";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2014-9-1";91;2014;9;2024-12-11
+"164";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2014-10-1";92,1;2014;10;2024-12-11
+"165";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2014-11-1";91,6;2014;11;2024-12-11
+"166";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2014-12-1";92,3;2014;12;2024-12-11
+"167";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2015-1-1";92,7;2015;1;2024-12-11
+"168";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2015-2-1";92,4;2015;2;2024-12-11
+"169";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2015-3-1";92,1;2015;3;2024-12-11
+"170";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2015-4-1";93,3;2015;4;2024-12-11
+"171";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2015-5-1";93;2015;5;2024-12-11
+"172";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2015-6-1";93,3;2015;6;2024-12-11
+"173";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2015-7-1";93,1;2015;7;2024-12-11
+"174";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2015-8-1";92,2;2015;8;2024-12-11
+"175";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2015-9-1";93,6;2015;9;2024-12-11
+"176";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2015-10-1";93,9;2015;10;2024-12-11
+"177";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2015-11-1";93,5;2015;11;2024-12-11
+"178";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2015-12-1";93,9;2015;12;2024-12-11
+"179";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2016-1-1";94,6;2016;1;2024-12-11
+"180";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2016-2-1";94,8;2016;2;2024-12-11
+"181";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2016-3-1";94,5;2016;3;2024-12-11
+"182";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2016-4-1";93,9;2016;4;2024-12-11
+"183";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2016-5-1";94;2016;5;2024-12-11
+"184";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2016-6-1";94,5;2016;6;2024-12-11
+"185";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2016-7-1";94,7;2016;7;2024-12-11
+"186";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2016-8-1";94,6;2016;8;2024-12-11
+"187";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2016-9-1";95,2;2016;9;2024-12-11
+"188";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2016-10-1";94,7;2016;10;2024-12-11
+"189";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2016-11-1";94,9;2016;11;2024-12-11
+"190";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2016-12-1";95;2016;12;2024-12-11
+"191";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2017-1-1";94,6;2017;1;2024-12-11
+"192";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2017-2-1";93,9;2017;2;2024-12-11
+"193";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2017-3-1";93,7;2017;3;2024-12-11
+"194";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2017-4-1";94,7;2017;4;2024-12-11
+"195";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2017-5-1";95,3;2017;5;2024-12-11
+"196";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2017-6-1";95,8;2017;6;2024-12-11
+"197";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2017-7-1";96,5;2017;7;2024-12-11
+"198";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2017-8-1";97,1;2017;8;2024-12-11
+"199";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2017-9-1";97,8;2017;9;2024-12-11
+"200";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2017-10-1";97,7;2017;10;2024-12-11
+"201";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2017-11-1";98,3;2017;11;2024-12-11
+"202";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2017-12-1";98,2;2017;12;2024-12-11
+"203";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2018-1-1";98,5;2018;1;2024-12-11
+"204";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2018-2-1";98,5;2018;2;2024-12-11
+"205";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2018-3-1";99,4;2018;3;2024-12-11
+"206";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2018-4-1";99,9;2018;4;2024-12-11
+"207";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2018-5-1";100,4;2018;5;2024-12-11
+"208";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2018-6-1";100,1;2018;6;2024-12-11
+"209";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2018-7-1";100;2018;7;2024-12-11
+"210";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2018-8-1";99,5;2018;8;2024-12-11
+"211";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2018-9-1";99,9;2018;9;2024-12-11
+"212";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2018-10-1";101,3;2018;10;2024-12-11
+"213";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2018-11-1";102,1;2018;11;2024-12-11
+"214";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2018-12-1";100,5;2018;12;2024-12-11
+"215";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2019-1-1";100,5;2019;1;2024-12-11
+"216";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2019-2-1";99,5;2019;2;2024-12-11
+"217";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2019-3-1";100,8;2019;3;2024-12-11
+"218";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2019-4-1";101,9;2019;4;2024-12-11
+"219";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2019-5-1";102;2019;5;2024-12-11
+"220";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2019-6-1";101,2;2019;6;2024-12-11
+"221";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2019-7-1";101,5;2019;7;2024-12-11
+"222";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2019-8-1";102,9;2019;8;2024-12-11
+"223";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2019-9-1";102;2019;9;2024-12-11
+"224";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2019-10-1";97,5;2019;10;2024-12-11
+"225";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2019-11-1";97,1;2019;11;2024-12-11
+"226";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2019-12-1";99,7;2019;12;2024-12-11
+"227";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2020-1-1";101,6;2020;1;2024-12-11
+"228";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2020-2-1";101,5;2020;2;2024-12-11
+"229";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2020-3-1";96;2020;3;2024-12-11
+"230";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2020-4-1";88,5;2020;4;2024-12-11
+"231";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2020-5-1";86,7;2020;5;2024-12-11
+"232";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2020-6-1";86,3;2020;6;2024-12-11
+"233";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2020-7-1";88,6;2020;7;2024-12-11
+"234";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2020-8-1";91,6;2020;8;2024-12-11
+"235";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2020-9-1";94,9;2020;9;2024-12-11
+"236";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2020-10-1";96,6;2020;10;2024-12-11
+"237";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2020-11-1";97,7;2020;11;2024-12-11
+"238";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2020-12-1";100;2020;12;2024-12-11
+"239";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2021-1-1";100;2021;1;2024-12-11
+"240";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2021-2-1";102,1;2021;2;2024-12-11
+"241";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2021-3-1";101,3;2021;3;2024-12-11
+"242";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2021-4-1";99,9;2021;4;2024-12-11
+"243";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2021-5-1";102,8;2021;5;2024-12-11
+"244";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2021-6-1";104,2;2021;6;2024-12-11
+"245";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2021-7-1";105,7;2021;7;2024-12-11
+"246";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2021-8-1";107;2021;8;2024-12-11
+"247";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2021-9-1";108,2;2021;9;2024-12-11
+"248";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2021-10-1";109,3;2021;10;2024-12-11
+"249";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2021-11-1";110,3;2021;11;2024-12-11
+"250";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2021-12-1";109,3;2021;12;2024-12-11
+"251";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2022-1-1";106,8;2022;1;2024-12-11
+"252";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2022-2-1";107;2022;2;2024-12-11
+"253";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2022-3-1";108,6;2022;3;2024-12-11
+"254";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2022-4-1";106,7;2022;4;2024-12-11
+"255";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2022-5-1";107,6;2022;5;2024-12-11
+"256";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2022-6-1";107,3;2022;6;2024-12-11
+"257";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2022-7-1";105,1;2022;7;2024-12-11
+"258";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2022-8-1";108,1;2022;8;2024-12-11
+"259";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2022-9-1";107,9;2022;9;2024-12-11
+"260";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2022-10-1";107,5;2022;10;2024-12-11
+"261";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2022-11-1";106,8;2022;11;2024-12-11
+"262";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2022-12-1";107,2;2022;12;2024-12-11
+"263";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2023-1-1";107,7;2023;1;2024-12-11
+"264";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2023-2-1";107,3;2023;2;2024-12-11
+"265";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2023-3-1";107,7;2023;3;2024-12-11
+"266";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2023-4-1";107,2;2023;4;2024-12-11
+"267";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2023-5-1";106,7;2023;5;2024-12-11
+"268";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2023-6-1";107;2023;6;2024-12-11
+"269";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2023-7-1";107,3;2023;7;2024-12-11
+"270";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2023-8-1";107,3;2023;8;2024-12-11
+"271";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2023-9-1";108,4;2023;9;2024-12-11
+"272";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2023-10-1";108,1;2023;10;2024-12-11
+"273";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2023-11-1";108,1;2023;11;2024-12-11
+"274";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2023-12-1";107,4;2023;12;2024-12-11
+"275";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2024-1-1";109,5;2024;1;2024-12-11
+"276";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2024-2-1";110,5;2024;2;2024-12-11
+"277";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2024-3-1";109,7;2024;3;2024-12-11
+"278";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2024-4-1";110,2;2024;4;2024-12-11
+"279";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2024-5-1";108,7;2024;5;2024-12-11
+"280";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2024-6-1";109,1;2024;6;2024-12-11
+"281";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2024-7-1";110,4;2024;7;2024-12-11
+"282";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2024-8-1";110,3;2024;8;2024-12-11
+"283";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2024-9-1";109,6;2024;9;2024-12-11
+"284";"Imacec empalmado, desestacionalizado (índice 2018=100)";"2024-10-1";110;2024;10;2024-12-11
+"285";"Velocidad de expansión (porcentaje), referencia 2018";"2013-1-1";1;2013;1;2024-12-11
+"286";"Velocidad de expansión (porcentaje), referencia 2018";"2013-2-1";0,9;2013;2;2024-12-11
+"287";"Velocidad de expansión (porcentaje), referencia 2018";"2013-3-1";0,8;2013;3;2024-12-11
+"288";"Velocidad de expansión (porcentaje), referencia 2018";"2013-4-1";0,4;2013;4;2024-12-11
+"289";"Velocidad de expansión (porcentaje), referencia 2018";"2013-5-1";0,7;2013;5;2024-12-11
+"290";"Velocidad de expansión (porcentaje), referencia 2018";"2013-6-1";0,7;2013;6;2024-12-11
+"291";"Velocidad de expansión (porcentaje), referencia 2018";"2013-7-1";1,1;2013;7;2024-12-11
+"292";"Velocidad de expansión (porcentaje), referencia 2018";"2013-8-1";1,1;2013;8;2024-12-11
+"293";"Velocidad de expansión (porcentaje), referencia 2018";"2013-9-1";0,8;2013;9;2024-12-11
+"294";"Velocidad de expansión (porcentaje), referencia 2018";"2013-10-1";0,5;2013;10;2024-12-11
+"295";"Velocidad de expansión (porcentaje), referencia 2018";"2013-11-1";0,3;2013;11;2024-12-11
+"296";"Velocidad de expansión (porcentaje), referencia 2018";"2013-12-1";0,4;2013;12;2024-12-11
+"297";"Velocidad de expansión (porcentaje), referencia 2018";"2014-1-1";0;2014;1;2024-12-11
+"298";"Velocidad de expansión (porcentaje), referencia 2018";"2014-2-1";-0,1;2014;2;2024-12-11
+"299";"Velocidad de expansión (porcentaje), referencia 2018";"2014-3-1";0,2;2014;3;2024-12-11
+"300";"Velocidad de expansión (porcentaje), referencia 2018";"2014-4-1";0,9;2014;4;2024-12-11
+"301";"Velocidad de expansión (porcentaje), referencia 2018";"2014-5-1";1,1;2014;5;2024-12-11
+"302";"Velocidad de expansión (porcentaje), referencia 2018";"2014-6-1";0,7;2014;6;2024-12-11
+"303";"Velocidad de expansión (porcentaje), referencia 2018";"2014-7-1";0;2014;7;2024-12-11
+"304";"Velocidad de expansión (porcentaje), referencia 2018";"2014-8-1";-0,4;2014;8;2024-12-11
+"305";"Velocidad de expansión (porcentaje), referencia 2018";"2014-9-1";-0,3;2014;9;2024-12-11
+"306";"Velocidad de expansión (porcentaje), referencia 2018";"2014-10-1";0,5;2014;10;2024-12-11
+"307";"Velocidad de expansión (porcentaje), referencia 2018";"2014-11-1";0,9;2014;11;2024-12-11
+"308";"Velocidad de expansión (porcentaje), referencia 2018";"2014-12-1";1,3;2014;12;2024-12-11
+"309";"Velocidad de expansión (porcentaje), referencia 2018";"2015-1-1";0,9;2015;1;2024-12-11
+"310";"Velocidad de expansión (porcentaje), referencia 2018";"2015-2-1";1;2015;2;2024-12-11
+"311";"Velocidad de expansión (porcentaje), referencia 2018";"2015-3-1";0,5;2015;3;2024-12-11
+"312";"Velocidad de expansión (porcentaje), referencia 2018";"2015-4-1";0,5;2015;4;2024-12-11
+"313";"Velocidad de expansión (porcentaje), referencia 2018";"2015-5-1";0,4;2015;5;2024-12-11
+"314";"Velocidad de expansión (porcentaje), referencia 2018";"2015-6-1";0,9;2015;6;2024-12-11
+"315";"Velocidad de expansión (porcentaje), referencia 2018";"2015-7-1";0,5;2015;7;2024-12-11
+"316";"Velocidad de expansión (porcentaje), referencia 2018";"2015-8-1";0;2015;8;2024-12-11
+"317";"Velocidad de expansión (porcentaje), referencia 2018";"2015-9-1";-0,3;2015;9;2024-12-11
+"318";"Velocidad de expansión (porcentaje), referencia 2018";"2015-10-1";0,1;2015;10;2024-12-11
+"319";"Velocidad de expansión (porcentaje), referencia 2018";"2015-11-1";0,9;2015;11;2024-12-11
+"320";"Velocidad de expansión (porcentaje), referencia 2018";"2015-12-1";0,9;2015;12;2024-12-11
+"321";"Velocidad de expansión (porcentaje), referencia 2018";"2016-1-1";0,8;2016;1;2024-12-11
+"322";"Velocidad de expansión (porcentaje), referencia 2018";"2016-2-1";0,8;2016;2;2024-12-11
+"323";"Velocidad de expansión (porcentaje), referencia 2018";"2016-3-1";0,9;2016;3;2024-12-11
+"324";"Velocidad de expansión (porcentaje), referencia 2018";"2016-4-1";0,5;2016;4;2024-12-11
+"325";"Velocidad de expansión (porcentaje), referencia 2018";"2016-5-1";-0,3;2016;5;2024-12-11
+"326";"Velocidad de expansión (porcentaje), referencia 2018";"2016-6-1";-0,5;2016;6;2024-12-11
+"327";"Velocidad de expansión (porcentaje), referencia 2018";"2016-7-1";0;2016;7;2024-12-11
+"328";"Velocidad de expansión (porcentaje), referencia 2018";"2016-8-1";0,5;2016;8;2024-12-11
+"329";"Velocidad de expansión (porcentaje), referencia 2018";"2016-9-1";0,7;2016;9;2024-12-11
+"330";"Velocidad de expansión (porcentaje), referencia 2018";"2016-10-1";0,5;2016;10;2024-12-11
+"331";"Velocidad de expansión (porcentaje), referencia 2018";"2016-11-1";0,4;2016;11;2024-12-11
+"332";"Velocidad de expansión (porcentaje), referencia 2018";"2016-12-1";0;2016;12;2024-12-11
+"333";"Velocidad de expansión (porcentaje), referencia 2018";"2017-1-1";0;2017;1;2024-12-11
+"334";"Velocidad de expansión (porcentaje), referencia 2018";"2017-2-1";-0,5;2017;2;2024-12-11
+"335";"Velocidad de expansión (porcentaje), referencia 2018";"2017-3-1";-0,9;2017;3;2024-12-11
+"336";"Velocidad de expansión (porcentaje), referencia 2018";"2017-4-1";-0,8;2017;4;2024-12-11
+"337";"Velocidad de expansión (porcentaje), referencia 2018";"2017-5-1";0,1;2017;5;2024-12-11
+"338";"Velocidad de expansión (porcentaje), referencia 2018";"2017-6-1";1,3;2017;6;2024-12-11
+"339";"Velocidad de expansión (porcentaje), referencia 2018";"2017-7-1";1,9;2017;7;2024-12-11
+"340";"Velocidad de expansión (porcentaje), referencia 2018";"2017-8-1";2;2017;8;2024-12-11
+"341";"Velocidad de expansión (porcentaje), referencia 2018";"2017-9-1";2;2017;9;2024-12-11
+"342";"Velocidad de expansión (porcentaje), referencia 2018";"2017-10-1";1,7;2017;10;2024-12-11
+"343";"Velocidad de expansión (porcentaje), referencia 2018";"2017-11-1";1,5;2017;11;2024-12-11
+"344";"Velocidad de expansión (porcentaje), referencia 2018";"2017-12-1";1;2017;12;2024-12-11
+"345";"Velocidad de expansión (porcentaje), referencia 2018";"2018-1-1";0,8;2018;1;2024-12-11
+"346";"Velocidad de expansión (porcentaje), referencia 2018";"2018-2-1";0,4;2018;2;2024-12-11
+"347";"Velocidad de expansión (porcentaje), referencia 2018";"2018-3-1";0,7;2018;3;2024-12-11
+"348";"Velocidad de expansión (porcentaje), referencia 2018";"2018-4-1";0,9;2018;4;2024-12-11
+"349";"Velocidad de expansión (porcentaje), referencia 2018";"2018-5-1";1,5;2018;5;2024-12-11
+"350";"Velocidad de expansión (porcentaje), referencia 2018";"2018-6-1";1,4;2018;6;2024-12-11
+"351";"Velocidad de expansión (porcentaje), referencia 2018";"2018-7-1";0,9;2018;7;2024-12-11
+"352";"Velocidad de expansión (porcentaje), referencia 2018";"2018-8-1";0;2018;8;2024-12-11
+"353";"Velocidad de expansión (porcentaje), referencia 2018";"2018-9-1";-0,3;2018;9;2024-12-11
+"354";"Velocidad de expansión (porcentaje), referencia 2018";"2018-10-1";0,1;2018;10;2024-12-11
+"355";"Velocidad de expansión (porcentaje), referencia 2018";"2018-11-1";1,2;2018;11;2024-12-11
+"356";"Velocidad de expansión (porcentaje), referencia 2018";"2018-12-1";1,5;2018;12;2024-12-11
+"357";"Velocidad de expansión (porcentaje), referencia 2018";"2019-1-1";0,8;2019;1;2024-12-11
+"358";"Velocidad de expansión (porcentaje), referencia 2018";"2019-2-1";-1;2019;2;2024-12-11
+"359";"Velocidad de expansión (porcentaje), referencia 2018";"2019-3-1";-1;2019;3;2024-12-11
+"360";"Velocidad de expansión (porcentaje), referencia 2018";"2019-4-1";-0,3;2019;4;2024-12-11
+"361";"Velocidad de expansión (porcentaje), referencia 2018";"2019-5-1";1,4;2019;5;2024-12-11
+"362";"Velocidad de expansión (porcentaje), referencia 2018";"2019-6-1";1,4;2019;6;2024-12-11
+"363";"Velocidad de expansión (porcentaje), referencia 2018";"2019-7-1";0,8;2019;7;2024-12-11
+"364";"Velocidad de expansión (porcentaje), referencia 2018";"2019-8-1";0,3;2019;8;2024-12-11
+"365";"Velocidad de expansión (porcentaje), referencia 2018";"2019-9-1";0,5;2019;9;2024-12-11
+"366";"Velocidad de expansión (porcentaje), referencia 2018";"2019-10-1";-0,7;2019;10;2024-12-11
+"367";"Velocidad de expansión (porcentaje), referencia 2018";"2019-11-1";-2,9;2019;11;2024-12-11
+"368";"Velocidad de expansión (porcentaje), referencia 2018";"2019-12-1";-4;2019;12;2024-12-11
+"369";"Velocidad de expansión (porcentaje), referencia 2018";"2020-1-1";-1,4;2020;1;2024-12-11
+"370";"Velocidad de expansión (porcentaje), referencia 2018";"2020-2-1";2;2020;2;2024-12-11
+"371";"Velocidad de expansión (porcentaje), referencia 2018";"2020-3-1";1,6;2020;3;2024-12-11
+"372";"Velocidad de expansión (porcentaje), referencia 2018";"2020-4-1";-4,2;2020;4;2024-12-11
+"373";"Velocidad de expansión (porcentaje), referencia 2018";"2020-5-1";-10,4;2020;5;2024-12-11
+"374";"Velocidad de expansión (porcentaje), referencia 2018";"2020-6-1";-12,6;2020;6;2024-12-11
+"375";"Velocidad de expansión (porcentaje), referencia 2018";"2020-7-1";-8,5;2020;7;2024-12-11
+"376";"Velocidad de expansión (porcentaje), referencia 2018";"2020-8-1";-1,7;2020;8;2024-12-11
+"377";"Velocidad de expansión (porcentaje), referencia 2018";"2020-9-1";5,2;2020;9;2024-12-11
+"378";"Velocidad de expansión (porcentaje), referencia 2018";"2020-10-1";8,2;2020;10;2024-12-11
+"379";"Velocidad de expansión (porcentaje), referencia 2018";"2020-11-1";8,5;2020;11;2024-12-11
+"380";"Velocidad de expansión (porcentaje), referencia 2018";"2020-12-1";7;2020;12;2024-12-11
+"381";"Velocidad de expansión (porcentaje), referencia 2018";"2021-1-1";5,1;2021;1;2024-12-11
+"382";"Velocidad de expansión (porcentaje), referencia 2018";"2021-2-1";4,5;2021;2;2024-12-11
+"383";"Velocidad de expansión (porcentaje), referencia 2018";"2021-3-1";3,1;2021;3;2024-12-11
+"384";"Velocidad de expansión (porcentaje), referencia 2018";"2021-4-1";1,9;2021;4;2024-12-11
+"385";"Velocidad de expansión (porcentaje), referencia 2018";"2021-5-1";0,7;2021;5;2024-12-11
+"386";"Velocidad de expansión (porcentaje), referencia 2018";"2021-6-1";1,2;2021;6;2024-12-11
+"387";"Velocidad de expansión (porcentaje), referencia 2018";"2021-7-1";3,1;2021;7;2024-12-11
+"388";"Velocidad de expansión (porcentaje), referencia 2018";"2021-8-1";4,2;2021;8;2024-12-11
+"389";"Velocidad de expansión (porcentaje), referencia 2018";"2021-9-1";4,5;2021;9;2024-12-11
+"390";"Velocidad de expansión (porcentaje), referencia 2018";"2021-10-1";3,8;2021;10;2024-12-11
+"391";"Velocidad de expansión (porcentaje), referencia 2018";"2021-11-1";3,4;2021;11;2024-12-11
+"392";"Velocidad de expansión (porcentaje), referencia 2018";"2021-12-1";2,5;2021;12;2024-12-11
+"393";"Velocidad de expansión (porcentaje), referencia 2018";"2022-1-1";0,5;2022;1;2024-12-11
+"394";"Velocidad de expansión (porcentaje), referencia 2018";"2022-2-1";-1,4;2022;2;2024-12-11
+"395";"Velocidad de expansión (porcentaje), referencia 2018";"2022-3-1";-2;2022;3;2024-12-11
+"396";"Velocidad de expansión (porcentaje), referencia 2018";"2022-4-1";-1,2;2022;4;2024-12-11
+"397";"Velocidad de expansión (porcentaje), referencia 2018";"2022-5-1";-0,1;2022;5;2024-12-11
+"398";"Velocidad de expansión (porcentaje), referencia 2018";"2022-6-1";-0,3;2022;6;2024-12-11
+"399";"Velocidad de expansión (porcentaje), referencia 2018";"2022-7-1";-0,7;2022;7;2024-12-11
+"400";"Velocidad de expansión (porcentaje), referencia 2018";"2022-8-1";-0,7;2022;8;2024-12-11
+"401";"Velocidad de expansión (porcentaje), referencia 2018";"2022-9-1";-0,1;2022;9;2024-12-11
+"402";"Velocidad de expansión (porcentaje), referencia 2018";"2022-10-1";1,1;2022;10;2024-12-11
+"403";"Velocidad de expansión (porcentaje), referencia 2018";"2022-11-1";0,5;2022;11;2024-12-11
+"404";"Velocidad de expansión (porcentaje), referencia 2018";"2022-12-1";0,1;2022;12;2024-12-11
+"405";"Velocidad de expansión (porcentaje), referencia 2018";"2023-1-1";-0,6;2023;1;2024-12-11
+"406";"Velocidad de expansión (porcentaje), referencia 2018";"2023-2-1";0;2023;2;2024-12-11
+"407";"Velocidad de expansión (porcentaje), referencia 2018";"2023-3-1";0,4;2023;3;2024-12-11
+"408";"Velocidad de expansión (porcentaje), referencia 2018";"2023-4-1";0,1;2023;4;2024-12-11
+"409";"Velocidad de expansión (porcentaje), referencia 2018";"2023-5-1";-0,2;2023;5;2024-12-11
+"410";"Velocidad de expansión (porcentaje), referencia 2018";"2023-6-1";-0,5;2023;6;2024-12-11
+"411";"Velocidad de expansión (porcentaje), referencia 2018";"2023-7-1";-0,3;2023;7;2024-12-11
+"412";"Velocidad de expansión (porcentaje), referencia 2018";"2023-8-1";0;2023;8;2024-12-11
+"413";"Velocidad de expansión (porcentaje), referencia 2018";"2023-9-1";0,6;2023;9;2024-12-11
+"414";"Velocidad de expansión (porcentaje), referencia 2018";"2023-10-1";0,8;2023;10;2024-12-11
+"415";"Velocidad de expansión (porcentaje), referencia 2018";"2023-11-1";0,9;2023;11;2024-12-11
+"416";"Velocidad de expansión (porcentaje), referencia 2018";"2023-12-1";0,2;2023;12;2024-12-11
+"417";"Velocidad de expansión (porcentaje), referencia 2018";"2024-1-1";0,4;2024;1;2024-12-11
+"418";"Velocidad de expansión (porcentaje), referencia 2018";"2024-2-1";0,8;2024;2;2024-12-11
+"419";"Velocidad de expansión (porcentaje), referencia 2018";"2024-3-1";1,9;2024;3;2024-12-11
+"420";"Velocidad de expansión (porcentaje), referencia 2018";"2024-4-1";1,6;2024;4;2024-12-11
+"421";"Velocidad de expansión (porcentaje), referencia 2018";"2024-5-1";0,4;2024;5;2024-12-11
+"422";"Velocidad de expansión (porcentaje), referencia 2018";"2024-6-1";-0,5;2024;6;2024-12-11
+"423";"Velocidad de expansión (porcentaje), referencia 2018";"2024-7-1";-0,7;2024;7;2024-12-11
+"424";"Velocidad de expansión (porcentaje), referencia 2018";"2024-8-1";0,4;2024;8;2024-12-11
+"425";"Velocidad de expansión (porcentaje), referencia 2018";"2024-9-1";0,7;2024;9;2024-12-11
+"426";"Velocidad de expansión (porcentaje), referencia 2018";"2024-10-1";0,5;2024;10;2024-12-11
