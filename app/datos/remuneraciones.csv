@@ -1,67 +1,67 @@
 "";"serie";"fecha";"valor";"año";"mes";"fecha_scraping"
-"1";"Índice de remuneraciones";"2023-1-1";98;2023;1;2025-01-01
-"2";"Índice de remuneraciones";"2023-2-1";97,5;2023;2;2025-01-01
-"3";"Índice de remuneraciones";"2023-3-1";98,1;2023;3;2025-01-01
-"4";"Índice de remuneraciones";"2023-4-1";98,7;2023;4;2025-01-01
-"5";"Índice de remuneraciones";"2023-5-1";98,9;2023;5;2025-01-01
-"6";"Índice de remuneraciones";"2023-6-1";99,9;2023;6;2025-01-01
-"7";"Índice de remuneraciones";"2023-7-1";100,3;2023;7;2025-01-01
-"8";"Índice de remuneraciones";"2023-8-1";100,3;2023;8;2025-01-01
-"9";"Índice de remuneraciones";"2023-9-1";101,8;2023;9;2025-01-01
-"10";"Índice de remuneraciones";"2023-10-1";101,5;2023;10;2025-01-01
-"11";"Índice de remuneraciones";"2023-11-1";101,6;2023;11;2025-01-01
-"12";"Índice de remuneraciones";"2023-12-1";103,3;2023;12;2025-01-01
-"13";"Índice de remuneraciones";"2024-1-1";104,1;2024;1;2025-01-01
-"14";"Índice de remuneraciones";"2024-2-1";103,8;2024;2;2025-01-01
-"15";"Índice de remuneraciones";"2024-3-1";104,8;2024;3;2025-01-01
-"16";"Índice de remuneraciones";"2024-4-1";105,3;2024;4;2025-01-01
-"17";"Índice de remuneraciones";"2024-5-1";105,7;2024;5;2025-01-01
-"18";"Índice de remuneraciones";"2024-6-1";107;2024;6;2025-01-01
-"19";"Índice de remuneraciones";"2024-7-1";108,7;2024;7;2025-01-01
-"20";"Índice de remuneraciones";"2024-8-1";109,1;2024;8;2025-01-01
-"21";"Índice de remuneraciones";"2024-9-1";109,8;2024;9;2025-01-01
-"22";"Índice de remuneraciones";"2024-10-1";109,8;2024;10;2025-01-01
-"23";"Índice real de remuneraciones";"2023-1-1";100;2023;1;2025-01-01
-"24";"Índice real de remuneraciones";"2023-2-1";99,5;2023;2;2025-01-01
-"25";"Índice real de remuneraciones";"2023-3-1";99,1;2023;3;2025-01-01
-"26";"Índice real de remuneraciones";"2023-4-1";99,4;2023;4;2025-01-01
-"27";"Índice real de remuneraciones";"2023-5-1";99,5;2023;5;2025-01-01
-"28";"Índice real de remuneraciones";"2023-6-1";100,6;2023;6;2025-01-01
-"29";"Índice real de remuneraciones";"2023-7-1";100,7;2023;7;2025-01-01
-"30";"Índice real de remuneraciones";"2023-8-1";100,6;2023;8;2025-01-01
-"31";"Índice real de remuneraciones";"2023-9-1";101,4;2023;9;2025-01-01
-"32";"Índice real de remuneraciones";"2023-10-1";100,7;2023;10;2025-01-01
-"33";"Índice real de remuneraciones";"2023-11-1";100;2023;11;2025-01-01
-"34";"Índice real de remuneraciones";"2023-12-1";102,2;2023;12;2025-01-01
-"35";"Índice real de remuneraciones";"2024-1-1";102,3;2024;1;2025-01-01
-"36";"Índice real de remuneraciones";"2024-2-1";101,4;2024;2;2025-01-01
-"37";"Índice real de remuneraciones";"2024-3-1";102,1;2024;3;2025-01-01
-"38";"Índice real de remuneraciones";"2024-4-1";102;2024;4;2025-01-01
-"39";"Índice real de remuneraciones";"2024-5-1";102,1;2024;5;2025-01-01
-"40";"Índice real de remuneraciones";"2024-6-1";103,4;2024;6;2025-01-01
-"41";"Índice real de remuneraciones";"2024-7-1";104,3;2024;7;2025-01-01
-"42";"Índice real de remuneraciones";"2024-8-1";104,5;2024;8;2025-01-01
-"43";"Índice real de remuneraciones";"2024-9-1";105,1;2024;9;2025-01-01
-"44";"Índice real de remuneraciones";"2024-10-1";104;2024;10;2025-01-01
-"45";"Índice de Costos Laborales";"2023-1-1";97,8;2023;1;2025-01-01
-"46";"Índice de Costos Laborales";"2023-2-1";97,1;2023;2;2025-01-01
-"47";"Índice de Costos Laborales";"2023-3-1";98;2023;3;2025-01-01
-"48";"Índice de Costos Laborales";"2023-4-1";98,7;2023;4;2025-01-01
-"49";"Índice de Costos Laborales";"2023-5-1";98,9;2023;5;2025-01-01
-"50";"Índice de Costos Laborales";"2023-6-1";99,9;2023;6;2025-01-01
-"51";"Índice de Costos Laborales";"2023-7-1";100,4;2023;7;2025-01-01
-"52";"Índice de Costos Laborales";"2023-8-1";100,5;2023;8;2025-01-01
-"53";"Índice de Costos Laborales";"2023-9-1";102,2;2023;9;2025-01-01
-"54";"Índice de Costos Laborales";"2023-10-1";101,4;2023;10;2025-01-01
-"55";"Índice de Costos Laborales";"2023-11-1";101,6;2023;11;2025-01-01
-"56";"Índice de Costos Laborales";"2023-12-1";103,6;2023;12;2025-01-01
-"57";"Índice de Costos Laborales";"2024-1-1";103,8;2024;1;2025-01-01
-"58";"Índice de Costos Laborales";"2024-2-1";103,3;2024;2;2025-01-01
-"59";"Índice de Costos Laborales";"2024-3-1";104,7;2024;3;2025-01-01
-"60";"Índice de Costos Laborales";"2024-4-1";105,3;2024;4;2025-01-01
-"61";"Índice de Costos Laborales";"2024-5-1";105,6;2024;5;2025-01-01
-"62";"Índice de Costos Laborales";"2024-6-1";106,9;2024;6;2025-01-01
-"63";"Índice de Costos Laborales";"2024-7-1";109,2;2024;7;2025-01-01
-"64";"Índice de Costos Laborales";"2024-8-1";109,5;2024;8;2025-01-01
-"65";"Índice de Costos Laborales";"2024-9-1";110,5;2024;9;2025-01-01
-"66";"Índice de Costos Laborales";"2024-10-1";109,9;2024;10;2025-01-01
+"1";"Índice de remuneraciones";"2023-1-1";98;2023;1;2025-01-02
+"2";"Índice de remuneraciones";"2023-2-1";97,5;2023;2;2025-01-02
+"3";"Índice de remuneraciones";"2023-3-1";98,1;2023;3;2025-01-02
+"4";"Índice de remuneraciones";"2023-4-1";98,7;2023;4;2025-01-02
+"5";"Índice de remuneraciones";"2023-5-1";98,9;2023;5;2025-01-02
+"6";"Índice de remuneraciones";"2023-6-1";99,9;2023;6;2025-01-02
+"7";"Índice de remuneraciones";"2023-7-1";100,3;2023;7;2025-01-02
+"8";"Índice de remuneraciones";"2023-8-1";100,3;2023;8;2025-01-02
+"9";"Índice de remuneraciones";"2023-9-1";101,8;2023;9;2025-01-02
+"10";"Índice de remuneraciones";"2023-10-1";101,5;2023;10;2025-01-02
+"11";"Índice de remuneraciones";"2023-11-1";101,6;2023;11;2025-01-02
+"12";"Índice de remuneraciones";"2023-12-1";103,3;2023;12;2025-01-02
+"13";"Índice de remuneraciones";"2024-1-1";104,1;2024;1;2025-01-02
+"14";"Índice de remuneraciones";"2024-2-1";103,8;2024;2;2025-01-02
+"15";"Índice de remuneraciones";"2024-3-1";104,8;2024;3;2025-01-02
+"16";"Índice de remuneraciones";"2024-4-1";105,3;2024;4;2025-01-02
+"17";"Índice de remuneraciones";"2024-5-1";105,7;2024;5;2025-01-02
+"18";"Índice de remuneraciones";"2024-6-1";107;2024;6;2025-01-02
+"19";"Índice de remuneraciones";"2024-7-1";108,7;2024;7;2025-01-02
+"20";"Índice de remuneraciones";"2024-8-1";109,1;2024;8;2025-01-02
+"21";"Índice de remuneraciones";"2024-9-1";109,8;2024;9;2025-01-02
+"22";"Índice de remuneraciones";"2024-10-1";109,8;2024;10;2025-01-02
+"23";"Índice real de remuneraciones";"2023-1-1";100;2023;1;2025-01-02
+"24";"Índice real de remuneraciones";"2023-2-1";99,5;2023;2;2025-01-02
+"25";"Índice real de remuneraciones";"2023-3-1";99,1;2023;3;2025-01-02
+"26";"Índice real de remuneraciones";"2023-4-1";99,4;2023;4;2025-01-02
+"27";"Índice real de remuneraciones";"2023-5-1";99,5;2023;5;2025-01-02
+"28";"Índice real de remuneraciones";"2023-6-1";100,6;2023;6;2025-01-02
+"29";"Índice real de remuneraciones";"2023-7-1";100,7;2023;7;2025-01-02
+"30";"Índice real de remuneraciones";"2023-8-1";100,6;2023;8;2025-01-02
+"31";"Índice real de remuneraciones";"2023-9-1";101,4;2023;9;2025-01-02
+"32";"Índice real de remuneraciones";"2023-10-1";100,7;2023;10;2025-01-02
+"33";"Índice real de remuneraciones";"2023-11-1";100;2023;11;2025-01-02
+"34";"Índice real de remuneraciones";"2023-12-1";102,2;2023;12;2025-01-02
+"35";"Índice real de remuneraciones";"2024-1-1";102,3;2024;1;2025-01-02
+"36";"Índice real de remuneraciones";"2024-2-1";101,4;2024;2;2025-01-02
+"37";"Índice real de remuneraciones";"2024-3-1";102,1;2024;3;2025-01-02
+"38";"Índice real de remuneraciones";"2024-4-1";102;2024;4;2025-01-02
+"39";"Índice real de remuneraciones";"2024-5-1";102,1;2024;5;2025-01-02
+"40";"Índice real de remuneraciones";"2024-6-1";103,4;2024;6;2025-01-02
+"41";"Índice real de remuneraciones";"2024-7-1";104,3;2024;7;2025-01-02
+"42";"Índice real de remuneraciones";"2024-8-1";104,5;2024;8;2025-01-02
+"43";"Índice real de remuneraciones";"2024-9-1";105,1;2024;9;2025-01-02
+"44";"Índice real de remuneraciones";"2024-10-1";104;2024;10;2025-01-02
+"45";"Índice de Costos Laborales";"2023-1-1";97,8;2023;1;2025-01-02
+"46";"Índice de Costos Laborales";"2023-2-1";97,1;2023;2;2025-01-02
+"47";"Índice de Costos Laborales";"2023-3-1";98;2023;3;2025-01-02
+"48";"Índice de Costos Laborales";"2023-4-1";98,7;2023;4;2025-01-02
+"49";"Índice de Costos Laborales";"2023-5-1";98,9;2023;5;2025-01-02
+"50";"Índice de Costos Laborales";"2023-6-1";99,9;2023;6;2025-01-02
+"51";"Índice de Costos Laborales";"2023-7-1";100,4;2023;7;2025-01-02
+"52";"Índice de Costos Laborales";"2023-8-1";100,5;2023;8;2025-01-02
+"53";"Índice de Costos Laborales";"2023-9-1";102,2;2023;9;2025-01-02
+"54";"Índice de Costos Laborales";"2023-10-1";101,4;2023;10;2025-01-02
+"55";"Índice de Costos Laborales";"2023-11-1";101,6;2023;11;2025-01-02
+"56";"Índice de Costos Laborales";"2023-12-1";103,6;2023;12;2025-01-02
+"57";"Índice de Costos Laborales";"2024-1-1";103,8;2024;1;2025-01-02
+"58";"Índice de Costos Laborales";"2024-2-1";103,3;2024;2;2025-01-02
+"59";"Índice de Costos Laborales";"2024-3-1";104,7;2024;3;2025-01-02
+"60";"Índice de Costos Laborales";"2024-4-1";105,3;2024;4;2025-01-02
+"61";"Índice de Costos Laborales";"2024-5-1";105,6;2024;5;2025-01-02
+"62";"Índice de Costos Laborales";"2024-6-1";106,9;2024;6;2025-01-02
+"63";"Índice de Costos Laborales";"2024-7-1";109,2;2024;7;2025-01-02
+"64";"Índice de Costos Laborales";"2024-8-1";109,5;2024;8;2025-01-02
+"65";"Índice de Costos Laborales";"2024-9-1";110,5;2024;9;2025-01-02
+"66";"Índice de Costos Laborales";"2024-10-1";109,9;2024;10;2025-01-02
