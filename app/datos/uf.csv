@@ -1,551 +1,551 @@
 "";"serie";"fecha";"valor";"año";"mes";"fecha_scraping"
-"1";"Unidad de fomento (UF)";"2010-1-1";20899,82;2010;1;2025-03-13
-"2";"Unidad de fomento (UF)";"2010-2-1";20877,51;2010;2;2025-03-13
-"3";"Unidad de fomento (UF)";"2010-3-1";20966,13;2010;3;2025-03-13
-"4";"Unidad de fomento (UF)";"2010-4-1";21019,75;2010;4;2025-03-13
-"5";"Unidad de fomento (UF)";"2010-5-1";21064,65;2010;5;2025-03-13
-"6";"Unidad de fomento (UF)";"2010-6-1";21160,6;2010;6;2025-03-13
-"7";"Unidad de fomento (UF)";"2010-7-1";21224,29;2010;7;2025-03-13
-"8";"Unidad de fomento (UF)";"2010-8-1";21261,05;2010;8;2025-03-13
-"9";"Unidad de fomento (UF)";"2010-9-1";21344,51;2010;9;2025-03-13
-"10";"Unidad de fomento (UF)";"2010-10-1";21356,86;2010;10;2025-03-13
-"11";"Unidad de fomento (UF)";"2010-11-1";21421,11;2010;11;2025-03-13
-"12";"Unidad de fomento (UF)";"2010-12-1";21445,15;2010;12;2025-03-13
-"13";"Unidad de fomento (UF)";"2011-1-1";21466,63;2011;1;2025-03-13
-"14";"Unidad de fomento (UF)";"2011-2-1";21497,96;2011;2;2025-03-13
-"15";"Unidad de fomento (UF)";"2011-3-1";21556,35;2011;3;2025-03-13
-"16";"Unidad de fomento (UF)";"2011-4-1";21633,36;2011;4;2025-03-13
-"17";"Unidad de fomento (UF)";"2011-5-1";21773,99;2011;5;2025-03-13
-"18";"Unidad de fomento (UF)";"2011-6-1";21848,67;2011;6;2025-03-13
-"19";"Unidad de fomento (UF)";"2011-7-1";21924,28;2011;7;2025-03-13
-"20";"Unidad de fomento (UF)";"2011-8-1";21964,1;2011;8;2025-03-13
-"21";"Unidad de fomento (UF)";"2011-9-1";21992,35;2011;9;2025-03-13
-"22";"Unidad de fomento (UF)";"2011-10-1";22053,13;2011;10;2025-03-13
-"23";"Unidad de fomento (UF)";"2011-11-1";22160,11;2011;11;2025-03-13
-"24";"Unidad de fomento (UF)";"2011-12-1";22259,95;2011;12;2025-03-13
-"25";"Unidad de fomento (UF)";"2012-1-1";22346,12;2012;1;2025-03-13
-"26";"Unidad de fomento (UF)";"2012-2-1";22447,54;2012;2;2025-03-13
-"27";"Unidad de fomento (UF)";"2012-3-1";22492,5;2012;3;2025-03-13
-"28";"Unidad de fomento (UF)";"2012-4-1";22567,73;2012;4;2025-03-13
-"29";"Unidad de fomento (UF)";"2012-5-1";22608,96;2012;5;2025-03-13
-"30";"Unidad de fomento (UF)";"2012-6-1";22626,49;2012;6;2025-03-13
-"31";"Unidad de fomento (UF)";"2012-7-1";22609,47;2012;7;2025-03-13
-"32";"Unidad de fomento (UF)";"2012-8-1";22562,02;2012;8;2025-03-13
-"33";"Unidad de fomento (UF)";"2012-9-1";22571,05;2012;9;2025-03-13
-"34";"Unidad de fomento (UF)";"2012-10-1";22650,36;2012;10;2025-03-13
-"35";"Unidad de fomento (UF)";"2012-11-1";22813,45;2012;11;2025-03-13
-"36";"Unidad de fomento (UF)";"2012-12-1";22886,63;2012;12;2025-03-13
-"37";"Unidad de fomento (UF)";"2013-1-1";22811,83;2013;1;2025-03-13
-"38";"Unidad de fomento (UF)";"2013-2-1";22818,59;2013;2;2025-03-13
-"39";"Unidad de fomento (UF)";"2013-3-1";22857,28;2013;3;2025-03-13
-"40";"Unidad de fomento (UF)";"2013-4-1";22898,59;2013;4;2025-03-13
-"41";"Unidad de fomento (UF)";"2013-5-1";22933,69;2013;5;2025-03-13
-"42";"Unidad de fomento (UF)";"2013-6-1";22857,11;2013;6;2025-03-13
-"43";"Unidad de fomento (UF)";"2013-7-1";22888,71;2013;7;2025-03-13
-"44";"Unidad de fomento (UF)";"2013-8-1";23002,78;2013;8;2025-03-13
-"45";"Unidad de fomento (UF)";"2013-9-1";23067,92;2013;9;2025-03-13
-"46";"Unidad de fomento (UF)";"2013-10-1";23133,47;2013;10;2025-03-13
-"47";"Unidad de fomento (UF)";"2013-11-1";23221,88;2013;11;2025-03-13
-"48";"Unidad de fomento (UF)";"2013-12-1";23267,17;2013;12;2025-03-13
-"49";"Unidad de fomento (UF)";"2014-1-1";23369,91;2014;1;2025-03-13
-"50";"Unidad de fomento (UF)";"2014-2-1";23482,16;2014;2;2025-03-13
-"51";"Unidad de fomento (UF)";"2014-3-1";23552,54;2014;3;2025-03-13
-"52";"Unidad de fomento (UF)";"2014-4-1";23685,06;2014;4;2025-03-13
-"53";"Unidad de fomento (UF)";"2014-5-1";23860,55;2014;5;2025-03-13
-"54";"Unidad de fomento (UF)";"2014-6-1";23986,19;2014;6;2025-03-13
-"55";"Unidad de fomento (UF)";"2014-7-1";24048,75;2014;7;2025-03-13
-"56";"Unidad de fomento (UF)";"2014-8-1";24081,02;2014;8;2025-03-13
-"57";"Unidad de fomento (UF)";"2014-9-1";24134,09;2014;9;2025-03-13
-"58";"Unidad de fomento (UF)";"2014-10-1";24237,79;2014;10;2025-03-13
-"59";"Unidad de fomento (UF)";"2014-11-1";24438,18;2014;11;2025-03-13
-"60";"Unidad de fomento (UF)";"2014-12-1";24617,62;2014;12;2025-03-13
-"61";"Unidad de fomento (UF)";"2015-1-1";24601,14;2015;1;2025-03-13
-"62";"Unidad de fomento (UF)";"2015-2-1";24538,61;2015;2;2025-03-13
-"63";"Unidad de fomento (UF)";"2015-3-1";24577,93;2015;3;2025-03-13
-"64";"Unidad de fomento (UF)";"2015-4-1";24685,43;2015;4;2025-03-13
-"65";"Unidad de fomento (UF)";"2015-5-1";24832,61;2015;5;2025-03-13
-"66";"Unidad de fomento (UF)";"2015-6-1";24955,07;2015;6;2025-03-13
-"67";"Unidad de fomento (UF)";"2015-7-1";25028,87;2015;7;2025-03-13
-"68";"Unidad de fomento (UF)";"2015-8-1";25144,67;2015;8;2025-03-13
-"69";"Unidad de fomento (UF)";"2015-9-1";25264,76;2015;9;2025-03-13
-"70";"Unidad de fomento (UF)";"2015-10-1";25426,52;2015;10;2025-03-13
-"71";"Unidad de fomento (UF)";"2015-11-1";25548,23;2015;11;2025-03-13
-"72";"Unidad de fomento (UF)";"2015-12-1";25625,13;2015;12;2025-03-13
-"73";"Unidad de fomento (UF)";"2016-1-1";25629,09;2016;1;2025-03-13
-"74";"Unidad de fomento (UF)";"2016-2-1";25661,05;2016;2;2025-03-13
-"75";"Unidad de fomento (UF)";"2016-3-1";25772,43;2016;3;2025-03-13
-"76";"Unidad de fomento (UF)";"2016-4-1";25858,01;2016;4;2025-03-13
-"77";"Unidad de fomento (UF)";"2016-5-1";25954,31;2016;5;2025-03-13
-"78";"Unidad de fomento (UF)";"2016-6-1";26025,99;2016;6;2025-03-13
-"79";"Unidad de fomento (UF)";"2016-7-1";26093,1;2016;7;2025-03-13
-"80";"Unidad de fomento (UF)";"2016-8-1";26181,82;2016;8;2025-03-13
-"81";"Unidad de fomento (UF)";"2016-9-1";26222,27;2016;9;2025-03-13
-"82";"Unidad de fomento (UF)";"2016-10-1";26238,1;2016;10;2025-03-13
-"83";"Unidad de fomento (UF)";"2016-11-1";26288,2;2016;11;2025-03-13
-"84";"Unidad de fomento (UF)";"2016-12-1";26334,19;2016;12;2025-03-13
-"85";"Unidad de fomento (UF)";"2017-1-1";26340,76;2017;1;2025-03-13
-"86";"Unidad de fomento (UF)";"2017-2-1";26336,93;2017;2;2025-03-13
-"87";"Unidad de fomento (UF)";"2017-3-1";26442,88;2017;3;2025-03-13
-"88";"Unidad de fomento (UF)";"2017-4-1";26512,42;2017;4;2025-03-13
-"89";"Unidad de fomento (UF)";"2017-5-1";26603,14;2017;5;2025-03-13
-"90";"Unidad de fomento (UF)";"2017-6-1";26651,22;2017;6;2025-03-13
-"91";"Unidad de fomento (UF)";"2017-7-1";26643,94;2017;7;2025-03-13
-"92";"Unidad de fomento (UF)";"2017-8-1";26584,37;2017;8;2025-03-13
-"93";"Unidad de fomento (UF)";"2017-9-1";26631,13;2017;9;2025-03-13
-"94";"Unidad de fomento (UF)";"2017-10-1";26656,66;2017;10;2025-03-13
-"95";"Unidad de fomento (UF)";"2017-11-1";26662,41;2017;11;2025-03-13
-"96";"Unidad de fomento (UF)";"2017-12-1";26779,99;2017;12;2025-03-13
-"97";"Unidad de fomento (UF)";"2018-1-1";26811,97;2018;1;2025-03-13
-"98";"Unidad de fomento (UF)";"2018-2-1";26864,09;2018;2;2025-03-13
-"99";"Unidad de fomento (UF)";"2018-3-1";26961,32;2018;3;2025-03-13
-"100";"Unidad de fomento (UF)";"2018-4-1";26980,73;2018;4;2025-03-13
-"101";"Unidad de fomento (UF)";"2018-5-1";27040,06;2018;5;2025-03-13
-"102";"Unidad de fomento (UF)";"2018-6-1";27119,59;2018;6;2025-03-13
-"103";"Unidad de fomento (UF)";"2018-7-1";27187,19;2018;7;2025-03-13
-"104";"Unidad de fomento (UF)";"2018-8-1";27237,98;2018;8;2025-03-13
-"105";"Unidad de fomento (UF)";"2018-9-1";27329,01;2018;9;2025-03-13
-"106";"Unidad de fomento (UF)";"2018-10-1";27393,34;2018;10;2025-03-13
-"107";"Unidad de fomento (UF)";"2018-11-1";27480,95;2018;11;2025-03-13
-"108";"Unidad de fomento (UF)";"2018-12-1";27561,53;2018;12;2025-03-13
-"109";"Unidad de fomento (UF)";"2019-1-1";27558,53;2019;1;2025-03-13
-"110";"Unidad de fomento (UF)";"2019-2-1";27546,04;2019;2;2025-03-13
-"111";"Unidad de fomento (UF)";"2019-3-1";27564,62;2019;3;2025-03-13
-"112";"Unidad de fomento (UF)";"2019-4-1";27601,09;2019;4;2025-03-13
-"113";"Unidad de fomento (UF)";"2019-5-1";27720,11;2019;5;2025-03-13
-"114";"Unidad de fomento (UF)";"2019-6-1";27826,2;2019;6;2025-03-13
-"115";"Unidad de fomento (UF)";"2019-7-1";27946,95;2019;7;2025-03-13
-"116";"Unidad de fomento (UF)";"2019-8-1";27968,13;2019;8;2025-03-13
-"117";"Unidad de fomento (UF)";"2019-9-1";28021,53;2019;9;2025-03-13
-"118";"Unidad de fomento (UF)";"2019-10-1";28063,18;2019;10;2025-03-13
-"119";"Unidad de fomento (UF)";"2019-11-1";28122,86;2019;11;2025-03-13
-"120";"Unidad de fomento (UF)";"2019-12-1";28288,6;2019;12;2025-03-13
-"121";"Unidad de fomento (UF)";"2020-1-1";28324,55;2020;1;2025-03-13
-"122";"Unidad de fomento (UF)";"2020-2-1";28387,75;2020;2;2025-03-13
-"123";"Unidad de fomento (UF)";"2020-3-1";28539,73;2020;3;2025-03-13
-"124";"Unidad de fomento (UF)";"2020-4-1";28648,24;2020;4;2025-03-13
-"125";"Unidad de fomento (UF)";"2020-5-1";28713,19;2020;5;2025-03-13
-"126";"Unidad de fomento (UF)";"2020-6-1";28709,15;2020;6;2025-03-13
-"127";"Unidad de fomento (UF)";"2020-7-1";28681,36;2020;7;2025-03-13
-"128";"Unidad de fomento (UF)";"2020-8-1";28667,73;2020;8;2025-03-13
-"129";"Unidad de fomento (UF)";"2020-9-1";28694,02;2020;9;2025-03-13
-"130";"Unidad de fomento (UF)";"2020-10-1";28760,64;2020;10;2025-03-13
-"131";"Unidad de fomento (UF)";"2020-11-1";28933,88;2020;11;2025-03-13
-"132";"Unidad de fomento (UF)";"2020-12-1";29075,47;2020;12;2025-03-13
-"133";"Unidad de fomento (UF)";"2021-1-1";29085,91;2021;1;2025-03-13
-"134";"Unidad de fomento (UF)";"2021-2-1";29194,81;2021;2;2025-03-13
-"135";"Unidad de fomento (UF)";"2021-3-1";29360,08;2021;3;2025-03-13
-"136";"Unidad de fomento (UF)";"2021-4-1";29439,72;2021;4;2025-03-13
-"137";"Unidad de fomento (UF)";"2021-5-1";29555,98;2021;5;2025-03-13
-"138";"Unidad de fomento (UF)";"2021-6-1";29665,83;2021;6;2025-03-13
-"139";"Unidad de fomento (UF)";"2021-7-1";29740,92;2021;7;2025-03-13
-"140";"Unidad de fomento (UF)";"2021-8-1";29827,73;2021;8;2025-03-13
-"141";"Unidad de fomento (UF)";"2021-9-1";30025,93;2021;9;2025-03-13
-"142";"Unidad de fomento (UF)";"2021-10-1";30214,65;2021;10;2025-03-13
-"143";"Unidad de fomento (UF)";"2021-11-1";30573,24;2021;11;2025-03-13
-"144";"Unidad de fomento (UF)";"2021-12-1";30907,42;2021;12;2025-03-13
-"145";"Unidad de fomento (UF)";"2022-1-1";31096,09;2022;1;2025-03-13
-"146";"Unidad de fomento (UF)";"2022-2-1";31365,3;2022;2;2025-03-13
-"147";"Unidad de fomento (UF)";"2022-3-1";31669,7;2022;3;2025-03-13
-"148";"Unidad de fomento (UF)";"2022-4-1";31905,76;2022;4;2025-03-13
-"149";"Unidad de fomento (UF)";"2022-5-1";32453,99;2022;5;2025-03-13
-"150";"Unidad de fomento (UF)";"2022-6-1";32894,82;2022;6;2025-03-13
-"151";"Unidad de fomento (UF)";"2022-7-1";33268,63;2022;7;2025-03-13
-"152";"Unidad de fomento (UF)";"2022-8-1";33616,11;2022;8;2025-03-13
-"153";"Unidad de fomento (UF)";"2022-9-1";34059,41;2022;9;2025-03-13
-"154";"Unidad de fomento (UF)";"2022-10-1";34446,46;2022;10;2025-03-13
-"155";"Unidad de fomento (UF)";"2022-11-1";34722,91;2022;11;2025-03-13
-"156";"Unidad de fomento (UF)";"2022-12-1";34948,74;2022;12;2025-03-13
-"157";"Unidad de fomento (UF)";"2023-1-1";35227,24;2023;1;2025-03-13
-"158";"Unidad de fomento (UF)";"2023-2-1";35382,14;2023;2;2025-03-13
-"159";"Unidad de fomento (UF)";"2023-3-1";35579,62;2023;3;2025-03-13
-"160";"Unidad de fomento (UF)";"2023-4-1";35666,65;2023;4;2025-03-13
-"161";"Unidad de fomento (UF)";"2023-5-1";35969,53;2023;5;2025-03-13
-"162";"Unidad de fomento (UF)";"2023-6-1";36069,31;2023;6;2025-03-13
-"163";"Unidad de fomento (UF)";"2023-7-1";36079,89;2023;7;2025-03-13
-"164";"Unidad de fomento (UF)";"2023-8-1";36068,7;2023;8;2025-03-13
-"165";"Unidad de fomento (UF)";"2023-9-1";36175,9;2023;9;2025-03-13
-"166";"Unidad de fomento (UF)";"2023-10-1";36273,59;2023;10;2025-03-13
-"167";"Unidad de fomento (UF)";"2023-11-1";36489,4;2023;11;2025-03-13
-"168";"Unidad de fomento (UF)";"2023-12-1";36669,38;2023;12;2025-03-13
-"169";"Unidad de fomento (UF)";"2024-1-1";36805,73;2024;1;2025-03-13
-"170";"Unidad de fomento (UF)";"2024-2-1";36750,98;2024;2;2025-03-13
-"171";"Unidad de fomento (UF)";"2024-3-1";36984,32;2024;3;2025-03-13
-"172";"Unidad de fomento (UF)";"2024-4-1";37187,51;2024;4;2025-03-13
-"173";"Unidad de fomento (UF)";"2024-5-1";37349,91;2024;5;2025-03-13
-"174";"Unidad de fomento (UF)";"2024-6-1";37514,77;2024;6;2025-03-13
-"175";"Unidad de fomento (UF)";"2024-7-1";37591,38;2024;7;2025-03-13
-"176";"Unidad de fomento (UF)";"2024-8-1";37638,55;2024;8;2025-03-13
-"177";"Unidad de fomento (UF)";"2024-9-1";37849,91;2024;9;2025-03-13
-"178";"Unidad de fomento (UF)";"2024-10-1";37950,09;2024;10;2025-03-13
-"179";"Unidad de fomento (UF)";"2024-11-1";38078,21;2024;11;2025-03-13
-"180";"Unidad de fomento (UF)";"2024-12-1";38367,69;2024;12;2025-03-13
-"181";"Unidad de fomento (UF)";"2025-1-1";38415,85;2025;1;2025-03-13
-"182";"Unidad de fomento (UF)";"2025-2-1";38467,25;2025;2;2025-03-13
-"183";"Unidad de fomento (UF)";"2025-3-1";38807,3;2025;3;2025-03-13
-"184";"Indice de valor promedio (IVP)";"2010-1-1";21861,9;2010;1;2025-03-13
-"185";"Indice de valor promedio (IVP)";"2010-2-1";21850,2;2010;2;2025-03-13
-"186";"Indice de valor promedio (IVP)";"2010-3-1";21870,12;2010;3;2025-03-13
-"187";"Indice de valor promedio (IVP)";"2010-4-1";21901,4;2010;4;2025-03-13
-"188";"Indice de valor promedio (IVP)";"2010-5-1";21910,94;2010;5;2025-03-13
-"189";"Indice de valor promedio (IVP)";"2010-6-1";21938,19;2010;6;2025-03-13
-"190";"Indice de valor promedio (IVP)";"2010-7-1";21989,64;2010;7;2025-03-13
-"191";"Indice de valor promedio (IVP)";"2010-8-1";22054,54;2010;8;2025-03-13
-"192";"Indice de valor promedio (IVP)";"2010-9-1";22118,44;2010;9;2025-03-13
-"193";"Indice de valor promedio (IVP)";"2010-10-1";22175,34;2010;10;2025-03-13
-"194";"Indice de valor promedio (IVP)";"2010-11-1";22236,76;2010;11;2025-03-13
-"195";"Indice de valor promedio (IVP)";"2010-12-1";22286,11;2010;12;2025-03-13
-"196";"Indice de valor promedio (IVP)";"2011-1-1";22329,56;2011;1;2025-03-13
-"197";"Indice de valor promedio (IVP)";"2011-2-1";22370,43;2011;2;2025-03-13
-"198";"Indice de valor promedio (IVP)";"2011-3-1";22405,5;2011;3;2025-03-13
-"199";"Indice de valor promedio (IVP)";"2011-4-1";22453,08;2011;4;2025-03-13
-"200";"Indice de valor promedio (IVP)";"2011-5-1";22513,05;2011;5;2025-03-13
-"201";"Indice de valor promedio (IVP)";"2011-6-1";22582,83;2011;6;2025-03-13
-"202";"Indice de valor promedio (IVP)";"2011-7-1";22662,56;2011;7;2025-03-13
-"203";"Indice de valor promedio (IVP)";"2011-8-1";22744,56;2011;8;2025-03-13
-"204";"Indice de valor promedio (IVP)";"2011-9-1";22820,54;2011;9;2025-03-13
-"205";"Indice de valor promedio (IVP)";"2011-10-1";22891,61;2011;10;2025-03-13
-"206";"Indice de valor promedio (IVP)";"2011-11-1";22957,38;2011;11;2025-03-13
-"207";"Indice de valor promedio (IVP)";"2011-12-1";23026,41;2011;12;2025-03-13
-"208";"Indice de valor promedio (IVP)";"2012-1-1";23099,44;2012;1;2025-03-13
-"209";"Indice de valor promedio (IVP)";"2012-2-1";23181,14;2012;2;2025-03-13
-"210";"Indice de valor promedio (IVP)";"2012-3-1";23265,31;2012;3;2025-03-13
-"211";"Indice de valor promedio (IVP)";"2012-4-1";23354,51;2012;4;2025-03-13
-"212";"Indice de valor promedio (IVP)";"2012-5-1";23430,42;2012;5;2025-03-13
-"213";"Indice de valor promedio (IVP)";"2012-6-1";23491,69;2012;6;2025-03-13
-"214";"Indice de valor promedio (IVP)";"2012-7-1";23534,64;2012;7;2025-03-13
-"215";"Indice de valor promedio (IVP)";"2012-8-1";23551,83;2012;8;2025-03-13
-"216";"Indice de valor promedio (IVP)";"2012-9-1";23563,06;2012;9;2025-03-13
-"217";"Indice de valor promedio (IVP)";"2012-10-1";23575,56;2012;10;2025-03-13
-"218";"Indice de valor promedio (IVP)";"2012-11-1";23609,42;2012;11;2025-03-13
-"219";"Indice de valor promedio (IVP)";"2012-12-1";23653,17;2012;12;2025-03-13
-"220";"Indice de valor promedio (IVP)";"2013-1-1";23688,17;2013;1;2025-03-13
-"221";"Indice de valor promedio (IVP)";"2013-2-1";23729,49;2013;2;2025-03-13
-"222";"Indice de valor promedio (IVP)";"2013-3-1";23775,58;2013;3;2025-03-13
-"223";"Indice de valor promedio (IVP)";"2013-4-1";23817,69;2013;4;2025-03-13
-"224";"Indice de valor promedio (IVP)";"2013-5-1";23837,52;2013;5;2025-03-13
-"225";"Indice de valor promedio (IVP)";"2013-6-1";23832,15;2013;6;2025-03-13
-"226";"Indice de valor promedio (IVP)";"2013-7-1";23844,9;2013;7;2025-03-13
-"227";"Indice de valor promedio (IVP)";"2013-8-1";23878,47;2013;8;2025-03-13
-"228";"Indice de valor promedio (IVP)";"2013-9-1";23915,93;2013;9;2025-03-13
-"229";"Indice de valor promedio (IVP)";"2013-10-1";23958,37;2013;10;2025-03-13
-"230";"Indice de valor promedio (IVP)";"2013-11-1";24011,55;2013;11;2025-03-13
-"231";"Indice de valor promedio (IVP)";"2013-12-1";24086,74;2013;12;2025-03-13
-"232";"Indice de valor promedio (IVP)";"2014-1-1";24175,02;2014;1;2025-03-13
-"233";"Indice de valor promedio (IVP)";"2014-2-1";24257,57;2014;2;2025-03-13
-"234";"Indice de valor promedio (IVP)";"2014-3-1";24341,22;2014;3;2025-03-13
-"235";"Indice de valor promedio (IVP)";"2014-4-1";24438,65;2014;4;2025-03-13
-"236";"Indice de valor promedio (IVP)";"2014-5-1";24550,89;2014;5;2025-03-13
-"237";"Indice de valor promedio (IVP)";"2014-6-1";24677,61;2014;6;2025-03-13
-"238";"Indice de valor promedio (IVP)";"2014-7-1";24798,32;2014;7;2025-03-13
-"239";"Indice de valor promedio (IVP)";"2014-8-1";24906,2;2014;8;2025-03-13
-"240";"Indice de valor promedio (IVP)";"2014-9-1";25011,43;2014;9;2025-03-13
-"241";"Indice de valor promedio (IVP)";"2014-10-1";25111,51;2014;10;2025-03-13
-"242";"Indice de valor promedio (IVP)";"2014-11-1";25216,3;2014;11;2025-03-13
-"243";"Indice de valor promedio (IVP)";"2014-12-1";25330,14;2014;12;2025-03-13
-"244";"Indice de valor promedio (IVP)";"2015-1-1";25432,63;2015;1;2025-03-13
-"245";"Indice de valor promedio (IVP)";"2015-2-1";25515,05;2015;2;2025-03-13
-"246";"Indice de valor promedio (IVP)";"2015-3-1";25593,08;2015;3;2025-03-13
-"247";"Indice de valor promedio (IVP)";"2015-4-1";25673,14;2015;4;2025-03-13
-"248";"Indice de valor promedio (IVP)";"2015-5-1";25741,54;2015;5;2025-03-13
-"249";"Indice de valor promedio (IVP)";"2015-6-1";25797,74;2015;6;2025-03-13
-"250";"Indice de valor promedio (IVP)";"2015-7-1";25868,44;2015;7;2025-03-13
-"251";"Indice de valor promedio (IVP)";"2015-8-1";25972,65;2015;8;2025-03-13
-"252";"Indice de valor promedio (IVP)";"2015-9-1";26090,73;2015;9;2025-03-13
-"253";"Indice de valor promedio (IVP)";"2015-10-1";26217,2;2015;10;2025-03-13
-"254";"Indice de valor promedio (IVP)";"2015-11-1";26339,62;2015;11;2025-03-13
-"255";"Indice de valor promedio (IVP)";"2015-12-1";26454,48;2015;12;2025-03-13
-"256";"Indice de valor promedio (IVP)";"2016-1-1";26559,81;2016;1;2025-03-13
-"257";"Indice de valor promedio (IVP)";"2016-2-1";26647,64;2016;2;2025-03-13
-"258";"Indice de valor promedio (IVP)";"2016-3-1";26731,86;2016;3;2025-03-13
-"259";"Indice de valor promedio (IVP)";"2016-4-1";26804,69;2016;4;2025-03-13
-"260";"Indice de valor promedio (IVP)";"2016-5-1";26871,92;2016;5;2025-03-13
-"261";"Indice de valor promedio (IVP)";"2016-6-1";26939,47;2016;6;2025-03-13
-"262";"Indice de valor promedio (IVP)";"2016-7-1";27020,4;2016;7;2025-03-13
-"263";"Indice de valor promedio (IVP)";"2016-8-1";27114,88;2016;8;2025-03-13
-"264";"Indice de valor promedio (IVP)";"2016-9-1";27198,97;2016;9;2025-03-13
-"265";"Indice de valor promedio (IVP)";"2016-10-1";27273,21;2016;10;2025-03-13
-"266";"Indice de valor promedio (IVP)";"2016-11-1";27341,27;2016;11;2025-03-13
-"267";"Indice de valor promedio (IVP)";"2016-12-1";27401,96;2016;12;2025-03-13
-"268";"Indice de valor promedio (IVP)";"2017-1-1";27450,05;2017;1;2025-03-13
-"269";"Indice de valor promedio (IVP)";"2017-2-1";27478,51;2017;2;2025-03-13
-"270";"Indice de valor promedio (IVP)";"2017-3-1";27517,62;2017;3;2025-03-13
-"271";"Indice de valor promedio (IVP)";"2017-4-1";27566,75;2017;4;2025-03-13
-"272";"Indice de valor promedio (IVP)";"2017-5-1";27621,64;2017;5;2025-03-13
-"273";"Indice de valor promedio (IVP)";"2017-6-1";27680,37;2017;6;2025-03-13
-"274";"Indice de valor promedio (IVP)";"2017-7-1";27739,43;2017;7;2025-03-13
-"275";"Indice de valor promedio (IVP)";"2017-8-1";27789,97;2017;8;2025-03-13
-"276";"Indice de valor promedio (IVP)";"2017-9-1";27829,15;2017;9;2025-03-13
-"277";"Indice de valor promedio (IVP)";"2017-10-1";27859,85;2017;10;2025-03-13
-"278";"Indice de valor promedio (IVP)";"2017-11-1";27877,27;2017;11;2025-03-13
-"279";"Indice de valor promedio (IVP)";"2017-12-1";27904,48;2017;12;2025-03-13
-"280";"Indice de valor promedio (IVP)";"2018-1-1";27938,08;2018;1;2025-03-13
-"281";"Indice de valor promedio (IVP)";"2018-2-1";27989,04;2018;2;2025-03-13
-"282";"Indice de valor promedio (IVP)";"2018-3-1";28046,69;2018;3;2025-03-13
-"283";"Indice de valor promedio (IVP)";"2018-4-1";28106,45;2018;4;2025-03-13
-"284";"Indice de valor promedio (IVP)";"2018-5-1";28174,56;2018;5;2025-03-13
-"285";"Indice de valor promedio (IVP)";"2018-6-1";28237,03;2018;6;2025-03-13
-"286";"Indice de valor promedio (IVP)";"2018-7-1";28304,97;2018;7;2025-03-13
-"287";"Indice de valor promedio (IVP)";"2018-8-1";28371,94;2018;8;2025-03-13
-"288";"Indice de valor promedio (IVP)";"2018-9-1";28435,56;2018;9;2025-03-13
-"289";"Indice de valor promedio (IVP)";"2018-10-1";28504,49;2018;10;2025-03-13
-"290";"Indice de valor promedio (IVP)";"2018-11-1";28579,11;2018;11;2025-03-13
-"291";"Indice de valor promedio (IVP)";"2018-12-1";28651,96;2018;12;2025-03-13
-"292";"Indice de valor promedio (IVP)";"2019-1-1";28714,42;2019;1;2025-03-13
-"293";"Indice de valor promedio (IVP)";"2019-2-1";28764,23;2019;2;2025-03-13
-"294";"Indice de valor promedio (IVP)";"2019-3-1";28804,03;2019;3;2025-03-13
-"295";"Indice de valor promedio (IVP)";"2019-4-1";28842,14;2019;4;2025-03-13
-"296";"Indice de valor promedio (IVP)";"2019-5-1";28883,46;2019;5;2025-03-13
-"297";"Indice de valor promedio (IVP)";"2019-6-1";28929,42;2019;6;2025-03-13
-"298";"Indice de valor promedio (IVP)";"2019-7-1";28997,78;2019;7;2025-03-13
-"299";"Indice de valor promedio (IVP)";"2019-8-1";29075,5;2019;8;2025-03-13
-"300";"Indice de valor promedio (IVP)";"2019-9-1";29157,87;2019;9;2025-03-13
-"301";"Indice de valor promedio (IVP)";"2019-10-1";29238,8;2019;10;2025-03-13
-"302";"Indice de valor promedio (IVP)";"2019-11-1";29311,37;2019;11;2025-03-13
-"303";"Indice de valor promedio (IVP)";"2019-12-1";29395,26;2019;12;2025-03-13
-"304";"Indice de valor promedio (IVP)";"2020-1-1";29464,73;2020;1;2025-03-13
-"305";"Indice de valor promedio (IVP)";"2020-2-1";29537,62;2020;2;2025-03-13
-"306";"Indice de valor promedio (IVP)";"2020-3-1";29627,75;2020;3;2025-03-13
-"307";"Indice de valor promedio (IVP)";"2020-4-1";29731,55;2020;4;2025-03-13
-"308";"Indice de valor promedio (IVP)";"2020-5-1";29835,74;2020;5;2025-03-13
-"309";"Indice de valor promedio (IVP)";"2020-6-1";29909,65;2020;6;2025-03-13
-"310";"Indice de valor promedio (IVP)";"2020-7-1";29975,18;2020;7;2025-03-13
-"311";"Indice de valor promedio (IVP)";"2020-8-1";30028,52;2020;8;2025-03-13
-"312";"Indice de valor promedio (IVP)";"2020-9-1";30058,69;2020;9;2025-03-13
-"313";"Indice de valor promedio (IVP)";"2020-10-1";30083,2;2020;10;2025-03-13
-"314";"Indice de valor promedio (IVP)";"2020-11-1";30126,93;2020;11;2025-03-13
-"315";"Indice de valor promedio (IVP)";"2020-12-1";30195,87;2020;12;2025-03-13
-"316";"Indice de valor promedio (IVP)";"2021-1-1";30270,17;2021;1;2025-03-13
-"317";"Indice de valor promedio (IVP)";"2021-2-1";30361,15;2021;2;2025-03-13
-"318";"Indice de valor promedio (IVP)";"2021-3-1";30475,88;2021;3;2025-03-13
-"319";"Indice de valor promedio (IVP)";"2021-4-1";30595,91;2021;4;2025-03-13
-"320";"Indice de valor promedio (IVP)";"2021-5-1";30702,48;2021;5;2025-03-13
-"321";"Indice de valor promedio (IVP)";"2021-6-1";30803,54;2021;6;2025-03-13
-"322";"Indice de valor promedio (IVP)";"2021-7-1";30915,22;2021;7;2025-03-13
-"323";"Indice de valor promedio (IVP)";"2021-8-1";31022,45;2021;8;2025-03-13
-"324";"Indice de valor promedio (IVP)";"2021-9-1";31133,43;2021;9;2025-03-13
-"325";"Indice de valor promedio (IVP)";"2021-10-1";31261,31;2021;10;2025-03-13
-"326";"Indice de valor promedio (IVP)";"2021-11-1";31431,87;2021;11;2025-03-13
-"327";"Indice de valor promedio (IVP)";"2021-12-1";31643,27;2021;12;2025-03-13
-"328";"Indice de valor promedio (IVP)";"2022-1-1";31880,67;2022;1;2025-03-13
-"329";"Indice de valor promedio (IVP)";"2022-2-1";32137,33;2022;2;2025-03-13
-"330";"Indice de valor promedio (IVP)";"2022-3-1";32412,55;2022;3;2025-03-13
-"331";"Indice de valor promedio (IVP)";"2022-4-1";32710,02;2022;4;2025-03-13
-"332";"Indice de valor promedio (IVP)";"2022-5-1";33036,72;2022;5;2025-03-13
-"333";"Indice de valor promedio (IVP)";"2022-6-1";33380,88;2022;6;2025-03-13
-"334";"Indice de valor promedio (IVP)";"2022-7-1";33758,07;2022;7;2025-03-13
-"335";"Indice de valor promedio (IVP)";"2022-8-1";34157,59;2022;8;2025-03-13
-"336";"Indice de valor promedio (IVP)";"2022-9-1";34574,04;2022;9;2025-03-13
-"337";"Indice de valor promedio (IVP)";"2022-10-1";35014,35;2022;10;2025-03-13
-"338";"Indice de valor promedio (IVP)";"2022-11-1";35409,96;2022;11;2025-03-13
-"339";"Indice de valor promedio (IVP)";"2022-12-1";35766,89;2022;12;2025-03-13
-"340";"Indice de valor promedio (IVP)";"2023-1-1";36112,24;2023;1;2025-03-13
-"341";"Indice de valor promedio (IVP)";"2023-2-1";36408,56;2023;2;2025-03-13
-"342";"Indice de valor promedio (IVP)";"2023-3-1";36661,79;2023;3;2025-03-13
-"343";"Indice de valor promedio (IVP)";"2023-4-1";36876,25;2023;4;2025-03-13
-"344";"Indice de valor promedio (IVP)";"2023-5-1";37094,98;2023;5;2025-03-13
-"345";"Indice de valor promedio (IVP)";"2023-6-1";37293,5;2023;6;2025-03-13
-"346";"Indice de valor promedio (IVP)";"2023-7-1";37446,62;2023;7;2025-03-13
-"347";"Indice de valor promedio (IVP)";"2023-8-1";37574,12;2023;8;2025-03-13
-"348";"Indice de valor promedio (IVP)";"2023-9-1";37681,48;2023;9;2025-03-13
-"349";"Indice de valor promedio (IVP)";"2023-10-1";37787,91;2023;10;2025-03-13
-"350";"Indice de valor promedio (IVP)";"2023-11-1";37879,33;2023;11;2025-03-13
-"351";"Indice de valor promedio (IVP)";"2023-12-1";37985,98;2023;12;2025-03-13
-"352";"Indice de valor promedio (IVP)";"2024-1-1";38116,94;2024;1;2025-03-13
-"353";"Indice de valor promedio (IVP)";"2024-2-1";38233,23;2024;2;2025-03-13
-"354";"Indice de valor promedio (IVP)";"2024-3-1";38371,92;2024;3;2025-03-13
-"355";"Indice de valor promedio (IVP)";"2024-4-1";38531,48;2024;4;2025-03-13
-"356";"Indice de valor promedio (IVP)";"2024-5-1";38680,2;2024;5;2025-03-13
-"357";"Indice de valor promedio (IVP)";"2024-6-1";38824,85;2024;6;2025-03-13
-"358";"Indice de valor promedio (IVP)";"2024-7-1";38956,03;2024;7;2025-03-13
-"359";"Indice de valor promedio (IVP)";"2024-8-1";39110,94;2024;8;2025-03-13
-"360";"Indice de valor promedio (IVP)";"2024-9-1";39262,32;2024;9;2025-03-13
-"361";"Indice de valor promedio (IVP)";"2024-10-1";39392,77;2024;10;2025-03-13
-"362";"Indice de valor promedio (IVP)";"2024-11-1";39517,45;2024;11;2025-03-13
-"363";"Indice de valor promedio (IVP)";"2024-12-1";39662,1;2024;12;2025-03-13
-"364";"Indice de valor promedio (IVP)";"2025-1-1";39808,65;2025;1;2025-03-13
-"365";"Indice de valor promedio (IVP)";"2025-2-1";39948,12;2025;2;2025-03-13
-"366";"Indice de valor promedio (IVP)";"2025-3-1";40105,72;2025;3;2025-03-13
-"367";"Unidad tributaria mensual (UTM)";"2010-1-1";36679;2010;1;2025-03-13
-"368";"Unidad tributaria mensual (UTM)";"2010-2-1";36569;2010;2;2025-03-13
-"369";"Unidad tributaria mensual (UTM)";"2010-3-1";36752;2010;3;2025-03-13
-"370";"Unidad tributaria mensual (UTM)";"2010-4-1";36862;2010;4;2025-03-13
-"371";"Unidad tributaria mensual (UTM)";"2010-5-1";36899;2010;5;2025-03-13
-"372";"Unidad tributaria mensual (UTM)";"2010-6-1";37083;2010;6;2025-03-13
-"373";"Unidad tributaria mensual (UTM)";"2010-7-1";37231;2010;7;2025-03-13
-"374";"Unidad tributaria mensual (UTM)";"2010-8-1";37231;2010;8;2025-03-13
-"375";"Unidad tributaria mensual (UTM)";"2010-9-1";37454;2010;9;2025-03-13
-"376";"Unidad tributaria mensual (UTM)";"2010-10-1";37417;2010;10;2025-03-13
-"377";"Unidad tributaria mensual (UTM)";"2010-11-1";37567;2010;11;2025-03-13
-"378";"Unidad tributaria mensual (UTM)";"2010-12-1";37605;2010;12;2025-03-13
-"379";"Unidad tributaria mensual (UTM)";"2011-1-1";37643;2011;1;2025-03-13
-"380";"Unidad tributaria mensual (UTM)";"2011-2-1";37681;2011;2;2025-03-13
-"381";"Unidad tributaria mensual (UTM)";"2011-3-1";37794;2011;3;2025-03-13
-"382";"Unidad tributaria mensual (UTM)";"2011-4-1";37870;2011;4;2025-03-13
-"383";"Unidad tributaria mensual (UTM)";"2011-5-1";38173;2011;5;2025-03-13
-"384";"Unidad tributaria mensual (UTM)";"2011-6-1";38288;2011;6;2025-03-13
-"385";"Unidad tributaria mensual (UTM)";"2011-7-1";38441;2011;7;2025-03-13
-"386";"Unidad tributaria mensual (UTM)";"2011-8-1";38518;2011;8;2025-03-13
-"387";"Unidad tributaria mensual (UTM)";"2011-9-1";38557;2011;9;2025-03-13
-"388";"Unidad tributaria mensual (UTM)";"2011-10-1";38634;2011;10;2025-03-13
-"389";"Unidad tributaria mensual (UTM)";"2011-11-1";38827;2011;11;2025-03-13
-"390";"Unidad tributaria mensual (UTM)";"2011-12-1";39021;2011;12;2025-03-13
-"391";"Unidad tributaria mensual (UTM)";"2012-1-1";39138;2012;1;2025-03-13
-"392";"Unidad tributaria mensual (UTM)";"2012-2-1";39373;2012;2;2025-03-13
-"393";"Unidad tributaria mensual (UTM)";"2012-3-1";39412;2012;3;2025-03-13
-"394";"Unidad tributaria mensual (UTM)";"2012-4-1";39570;2012;4;2025-03-13
-"395";"Unidad tributaria mensual (UTM)";"2012-5-1";39649;2012;5;2025-03-13
-"396";"Unidad tributaria mensual (UTM)";"2012-6-1";39689;2012;6;2025-03-13
-"397";"Unidad tributaria mensual (UTM)";"2012-7-1";39689;2012;7;2025-03-13
-"398";"Unidad tributaria mensual (UTM)";"2012-8-1";39570;2012;8;2025-03-13
-"399";"Unidad tributaria mensual (UTM)";"2012-9-1";39570;2012;9;2025-03-13
-"400";"Unidad tributaria mensual (UTM)";"2012-10-1";39649;2012;10;2025-03-13
-"401";"Unidad tributaria mensual (UTM)";"2012-11-1";39966;2012;11;2025-03-13
-"402";"Unidad tributaria mensual (UTM)";"2012-12-1";40206;2012;12;2025-03-13
-"403";"Unidad tributaria mensual (UTM)";"2013-1-1";40005;2013;1;2025-03-13
-"404";"Unidad tributaria mensual (UTM)";"2013-2-1";40005;2013;2;2025-03-13
-"405";"Unidad tributaria mensual (UTM)";"2013-3-1";40085;2013;3;2025-03-13
-"406";"Unidad tributaria mensual (UTM)";"2013-4-1";40125;2013;4;2025-03-13
-"407";"Unidad tributaria mensual (UTM)";"2013-5-1";40286;2013;5;2025-03-13
-"408";"Unidad tributaria mensual (UTM)";"2013-6-1";40085;2013;6;2025-03-13
-"409";"Unidad tributaria mensual (UTM)";"2013-7-1";40085;2013;7;2025-03-13
-"410";"Unidad tributaria mensual (UTM)";"2013-8-1";40326;2013;8;2025-03-13
-"411";"Unidad tributaria mensual (UTM)";"2013-9-1";40447;2013;9;2025-03-13
-"412";"Unidad tributaria mensual (UTM)";"2013-10-1";40528;2013;10;2025-03-13
-"413";"Unidad tributaria mensual (UTM)";"2013-11-1";40731;2013;11;2025-03-13
-"414";"Unidad tributaria mensual (UTM)";"2013-12-1";40772;2013;12;2025-03-13
-"415";"Unidad tributaria mensual (UTM)";"2014-1-1";40935;2014;1;2025-03-13
-"416";"Unidad tributaria mensual (UTM)";"2014-2-1";41181;2014;2;2025-03-13
-"417";"Unidad tributaria mensual (UTM)";"2014-3-1";41263;2014;3;2025-03-13
-"418";"Unidad tributaria mensual (UTM)";"2014-4-1";41469;2014;4;2025-03-13
-"419";"Unidad tributaria mensual (UTM)";"2014-5-1";41801;2014;5;2025-03-13
-"420";"Unidad tributaria mensual (UTM)";"2014-6-1";42052;2014;6;2025-03-13
-"421";"Unidad tributaria mensual (UTM)";"2014-7-1";42178;2014;7;2025-03-13
-"422";"Unidad tributaria mensual (UTM)";"2014-8-1";42220;2014;8;2025-03-13
-"423";"Unidad tributaria mensual (UTM)";"2014-9-1";42304;2014;9;2025-03-13
-"424";"Unidad tributaria mensual (UTM)";"2014-10-1";42431;2014;10;2025-03-13
-"425";"Unidad tributaria mensual (UTM)";"2014-11-1";42770;2014;11;2025-03-13
-"426";"Unidad tributaria mensual (UTM)";"2014-12-1";43198;2014;12;2025-03-13
-"427";"Unidad tributaria mensual (UTM)";"2015-1-1";43198;2015;1;2025-03-13
-"428";"Unidad tributaria mensual (UTM)";"2015-2-1";43025;2015;2;2025-03-13
-"429";"Unidad tributaria mensual (UTM)";"2015-3-1";43068;2015;3;2025-03-13
-"430";"Unidad tributaria mensual (UTM)";"2015-4-1";43240;2015;4;2025-03-13
-"431";"Unidad tributaria mensual (UTM)";"2015-5-1";43499;2015;5;2025-03-13
-"432";"Unidad tributaria mensual (UTM)";"2015-6-1";43760;2015;6;2025-03-13
-"433";"Unidad tributaria mensual (UTM)";"2015-7-1";43848;2015;7;2025-03-13
-"434";"Unidad tributaria mensual (UTM)";"2015-8-1";44067;2015;8;2025-03-13
-"435";"Unidad tributaria mensual (UTM)";"2015-9-1";44243;2015;9;2025-03-13
-"436";"Unidad tributaria mensual (UTM)";"2015-10-1";44553;2015;10;2025-03-13
-"437";"Unidad tributaria mensual (UTM)";"2015-11-1";44776;2015;11;2025-03-13
-"438";"Unidad tributaria mensual (UTM)";"2015-12-1";44955;2015;12;2025-03-13
-"439";"Unidad tributaria mensual (UTM)";"2016-1-1";44955;2016;1;2025-03-13
-"440";"Unidad tributaria mensual (UTM)";"2016-2-1";44955;2016;2;2025-03-13
-"441";"Unidad tributaria mensual (UTM)";"2016-3-1";45180;2016;3;2025-03-13
-"442";"Unidad tributaria mensual (UTM)";"2016-4-1";45316;2016;4;2025-03-13
-"443";"Unidad tributaria mensual (UTM)";"2016-5-1";45497;2016;5;2025-03-13
-"444";"Unidad tributaria mensual (UTM)";"2016-6-1";45633;2016;6;2025-03-13
-"445";"Unidad tributaria mensual (UTM)";"2016-7-1";45724;2016;7;2025-03-13
-"446";"Unidad tributaria mensual (UTM)";"2016-8-1";45907;2016;8;2025-03-13
-"447";"Unidad tributaria mensual (UTM)";"2016-9-1";45999;2016;9;2025-03-13
-"448";"Unidad tributaria mensual (UTM)";"2016-10-1";45999;2016;10;2025-03-13
-"449";"Unidad tributaria mensual (UTM)";"2016-11-1";46091;2016;11;2025-03-13
-"450";"Unidad tributaria mensual (UTM)";"2016-12-1";46183;2016;12;2025-03-13
-"451";"Unidad tributaria mensual (UTM)";"2017-1-1";46229;2017;1;2025-03-13
-"452";"Unidad tributaria mensual (UTM)";"2017-2-1";46137;2017;2;2025-03-13
-"453";"Unidad tributaria mensual (UTM)";"2017-3-1";46368;2017;3;2025-03-13
-"454";"Unidad tributaria mensual (UTM)";"2017-4-1";46461;2017;4;2025-03-13
-"455";"Unidad tributaria mensual (UTM)";"2017-5-1";46647;2017;5;2025-03-13
-"456";"Unidad tributaria mensual (UTM)";"2017-6-1";46740;2017;6;2025-03-13
-"457";"Unidad tributaria mensual (UTM)";"2017-7-1";46787;2017;7;2025-03-13
-"458";"Unidad tributaria mensual (UTM)";"2017-8-1";46600;2017;8;2025-03-13
-"459";"Unidad tributaria mensual (UTM)";"2017-9-1";46693;2017;9;2025-03-13
-"460";"Unidad tributaria mensual (UTM)";"2017-10-1";46786;2017;10;2025-03-13
-"461";"Unidad tributaria mensual (UTM)";"2017-11-1";46692;2017;11;2025-03-13
-"462";"Unidad tributaria mensual (UTM)";"2017-12-1";46972;2017;12;2025-03-13
-"463";"Unidad tributaria mensual (UTM)";"2018-1-1";47019;2018;1;2025-03-13
-"464";"Unidad tributaria mensual (UTM)";"2018-2-1";47066;2018;2;2025-03-13
-"465";"Unidad tributaria mensual (UTM)";"2018-3-1";47301;2018;3;2025-03-13
-"466";"Unidad tributaria mensual (UTM)";"2018-4-1";47301;2018;4;2025-03-13
-"467";"Unidad tributaria mensual (UTM)";"2018-5-1";47396;2018;5;2025-03-13
-"468";"Unidad tributaria mensual (UTM)";"2018-6-1";47538;2018;6;2025-03-13
-"469";"Unidad tributaria mensual (UTM)";"2018-7-1";47681;2018;7;2025-03-13
-"470";"Unidad tributaria mensual (UTM)";"2018-8-1";47729;2018;8;2025-03-13
-"471";"Unidad tributaria mensual (UTM)";"2018-9-1";47920;2018;9;2025-03-13
-"472";"Unidad tributaria mensual (UTM)";"2018-10-1";48016;2018;10;2025-03-13
-"473";"Unidad tributaria mensual (UTM)";"2018-11-1";48160;2018;11;2025-03-13
-"474";"Unidad tributaria mensual (UTM)";"2018-12-1";48353;2018;12;2025-03-13
-"475";"Unidad tributaria mensual (UTM)";"2019-1-1";48353;2019;1;2025-03-13
-"476";"Unidad tributaria mensual (UTM)";"2019-2-1";48305;2019;2;2025-03-13
-"477";"Unidad tributaria mensual (UTM)";"2019-3-1";48353;2019;3;2025-03-13
-"478";"Unidad tributaria mensual (UTM)";"2019-4-1";48353;2019;4;2025-03-13
-"479";"Unidad tributaria mensual (UTM)";"2019-5-1";48595;2019;5;2025-03-13
-"480";"Unidad tributaria mensual (UTM)";"2019-6-1";48741;2019;6;2025-03-13
-"481";"Unidad tributaria mensual (UTM)";"2019-7-1";49033;2019;7;2025-03-13
-"482";"Unidad tributaria mensual (UTM)";"2019-8-1";49033;2019;8;2025-03-13
-"483";"Unidad tributaria mensual (UTM)";"2019-9-1";49131;2019;9;2025-03-13
-"484";"Unidad tributaria mensual (UTM)";"2019-10-1";49229;2019;10;2025-03-13
-"485";"Unidad tributaria mensual (UTM)";"2019-11-1";49229;2019;11;2025-03-13
-"486";"Unidad tributaria mensual (UTM)";"2019-12-1";49623;2019;12;2025-03-13
-"487";"Unidad tributaria mensual (UTM)";"2020-1-1";49673;2020;1;2025-03-13
-"488";"Unidad tributaria mensual (UTM)";"2020-2-1";49723;2020;2;2025-03-13
-"489";"Unidad tributaria mensual (UTM)";"2020-3-1";50021;2020;3;2025-03-13
-"490";"Unidad tributaria mensual (UTM)";"2020-4-1";50221;2020;4;2025-03-13
-"491";"Unidad tributaria mensual (UTM)";"2020-5-1";50372;2020;5;2025-03-13
-"492";"Unidad tributaria mensual (UTM)";"2020-6-1";50372;2020;6;2025-03-13
-"493";"Unidad tributaria mensual (UTM)";"2020-7-1";50322;2020;7;2025-03-13
-"494";"Unidad tributaria mensual (UTM)";"2020-8-1";50272;2020;8;2025-03-13
-"495";"Unidad tributaria mensual (UTM)";"2020-9-1";50322;2020;9;2025-03-13
-"496";"Unidad tributaria mensual (UTM)";"2020-10-1";50372;2020;10;2025-03-13
-"497";"Unidad tributaria mensual (UTM)";"2020-11-1";50674;2020;11;2025-03-13
-"498";"Unidad tributaria mensual (UTM)";"2020-12-1";51029;2020;12;2025-03-13
-"499";"Unidad tributaria mensual (UTM)";"2021-1-1";50978;2021;1;2025-03-13
-"500";"Unidad tributaria mensual (UTM)";"2021-2-1";51131;2021;2;2025-03-13
-"501";"Unidad tributaria mensual (UTM)";"2021-3-1";51489;2021;3;2025-03-13
-"502";"Unidad tributaria mensual (UTM)";"2021-4-1";51592;2021;4;2025-03-13
-"503";"Unidad tributaria mensual (UTM)";"2021-5-1";51798;2021;5;2025-03-13
-"504";"Unidad tributaria mensual (UTM)";"2021-6-1";52005;2021;6;2025-03-13
-"505";"Unidad tributaria mensual (UTM)";"2021-7-1";52161;2021;7;2025-03-13
-"506";"Unidad tributaria mensual (UTM)";"2021-8-1";52213;2021;8;2025-03-13
-"507";"Unidad tributaria mensual (UTM)";"2021-9-1";52631;2021;9;2025-03-13
-"508";"Unidad tributaria mensual (UTM)";"2021-10-1";52842;2021;10;2025-03-13
-"509";"Unidad tributaria mensual (UTM)";"2021-11-1";53476;2021;11;2025-03-13
-"510";"Unidad tributaria mensual (UTM)";"2021-12-1";54171;2021;12;2025-03-13
-"511";"Unidad tributaria mensual (UTM)";"2022-1-1";54442;2022;1;2025-03-13
-"512";"Unidad tributaria mensual (UTM)";"2022-2-1";54878;2022;2;2025-03-13
-"513";"Unidad tributaria mensual (UTM)";"2022-3-1";55537;2022;3;2025-03-13
-"514";"Unidad tributaria mensual (UTM)";"2022-4-1";55704;2022;4;2025-03-13
-"515";"Unidad tributaria mensual (UTM)";"2022-5-1";56762;2022;5;2025-03-13
-"516";"Unidad tributaria mensual (UTM)";"2022-6-1";57557;2022;6;2025-03-13
-"517";"Unidad tributaria mensual (UTM)";"2022-7-1";58248;2022;7;2025-03-13
-"518";"Unidad tributaria mensual (UTM)";"2022-8-1";58772;2022;8;2025-03-13
-"519";"Unidad tributaria mensual (UTM)";"2022-9-1";59595;2022;9;2025-03-13
-"520";"Unidad tributaria mensual (UTM)";"2022-10-1";60310;2022;10;2025-03-13
-"521";"Unidad tributaria mensual (UTM)";"2022-11-1";60853;2022;11;2025-03-13
-"522";"Unidad tributaria mensual (UTM)";"2022-12-1";61157;2022;12;2025-03-13
-"523";"Unidad tributaria mensual (UTM)";"2023-1-1";61769;2023;1;2025-03-13
-"524";"Unidad tributaria mensual (UTM)";"2023-2-1";61954;2023;2;2025-03-13
-"525";"Unidad tributaria mensual (UTM)";"2023-3-1";62450;2023;3;2025-03-13
-"526";"Unidad tributaria mensual (UTM)";"2023-4-1";62388;2023;4;2025-03-13
-"527";"Unidad tributaria mensual (UTM)";"2023-5-1";63074;2023;5;2025-03-13
-"528";"Unidad tributaria mensual (UTM)";"2023-6-1";63263;2023;6;2025-03-13
-"529";"Unidad tributaria mensual (UTM)";"2023-7-1";63326;2023;7;2025-03-13
-"530";"Unidad tributaria mensual (UTM)";"2023-8-1";63199;2023;8;2025-03-13
-"531";"Unidad tributaria mensual (UTM)";"2023-9-1";63452;2023;9;2025-03-13
-"532";"Unidad tributaria mensual (UTM)";"2023-10-1";63515;2023;10;2025-03-13
-"533";"Unidad tributaria mensual (UTM)";"2023-11-1";63960;2023;11;2025-03-13
-"534";"Unidad tributaria mensual (UTM)";"2023-12-1";64216;2023;12;2025-03-13
-"535";"Unidad tributaria mensual (UTM)";"2024-1-1";64666;2024;1;2025-03-13
-"536";"Unidad tributaria mensual (UTM)";"2024-2-1";64343;2024;2;2025-03-13
-"537";"Unidad tributaria mensual (UTM)";"2024-3-1";64793;2024;3;2025-03-13
-"538";"Unidad tributaria mensual (UTM)";"2024-4-1";65182;2024;4;2025-03-13
-"539";"Unidad tributaria mensual (UTM)";"2024-5-1";65443;2024;5;2025-03-13
-"540";"Unidad tributaria mensual (UTM)";"2024-6-1";65770;2024;6;2025-03-13
-"541";"Unidad tributaria mensual (UTM)";"2024-7-1";65967;2024;7;2025-03-13
-"542";"Unidad tributaria mensual (UTM)";"2024-8-1";65901;2024;8;2025-03-13
-"543";"Unidad tributaria mensual (UTM)";"2024-9-1";66362;2024;9;2025-03-13
-"544";"Unidad tributaria mensual (UTM)";"2024-10-1";66561;2024;10;2025-03-13
-"545";"Unidad tributaria mensual (UTM)";"2024-11-1";66628;2024;11;2025-03-13
-"546";"Unidad tributaria mensual (UTM)";"2024-12-1";67294;2024;12;2025-03-13
-"547";"Unidad tributaria mensual (UTM)";"2025-1-1";67429;2025;1;2025-03-13
-"548";"Unidad tributaria mensual (UTM)";"2025-2-1";67294;2025;2;2025-03-13
-"549";"Unidad tributaria mensual (UTM)";"2025-3-1";68034;2025;3;2025-03-13
-"550";"Unidad tributaria mensual (UTM)";"2025-4-1";68306;2025;4;2025-03-13
+"1";"Unidad de fomento (UF)";"2010-1-1";20899,82;2010;1;2025-03-14
+"2";"Unidad de fomento (UF)";"2010-2-1";20877,51;2010;2;2025-03-14
+"3";"Unidad de fomento (UF)";"2010-3-1";20966,13;2010;3;2025-03-14
+"4";"Unidad de fomento (UF)";"2010-4-1";21019,75;2010;4;2025-03-14
+"5";"Unidad de fomento (UF)";"2010-5-1";21064,65;2010;5;2025-03-14
+"6";"Unidad de fomento (UF)";"2010-6-1";21160,6;2010;6;2025-03-14
+"7";"Unidad de fomento (UF)";"2010-7-1";21224,29;2010;7;2025-03-14
+"8";"Unidad de fomento (UF)";"2010-8-1";21261,05;2010;8;2025-03-14
+"9";"Unidad de fomento (UF)";"2010-9-1";21344,51;2010;9;2025-03-14
+"10";"Unidad de fomento (UF)";"2010-10-1";21356,86;2010;10;2025-03-14
+"11";"Unidad de fomento (UF)";"2010-11-1";21421,11;2010;11;2025-03-14
+"12";"Unidad de fomento (UF)";"2010-12-1";21445,15;2010;12;2025-03-14
+"13";"Unidad de fomento (UF)";"2011-1-1";21466,63;2011;1;2025-03-14
+"14";"Unidad de fomento (UF)";"2011-2-1";21497,96;2011;2;2025-03-14
+"15";"Unidad de fomento (UF)";"2011-3-1";21556,35;2011;3;2025-03-14
+"16";"Unidad de fomento (UF)";"2011-4-1";21633,36;2011;4;2025-03-14
+"17";"Unidad de fomento (UF)";"2011-5-1";21773,99;2011;5;2025-03-14
+"18";"Unidad de fomento (UF)";"2011-6-1";21848,67;2011;6;2025-03-14
+"19";"Unidad de fomento (UF)";"2011-7-1";21924,28;2011;7;2025-03-14
+"20";"Unidad de fomento (UF)";"2011-8-1";21964,1;2011;8;2025-03-14
+"21";"Unidad de fomento (UF)";"2011-9-1";21992,35;2011;9;2025-03-14
+"22";"Unidad de fomento (UF)";"2011-10-1";22053,13;2011;10;2025-03-14
+"23";"Unidad de fomento (UF)";"2011-11-1";22160,11;2011;11;2025-03-14
+"24";"Unidad de fomento (UF)";"2011-12-1";22259,95;2011;12;2025-03-14
+"25";"Unidad de fomento (UF)";"2012-1-1";22346,12;2012;1;2025-03-14
+"26";"Unidad de fomento (UF)";"2012-2-1";22447,54;2012;2;2025-03-14
+"27";"Unidad de fomento (UF)";"2012-3-1";22492,5;2012;3;2025-03-14
+"28";"Unidad de fomento (UF)";"2012-4-1";22567,73;2012;4;2025-03-14
+"29";"Unidad de fomento (UF)";"2012-5-1";22608,96;2012;5;2025-03-14
+"30";"Unidad de fomento (UF)";"2012-6-1";22626,49;2012;6;2025-03-14
+"31";"Unidad de fomento (UF)";"2012-7-1";22609,47;2012;7;2025-03-14
+"32";"Unidad de fomento (UF)";"2012-8-1";22562,02;2012;8;2025-03-14
+"33";"Unidad de fomento (UF)";"2012-9-1";22571,05;2012;9;2025-03-14
+"34";"Unidad de fomento (UF)";"2012-10-1";22650,36;2012;10;2025-03-14
+"35";"Unidad de fomento (UF)";"2012-11-1";22813,45;2012;11;2025-03-14
+"36";"Unidad de fomento (UF)";"2012-12-1";22886,63;2012;12;2025-03-14
+"37";"Unidad de fomento (UF)";"2013-1-1";22811,83;2013;1;2025-03-14
+"38";"Unidad de fomento (UF)";"2013-2-1";22818,59;2013;2;2025-03-14
+"39";"Unidad de fomento (UF)";"2013-3-1";22857,28;2013;3;2025-03-14
+"40";"Unidad de fomento (UF)";"2013-4-1";22898,59;2013;4;2025-03-14
+"41";"Unidad de fomento (UF)";"2013-5-1";22933,69;2013;5;2025-03-14
+"42";"Unidad de fomento (UF)";"2013-6-1";22857,11;2013;6;2025-03-14
+"43";"Unidad de fomento (UF)";"2013-7-1";22888,71;2013;7;2025-03-14
+"44";"Unidad de fomento (UF)";"2013-8-1";23002,78;2013;8;2025-03-14
+"45";"Unidad de fomento (UF)";"2013-9-1";23067,92;2013;9;2025-03-14
+"46";"Unidad de fomento (UF)";"2013-10-1";23133,47;2013;10;2025-03-14
+"47";"Unidad de fomento (UF)";"2013-11-1";23221,88;2013;11;2025-03-14
+"48";"Unidad de fomento (UF)";"2013-12-1";23267,17;2013;12;2025-03-14
+"49";"Unidad de fomento (UF)";"2014-1-1";23369,91;2014;1;2025-03-14
+"50";"Unidad de fomento (UF)";"2014-2-1";23482,16;2014;2;2025-03-14
+"51";"Unidad de fomento (UF)";"2014-3-1";23552,54;2014;3;2025-03-14
+"52";"Unidad de fomento (UF)";"2014-4-1";23685,06;2014;4;2025-03-14
+"53";"Unidad de fomento (UF)";"2014-5-1";23860,55;2014;5;2025-03-14
+"54";"Unidad de fomento (UF)";"2014-6-1";23986,19;2014;6;2025-03-14
+"55";"Unidad de fomento (UF)";"2014-7-1";24048,75;2014;7;2025-03-14
+"56";"Unidad de fomento (UF)";"2014-8-1";24081,02;2014;8;2025-03-14
+"57";"Unidad de fomento (UF)";"2014-9-1";24134,09;2014;9;2025-03-14
+"58";"Unidad de fomento (UF)";"2014-10-1";24237,79;2014;10;2025-03-14
+"59";"Unidad de fomento (UF)";"2014-11-1";24438,18;2014;11;2025-03-14
+"60";"Unidad de fomento (UF)";"2014-12-1";24617,62;2014;12;2025-03-14
+"61";"Unidad de fomento (UF)";"2015-1-1";24601,14;2015;1;2025-03-14
+"62";"Unidad de fomento (UF)";"2015-2-1";24538,61;2015;2;2025-03-14
+"63";"Unidad de fomento (UF)";"2015-3-1";24577,93;2015;3;2025-03-14
+"64";"Unidad de fomento (UF)";"2015-4-1";24685,43;2015;4;2025-03-14
+"65";"Unidad de fomento (UF)";"2015-5-1";24832,61;2015;5;2025-03-14
+"66";"Unidad de fomento (UF)";"2015-6-1";24955,07;2015;6;2025-03-14
+"67";"Unidad de fomento (UF)";"2015-7-1";25028,87;2015;7;2025-03-14
+"68";"Unidad de fomento (UF)";"2015-8-1";25144,67;2015;8;2025-03-14
+"69";"Unidad de fomento (UF)";"2015-9-1";25264,76;2015;9;2025-03-14
+"70";"Unidad de fomento (UF)";"2015-10-1";25426,52;2015;10;2025-03-14
+"71";"Unidad de fomento (UF)";"2015-11-1";25548,23;2015;11;2025-03-14
+"72";"Unidad de fomento (UF)";"2015-12-1";25625,13;2015;12;2025-03-14
+"73";"Unidad de fomento (UF)";"2016-1-1";25629,09;2016;1;2025-03-14
+"74";"Unidad de fomento (UF)";"2016-2-1";25661,05;2016;2;2025-03-14
+"75";"Unidad de fomento (UF)";"2016-3-1";25772,43;2016;3;2025-03-14
+"76";"Unidad de fomento (UF)";"2016-4-1";25858,01;2016;4;2025-03-14
+"77";"Unidad de fomento (UF)";"2016-5-1";25954,31;2016;5;2025-03-14
+"78";"Unidad de fomento (UF)";"2016-6-1";26025,99;2016;6;2025-03-14
+"79";"Unidad de fomento (UF)";"2016-7-1";26093,1;2016;7;2025-03-14
+"80";"Unidad de fomento (UF)";"2016-8-1";26181,82;2016;8;2025-03-14
+"81";"Unidad de fomento (UF)";"2016-9-1";26222,27;2016;9;2025-03-14
+"82";"Unidad de fomento (UF)";"2016-10-1";26238,1;2016;10;2025-03-14
+"83";"Unidad de fomento (UF)";"2016-11-1";26288,2;2016;11;2025-03-14
+"84";"Unidad de fomento (UF)";"2016-12-1";26334,19;2016;12;2025-03-14
+"85";"Unidad de fomento (UF)";"2017-1-1";26340,76;2017;1;2025-03-14
+"86";"Unidad de fomento (UF)";"2017-2-1";26336,93;2017;2;2025-03-14
+"87";"Unidad de fomento (UF)";"2017-3-1";26442,88;2017;3;2025-03-14
+"88";"Unidad de fomento (UF)";"2017-4-1";26512,42;2017;4;2025-03-14
+"89";"Unidad de fomento (UF)";"2017-5-1";26603,14;2017;5;2025-03-14
+"90";"Unidad de fomento (UF)";"2017-6-1";26651,22;2017;6;2025-03-14
+"91";"Unidad de fomento (UF)";"2017-7-1";26643,94;2017;7;2025-03-14
+"92";"Unidad de fomento (UF)";"2017-8-1";26584,37;2017;8;2025-03-14
+"93";"Unidad de fomento (UF)";"2017-9-1";26631,13;2017;9;2025-03-14
+"94";"Unidad de fomento (UF)";"2017-10-1";26656,66;2017;10;2025-03-14
+"95";"Unidad de fomento (UF)";"2017-11-1";26662,41;2017;11;2025-03-14
+"96";"Unidad de fomento (UF)";"2017-12-1";26779,99;2017;12;2025-03-14
+"97";"Unidad de fomento (UF)";"2018-1-1";26811,97;2018;1;2025-03-14
+"98";"Unidad de fomento (UF)";"2018-2-1";26864,09;2018;2;2025-03-14
+"99";"Unidad de fomento (UF)";"2018-3-1";26961,32;2018;3;2025-03-14
+"100";"Unidad de fomento (UF)";"2018-4-1";26980,73;2018;4;2025-03-14
+"101";"Unidad de fomento (UF)";"2018-5-1";27040,06;2018;5;2025-03-14
+"102";"Unidad de fomento (UF)";"2018-6-1";27119,59;2018;6;2025-03-14
+"103";"Unidad de fomento (UF)";"2018-7-1";27187,19;2018;7;2025-03-14
+"104";"Unidad de fomento (UF)";"2018-8-1";27237,98;2018;8;2025-03-14
+"105";"Unidad de fomento (UF)";"2018-9-1";27329,01;2018;9;2025-03-14
+"106";"Unidad de fomento (UF)";"2018-10-1";27393,34;2018;10;2025-03-14
+"107";"Unidad de fomento (UF)";"2018-11-1";27480,95;2018;11;2025-03-14
+"108";"Unidad de fomento (UF)";"2018-12-1";27561,53;2018;12;2025-03-14
+"109";"Unidad de fomento (UF)";"2019-1-1";27558,53;2019;1;2025-03-14
+"110";"Unidad de fomento (UF)";"2019-2-1";27546,04;2019;2;2025-03-14
+"111";"Unidad de fomento (UF)";"2019-3-1";27564,62;2019;3;2025-03-14
+"112";"Unidad de fomento (UF)";"2019-4-1";27601,09;2019;4;2025-03-14
+"113";"Unidad de fomento (UF)";"2019-5-1";27720,11;2019;5;2025-03-14
+"114";"Unidad de fomento (UF)";"2019-6-1";27826,2;2019;6;2025-03-14
+"115";"Unidad de fomento (UF)";"2019-7-1";27946,95;2019;7;2025-03-14
+"116";"Unidad de fomento (UF)";"2019-8-1";27968,13;2019;8;2025-03-14
+"117";"Unidad de fomento (UF)";"2019-9-1";28021,53;2019;9;2025-03-14
+"118";"Unidad de fomento (UF)";"2019-10-1";28063,18;2019;10;2025-03-14
+"119";"Unidad de fomento (UF)";"2019-11-1";28122,86;2019;11;2025-03-14
+"120";"Unidad de fomento (UF)";"2019-12-1";28288,6;2019;12;2025-03-14
+"121";"Unidad de fomento (UF)";"2020-1-1";28324,55;2020;1;2025-03-14
+"122";"Unidad de fomento (UF)";"2020-2-1";28387,75;2020;2;2025-03-14
+"123";"Unidad de fomento (UF)";"2020-3-1";28539,73;2020;3;2025-03-14
+"124";"Unidad de fomento (UF)";"2020-4-1";28648,24;2020;4;2025-03-14
+"125";"Unidad de fomento (UF)";"2020-5-1";28713,19;2020;5;2025-03-14
+"126";"Unidad de fomento (UF)";"2020-6-1";28709,15;2020;6;2025-03-14
+"127";"Unidad de fomento (UF)";"2020-7-1";28681,36;2020;7;2025-03-14
+"128";"Unidad de fomento (UF)";"2020-8-1";28667,73;2020;8;2025-03-14
+"129";"Unidad de fomento (UF)";"2020-9-1";28694,02;2020;9;2025-03-14
+"130";"Unidad de fomento (UF)";"2020-10-1";28760,64;2020;10;2025-03-14
+"131";"Unidad de fomento (UF)";"2020-11-1";28933,88;2020;11;2025-03-14
+"132";"Unidad de fomento (UF)";"2020-12-1";29075,47;2020;12;2025-03-14
+"133";"Unidad de fomento (UF)";"2021-1-1";29085,91;2021;1;2025-03-14
+"134";"Unidad de fomento (UF)";"2021-2-1";29194,81;2021;2;2025-03-14
+"135";"Unidad de fomento (UF)";"2021-3-1";29360,08;2021;3;2025-03-14
+"136";"Unidad de fomento (UF)";"2021-4-1";29439,72;2021;4;2025-03-14
+"137";"Unidad de fomento (UF)";"2021-5-1";29555,98;2021;5;2025-03-14
+"138";"Unidad de fomento (UF)";"2021-6-1";29665,83;2021;6;2025-03-14
+"139";"Unidad de fomento (UF)";"2021-7-1";29740,92;2021;7;2025-03-14
+"140";"Unidad de fomento (UF)";"2021-8-1";29827,73;2021;8;2025-03-14
+"141";"Unidad de fomento (UF)";"2021-9-1";30025,93;2021;9;2025-03-14
+"142";"Unidad de fomento (UF)";"2021-10-1";30214,65;2021;10;2025-03-14
+"143";"Unidad de fomento (UF)";"2021-11-1";30573,24;2021;11;2025-03-14
+"144";"Unidad de fomento (UF)";"2021-12-1";30907,42;2021;12;2025-03-14
+"145";"Unidad de fomento (UF)";"2022-1-1";31096,09;2022;1;2025-03-14
+"146";"Unidad de fomento (UF)";"2022-2-1";31365,3;2022;2;2025-03-14
+"147";"Unidad de fomento (UF)";"2022-3-1";31669,7;2022;3;2025-03-14
+"148";"Unidad de fomento (UF)";"2022-4-1";31905,76;2022;4;2025-03-14
+"149";"Unidad de fomento (UF)";"2022-5-1";32453,99;2022;5;2025-03-14
+"150";"Unidad de fomento (UF)";"2022-6-1";32894,82;2022;6;2025-03-14
+"151";"Unidad de fomento (UF)";"2022-7-1";33268,63;2022;7;2025-03-14
+"152";"Unidad de fomento (UF)";"2022-8-1";33616,11;2022;8;2025-03-14
+"153";"Unidad de fomento (UF)";"2022-9-1";34059,41;2022;9;2025-03-14
+"154";"Unidad de fomento (UF)";"2022-10-1";34446,46;2022;10;2025-03-14
+"155";"Unidad de fomento (UF)";"2022-11-1";34722,91;2022;11;2025-03-14
+"156";"Unidad de fomento (UF)";"2022-12-1";34948,74;2022;12;2025-03-14
+"157";"Unidad de fomento (UF)";"2023-1-1";35227,24;2023;1;2025-03-14
+"158";"Unidad de fomento (UF)";"2023-2-1";35382,14;2023;2;2025-03-14
+"159";"Unidad de fomento (UF)";"2023-3-1";35579,62;2023;3;2025-03-14
+"160";"Unidad de fomento (UF)";"2023-4-1";35666,65;2023;4;2025-03-14
+"161";"Unidad de fomento (UF)";"2023-5-1";35969,53;2023;5;2025-03-14
+"162";"Unidad de fomento (UF)";"2023-6-1";36069,31;2023;6;2025-03-14
+"163";"Unidad de fomento (UF)";"2023-7-1";36079,89;2023;7;2025-03-14
+"164";"Unidad de fomento (UF)";"2023-8-1";36068,7;2023;8;2025-03-14
+"165";"Unidad de fomento (UF)";"2023-9-1";36175,9;2023;9;2025-03-14
+"166";"Unidad de fomento (UF)";"2023-10-1";36273,59;2023;10;2025-03-14
+"167";"Unidad de fomento (UF)";"2023-11-1";36489,4;2023;11;2025-03-14
+"168";"Unidad de fomento (UF)";"2023-12-1";36669,38;2023;12;2025-03-14
+"169";"Unidad de fomento (UF)";"2024-1-1";36805,73;2024;1;2025-03-14
+"170";"Unidad de fomento (UF)";"2024-2-1";36750,98;2024;2;2025-03-14
+"171";"Unidad de fomento (UF)";"2024-3-1";36984,32;2024;3;2025-03-14
+"172";"Unidad de fomento (UF)";"2024-4-1";37187,51;2024;4;2025-03-14
+"173";"Unidad de fomento (UF)";"2024-5-1";37349,91;2024;5;2025-03-14
+"174";"Unidad de fomento (UF)";"2024-6-1";37514,77;2024;6;2025-03-14
+"175";"Unidad de fomento (UF)";"2024-7-1";37591,38;2024;7;2025-03-14
+"176";"Unidad de fomento (UF)";"2024-8-1";37638,55;2024;8;2025-03-14
+"177";"Unidad de fomento (UF)";"2024-9-1";37849,91;2024;9;2025-03-14
+"178";"Unidad de fomento (UF)";"2024-10-1";37950,09;2024;10;2025-03-14
+"179";"Unidad de fomento (UF)";"2024-11-1";38078,21;2024;11;2025-03-14
+"180";"Unidad de fomento (UF)";"2024-12-1";38367,69;2024;12;2025-03-14
+"181";"Unidad de fomento (UF)";"2025-1-1";38415,85;2025;1;2025-03-14
+"182";"Unidad de fomento (UF)";"2025-2-1";38467,25;2025;2;2025-03-14
+"183";"Unidad de fomento (UF)";"2025-3-1";38807,3;2025;3;2025-03-14
+"184";"Indice de valor promedio (IVP)";"2010-1-1";21861,9;2010;1;2025-03-14
+"185";"Indice de valor promedio (IVP)";"2010-2-1";21850,2;2010;2;2025-03-14
+"186";"Indice de valor promedio (IVP)";"2010-3-1";21870,12;2010;3;2025-03-14
+"187";"Indice de valor promedio (IVP)";"2010-4-1";21901,4;2010;4;2025-03-14
+"188";"Indice de valor promedio (IVP)";"2010-5-1";21910,94;2010;5;2025-03-14
+"189";"Indice de valor promedio (IVP)";"2010-6-1";21938,19;2010;6;2025-03-14
+"190";"Indice de valor promedio (IVP)";"2010-7-1";21989,64;2010;7;2025-03-14
+"191";"Indice de valor promedio (IVP)";"2010-8-1";22054,54;2010;8;2025-03-14
+"192";"Indice de valor promedio (IVP)";"2010-9-1";22118,44;2010;9;2025-03-14
+"193";"Indice de valor promedio (IVP)";"2010-10-1";22175,34;2010;10;2025-03-14
+"194";"Indice de valor promedio (IVP)";"2010-11-1";22236,76;2010;11;2025-03-14
+"195";"Indice de valor promedio (IVP)";"2010-12-1";22286,11;2010;12;2025-03-14
+"196";"Indice de valor promedio (IVP)";"2011-1-1";22329,56;2011;1;2025-03-14
+"197";"Indice de valor promedio (IVP)";"2011-2-1";22370,43;2011;2;2025-03-14
+"198";"Indice de valor promedio (IVP)";"2011-3-1";22405,5;2011;3;2025-03-14
+"199";"Indice de valor promedio (IVP)";"2011-4-1";22453,08;2011;4;2025-03-14
+"200";"Indice de valor promedio (IVP)";"2011-5-1";22513,05;2011;5;2025-03-14
+"201";"Indice de valor promedio (IVP)";"2011-6-1";22582,83;2011;6;2025-03-14
+"202";"Indice de valor promedio (IVP)";"2011-7-1";22662,56;2011;7;2025-03-14
+"203";"Indice de valor promedio (IVP)";"2011-8-1";22744,56;2011;8;2025-03-14
+"204";"Indice de valor promedio (IVP)";"2011-9-1";22820,54;2011;9;2025-03-14
+"205";"Indice de valor promedio (IVP)";"2011-10-1";22891,61;2011;10;2025-03-14
+"206";"Indice de valor promedio (IVP)";"2011-11-1";22957,38;2011;11;2025-03-14
+"207";"Indice de valor promedio (IVP)";"2011-12-1";23026,41;2011;12;2025-03-14
+"208";"Indice de valor promedio (IVP)";"2012-1-1";23099,44;2012;1;2025-03-14
+"209";"Indice de valor promedio (IVP)";"2012-2-1";23181,14;2012;2;2025-03-14
+"210";"Indice de valor promedio (IVP)";"2012-3-1";23265,31;2012;3;2025-03-14
+"211";"Indice de valor promedio (IVP)";"2012-4-1";23354,51;2012;4;2025-03-14
+"212";"Indice de valor promedio (IVP)";"2012-5-1";23430,42;2012;5;2025-03-14
+"213";"Indice de valor promedio (IVP)";"2012-6-1";23491,69;2012;6;2025-03-14
+"214";"Indice de valor promedio (IVP)";"2012-7-1";23534,64;2012;7;2025-03-14
+"215";"Indice de valor promedio (IVP)";"2012-8-1";23551,83;2012;8;2025-03-14
+"216";"Indice de valor promedio (IVP)";"2012-9-1";23563,06;2012;9;2025-03-14
+"217";"Indice de valor promedio (IVP)";"2012-10-1";23575,56;2012;10;2025-03-14
+"218";"Indice de valor promedio (IVP)";"2012-11-1";23609,42;2012;11;2025-03-14
+"219";"Indice de valor promedio (IVP)";"2012-12-1";23653,17;2012;12;2025-03-14
+"220";"Indice de valor promedio (IVP)";"2013-1-1";23688,17;2013;1;2025-03-14
+"221";"Indice de valor promedio (IVP)";"2013-2-1";23729,49;2013;2;2025-03-14
+"222";"Indice de valor promedio (IVP)";"2013-3-1";23775,58;2013;3;2025-03-14
+"223";"Indice de valor promedio (IVP)";"2013-4-1";23817,69;2013;4;2025-03-14
+"224";"Indice de valor promedio (IVP)";"2013-5-1";23837,52;2013;5;2025-03-14
+"225";"Indice de valor promedio (IVP)";"2013-6-1";23832,15;2013;6;2025-03-14
+"226";"Indice de valor promedio (IVP)";"2013-7-1";23844,9;2013;7;2025-03-14
+"227";"Indice de valor promedio (IVP)";"2013-8-1";23878,47;2013;8;2025-03-14
+"228";"Indice de valor promedio (IVP)";"2013-9-1";23915,93;2013;9;2025-03-14
+"229";"Indice de valor promedio (IVP)";"2013-10-1";23958,37;2013;10;2025-03-14
+"230";"Indice de valor promedio (IVP)";"2013-11-1";24011,55;2013;11;2025-03-14
+"231";"Indice de valor promedio (IVP)";"2013-12-1";24086,74;2013;12;2025-03-14
+"232";"Indice de valor promedio (IVP)";"2014-1-1";24175,02;2014;1;2025-03-14
+"233";"Indice de valor promedio (IVP)";"2014-2-1";24257,57;2014;2;2025-03-14
+"234";"Indice de valor promedio (IVP)";"2014-3-1";24341,22;2014;3;2025-03-14
+"235";"Indice de valor promedio (IVP)";"2014-4-1";24438,65;2014;4;2025-03-14
+"236";"Indice de valor promedio (IVP)";"2014-5-1";24550,89;2014;5;2025-03-14
+"237";"Indice de valor promedio (IVP)";"2014-6-1";24677,61;2014;6;2025-03-14
+"238";"Indice de valor promedio (IVP)";"2014-7-1";24798,32;2014;7;2025-03-14
+"239";"Indice de valor promedio (IVP)";"2014-8-1";24906,2;2014;8;2025-03-14
+"240";"Indice de valor promedio (IVP)";"2014-9-1";25011,43;2014;9;2025-03-14
+"241";"Indice de valor promedio (IVP)";"2014-10-1";25111,51;2014;10;2025-03-14
+"242";"Indice de valor promedio (IVP)";"2014-11-1";25216,3;2014;11;2025-03-14
+"243";"Indice de valor promedio (IVP)";"2014-12-1";25330,14;2014;12;2025-03-14
+"244";"Indice de valor promedio (IVP)";"2015-1-1";25432,63;2015;1;2025-03-14
+"245";"Indice de valor promedio (IVP)";"2015-2-1";25515,05;2015;2;2025-03-14
+"246";"Indice de valor promedio (IVP)";"2015-3-1";25593,08;2015;3;2025-03-14
+"247";"Indice de valor promedio (IVP)";"2015-4-1";25673,14;2015;4;2025-03-14
+"248";"Indice de valor promedio (IVP)";"2015-5-1";25741,54;2015;5;2025-03-14
+"249";"Indice de valor promedio (IVP)";"2015-6-1";25797,74;2015;6;2025-03-14
+"250";"Indice de valor promedio (IVP)";"2015-7-1";25868,44;2015;7;2025-03-14
+"251";"Indice de valor promedio (IVP)";"2015-8-1";25972,65;2015;8;2025-03-14
+"252";"Indice de valor promedio (IVP)";"2015-9-1";26090,73;2015;9;2025-03-14
+"253";"Indice de valor promedio (IVP)";"2015-10-1";26217,2;2015;10;2025-03-14
+"254";"Indice de valor promedio (IVP)";"2015-11-1";26339,62;2015;11;2025-03-14
+"255";"Indice de valor promedio (IVP)";"2015-12-1";26454,48;2015;12;2025-03-14
+"256";"Indice de valor promedio (IVP)";"2016-1-1";26559,81;2016;1;2025-03-14
+"257";"Indice de valor promedio (IVP)";"2016-2-1";26647,64;2016;2;2025-03-14
+"258";"Indice de valor promedio (IVP)";"2016-3-1";26731,86;2016;3;2025-03-14
+"259";"Indice de valor promedio (IVP)";"2016-4-1";26804,69;2016;4;2025-03-14
+"260";"Indice de valor promedio (IVP)";"2016-5-1";26871,92;2016;5;2025-03-14
+"261";"Indice de valor promedio (IVP)";"2016-6-1";26939,47;2016;6;2025-03-14
+"262";"Indice de valor promedio (IVP)";"2016-7-1";27020,4;2016;7;2025-03-14
+"263";"Indice de valor promedio (IVP)";"2016-8-1";27114,88;2016;8;2025-03-14
+"264";"Indice de valor promedio (IVP)";"2016-9-1";27198,97;2016;9;2025-03-14
+"265";"Indice de valor promedio (IVP)";"2016-10-1";27273,21;2016;10;2025-03-14
+"266";"Indice de valor promedio (IVP)";"2016-11-1";27341,27;2016;11;2025-03-14
+"267";"Indice de valor promedio (IVP)";"2016-12-1";27401,96;2016;12;2025-03-14
+"268";"Indice de valor promedio (IVP)";"2017-1-1";27450,05;2017;1;2025-03-14
+"269";"Indice de valor promedio (IVP)";"2017-2-1";27478,51;2017;2;2025-03-14
+"270";"Indice de valor promedio (IVP)";"2017-3-1";27517,62;2017;3;2025-03-14
+"271";"Indice de valor promedio (IVP)";"2017-4-1";27566,75;2017;4;2025-03-14
+"272";"Indice de valor promedio (IVP)";"2017-5-1";27621,64;2017;5;2025-03-14
+"273";"Indice de valor promedio (IVP)";"2017-6-1";27680,37;2017;6;2025-03-14
+"274";"Indice de valor promedio (IVP)";"2017-7-1";27739,43;2017;7;2025-03-14
+"275";"Indice de valor promedio (IVP)";"2017-8-1";27789,97;2017;8;2025-03-14
+"276";"Indice de valor promedio (IVP)";"2017-9-1";27829,15;2017;9;2025-03-14
+"277";"Indice de valor promedio (IVP)";"2017-10-1";27859,85;2017;10;2025-03-14
+"278";"Indice de valor promedio (IVP)";"2017-11-1";27877,27;2017;11;2025-03-14
+"279";"Indice de valor promedio (IVP)";"2017-12-1";27904,48;2017;12;2025-03-14
+"280";"Indice de valor promedio (IVP)";"2018-1-1";27938,08;2018;1;2025-03-14
+"281";"Indice de valor promedio (IVP)";"2018-2-1";27989,04;2018;2;2025-03-14
+"282";"Indice de valor promedio (IVP)";"2018-3-1";28046,69;2018;3;2025-03-14
+"283";"Indice de valor promedio (IVP)";"2018-4-1";28106,45;2018;4;2025-03-14
+"284";"Indice de valor promedio (IVP)";"2018-5-1";28174,56;2018;5;2025-03-14
+"285";"Indice de valor promedio (IVP)";"2018-6-1";28237,03;2018;6;2025-03-14
+"286";"Indice de valor promedio (IVP)";"2018-7-1";28304,97;2018;7;2025-03-14
+"287";"Indice de valor promedio (IVP)";"2018-8-1";28371,94;2018;8;2025-03-14
+"288";"Indice de valor promedio (IVP)";"2018-9-1";28435,56;2018;9;2025-03-14
+"289";"Indice de valor promedio (IVP)";"2018-10-1";28504,49;2018;10;2025-03-14
+"290";"Indice de valor promedio (IVP)";"2018-11-1";28579,11;2018;11;2025-03-14
+"291";"Indice de valor promedio (IVP)";"2018-12-1";28651,96;2018;12;2025-03-14
+"292";"Indice de valor promedio (IVP)";"2019-1-1";28714,42;2019;1;2025-03-14
+"293";"Indice de valor promedio (IVP)";"2019-2-1";28764,23;2019;2;2025-03-14
+"294";"Indice de valor promedio (IVP)";"2019-3-1";28804,03;2019;3;2025-03-14
+"295";"Indice de valor promedio (IVP)";"2019-4-1";28842,14;2019;4;2025-03-14
+"296";"Indice de valor promedio (IVP)";"2019-5-1";28883,46;2019;5;2025-03-14
+"297";"Indice de valor promedio (IVP)";"2019-6-1";28929,42;2019;6;2025-03-14
+"298";"Indice de valor promedio (IVP)";"2019-7-1";28997,78;2019;7;2025-03-14
+"299";"Indice de valor promedio (IVP)";"2019-8-1";29075,5;2019;8;2025-03-14
+"300";"Indice de valor promedio (IVP)";"2019-9-1";29157,87;2019;9;2025-03-14
+"301";"Indice de valor promedio (IVP)";"2019-10-1";29238,8;2019;10;2025-03-14
+"302";"Indice de valor promedio (IVP)";"2019-11-1";29311,37;2019;11;2025-03-14
+"303";"Indice de valor promedio (IVP)";"2019-12-1";29395,26;2019;12;2025-03-14
+"304";"Indice de valor promedio (IVP)";"2020-1-1";29464,73;2020;1;2025-03-14
+"305";"Indice de valor promedio (IVP)";"2020-2-1";29537,62;2020;2;2025-03-14
+"306";"Indice de valor promedio (IVP)";"2020-3-1";29627,75;2020;3;2025-03-14
+"307";"Indice de valor promedio (IVP)";"2020-4-1";29731,55;2020;4;2025-03-14
+"308";"Indice de valor promedio (IVP)";"2020-5-1";29835,74;2020;5;2025-03-14
+"309";"Indice de valor promedio (IVP)";"2020-6-1";29909,65;2020;6;2025-03-14
+"310";"Indice de valor promedio (IVP)";"2020-7-1";29975,18;2020;7;2025-03-14
+"311";"Indice de valor promedio (IVP)";"2020-8-1";30028,52;2020;8;2025-03-14
+"312";"Indice de valor promedio (IVP)";"2020-9-1";30058,69;2020;9;2025-03-14
+"313";"Indice de valor promedio (IVP)";"2020-10-1";30083,2;2020;10;2025-03-14
+"314";"Indice de valor promedio (IVP)";"2020-11-1";30126,93;2020;11;2025-03-14
+"315";"Indice de valor promedio (IVP)";"2020-12-1";30195,87;2020;12;2025-03-14
+"316";"Indice de valor promedio (IVP)";"2021-1-1";30270,17;2021;1;2025-03-14
+"317";"Indice de valor promedio (IVP)";"2021-2-1";30361,15;2021;2;2025-03-14
+"318";"Indice de valor promedio (IVP)";"2021-3-1";30475,88;2021;3;2025-03-14
+"319";"Indice de valor promedio (IVP)";"2021-4-1";30595,91;2021;4;2025-03-14
+"320";"Indice de valor promedio (IVP)";"2021-5-1";30702,48;2021;5;2025-03-14
+"321";"Indice de valor promedio (IVP)";"2021-6-1";30803,54;2021;6;2025-03-14
+"322";"Indice de valor promedio (IVP)";"2021-7-1";30915,22;2021;7;2025-03-14
+"323";"Indice de valor promedio (IVP)";"2021-8-1";31022,45;2021;8;2025-03-14
+"324";"Indice de valor promedio (IVP)";"2021-9-1";31133,43;2021;9;2025-03-14
+"325";"Indice de valor promedio (IVP)";"2021-10-1";31261,31;2021;10;2025-03-14
+"326";"Indice de valor promedio (IVP)";"2021-11-1";31431,87;2021;11;2025-03-14
+"327";"Indice de valor promedio (IVP)";"2021-12-1";31643,27;2021;12;2025-03-14
+"328";"Indice de valor promedio (IVP)";"2022-1-1";31880,67;2022;1;2025-03-14
+"329";"Indice de valor promedio (IVP)";"2022-2-1";32137,33;2022;2;2025-03-14
+"330";"Indice de valor promedio (IVP)";"2022-3-1";32412,55;2022;3;2025-03-14
+"331";"Indice de valor promedio (IVP)";"2022-4-1";32710,02;2022;4;2025-03-14
+"332";"Indice de valor promedio (IVP)";"2022-5-1";33036,72;2022;5;2025-03-14
+"333";"Indice de valor promedio (IVP)";"2022-6-1";33380,88;2022;6;2025-03-14
+"334";"Indice de valor promedio (IVP)";"2022-7-1";33758,07;2022;7;2025-03-14
+"335";"Indice de valor promedio (IVP)";"2022-8-1";34157,59;2022;8;2025-03-14
+"336";"Indice de valor promedio (IVP)";"2022-9-1";34574,04;2022;9;2025-03-14
+"337";"Indice de valor promedio (IVP)";"2022-10-1";35014,35;2022;10;2025-03-14
+"338";"Indice de valor promedio (IVP)";"2022-11-1";35409,96;2022;11;2025-03-14
+"339";"Indice de valor promedio (IVP)";"2022-12-1";35766,89;2022;12;2025-03-14
+"340";"Indice de valor promedio (IVP)";"2023-1-1";36112,24;2023;1;2025-03-14
+"341";"Indice de valor promedio (IVP)";"2023-2-1";36408,56;2023;2;2025-03-14
+"342";"Indice de valor promedio (IVP)";"2023-3-1";36661,79;2023;3;2025-03-14
+"343";"Indice de valor promedio (IVP)";"2023-4-1";36876,25;2023;4;2025-03-14
+"344";"Indice de valor promedio (IVP)";"2023-5-1";37094,98;2023;5;2025-03-14
+"345";"Indice de valor promedio (IVP)";"2023-6-1";37293,5;2023;6;2025-03-14
+"346";"Indice de valor promedio (IVP)";"2023-7-1";37446,62;2023;7;2025-03-14
+"347";"Indice de valor promedio (IVP)";"2023-8-1";37574,12;2023;8;2025-03-14
+"348";"Indice de valor promedio (IVP)";"2023-9-1";37681,48;2023;9;2025-03-14
+"349";"Indice de valor promedio (IVP)";"2023-10-1";37787,91;2023;10;2025-03-14
+"350";"Indice de valor promedio (IVP)";"2023-11-1";37879,33;2023;11;2025-03-14
+"351";"Indice de valor promedio (IVP)";"2023-12-1";37985,98;2023;12;2025-03-14
+"352";"Indice de valor promedio (IVP)";"2024-1-1";38116,94;2024;1;2025-03-14
+"353";"Indice de valor promedio (IVP)";"2024-2-1";38233,23;2024;2;2025-03-14
+"354";"Indice de valor promedio (IVP)";"2024-3-1";38371,92;2024;3;2025-03-14
+"355";"Indice de valor promedio (IVP)";"2024-4-1";38531,48;2024;4;2025-03-14
+"356";"Indice de valor promedio (IVP)";"2024-5-1";38680,2;2024;5;2025-03-14
+"357";"Indice de valor promedio (IVP)";"2024-6-1";38824,85;2024;6;2025-03-14
+"358";"Indice de valor promedio (IVP)";"2024-7-1";38956,03;2024;7;2025-03-14
+"359";"Indice de valor promedio (IVP)";"2024-8-1";39110,94;2024;8;2025-03-14
+"360";"Indice de valor promedio (IVP)";"2024-9-1";39262,32;2024;9;2025-03-14
+"361";"Indice de valor promedio (IVP)";"2024-10-1";39392,77;2024;10;2025-03-14
+"362";"Indice de valor promedio (IVP)";"2024-11-1";39517,45;2024;11;2025-03-14
+"363";"Indice de valor promedio (IVP)";"2024-12-1";39662,1;2024;12;2025-03-14
+"364";"Indice de valor promedio (IVP)";"2025-1-1";39808,65;2025;1;2025-03-14
+"365";"Indice de valor promedio (IVP)";"2025-2-1";39948,12;2025;2;2025-03-14
+"366";"Indice de valor promedio (IVP)";"2025-3-1";40105,72;2025;3;2025-03-14
+"367";"Unidad tributaria mensual (UTM)";"2010-1-1";36679;2010;1;2025-03-14
+"368";"Unidad tributaria mensual (UTM)";"2010-2-1";36569;2010;2;2025-03-14
+"369";"Unidad tributaria mensual (UTM)";"2010-3-1";36752;2010;3;2025-03-14
+"370";"Unidad tributaria mensual (UTM)";"2010-4-1";36862;2010;4;2025-03-14
+"371";"Unidad tributaria mensual (UTM)";"2010-5-1";36899;2010;5;2025-03-14
+"372";"Unidad tributaria mensual (UTM)";"2010-6-1";37083;2010;6;2025-03-14
+"373";"Unidad tributaria mensual (UTM)";"2010-7-1";37231;2010;7;2025-03-14
+"374";"Unidad tributaria mensual (UTM)";"2010-8-1";37231;2010;8;2025-03-14
+"375";"Unidad tributaria mensual (UTM)";"2010-9-1";37454;2010;9;2025-03-14
+"376";"Unidad tributaria mensual (UTM)";"2010-10-1";37417;2010;10;2025-03-14
+"377";"Unidad tributaria mensual (UTM)";"2010-11-1";37567;2010;11;2025-03-14
+"378";"Unidad tributaria mensual (UTM)";"2010-12-1";37605;2010;12;2025-03-14
+"379";"Unidad tributaria mensual (UTM)";"2011-1-1";37643;2011;1;2025-03-14
+"380";"Unidad tributaria mensual (UTM)";"2011-2-1";37681;2011;2;2025-03-14
+"381";"Unidad tributaria mensual (UTM)";"2011-3-1";37794;2011;3;2025-03-14
+"382";"Unidad tributaria mensual (UTM)";"2011-4-1";37870;2011;4;2025-03-14
+"383";"Unidad tributaria mensual (UTM)";"2011-5-1";38173;2011;5;2025-03-14
+"384";"Unidad tributaria mensual (UTM)";"2011-6-1";38288;2011;6;2025-03-14
+"385";"Unidad tributaria mensual (UTM)";"2011-7-1";38441;2011;7;2025-03-14
+"386";"Unidad tributaria mensual (UTM)";"2011-8-1";38518;2011;8;2025-03-14
+"387";"Unidad tributaria mensual (UTM)";"2011-9-1";38557;2011;9;2025-03-14
+"388";"Unidad tributaria mensual (UTM)";"2011-10-1";38634;2011;10;2025-03-14
+"389";"Unidad tributaria mensual (UTM)";"2011-11-1";38827;2011;11;2025-03-14
+"390";"Unidad tributaria mensual (UTM)";"2011-12-1";39021;2011;12;2025-03-14
+"391";"Unidad tributaria mensual (UTM)";"2012-1-1";39138;2012;1;2025-03-14
+"392";"Unidad tributaria mensual (UTM)";"2012-2-1";39373;2012;2;2025-03-14
+"393";"Unidad tributaria mensual (UTM)";"2012-3-1";39412;2012;3;2025-03-14
+"394";"Unidad tributaria mensual (UTM)";"2012-4-1";39570;2012;4;2025-03-14
+"395";"Unidad tributaria mensual (UTM)";"2012-5-1";39649;2012;5;2025-03-14
+"396";"Unidad tributaria mensual (UTM)";"2012-6-1";39689;2012;6;2025-03-14
+"397";"Unidad tributaria mensual (UTM)";"2012-7-1";39689;2012;7;2025-03-14
+"398";"Unidad tributaria mensual (UTM)";"2012-8-1";39570;2012;8;2025-03-14
+"399";"Unidad tributaria mensual (UTM)";"2012-9-1";39570;2012;9;2025-03-14
+"400";"Unidad tributaria mensual (UTM)";"2012-10-1";39649;2012;10;2025-03-14
+"401";"Unidad tributaria mensual (UTM)";"2012-11-1";39966;2012;11;2025-03-14
+"402";"Unidad tributaria mensual (UTM)";"2012-12-1";40206;2012;12;2025-03-14
+"403";"Unidad tributaria mensual (UTM)";"2013-1-1";40005;2013;1;2025-03-14
+"404";"Unidad tributaria mensual (UTM)";"2013-2-1";40005;2013;2;2025-03-14
+"405";"Unidad tributaria mensual (UTM)";"2013-3-1";40085;2013;3;2025-03-14
+"406";"Unidad tributaria mensual (UTM)";"2013-4-1";40125;2013;4;2025-03-14
+"407";"Unidad tributaria mensual (UTM)";"2013-5-1";40286;2013;5;2025-03-14
+"408";"Unidad tributaria mensual (UTM)";"2013-6-1";40085;2013;6;2025-03-14
+"409";"Unidad tributaria mensual (UTM)";"2013-7-1";40085;2013;7;2025-03-14
+"410";"Unidad tributaria mensual (UTM)";"2013-8-1";40326;2013;8;2025-03-14
+"411";"Unidad tributaria mensual (UTM)";"2013-9-1";40447;2013;9;2025-03-14
+"412";"Unidad tributaria mensual (UTM)";"2013-10-1";40528;2013;10;2025-03-14
+"413";"Unidad tributaria mensual (UTM)";"2013-11-1";40731;2013;11;2025-03-14
+"414";"Unidad tributaria mensual (UTM)";"2013-12-1";40772;2013;12;2025-03-14
+"415";"Unidad tributaria mensual (UTM)";"2014-1-1";40935;2014;1;2025-03-14
+"416";"Unidad tributaria mensual (UTM)";"2014-2-1";41181;2014;2;2025-03-14
+"417";"Unidad tributaria mensual (UTM)";"2014-3-1";41263;2014;3;2025-03-14
+"418";"Unidad tributaria mensual (UTM)";"2014-4-1";41469;2014;4;2025-03-14
+"419";"Unidad tributaria mensual (UTM)";"2014-5-1";41801;2014;5;2025-03-14
+"420";"Unidad tributaria mensual (UTM)";"2014-6-1";42052;2014;6;2025-03-14
+"421";"Unidad tributaria mensual (UTM)";"2014-7-1";42178;2014;7;2025-03-14
+"422";"Unidad tributaria mensual (UTM)";"2014-8-1";42220;2014;8;2025-03-14
+"423";"Unidad tributaria mensual (UTM)";"2014-9-1";42304;2014;9;2025-03-14
+"424";"Unidad tributaria mensual (UTM)";"2014-10-1";42431;2014;10;2025-03-14
+"425";"Unidad tributaria mensual (UTM)";"2014-11-1";42770;2014;11;2025-03-14
+"426";"Unidad tributaria mensual (UTM)";"2014-12-1";43198;2014;12;2025-03-14
+"427";"Unidad tributaria mensual (UTM)";"2015-1-1";43198;2015;1;2025-03-14
+"428";"Unidad tributaria mensual (UTM)";"2015-2-1";43025;2015;2;2025-03-14
+"429";"Unidad tributaria mensual (UTM)";"2015-3-1";43068;2015;3;2025-03-14
+"430";"Unidad tributaria mensual (UTM)";"2015-4-1";43240;2015;4;2025-03-14
+"431";"Unidad tributaria mensual (UTM)";"2015-5-1";43499;2015;5;2025-03-14
+"432";"Unidad tributaria mensual (UTM)";"2015-6-1";43760;2015;6;2025-03-14
+"433";"Unidad tributaria mensual (UTM)";"2015-7-1";43848;2015;7;2025-03-14
+"434";"Unidad tributaria mensual (UTM)";"2015-8-1";44067;2015;8;2025-03-14
+"435";"Unidad tributaria mensual (UTM)";"2015-9-1";44243;2015;9;2025-03-14
+"436";"Unidad tributaria mensual (UTM)";"2015-10-1";44553;2015;10;2025-03-14
+"437";"Unidad tributaria mensual (UTM)";"2015-11-1";44776;2015;11;2025-03-14
+"438";"Unidad tributaria mensual (UTM)";"2015-12-1";44955;2015;12;2025-03-14
+"439";"Unidad tributaria mensual (UTM)";"2016-1-1";44955;2016;1;2025-03-14
+"440";"Unidad tributaria mensual (UTM)";"2016-2-1";44955;2016;2;2025-03-14
+"441";"Unidad tributaria mensual (UTM)";"2016-3-1";45180;2016;3;2025-03-14
+"442";"Unidad tributaria mensual (UTM)";"2016-4-1";45316;2016;4;2025-03-14
+"443";"Unidad tributaria mensual (UTM)";"2016-5-1";45497;2016;5;2025-03-14
+"444";"Unidad tributaria mensual (UTM)";"2016-6-1";45633;2016;6;2025-03-14
+"445";"Unidad tributaria mensual (UTM)";"2016-7-1";45724;2016;7;2025-03-14
+"446";"Unidad tributaria mensual (UTM)";"2016-8-1";45907;2016;8;2025-03-14
+"447";"Unidad tributaria mensual (UTM)";"2016-9-1";45999;2016;9;2025-03-14
+"448";"Unidad tributaria mensual (UTM)";"2016-10-1";45999;2016;10;2025-03-14
+"449";"Unidad tributaria mensual (UTM)";"2016-11-1";46091;2016;11;2025-03-14
+"450";"Unidad tributaria mensual (UTM)";"2016-12-1";46183;2016;12;2025-03-14
+"451";"Unidad tributaria mensual (UTM)";"2017-1-1";46229;2017;1;2025-03-14
+"452";"Unidad tributaria mensual (UTM)";"2017-2-1";46137;2017;2;2025-03-14
+"453";"Unidad tributaria mensual (UTM)";"2017-3-1";46368;2017;3;2025-03-14
+"454";"Unidad tributaria mensual (UTM)";"2017-4-1";46461;2017;4;2025-03-14
+"455";"Unidad tributaria mensual (UTM)";"2017-5-1";46647;2017;5;2025-03-14
+"456";"Unidad tributaria mensual (UTM)";"2017-6-1";46740;2017;6;2025-03-14
+"457";"Unidad tributaria mensual (UTM)";"2017-7-1";46787;2017;7;2025-03-14
+"458";"Unidad tributaria mensual (UTM)";"2017-8-1";46600;2017;8;2025-03-14
+"459";"Unidad tributaria mensual (UTM)";"2017-9-1";46693;2017;9;2025-03-14
+"460";"Unidad tributaria mensual (UTM)";"2017-10-1";46786;2017;10;2025-03-14
+"461";"Unidad tributaria mensual (UTM)";"2017-11-1";46692;2017;11;2025-03-14
+"462";"Unidad tributaria mensual (UTM)";"2017-12-1";46972;2017;12;2025-03-14
+"463";"Unidad tributaria mensual (UTM)";"2018-1-1";47019;2018;1;2025-03-14
+"464";"Unidad tributaria mensual (UTM)";"2018-2-1";47066;2018;2;2025-03-14
+"465";"Unidad tributaria mensual (UTM)";"2018-3-1";47301;2018;3;2025-03-14
+"466";"Unidad tributaria mensual (UTM)";"2018-4-1";47301;2018;4;2025-03-14
+"467";"Unidad tributaria mensual (UTM)";"2018-5-1";47396;2018;5;2025-03-14
+"468";"Unidad tributaria mensual (UTM)";"2018-6-1";47538;2018;6;2025-03-14
+"469";"Unidad tributaria mensual (UTM)";"2018-7-1";47681;2018;7;2025-03-14
+"470";"Unidad tributaria mensual (UTM)";"2018-8-1";47729;2018;8;2025-03-14
+"471";"Unidad tributaria mensual (UTM)";"2018-9-1";47920;2018;9;2025-03-14
+"472";"Unidad tributaria mensual (UTM)";"2018-10-1";48016;2018;10;2025-03-14
+"473";"Unidad tributaria mensual (UTM)";"2018-11-1";48160;2018;11;2025-03-14
+"474";"Unidad tributaria mensual (UTM)";"2018-12-1";48353;2018;12;2025-03-14
+"475";"Unidad tributaria mensual (UTM)";"2019-1-1";48353;2019;1;2025-03-14
+"476";"Unidad tributaria mensual (UTM)";"2019-2-1";48305;2019;2;2025-03-14
+"477";"Unidad tributaria mensual (UTM)";"2019-3-1";48353;2019;3;2025-03-14
+"478";"Unidad tributaria mensual (UTM)";"2019-4-1";48353;2019;4;2025-03-14
+"479";"Unidad tributaria mensual (UTM)";"2019-5-1";48595;2019;5;2025-03-14
+"480";"Unidad tributaria mensual (UTM)";"2019-6-1";48741;2019;6;2025-03-14
+"481";"Unidad tributaria mensual (UTM)";"2019-7-1";49033;2019;7;2025-03-14
+"482";"Unidad tributaria mensual (UTM)";"2019-8-1";49033;2019;8;2025-03-14
+"483";"Unidad tributaria mensual (UTM)";"2019-9-1";49131;2019;9;2025-03-14
+"484";"Unidad tributaria mensual (UTM)";"2019-10-1";49229;2019;10;2025-03-14
+"485";"Unidad tributaria mensual (UTM)";"2019-11-1";49229;2019;11;2025-03-14
+"486";"Unidad tributaria mensual (UTM)";"2019-12-1";49623;2019;12;2025-03-14
+"487";"Unidad tributaria mensual (UTM)";"2020-1-1";49673;2020;1;2025-03-14
+"488";"Unidad tributaria mensual (UTM)";"2020-2-1";49723;2020;2;2025-03-14
+"489";"Unidad tributaria mensual (UTM)";"2020-3-1";50021;2020;3;2025-03-14
+"490";"Unidad tributaria mensual (UTM)";"2020-4-1";50221;2020;4;2025-03-14
+"491";"Unidad tributaria mensual (UTM)";"2020-5-1";50372;2020;5;2025-03-14
+"492";"Unidad tributaria mensual (UTM)";"2020-6-1";50372;2020;6;2025-03-14
+"493";"Unidad tributaria mensual (UTM)";"2020-7-1";50322;2020;7;2025-03-14
+"494";"Unidad tributaria mensual (UTM)";"2020-8-1";50272;2020;8;2025-03-14
+"495";"Unidad tributaria mensual (UTM)";"2020-9-1";50322;2020;9;2025-03-14
+"496";"Unidad tributaria mensual (UTM)";"2020-10-1";50372;2020;10;2025-03-14
+"497";"Unidad tributaria mensual (UTM)";"2020-11-1";50674;2020;11;2025-03-14
+"498";"Unidad tributaria mensual (UTM)";"2020-12-1";51029;2020;12;2025-03-14
+"499";"Unidad tributaria mensual (UTM)";"2021-1-1";50978;2021;1;2025-03-14
+"500";"Unidad tributaria mensual (UTM)";"2021-2-1";51131;2021;2;2025-03-14
+"501";"Unidad tributaria mensual (UTM)";"2021-3-1";51489;2021;3;2025-03-14
+"502";"Unidad tributaria mensual (UTM)";"2021-4-1";51592;2021;4;2025-03-14
+"503";"Unidad tributaria mensual (UTM)";"2021-5-1";51798;2021;5;2025-03-14
+"504";"Unidad tributaria mensual (UTM)";"2021-6-1";52005;2021;6;2025-03-14
+"505";"Unidad tributaria mensual (UTM)";"2021-7-1";52161;2021;7;2025-03-14
+"506";"Unidad tributaria mensual (UTM)";"2021-8-1";52213;2021;8;2025-03-14
+"507";"Unidad tributaria mensual (UTM)";"2021-9-1";52631;2021;9;2025-03-14
+"508";"Unidad tributaria mensual (UTM)";"2021-10-1";52842;2021;10;2025-03-14
+"509";"Unidad tributaria mensual (UTM)";"2021-11-1";53476;2021;11;2025-03-14
+"510";"Unidad tributaria mensual (UTM)";"2021-12-1";54171;2021;12;2025-03-14
+"511";"Unidad tributaria mensual (UTM)";"2022-1-1";54442;2022;1;2025-03-14
+"512";"Unidad tributaria mensual (UTM)";"2022-2-1";54878;2022;2;2025-03-14
+"513";"Unidad tributaria mensual (UTM)";"2022-3-1";55537;2022;3;2025-03-14
+"514";"Unidad tributaria mensual (UTM)";"2022-4-1";55704;2022;4;2025-03-14
+"515";"Unidad tributaria mensual (UTM)";"2022-5-1";56762;2022;5;2025-03-14
+"516";"Unidad tributaria mensual (UTM)";"2022-6-1";57557;2022;6;2025-03-14
+"517";"Unidad tributaria mensual (UTM)";"2022-7-1";58248;2022;7;2025-03-14
+"518";"Unidad tributaria mensual (UTM)";"2022-8-1";58772;2022;8;2025-03-14
+"519";"Unidad tributaria mensual (UTM)";"2022-9-1";59595;2022;9;2025-03-14
+"520";"Unidad tributaria mensual (UTM)";"2022-10-1";60310;2022;10;2025-03-14
+"521";"Unidad tributaria mensual (UTM)";"2022-11-1";60853;2022;11;2025-03-14
+"522";"Unidad tributaria mensual (UTM)";"2022-12-1";61157;2022;12;2025-03-14
+"523";"Unidad tributaria mensual (UTM)";"2023-1-1";61769;2023;1;2025-03-14
+"524";"Unidad tributaria mensual (UTM)";"2023-2-1";61954;2023;2;2025-03-14
+"525";"Unidad tributaria mensual (UTM)";"2023-3-1";62450;2023;3;2025-03-14
+"526";"Unidad tributaria mensual (UTM)";"2023-4-1";62388;2023;4;2025-03-14
+"527";"Unidad tributaria mensual (UTM)";"2023-5-1";63074;2023;5;2025-03-14
+"528";"Unidad tributaria mensual (UTM)";"2023-6-1";63263;2023;6;2025-03-14
+"529";"Unidad tributaria mensual (UTM)";"2023-7-1";63326;2023;7;2025-03-14
+"530";"Unidad tributaria mensual (UTM)";"2023-8-1";63199;2023;8;2025-03-14
+"531";"Unidad tributaria mensual (UTM)";"2023-9-1";63452;2023;9;2025-03-14
+"532";"Unidad tributaria mensual (UTM)";"2023-10-1";63515;2023;10;2025-03-14
+"533";"Unidad tributaria mensual (UTM)";"2023-11-1";63960;2023;11;2025-03-14
+"534";"Unidad tributaria mensual (UTM)";"2023-12-1";64216;2023;12;2025-03-14
+"535";"Unidad tributaria mensual (UTM)";"2024-1-1";64666;2024;1;2025-03-14
+"536";"Unidad tributaria mensual (UTM)";"2024-2-1";64343;2024;2;2025-03-14
+"537";"Unidad tributaria mensual (UTM)";"2024-3-1";64793;2024;3;2025-03-14
+"538";"Unidad tributaria mensual (UTM)";"2024-4-1";65182;2024;4;2025-03-14
+"539";"Unidad tributaria mensual (UTM)";"2024-5-1";65443;2024;5;2025-03-14
+"540";"Unidad tributaria mensual (UTM)";"2024-6-1";65770;2024;6;2025-03-14
+"541";"Unidad tributaria mensual (UTM)";"2024-7-1";65967;2024;7;2025-03-14
+"542";"Unidad tributaria mensual (UTM)";"2024-8-1";65901;2024;8;2025-03-14
+"543";"Unidad tributaria mensual (UTM)";"2024-9-1";66362;2024;9;2025-03-14
+"544";"Unidad tributaria mensual (UTM)";"2024-10-1";66561;2024;10;2025-03-14
+"545";"Unidad tributaria mensual (UTM)";"2024-11-1";66628;2024;11;2025-03-14
+"546";"Unidad tributaria mensual (UTM)";"2024-12-1";67294;2024;12;2025-03-14
+"547";"Unidad tributaria mensual (UTM)";"2025-1-1";67429;2025;1;2025-03-14
+"548";"Unidad tributaria mensual (UTM)";"2025-2-1";67294;2025;2;2025-03-14
+"549";"Unidad tributaria mensual (UTM)";"2025-3-1";68034;2025;3;2025-03-14
+"550";"Unidad tributaria mensual (UTM)";"2025-4-1";68306;2025;4;2025-03-14
