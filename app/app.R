@@ -8,7 +8,7 @@ library(lubridate)
 library(ggplot2)
 library(shades)
 
-descargar = FALSE #descargar datos desde GitHub, o cargar datos locales
+descargar = TRUE #descargar datos desde GitHub, o cargar datos locales
 
 # setup ----
 
@@ -381,7 +381,7 @@ ui <- fluidPage(
         ## producción industrial ----
         fila_indicador(
           panel_titular(titulo = "Producción industrial",
-                        subtitulo = "El índice de producción industrial indica la evolución mensual del volumen de la producción de las actividades de minería, manufactural, energía, y otras."),
+                        subtitulo = "El índice de producción industrial indica la evolución mensual del volumen de la producción de las actividades de minería, manufactura, energía, y otras."),
           
           panel_cuadro_resumen("Producción industrial", "prod_industrial_ui"),
           

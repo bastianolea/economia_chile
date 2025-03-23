@@ -1,5 +1,0 @@
-nohup R -e 'shiny::runApp("~/R/economia_chile/app", port = 4060)'
-
-R -e 'browseURL("http://127.0.0.1:4060")'
-
-# chmod +x ~/R/economia_chile/ejecutar

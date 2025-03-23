@@ -504,18 +504,30 @@ obtener_inversion_extranjera <- function(descargar = TRUE) {
   # columnas, dado que esas variables son como una especie de índice en cascada 
   
   # rellenar hacia abajo las primeras tres columnas
-  invext_1 <- invext_0 |> 
-    fill(col_1, col_2, col_3, 
-         .direction = "down")
+  # invext_1 <- invext_0 |> 
+  #   fill(col_1, col_2, col_3, 
+  #        .direction = "down")
   
-  invext_2 <- invext_1 |> 
-    filter(str_detect(col_1, "^A.*")) |> 
-    filter(str_detect(col_2, "(I|i)nversión.*(d|D)irecta"))
+  # invext_0 |> pull(col_1)
   
-  invext_3 <- invext_2 |> 
-    filter(str_detect(col_3, "(p|P)asivos"))
+  invext_2 <- invext_0 |> 
+    # dejar solo filas del subtítulo Inversión Directa
+    mutate(ubicacion = case_when(str_detect(col_1, "(I|i)nversión.*(d|D)irecta") ~ TRUE,
+                                 str_detect(col_1, "(I|i)nversión.*(C|c)artera") ~ FALSE)) |>
+    fill(ubicacion, .direction = "down") |> 
+    filter(ubicacion) |> 
+    select(-ubicacion) |> 
+    # dejar sólo fila de pasivos dentro del subtítulo Inversión Directa
+    filter(str_detect(col_1, "(P|p)asivos"))
+  # 
+  # invext_2 <- invext_0 |> 
+  #   # filter(str_detect(col_1, "^A.*")) |> 
+  #   filter(str_detect(col_1, "(I|i)nversión.*(d|D)irecta"))
   
-  cifras_invext <- invext_3 |> 
+  # invext_3 <- invext_2 |> 
+  #   filter(str_detect(col_3, "(p|P)asivos"))
+  # 
+  cifras_invext <- invext_2 |> 
     slice(1) |> 
     unlist() |> 
     unname()
@@ -539,6 +551,8 @@ obtener_inversion_extranjera <- function(descargar = TRUE) {
   
   # limpiar datos
   invext_6 <- invext_5 |> 
+    mutate(mes = str_to_lower(mes),
+           mes = str_remove(mes, "\\.")) |> 
     # convertir a formatos correctos
     mutate(año = as.numeric(año),
            mes_t = tolower(mes),
