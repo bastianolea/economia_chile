@@ -570,10 +570,10 @@ obtener_inversion_extranjera <- function(descargar = TRUE) {
 }
 
 
-cargar_precio_cobre_anterior <- function() {
-  message("cargando Excel del precio del cobre del año anterior...")
+cargar_precio_cobre_anterior <- function(año) {
+  message("cargando Excel del precio del cobre del año ", año)
   
-  indicador_cobre_0 <- read_excel("fuentes/bc_precio_cobre/Indicador.xls", 
+  indicador_cobre_0 <- read_excel(paste0("fuentes/bc_precio_cobre/Indicador_", año, ".xls"), 
                                   .name_repair = "unique_quiet")
   
   indicador_cobre_1 <- indicador_cobre_0 |> 
@@ -603,9 +603,32 @@ cargar_precio_cobre_anterior <- function() {
 obtener_precio_cobre <- function() {
   message("obteniendo precio del cobre desde web del Banco Central...")
   
+  # en la página solo aparece el ultimo año, no se puede cambiar el año por url así que habría que usar selenium
   url_precio_cobre = "https://si3.bcentral.cl/Indicadoressiete/secure/Serie.aspx?gcode=LIBRA_COBRE&param=cgBnAE8AOQBlAGcAIwBiAFUALQBsAEcAYgBOAEkASQBCAEcAegBFAFkAeABkADgASAA2AG8AdgB2AFMAUgBYADIAQwBzAEEAMQBJAG8ATwBzAEgATABGAE4AagB1AFcAYgB2AFAAZwBhADIAbABWAHcAXwBXAGgATAAkAFIAVAB1AEIAbAB3AFoAdQBRAFgAZwA5AHgAdgAwACQATwBZADcAMwAuAGIARwBFAFIASwAuAHQA"
   
-  año_e = 2024 #solo va a funcionar por 2024
+  tabla_cobre_2025 <- obtener_cobre_año(url_precio_cobre, 2025)
+  
+  # por lo tanto, los años pasados se descargan manualmente desde esa misma página con el botón de descarga, y se cargan por año:
+  # cargar valor del año pasado
+  cobre_anterior_2023 <- cargar_precio_cobre_anterior(2023)
+  cobre_anterior_2024 <- cargar_precio_cobre_anterior(2024)
+  
+  # anexar valores del año pasado
+  tabla_cobre_5 <- bind_rows(tabla_cobre_2025, 
+                             cobre_anterior_2024,
+                             cobre_anterior_2023) |> 
+    arrange(año, mes, dia) |> 
+    mutate(serie = "Precio del cobre")
+  
+  stopifnot(nrow(tabla_cobre_5) > 12)
+  
+  return(tabla_cobre_5 |> select(serie, fecha, año, mes, valor, con_dato))
+}
+
+
+obtener_cobre_año <- function(url_precio_cobre, año_e) {
+  
+  
   sitio_cobre <- session(url_precio_cobre) |> 
     read_html()
   
@@ -633,17 +656,5 @@ obtener_precio_cobre <- function() {
   tabla_cobre_4 <- tabla_cobre_3 |> 
     arrange(mes, dia) |> 
     fill(valor, .direction = "downup") |> 
-    filter(as.Date(fecha) <= Sys.Date())
-  
-  # cargar valor del año pasado
-  cobre_anterior <- cargar_precio_cobre_anterior()
-  
-  # anexar valor del año pasado
-  tabla_cobre_5 <- bind_rows(tabla_cobre_4, cobre_anterior) |> 
-    arrange(año, mes, dia) |> 
-    mutate(serie = "Precio del cobre")
-  
-  stopifnot(nrow(tabla_cobre_5) > 12)
-  
-  return(tabla_cobre_5 |> select(serie, fecha, año, mes, valor, con_dato))
+    filter(as.Date(fecha) <= Sys.Date()) 
 }

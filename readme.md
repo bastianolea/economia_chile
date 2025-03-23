@@ -29,6 +29,7 @@ Los datos de este repositorio se actualizan automáticamente cada 12 horas por m
 ### Actualizaciones
 
 #### Actualización 23/03/2025
+- Actualizada la obtención de datos de precio del cobre para año 2025
 - Actualizada la obtención de datos de Inversión Extranjera (el dato de fuente cambió en su formato, lo que impedía su obtención)
 - Inversión Extranjera como media móvil de los últimos 3 meses
 
