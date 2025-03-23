@@ -294,7 +294,7 @@ ui <- fluidPage(
         
         ## inversión extranjera ----
         fila_indicador(
-          panel_titular(titulo = "Inversión Extranjera Directa (IED)",
+          panel_titular(titulo = "Inversión Extranjera Directa (IED)*",
                         subtitulo = "Refiere a la transferencia de capital desde empresas extranjeras como inversión a largo plazo en Chile."),
           
           panel_cuadro_resumen("Inversión Extranjera", "invext_ui"),
@@ -391,6 +391,12 @@ ui <- fluidPage(
           panel_grafico_historico("Evolución del índice de producción industrial",
                                   "prod_industrial_g_hist")
         )
+    )
+  ),
+  
+  fluidRow(
+    column(12,
+           p("*: Inversión Extranjera Directa expresada como media móvil de los últimos 3 meses, debido a la volatilidad del indicador.")
     )
   ),
   
@@ -492,7 +498,7 @@ server <- function(input, output) {
   
   # nuevos
   datos_invext <- invext |> 
-    calcular_metricas()
+    calcular_metricas(media_movil = 3)
   
   datos_cobre <- cobre |> 
     calcular_metricas()

@@ -180,7 +180,7 @@ formateador_cifra <- function(dato, unidad = "miles de millones", texto = 2018) 
 }
 
 # calculos ----
-calcular_metricas <- function(datos) {
+calcular_metricas <- function(datos, media_movil = NULL) {
   # browser()
   # datos <- invext
   # ordenar
@@ -189,6 +189,11 @@ calcular_metricas <- function(datos) {
     # arrange(desc(año), desc(mes)) |> 
     mutate(fecha = as_date(fecha)) |> 
     arrange(desc(fecha))
+  
+  if (!is.null(media_movil)) {
+   datos <- datos |> 
+     mutate(valor = slider::slide_dbl(valor, .after = media_movil, mean))
+  }
   
   # ultimos x años
   datos_recientes <- datos |> 
@@ -562,10 +567,10 @@ panel_grafico_historico <- function(titulo, output) {
 
 # gráficos ----
 grafico_variacion <- function(dato, escala = "mensual", subir = "bueno",
-                              mensualizar = FALSE
+                              mensualizar = FALSE, media_movil = FALSE
                               # color_fondo = color_secundario
 ) {
-  
+  # dato <- datos_invext
   if (subir == "bueno") {
     color_subir = color_positivo
     color_bajar = color_negativo
@@ -596,6 +601,18 @@ grafico_variacion <- function(dato, escala = "mensual", subir = "bueno",
     mutate(valor = valor-1) |> 
     mutate(direccion = ifelse(valor > 0, "Aumento", "Disminución"),
            direccion = ifelse(round(valor, 4) == 0.0, "Igual", direccion))
+  
+  # library(slider)
+  # dato_2 |> 
+  #   mutate(valor = slide_dbl(valor, .after = 3, mean)) |>
+  #   print() |> 
+  #   ggplot() +
+  #   geom_col(aes(fecha, valor))
+  
+  if (media_movil) {
+    dato_2 <- dato_2 |> 
+        mutate(valor = slider::slide_dbl(valor, .after = 3, mean))
+  }
   
   if (escala == "trimestre") {
     # browser()
@@ -671,6 +688,8 @@ grafico_variacion <- function(dato, escala = "mensual", subir = "bueno",
       theme(axis.text.x = element_text(angle = -90, vjust = .5, hjust = 0))
   }
   
+  # dev.new()
+  # plot
   return(plot)
 }
 

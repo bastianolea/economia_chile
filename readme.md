@@ -30,6 +30,7 @@ Los datos de este repositorio se actualizan automáticamente cada 12 horas por m
 
 #### Actualización 23/03/2025
 - Actualizada la obtención de datos de Inversión Extranjera (el dato de fuente cambió en su formato, lo que impedía su obtención)
+- Inversión Extranjera como media móvil de los últimos 3 meses
 
 #### Actualización 22/07/2024
 - Indicador de fecha de actualización de los datos, y de dato más reciente (excluyendo la UF, que es diaria)
