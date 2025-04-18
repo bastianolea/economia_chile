@@ -1,541 +1,541 @@
 "";"serie";"fecha";"valor";"año";"mes";"fecha_scraping"
-"1";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2010-3-1";7883,7;2010;3;2025-04-15
-"2";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2010-4-1";7896,5;2010;4;2025-04-15
-"3";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2010-5-1";7899,8;2010;5;2025-04-15
-"4";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2010-6-1";7905,9;2010;6;2025-04-15
-"5";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2010-7-1";7931,6;2010;7;2025-04-15
-"6";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2010-8-1";7960,8;2010;8;2025-04-15
-"7";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2010-9-1";8042,9;2010;9;2025-04-15
-"8";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2010-10-1";8043;2010;10;2025-04-15
-"9";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2010-11-1";8087,4;2010;11;2025-04-15
-"10";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2010-12-1";8160,7;2010;12;2025-04-15
-"11";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2011-1-1";8227,8;2011;1;2025-04-15
-"12";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2011-2-1";8233,9;2011;2;2025-04-15
-"13";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2011-3-1";8246,4;2011;3;2025-04-15
-"14";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2011-4-1";8250;2011;4;2025-04-15
-"15";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2011-5-1";8269,6;2011;5;2025-04-15
-"16";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2011-6-1";8296,9;2011;6;2025-04-15
-"17";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2011-7-1";8285,2;2011;7;2025-04-15
-"18";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2011-8-1";8308,5;2011;8;2025-04-15
-"19";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2011-9-1";8323,2;2011;9;2025-04-15
-"20";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2011-10-1";8322;2011;10;2025-04-15
-"21";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2011-11-1";8327,4;2011;11;2025-04-15
-"22";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2011-12-1";8356,4;2011;12;2025-04-15
-"23";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2012-1-1";8391,7;2012;1;2025-04-15
-"24";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2012-2-1";8424;2012;2;2025-04-15
-"25";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2012-3-1";8416,9;2012;3;2025-04-15
-"26";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2012-4-1";8420;2012;4;2025-04-15
-"27";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2012-5-1";8423;2012;5;2025-04-15
-"28";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2012-6-1";8388,4;2012;6;2025-04-15
-"29";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2012-7-1";8367,1;2012;7;2025-04-15
-"30";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2012-8-1";8356,3;2012;8;2025-04-15
-"31";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2012-9-1";8428,3;2012;9;2025-04-15
-"32";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2012-10-1";8455,5;2012;10;2025-04-15
-"33";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2012-11-1";8462,8;2012;11;2025-04-15
-"34";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2012-12-1";8480,1;2012;12;2025-04-15
-"35";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2013-1-1";8520;2013;1;2025-04-15
-"36";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2013-2-1";8535,7;2013;2;2025-04-15
-"37";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2013-3-1";8539,4;2013;3;2025-04-15
-"38";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2013-4-1";8580,1;2013;4;2025-04-15
-"39";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2013-5-1";8579,5;2013;5;2025-04-15
-"40";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2013-6-1";8538,8;2013;6;2025-04-15
-"41";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2013-7-1";8486,1;2013;7;2025-04-15
-"42";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2013-8-1";8506,1;2013;8;2025-04-15
-"43";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2013-9-1";8509,5;2013;9;2025-04-15
-"44";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2013-10-1";8537,8;2013;10;2025-04-15
-"45";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2013-11-1";8569,7;2013;11;2025-04-15
-"46";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2013-12-1";8649,5;2013;12;2025-04-15
-"47";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2014-1-1";8714;2014;1;2025-04-15
-"48";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2014-2-1";8743,7;2014;2;2025-04-15
-"49";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2014-3-1";8722,9;2014;3;2025-04-15
-"50";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2014-4-1";8716,9;2014;4;2025-04-15
-"51";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2014-5-1";8706,6;2014;5;2025-04-15
-"52";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2014-6-1";8686,6;2014;6;2025-04-15
-"53";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2014-7-1";8655,8;2014;7;2025-04-15
-"54";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2014-8-1";8633,9;2014;8;2025-04-15
-"55";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2014-9-1";8675,2;2014;9;2025-04-15
-"56";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2014-10-1";8709,6;2014;10;2025-04-15
-"57";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2014-11-1";8751,6;2014;11;2025-04-15
-"58";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2014-12-1";8795,4;2014;12;2025-04-15
-"59";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2015-1-1";8807,6;2015;1;2025-04-15
-"60";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2015-2-1";8810,7;2015;2;2025-04-15
-"61";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2015-3-1";8779;2015;3;2025-04-15
-"62";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2015-4-1";8788,9;2015;4;2025-04-15
-"63";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2015-5-1";8806,4;2015;5;2025-04-15
-"64";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2015-6-1";8802,8;2015;6;2025-04-15
-"65";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2015-7-1";8810,4;2015;7;2025-04-15
-"66";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2015-8-1";8829,1;2015;8;2025-04-15
-"67";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2015-9-1";8883,4;2015;9;2025-04-15
-"68";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2015-10-1";8884,7;2015;10;2025-04-15
-"69";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2015-11-1";8909,4;2015;11;2025-04-15
-"70";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2015-12-1";8954,1;2015;12;2025-04-15
-"71";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2016-1-1";8983,7;2016;1;2025-04-15
-"72";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2016-2-1";8958,8;2016;2;2025-04-15
-"73";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2016-3-1";8940,9;2016;3;2025-04-15
-"74";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2016-4-1";8968,6;2016;4;2025-04-15
-"75";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2016-5-1";8981,5;2016;5;2025-04-15
-"76";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2016-6-1";8966,7;2016;6;2025-04-15
-"77";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2016-7-1";8989,5;2016;7;2025-04-15
-"78";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2016-8-1";8967,2;2016;8;2025-04-15
-"79";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2016-9-1";9012;2016;9;2025-04-15
-"80";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2016-10-1";8994,6;2016;10;2025-04-15
-"81";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2016-11-1";9046,4;2016;11;2025-04-15
-"82";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2016-12-1";9062,6;2016;12;2025-04-15
-"83";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2017-1-1";9115,1;2017;1;2025-04-15
-"84";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2017-2-1";9102;2017;2;2025-04-15
-"85";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2017-3-1";9127;2017;3;2025-04-15
-"86";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2017-4-1";9147,4;2017;4;2025-04-15
-"87";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2017-5-1";9210;2017;5;2025-04-15
-"88";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2017-6-1";9196,6;2017;6;2025-04-15
-"89";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2017-7-1";9201,4;2017;7;2025-04-15
-"90";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2017-8-1";9209,7;2017;8;2025-04-15
-"91";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2017-9-1";9260,9;2017;9;2025-04-15
-"92";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2017-10-1";9270,2;2017;10;2025-04-15
-"93";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2017-11-1";9338,7;2017;11;2025-04-15
-"94";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2017-12-1";9379,5;2017;12;2025-04-15
-"95";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2018-1-1";9438,1;2018;1;2025-04-15
-"96";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2018-2-1";9449,5;2018;2;2025-04-15
-"97";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2018-3-1";9456,6;2018;3;2025-04-15
-"98";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2018-4-1";9441,4;2018;4;2025-04-15
-"99";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2018-5-1";9465,3;2018;5;2025-04-15
-"100";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2018-6-1";9466,9;2018;6;2025-04-15
-"101";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2018-7-1";9451;2018;7;2025-04-15
-"102";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2018-8-1";9435,5;2018;8;2025-04-15
-"103";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2018-9-1";9414,2;2018;9;2025-04-15
-"104";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2018-10-1";9476,2;2018;10;2025-04-15
-"105";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2018-11-1";9525,4;2018;11;2025-04-15
-"106";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2018-12-1";9600,3;2018;12;2025-04-15
-"107";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2019-1-1";9613,3;2019;1;2025-04-15
-"108";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2019-2-1";9581,6;2019;2;2025-04-15
-"109";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2019-3-1";9571,7;2019;3;2025-04-15
-"110";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2019-4-1";9597,1;2019;4;2025-04-15
-"111";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2019-5-1";9621,1;2019;5;2025-04-15
-"112";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2019-6-1";9620,5;2019;6;2025-04-15
-"113";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2019-7-1";9638,1;2019;7;2025-04-15
-"114";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2019-8-1";9659,4;2019;8;2025-04-15
-"115";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2019-9-1";9712,7;2019;9;2025-04-15
-"116";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2019-10-1";9686;2019;10;2025-04-15
-"117";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2019-11-1";9722;2019;11;2025-04-15
-"118";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2019-12-1";9777,8;2019;12;2025-04-15
-"119";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2020-1-1";9848,7;2020;1;2025-04-15
-"120";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2020-2-1";9831,2;2020;2;2025-04-15
-"121";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2020-3-1";9744,2;2020;3;2025-04-15
-"122";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2020-4-1";9050,7;2020;4;2025-04-15
-"123";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2020-5-1";8390,9;2020;5;2025-04-15
-"124";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2020-6-1";8136,7;2020;6;2025-04-15
-"125";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2020-7-1";8138,6;2020;7;2025-04-15
-"126";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2020-8-1";8257,2;2020;8;2025-04-15
-"127";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2020-9-1";8402,6;2020;9;2025-04-15
-"128";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2020-10-1";8671,6;2020;10;2025-04-15
-"129";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2020-11-1";8871,1;2020;11;2025-04-15
-"130";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2020-12-1";8946,5;2020;12;2025-04-15
-"131";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2021-1-1";9046,6;2021;1;2025-04-15
-"132";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2021-2-1";9105,9;2021;2;2025-04-15
-"133";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2021-3-1";9089,3;2021;3;2025-04-15
-"134";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2021-4-1";9029,1;2021;4;2025-04-15
-"135";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2021-5-1";8938,3;2021;5;2025-04-15
-"136";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2021-6-1";8884,9;2021;6;2025-04-15
-"137";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2021-7-1";8948,3;2021;7;2025-04-15
-"138";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2021-8-1";9030,7;2021;8;2025-04-15
-"139";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2021-9-1";9111,1;2021;9;2025-04-15
-"140";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2021-10-1";9199,5;2021;10;2025-04-15
-"141";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2021-11-1";9255;2021;11;2025-04-15
-"142";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2021-12-1";9350,6;2021;12;2025-04-15
-"143";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2022-1-1";9396,1;2022;1;2025-04-15
-"144";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2022-2-1";9479,5;2022;2;2025-04-15
-"145";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2022-3-1";9541,6;2022;3;2025-04-15
-"146";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2022-4-1";9577,5;2022;4;2025-04-15
-"147";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2022-5-1";9604,6;2022;5;2025-04-15
-"148";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2022-6-1";9587,3;2022;6;2025-04-15
-"149";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2022-7-1";9610,9;2022;7;2025-04-15
-"150";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2022-8-1";9615,8;2022;8;2025-04-15
-"151";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2022-9-1";9616,7;2022;9;2025-04-15
-"152";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2022-10-1";9637,3;2022;10;2025-04-15
-"153";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2022-11-1";9650,2;2022;11;2025-04-15
-"154";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2022-12-1";9730,3;2022;12;2025-04-15
-"155";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2023-1-1";9795,9;2023;1;2025-04-15
-"156";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2023-2-1";9854,8;2023;2;2025-04-15
-"157";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2023-3-1";9876,1;2023;3;2025-04-15
-"158";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2023-4-1";9860,6;2023;4;2025-04-15
-"159";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2023-5-1";9876,1;2023;5;2025-04-15
-"160";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2023-6-1";9877,4;2023;6;2025-04-15
-"161";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2023-7-1";9896,8;2023;7;2025-04-15
-"162";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2023-8-1";9895,6;2023;8;2025-04-15
-"163";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2023-9-1";9906,4;2023;9;2025-04-15
-"164";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2023-10-1";9935,9;2023;10;2025-04-15
-"165";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2023-11-1";10012,8;2023;11;2025-04-15
-"166";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2023-12-1";10077,2;2023;12;2025-04-15
-"167";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2024-1-1";10127,8;2024;1;2025-04-15
-"168";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2024-2-1";10174,9;2024;2;2025-04-15
-"169";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2024-3-1";10193,2;2024;3;2025-04-15
-"170";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2024-4-1";10209,5;2024;4;2025-04-15
-"171";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2024-5-1";10177,7;2024;5;2025-04-15
-"172";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2024-6-1";10170,4;2024;6;2025-04-15
-"173";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2024-7-1";10137,9;2024;7;2025-04-15
-"174";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2024-8-1";10137,4;2024;8;2025-04-15
-"175";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2024-9-1";10128,9;2024;9;2025-04-15
-"176";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2024-10-1";10117;2024;10;2025-04-15
-"177";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2024-11-1";10117,4;2024;11;2025-04-15
-"178";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2024-12-1";10124,1;2024;12;2025-04-15
-"179";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2025-1-1";10213,5;2025;1;2025-04-15
-"180";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2025-2-1";10256,6;2025;2;2025-04-15
-"181";"Empleo ( promedio móvil trimestral, miles de personas )";"2010-3-1";7156,2;2010;3;2025-04-15
-"182";"Empleo ( promedio móvil trimestral, miles de personas )";"2010-4-1";7198,8;2010;4;2025-04-15
-"183";"Empleo ( promedio móvil trimestral, miles de personas )";"2010-5-1";7181,9;2010;5;2025-04-15
-"184";"Empleo ( promedio móvil trimestral, miles de personas )";"2010-6-1";7221,6;2010;6;2025-04-15
-"185";"Empleo ( promedio móvil trimestral, miles de personas )";"2010-7-1";7256,5;2010;7;2025-04-15
-"186";"Empleo ( promedio móvil trimestral, miles de personas )";"2010-8-1";7289,2;2010;8;2025-04-15
-"187";"Empleo ( promedio móvil trimestral, miles de personas )";"2010-9-1";7389,5;2010;9;2025-04-15
-"188";"Empleo ( promedio móvil trimestral, miles de personas )";"2010-10-1";7414,4;2010;10;2025-04-15
-"189";"Empleo ( promedio móvil trimestral, miles de personas )";"2010-11-1";7503,1;2010;11;2025-04-15
-"190";"Empleo ( promedio móvil trimestral, miles de personas )";"2010-12-1";7572,3;2010;12;2025-04-15
-"191";"Empleo ( promedio móvil trimestral, miles de personas )";"2011-1-1";7615,5;2011;1;2025-04-15
-"192";"Empleo ( promedio móvil trimestral, miles de personas )";"2011-2-1";7621;2011;2;2025-04-15
-"193";"Empleo ( promedio móvil trimestral, miles de personas )";"2011-3-1";7623,9;2011;3;2025-04-15
-"194";"Empleo ( promedio móvil trimestral, miles de personas )";"2011-4-1";7655,1;2011;4;2025-04-15
-"195";"Empleo ( promedio móvil trimestral, miles de personas )";"2011-5-1";7665,5;2011;5;2025-04-15
-"196";"Empleo ( promedio móvil trimestral, miles de personas )";"2011-6-1";7698,5;2011;6;2025-04-15
-"197";"Empleo ( promedio móvil trimestral, miles de personas )";"2011-7-1";7659,4;2011;7;2025-04-15
-"198";"Empleo ( promedio móvil trimestral, miles de personas )";"2011-8-1";7684,2;2011;8;2025-04-15
-"199";"Empleo ( promedio móvil trimestral, miles de personas )";"2011-9-1";7688,4;2011;9;2025-04-15
-"200";"Empleo ( promedio móvil trimestral, miles de personas )";"2011-10-1";7703,1;2011;10;2025-04-15
-"201";"Empleo ( promedio móvil trimestral, miles de personas )";"2011-11-1";7716,9;2011;11;2025-04-15
-"202";"Empleo ( promedio móvil trimestral, miles de personas )";"2011-12-1";7786,9;2011;12;2025-04-15
-"203";"Empleo ( promedio móvil trimestral, miles de personas )";"2012-1-1";7816,6;2012;1;2025-04-15
-"204";"Empleo ( promedio móvil trimestral, miles de personas )";"2012-2-1";7874,1;2012;2;2025-04-15
-"205";"Empleo ( promedio móvil trimestral, miles de personas )";"2012-3-1";7844,8;2012;3;2025-04-15
-"206";"Empleo ( promedio móvil trimestral, miles de personas )";"2012-4-1";7850,5;2012;4;2025-04-15
-"207";"Empleo ( promedio móvil trimestral, miles de personas )";"2012-5-1";7838,3;2012;5;2025-04-15
-"208";"Empleo ( promedio móvil trimestral, miles de personas )";"2012-6-1";7819,5;2012;6;2025-04-15
-"209";"Empleo ( promedio móvil trimestral, miles de personas )";"2012-7-1";7809,5;2012;7;2025-04-15
-"210";"Empleo ( promedio móvil trimestral, miles de personas )";"2012-8-1";7809,9;2012;8;2025-04-15
-"211";"Empleo ( promedio móvil trimestral, miles de personas )";"2012-9-1";7874,1;2012;9;2025-04-15
-"212";"Empleo ( promedio móvil trimestral, miles de personas )";"2012-10-1";7889,4;2012;10;2025-04-15
-"213";"Empleo ( promedio móvil trimestral, miles de personas )";"2012-11-1";7924,6;2012;11;2025-04-15
-"214";"Empleo ( promedio móvil trimestral, miles de personas )";"2012-12-1";7952,3;2012;12;2025-04-15
-"215";"Empleo ( promedio móvil trimestral, miles de personas )";"2013-1-1";7998,6;2013;1;2025-04-15
-"216";"Empleo ( promedio móvil trimestral, miles de personas )";"2013-2-1";7993,3;2013;2;2025-04-15
-"217";"Empleo ( promedio móvil trimestral, miles de personas )";"2013-3-1";7990,7;2013;3;2025-04-15
-"218";"Empleo ( promedio móvil trimestral, miles de personas )";"2013-4-1";8019,1;2013;4;2025-04-15
-"219";"Empleo ( promedio móvil trimestral, miles de personas )";"2013-5-1";8018,3;2013;5;2025-04-15
-"220";"Empleo ( promedio móvil trimestral, miles de personas )";"2013-6-1";8004,2;2013;6;2025-04-15
-"221";"Empleo ( promedio móvil trimestral, miles de personas )";"2013-7-1";7986,8;2013;7;2025-04-15
-"222";"Empleo ( promedio móvil trimestral, miles de personas )";"2013-8-1";8008,6;2013;8;2025-04-15
-"223";"Empleo ( promedio móvil trimestral, miles de personas )";"2013-9-1";8010,8;2013;9;2025-04-15
-"224";"Empleo ( promedio móvil trimestral, miles de personas )";"2013-10-1";8029,6;2013;10;2025-04-15
-"225";"Empleo ( promedio móvil trimestral, miles de personas )";"2013-11-1";8067,1;2013;11;2025-04-15
-"226";"Empleo ( promedio móvil trimestral, miles de personas )";"2013-12-1";8149,4;2013;12;2025-04-15
-"227";"Empleo ( promedio móvil trimestral, miles de personas )";"2014-1-1";8171;2014;1;2025-04-15
-"228";"Empleo ( promedio móvil trimestral, miles de personas )";"2014-2-1";8202,9;2014;2;2025-04-15
-"229";"Empleo ( promedio móvil trimestral, miles de personas )";"2014-3-1";8156,2;2014;3;2025-04-15
-"230";"Empleo ( promedio móvil trimestral, miles de personas )";"2014-4-1";8181,3;2014;4;2025-04-15
-"231";"Empleo ( promedio móvil trimestral, miles de personas )";"2014-5-1";8156;2014;5;2025-04-15
-"232";"Empleo ( promedio móvil trimestral, miles de personas )";"2014-6-1";8120,4;2014;6;2025-04-15
-"233";"Empleo ( promedio móvil trimestral, miles de personas )";"2014-7-1";8085;2014;7;2025-04-15
-"234";"Empleo ( promedio móvil trimestral, miles de personas )";"2014-8-1";8044,5;2014;8;2025-04-15
-"235";"Empleo ( promedio móvil trimestral, miles de personas )";"2014-9-1";8088,7;2014;9;2025-04-15
-"236";"Empleo ( promedio móvil trimestral, miles de personas )";"2014-10-1";8137,9;2014;10;2025-04-15
-"237";"Empleo ( promedio móvil trimestral, miles de personas )";"2014-11-1";8207,7;2014;11;2025-04-15
-"238";"Empleo ( promedio móvil trimestral, miles de personas )";"2014-12-1";8249,6;2014;12;2025-04-15
-"239";"Empleo ( promedio móvil trimestral, miles de personas )";"2015-1-1";8259,2;2015;1;2025-04-15
-"240";"Empleo ( promedio móvil trimestral, miles de personas )";"2015-2-1";8263,1;2015;2;2025-04-15
-"241";"Empleo ( promedio móvil trimestral, miles de personas )";"2015-3-1";8232,2;2015;3;2025-04-15
-"242";"Empleo ( promedio móvil trimestral, miles de personas )";"2015-4-1";8230,3;2015;4;2025-04-15
-"243";"Empleo ( promedio móvil trimestral, miles de personas )";"2015-5-1";8211,8;2015;5;2025-04-15
-"244";"Empleo ( promedio móvil trimestral, miles de personas )";"2015-6-1";8215,6;2015;6;2025-04-15
-"245";"Empleo ( promedio móvil trimestral, miles de personas )";"2015-7-1";8220,8;2015;7;2025-04-15
-"246";"Empleo ( promedio móvil trimestral, miles de personas )";"2015-8-1";8250,1;2015;8;2025-04-15
-"247";"Empleo ( promedio móvil trimestral, miles de personas )";"2015-9-1";8302;2015;9;2025-04-15
-"248";"Empleo ( promedio móvil trimestral, miles de personas )";"2015-10-1";8312,1;2015;10;2025-04-15
-"249";"Empleo ( promedio móvil trimestral, miles de personas )";"2015-11-1";8359,3;2015;11;2025-04-15
-"250";"Empleo ( promedio móvil trimestral, miles de personas )";"2015-12-1";8428,5;2015;12;2025-04-15
-"251";"Empleo ( promedio móvil trimestral, miles de personas )";"2016-1-1";8452,1;2016;1;2025-04-15
-"252";"Empleo ( promedio móvil trimestral, miles de personas )";"2016-2-1";8417,1;2016;2;2025-04-15
-"253";"Empleo ( promedio móvil trimestral, miles de personas )";"2016-3-1";8360,6;2016;3;2025-04-15
-"254";"Empleo ( promedio móvil trimestral, miles de personas )";"2016-4-1";8376,2;2016;4;2025-04-15
-"255";"Empleo ( promedio móvil trimestral, miles de personas )";"2016-5-1";8350,3;2016;5;2025-04-15
-"256";"Empleo ( promedio móvil trimestral, miles de personas )";"2016-6-1";8337,4;2016;6;2025-04-15
-"257";"Empleo ( promedio móvil trimestral, miles de personas )";"2016-7-1";8336,2;2016;7;2025-04-15
-"258";"Empleo ( promedio móvil trimestral, miles de personas )";"2016-8-1";8333,2;2016;8;2025-04-15
-"259";"Empleo ( promedio móvil trimestral, miles de personas )";"2016-9-1";8378,4;2016;9;2025-04-15
-"260";"Empleo ( promedio móvil trimestral, miles de personas )";"2016-10-1";8393,7;2016;10;2025-04-15
-"261";"Empleo ( promedio móvil trimestral, miles de personas )";"2016-11-1";8467,1;2016;11;2025-04-15
-"262";"Empleo ( promedio móvil trimestral, miles de personas )";"2016-12-1";8500,7;2016;12;2025-04-15
-"263";"Empleo ( promedio móvil trimestral, miles de personas )";"2017-1-1";8534,6;2017;1;2025-04-15
-"264";"Empleo ( promedio móvil trimestral, miles de personas )";"2017-2-1";8485,7;2017;2;2025-04-15
-"265";"Empleo ( promedio móvil trimestral, miles de personas )";"2017-3-1";8484,4;2017;3;2025-04-15
-"266";"Empleo ( promedio móvil trimestral, miles de personas )";"2017-4-1";8499,9;2017;4;2025-04-15
-"267";"Empleo ( promedio móvil trimestral, miles de personas )";"2017-5-1";8535,2;2017;5;2025-04-15
-"268";"Empleo ( promedio móvil trimestral, miles de personas )";"2017-6-1";8524,1;2017;6;2025-04-15
-"269";"Empleo ( promedio móvil trimestral, miles de personas )";"2017-7-1";8537,4;2017;7;2025-04-15
-"270";"Empleo ( promedio móvil trimestral, miles de personas )";"2017-8-1";8573,5;2017;8;2025-04-15
-"271";"Empleo ( promedio móvil trimestral, miles de personas )";"2017-9-1";8613,1;2017;9;2025-04-15
-"272";"Empleo ( promedio móvil trimestral, miles de personas )";"2017-10-1";8622,7;2017;10;2025-04-15
-"273";"Empleo ( promedio móvil trimestral, miles de personas )";"2017-11-1";8712,7;2017;11;2025-04-15
-"274";"Empleo ( promedio móvil trimestral, miles de personas )";"2017-12-1";8768,7;2017;12;2025-04-15
-"275";"Empleo ( promedio móvil trimestral, miles de personas )";"2018-1-1";8793,9;2018;1;2025-04-15
-"276";"Empleo ( promedio móvil trimestral, miles de personas )";"2018-2-1";8787,1;2018;2;2025-04-15
-"277";"Empleo ( promedio móvil trimestral, miles de personas )";"2018-3-1";8759,1;2018;3;2025-04-15
-"278";"Empleo ( promedio móvil trimestral, miles de personas )";"2018-4-1";8781,1;2018;4;2025-04-15
-"279";"Empleo ( promedio móvil trimestral, miles de personas )";"2018-5-1";8766,7;2018;5;2025-04-15
-"280";"Empleo ( promedio móvil trimestral, miles de personas )";"2018-6-1";8755,5;2018;6;2025-04-15
-"281";"Empleo ( promedio móvil trimestral, miles de personas )";"2018-7-1";8708,7;2018;7;2025-04-15
-"282";"Empleo ( promedio móvil trimestral, miles de personas )";"2018-8-1";8707,2;2018;8;2025-04-15
-"283";"Empleo ( promedio móvil trimestral, miles de personas )";"2018-9-1";8710,9;2018;9;2025-04-15
-"284";"Empleo ( promedio móvil trimestral, miles de personas )";"2018-10-1";8773,8;2018;10;2025-04-15
-"285";"Empleo ( promedio móvil trimestral, miles de personas )";"2018-11-1";8829;2018;11;2025-04-15
-"286";"Empleo ( promedio móvil trimestral, miles de personas )";"2018-12-1";8914,2;2018;12;2025-04-15
-"287";"Empleo ( promedio móvil trimestral, miles de personas )";"2019-1-1";8928;2019;1;2025-04-15
-"288";"Empleo ( promedio móvil trimestral, miles de personas )";"2019-2-1";8907,6;2019;2;2025-04-15
-"289";"Empleo ( promedio móvil trimestral, miles de personas )";"2019-3-1";8879,1;2019;3;2025-04-15
-"290";"Empleo ( promedio móvil trimestral, miles de personas )";"2019-4-1";8916;2019;4;2025-04-15
-"291";"Empleo ( promedio móvil trimestral, miles de personas )";"2019-5-1";8925,3;2019;5;2025-04-15
-"292";"Empleo ( promedio móvil trimestral, miles de personas )";"2019-6-1";8922,6;2019;6;2025-04-15
-"293";"Empleo ( promedio móvil trimestral, miles de personas )";"2019-7-1";8910,6;2019;7;2025-04-15
-"294";"Empleo ( promedio móvil trimestral, miles de personas )";"2019-8-1";8928;2019;8;2025-04-15
-"295";"Empleo ( promedio móvil trimestral, miles de personas )";"2019-9-1";9000,1;2019;9;2025-04-15
-"296";"Empleo ( promedio móvil trimestral, miles de personas )";"2019-10-1";8994,4;2019;10;2025-04-15
-"297";"Empleo ( promedio móvil trimestral, miles de personas )";"2019-11-1";9045,4;2019;11;2025-04-15
-"298";"Empleo ( promedio móvil trimestral, miles de personas )";"2019-12-1";9087,1;2019;12;2025-04-15
-"299";"Empleo ( promedio móvil trimestral, miles de personas )";"2020-1-1";9115,6;2020;1;2025-04-15
-"300";"Empleo ( promedio móvil trimestral, miles de personas )";"2020-2-1";9063,4;2020;2;2025-04-15
-"301";"Empleo ( promedio móvil trimestral, miles de personas )";"2020-3-1";8942,4;2020;3;2025-04-15
-"302";"Empleo ( promedio móvil trimestral, miles de personas )";"2020-4-1";8235,9;2020;4;2025-04-15
-"303";"Empleo ( promedio móvil trimestral, miles de personas )";"2020-5-1";7450,5;2020;5;2025-04-15
-"304";"Empleo ( promedio móvil trimestral, miles de personas )";"2020-6-1";7142,6;2020;6;2025-04-15
-"305";"Empleo ( promedio móvil trimestral, miles de personas )";"2020-7-1";7073,2;2020;7;2025-04-15
-"306";"Empleo ( promedio móvil trimestral, miles de personas )";"2020-8-1";7191,4;2020;8;2025-04-15
-"307";"Empleo ( promedio móvil trimestral, miles de personas )";"2020-9-1";7365,1;2020;9;2025-04-15
-"308";"Empleo ( promedio móvil trimestral, miles de personas )";"2020-10-1";7667,7;2020;10;2025-04-15
-"309";"Empleo ( promedio móvil trimestral, miles de personas )";"2020-11-1";7916,7;2020;11;2025-04-15
-"310";"Empleo ( promedio móvil trimestral, miles de personas )";"2020-12-1";8026,2;2020;12;2025-04-15
-"311";"Empleo ( promedio móvil trimestral, miles de personas )";"2021-1-1";8121,4;2021;1;2025-04-15
-"312";"Empleo ( promedio móvil trimestral, miles de personas )";"2021-2-1";8167,6;2021;2;2025-04-15
-"313";"Empleo ( promedio móvil trimestral, miles de personas )";"2021-3-1";8148,2;2021;3;2025-04-15
-"314";"Empleo ( promedio móvil trimestral, miles de personas )";"2021-4-1";8104,1;2021;4;2025-04-15
-"315";"Empleo ( promedio móvil trimestral, miles de personas )";"2021-5-1";8041,1;2021;5;2025-04-15
-"316";"Empleo ( promedio móvil trimestral, miles de personas )";"2021-6-1";8041,2;2021;6;2025-04-15
-"317";"Empleo ( promedio móvil trimestral, miles de personas )";"2021-7-1";8148,9;2021;7;2025-04-15
-"318";"Empleo ( promedio móvil trimestral, miles de personas )";"2021-8-1";8258,8;2021;8;2025-04-15
-"319";"Empleo ( promedio móvil trimestral, miles de personas )";"2021-9-1";8345,2;2021;9;2025-04-15
-"320";"Empleo ( promedio móvil trimestral, miles de personas )";"2021-10-1";8456,5;2021;10;2025-04-15
-"321";"Empleo ( promedio móvil trimestral, miles de personas )";"2021-11-1";8558,4;2021;11;2025-04-15
-"322";"Empleo ( promedio móvil trimestral, miles de personas )";"2021-12-1";8678,3;2021;12;2025-04-15
-"323";"Empleo ( promedio móvil trimestral, miles de personas )";"2022-1-1";8712,9;2022;1;2025-04-15
-"324";"Empleo ( promedio móvil trimestral, miles de personas )";"2022-2-1";8768,6;2022;2;2025-04-15
-"325";"Empleo ( promedio móvil trimestral, miles de personas )";"2022-3-1";8797,6;2022;3;2025-04-15
-"326";"Empleo ( promedio móvil trimestral, miles de personas )";"2022-4-1";8835,5;2022;4;2025-04-15
-"327";"Empleo ( promedio móvil trimestral, miles de personas )";"2022-5-1";8855,1;2022;5;2025-04-15
-"328";"Empleo ( promedio móvil trimestral, miles de personas )";"2022-6-1";8838,4;2022;6;2025-04-15
-"329";"Empleo ( promedio móvil trimestral, miles de personas )";"2022-7-1";8849,8;2022;7;2025-04-15
-"330";"Empleo ( promedio móvil trimestral, miles de personas )";"2022-8-1";8853,3;2022;8;2025-04-15
-"331";"Empleo ( promedio móvil trimestral, miles de personas )";"2022-9-1";8843,5;2022;9;2025-04-15
-"332";"Empleo ( promedio móvil trimestral, miles de personas )";"2022-10-1";8869,3;2022;10;2025-04-15
-"333";"Empleo ( promedio móvil trimestral, miles de personas )";"2022-11-1";8883,1;2022;11;2025-04-15
-"334";"Empleo ( promedio móvil trimestral, miles de personas )";"2022-12-1";8965,2;2022;12;2025-04-15
-"335";"Empleo ( promedio móvil trimestral, miles de personas )";"2023-1-1";9008,5;2023;1;2025-04-15
-"336";"Empleo ( promedio móvil trimestral, miles de personas )";"2023-2-1";9030,2;2023;2;2025-04-15
-"337";"Empleo ( promedio móvil trimestral, miles de personas )";"2023-3-1";9006,1;2023;3;2025-04-15
-"338";"Empleo ( promedio móvil trimestral, miles de personas )";"2023-4-1";9006,7;2023;4;2025-04-15
-"339";"Empleo ( promedio móvil trimestral, miles de personas )";"2023-5-1";9034,2;2023;5;2025-04-15
-"340";"Empleo ( promedio móvil trimestral, miles de personas )";"2023-6-1";9035,1;2023;6;2025-04-15
-"341";"Empleo ( promedio móvil trimestral, miles de personas )";"2023-7-1";9028,6;2023;7;2025-04-15
-"342";"Empleo ( promedio móvil trimestral, miles de personas )";"2023-8-1";9005,4;2023;8;2025-04-15
-"343";"Empleo ( promedio móvil trimestral, miles de personas )";"2023-9-1";9023,5;2023;9;2025-04-15
-"344";"Empleo ( promedio móvil trimestral, miles de personas )";"2023-10-1";9053;2023;10;2025-04-15
-"345";"Empleo ( promedio móvil trimestral, miles de personas )";"2023-11-1";9138,4;2023;11;2025-04-15
-"346";"Empleo ( promedio móvil trimestral, miles de personas )";"2023-12-1";9223,1;2023;12;2025-04-15
-"347";"Empleo ( promedio móvil trimestral, miles de personas )";"2024-1-1";9273,4;2024;1;2025-04-15
-"348";"Empleo ( promedio móvil trimestral, miles de personas )";"2024-2-1";9309,6;2024;2;2025-04-15
-"349";"Empleo ( promedio móvil trimestral, miles de personas )";"2024-3-1";9308,7;2024;3;2025-04-15
-"350";"Empleo ( promedio móvil trimestral, miles de personas )";"2024-4-1";9339,3;2024;4;2025-04-15
-"351";"Empleo ( promedio móvil trimestral, miles de personas )";"2024-5-1";9331,6;2024;5;2025-04-15
-"352";"Empleo ( promedio móvil trimestral, miles de personas )";"2024-6-1";9321,4;2024;6;2025-04-15
-"353";"Empleo ( promedio móvil trimestral, miles de personas )";"2024-7-1";9257,5;2024;7;2025-04-15
-"354";"Empleo ( promedio móvil trimestral, miles de personas )";"2024-8-1";9235,1;2024;8;2025-04-15
-"355";"Empleo ( promedio móvil trimestral, miles de personas )";"2024-9-1";9243,4;2024;9;2025-04-15
-"356";"Empleo ( promedio móvil trimestral, miles de personas )";"2024-10-1";9249;2024;10;2025-04-15
-"357";"Empleo ( promedio móvil trimestral, miles de personas )";"2024-11-1";9286;2024;11;2025-04-15
-"358";"Empleo ( promedio móvil trimestral, miles de personas )";"2024-12-1";9306,1;2024;12;2025-04-15
-"359";"Empleo ( promedio móvil trimestral, miles de personas )";"2025-1-1";9394,1;2025;1;2025-04-15
-"360";"Empleo ( promedio móvil trimestral, miles de personas )";"2025-2-1";9396,9;2025;2;2025-04-15
-"361";"Tasa  de  desempleo  (porcentaje)";"2010-3-1";9,2;2010;3;2025-04-15
-"362";"Tasa  de  desempleo  (porcentaje)";"2010-4-1";8,8;2010;4;2025-04-15
-"363";"Tasa  de  desempleo  (porcentaje)";"2010-5-1";9,1;2010;5;2025-04-15
-"364";"Tasa  de  desempleo  (porcentaje)";"2010-6-1";8,7;2010;6;2025-04-15
-"365";"Tasa  de  desempleo  (porcentaje)";"2010-7-1";8,5;2010;7;2025-04-15
-"366";"Tasa  de  desempleo  (porcentaje)";"2010-8-1";8,4;2010;8;2025-04-15
-"367";"Tasa  de  desempleo  (porcentaje)";"2010-9-1";8,1;2010;9;2025-04-15
-"368";"Tasa  de  desempleo  (porcentaje)";"2010-10-1";7,8;2010;10;2025-04-15
-"369";"Tasa  de  desempleo  (porcentaje)";"2010-11-1";7,2;2010;11;2025-04-15
-"370";"Tasa  de  desempleo  (porcentaje)";"2010-12-1";7,2;2010;12;2025-04-15
-"371";"Tasa  de  desempleo  (porcentaje)";"2011-1-1";7,4;2011;1;2025-04-15
-"372";"Tasa  de  desempleo  (porcentaje)";"2011-2-1";7,4;2011;2;2025-04-15
-"373";"Tasa  de  desempleo  (porcentaje)";"2011-3-1";7,5;2011;3;2025-04-15
-"374";"Tasa  de  desempleo  (porcentaje)";"2011-4-1";7,2;2011;4;2025-04-15
-"375";"Tasa  de  desempleo  (porcentaje)";"2011-5-1";7,3;2011;5;2025-04-15
-"376";"Tasa  de  desempleo  (porcentaje)";"2011-6-1";7,2;2011;6;2025-04-15
-"377";"Tasa  de  desempleo  (porcentaje)";"2011-7-1";7,6;2011;7;2025-04-15
-"378";"Tasa  de  desempleo  (porcentaje)";"2011-8-1";7,5;2011;8;2025-04-15
-"379";"Tasa  de  desempleo  (porcentaje)";"2011-9-1";7,6;2011;9;2025-04-15
-"380";"Tasa  de  desempleo  (porcentaje)";"2011-10-1";7,4;2011;10;2025-04-15
-"381";"Tasa  de  desempleo  (porcentaje)";"2011-11-1";7,3;2011;11;2025-04-15
-"382";"Tasa  de  desempleo  (porcentaje)";"2011-12-1";6,8;2011;12;2025-04-15
-"383";"Tasa  de  desempleo  (porcentaje)";"2012-1-1";6,9;2012;1;2025-04-15
-"384";"Tasa  de  desempleo  (porcentaje)";"2012-2-1";6,5;2012;2;2025-04-15
-"385";"Tasa  de  desempleo  (porcentaje)";"2012-3-1";6,8;2012;3;2025-04-15
-"386";"Tasa  de  desempleo  (porcentaje)";"2012-4-1";6,8;2012;4;2025-04-15
-"387";"Tasa  de  desempleo  (porcentaje)";"2012-5-1";6,9;2012;5;2025-04-15
-"388";"Tasa  de  desempleo  (porcentaje)";"2012-6-1";6,8;2012;6;2025-04-15
-"389";"Tasa  de  desempleo  (porcentaje)";"2012-7-1";6,7;2012;7;2025-04-15
-"390";"Tasa  de  desempleo  (porcentaje)";"2012-8-1";6,5;2012;8;2025-04-15
-"391";"Tasa  de  desempleo  (porcentaje)";"2012-9-1";6,6;2012;9;2025-04-15
-"392";"Tasa  de  desempleo  (porcentaje)";"2012-10-1";6,7;2012;10;2025-04-15
-"393";"Tasa  de  desempleo  (porcentaje)";"2012-11-1";6,4;2012;11;2025-04-15
-"394";"Tasa  de  desempleo  (porcentaje)";"2012-12-1";6,2;2012;12;2025-04-15
-"395";"Tasa  de  desempleo  (porcentaje)";"2013-1-1";6,1;2013;1;2025-04-15
-"396";"Tasa  de  desempleo  (porcentaje)";"2013-2-1";6,4;2013;2;2025-04-15
-"397";"Tasa  de  desempleo  (porcentaje)";"2013-3-1";6,4;2013;3;2025-04-15
-"398";"Tasa  de  desempleo  (porcentaje)";"2013-4-1";6,5;2013;4;2025-04-15
-"399";"Tasa  de  desempleo  (porcentaje)";"2013-5-1";6,5;2013;5;2025-04-15
-"400";"Tasa  de  desempleo  (porcentaje)";"2013-6-1";6,3;2013;6;2025-04-15
-"401";"Tasa  de  desempleo  (porcentaje)";"2013-7-1";5,9;2013;7;2025-04-15
-"402";"Tasa  de  desempleo  (porcentaje)";"2013-8-1";5,8;2013;8;2025-04-15
-"403";"Tasa  de  desempleo  (porcentaje)";"2013-9-1";5,9;2013;9;2025-04-15
-"404";"Tasa  de  desempleo  (porcentaje)";"2013-10-1";6;2013;10;2025-04-15
-"405";"Tasa  de  desempleo  (porcentaje)";"2013-11-1";5,9;2013;11;2025-04-15
-"406";"Tasa  de  desempleo  (porcentaje)";"2013-12-1";5,8;2013;12;2025-04-15
-"407";"Tasa  de  desempleo  (porcentaje)";"2014-1-1";6,2;2014;1;2025-04-15
-"408";"Tasa  de  desempleo  (porcentaje)";"2014-2-1";6,2;2014;2;2025-04-15
-"409";"Tasa  de  desempleo  (porcentaje)";"2014-3-1";6,5;2014;3;2025-04-15
-"410";"Tasa  de  desempleo  (porcentaje)";"2014-4-1";6,1;2014;4;2025-04-15
-"411";"Tasa  de  desempleo  (porcentaje)";"2014-5-1";6,3;2014;5;2025-04-15
-"412";"Tasa  de  desempleo  (porcentaje)";"2014-6-1";6,5;2014;6;2025-04-15
-"413";"Tasa  de  desempleo  (porcentaje)";"2014-7-1";6,6;2014;7;2025-04-15
-"414";"Tasa  de  desempleo  (porcentaje)";"2014-8-1";6,8;2014;8;2025-04-15
-"415";"Tasa  de  desempleo  (porcentaje)";"2014-9-1";6,8;2014;9;2025-04-15
-"416";"Tasa  de  desempleo  (porcentaje)";"2014-10-1";6,6;2014;10;2025-04-15
-"417";"Tasa  de  desempleo  (porcentaje)";"2014-11-1";6,2;2014;11;2025-04-15
-"418";"Tasa  de  desempleo  (porcentaje)";"2014-12-1";6,2;2014;12;2025-04-15
-"419";"Tasa  de  desempleo  (porcentaje)";"2015-1-1";6,2;2015;1;2025-04-15
-"420";"Tasa  de  desempleo  (porcentaje)";"2015-2-1";6,2;2015;2;2025-04-15
-"421";"Tasa  de  desempleo  (porcentaje)";"2015-3-1";6,2;2015;3;2025-04-15
-"422";"Tasa  de  desempleo  (porcentaje)";"2015-4-1";6,4;2015;4;2025-04-15
-"423";"Tasa  de  desempleo  (porcentaje)";"2015-5-1";6,8;2015;5;2025-04-15
-"424";"Tasa  de  desempleo  (porcentaje)";"2015-6-1";6,7;2015;6;2025-04-15
-"425";"Tasa  de  desempleo  (porcentaje)";"2015-7-1";6,7;2015;7;2025-04-15
-"426";"Tasa  de  desempleo  (porcentaje)";"2015-8-1";6,6;2015;8;2025-04-15
-"427";"Tasa  de  desempleo  (porcentaje)";"2015-9-1";6,5;2015;9;2025-04-15
-"428";"Tasa  de  desempleo  (porcentaje)";"2015-10-1";6,4;2015;10;2025-04-15
-"429";"Tasa  de  desempleo  (porcentaje)";"2015-11-1";6,2;2015;11;2025-04-15
-"430";"Tasa  de  desempleo  (porcentaje)";"2015-12-1";5,9;2015;12;2025-04-15
-"431";"Tasa  de  desempleo  (porcentaje)";"2016-1-1";5,9;2016;1;2025-04-15
-"432";"Tasa  de  desempleo  (porcentaje)";"2016-2-1";6;2016;2;2025-04-15
-"433";"Tasa  de  desempleo  (porcentaje)";"2016-3-1";6,5;2016;3;2025-04-15
-"434";"Tasa  de  desempleo  (porcentaje)";"2016-4-1";6,6;2016;4;2025-04-15
-"435";"Tasa  de  desempleo  (porcentaje)";"2016-5-1";7;2016;5;2025-04-15
-"436";"Tasa  de  desempleo  (porcentaje)";"2016-6-1";7;2016;6;2025-04-15
-"437";"Tasa  de  desempleo  (porcentaje)";"2016-7-1";7,3;2016;7;2025-04-15
-"438";"Tasa  de  desempleo  (porcentaje)";"2016-8-1";7,1;2016;8;2025-04-15
-"439";"Tasa  de  desempleo  (porcentaje)";"2016-9-1";7;2016;9;2025-04-15
-"440";"Tasa  de  desempleo  (porcentaje)";"2016-10-1";6,7;2016;10;2025-04-15
-"441";"Tasa  de  desempleo  (porcentaje)";"2016-11-1";6,4;2016;11;2025-04-15
-"442";"Tasa  de  desempleo  (porcentaje)";"2016-12-1";6,2;2016;12;2025-04-15
-"443";"Tasa  de  desempleo  (porcentaje)";"2017-1-1";6,4;2017;1;2025-04-15
-"444";"Tasa  de  desempleo  (porcentaje)";"2017-2-1";6,8;2017;2;2025-04-15
-"445";"Tasa  de  desempleo  (porcentaje)";"2017-3-1";7;2017;3;2025-04-15
-"446";"Tasa  de  desempleo  (porcentaje)";"2017-4-1";7,1;2017;4;2025-04-15
-"447";"Tasa  de  desempleo  (porcentaje)";"2017-5-1";7,3;2017;5;2025-04-15
-"448";"Tasa  de  desempleo  (porcentaje)";"2017-6-1";7,3;2017;6;2025-04-15
-"449";"Tasa  de  desempleo  (porcentaje)";"2017-7-1";7,2;2017;7;2025-04-15
-"450";"Tasa  de  desempleo  (porcentaje)";"2017-8-1";6,9;2017;8;2025-04-15
-"451";"Tasa  de  desempleo  (porcentaje)";"2017-9-1";7;2017;9;2025-04-15
-"452";"Tasa  de  desempleo  (porcentaje)";"2017-10-1";7;2017;10;2025-04-15
-"453";"Tasa  de  desempleo  (porcentaje)";"2017-11-1";6,7;2017;11;2025-04-15
-"454";"Tasa  de  desempleo  (porcentaje)";"2017-12-1";6,5;2017;12;2025-04-15
-"455";"Tasa  de  desempleo  (porcentaje)";"2018-1-1";6,8;2018;1;2025-04-15
-"456";"Tasa  de  desempleo  (porcentaje)";"2018-2-1";7;2018;2;2025-04-15
-"457";"Tasa  de  desempleo  (porcentaje)";"2018-3-1";7,4;2018;3;2025-04-15
-"458";"Tasa  de  desempleo  (porcentaje)";"2018-4-1";7;2018;4;2025-04-15
-"459";"Tasa  de  desempleo  (porcentaje)";"2018-5-1";7,4;2018;5;2025-04-15
-"460";"Tasa  de  desempleo  (porcentaje)";"2018-6-1";7,5;2018;6;2025-04-15
-"461";"Tasa  de  desempleo  (porcentaje)";"2018-7-1";7,9;2018;7;2025-04-15
-"462";"Tasa  de  desempleo  (porcentaje)";"2018-8-1";7,7;2018;8;2025-04-15
-"463";"Tasa  de  desempleo  (porcentaje)";"2018-9-1";7,5;2018;9;2025-04-15
-"464";"Tasa  de  desempleo  (porcentaje)";"2018-10-1";7,4;2018;10;2025-04-15
-"465";"Tasa  de  desempleo  (porcentaje)";"2018-11-1";7,3;2018;11;2025-04-15
-"466";"Tasa  de  desempleo  (porcentaje)";"2018-12-1";7,1;2018;12;2025-04-15
-"467";"Tasa  de  desempleo  (porcentaje)";"2019-1-1";7,1;2019;1;2025-04-15
-"468";"Tasa  de  desempleo  (porcentaje)";"2019-2-1";7;2019;2;2025-04-15
-"469";"Tasa  de  desempleo  (porcentaje)";"2019-3-1";7,2;2019;3;2025-04-15
-"470";"Tasa  de  desempleo  (porcentaje)";"2019-4-1";7,1;2019;4;2025-04-15
-"471";"Tasa  de  desempleo  (porcentaje)";"2019-5-1";7,2;2019;5;2025-04-15
-"472";"Tasa  de  desempleo  (porcentaje)";"2019-6-1";7,3;2019;6;2025-04-15
-"473";"Tasa  de  desempleo  (porcentaje)";"2019-7-1";7,5;2019;7;2025-04-15
-"474";"Tasa  de  desempleo  (porcentaje)";"2019-8-1";7,6;2019;8;2025-04-15
-"475";"Tasa  de  desempleo  (porcentaje)";"2019-9-1";7,3;2019;9;2025-04-15
-"476";"Tasa  de  desempleo  (porcentaje)";"2019-10-1";7,1;2019;10;2025-04-15
-"477";"Tasa  de  desempleo  (porcentaje)";"2019-11-1";7;2019;11;2025-04-15
-"478";"Tasa  de  desempleo  (porcentaje)";"2019-12-1";7,1;2019;12;2025-04-15
-"479";"Tasa  de  desempleo  (porcentaje)";"2020-1-1";7,4;2020;1;2025-04-15
-"480";"Tasa  de  desempleo  (porcentaje)";"2020-2-1";7,8;2020;2;2025-04-15
-"481";"Tasa  de  desempleo  (porcentaje)";"2020-3-1";8,2;2020;3;2025-04-15
-"482";"Tasa  de  desempleo  (porcentaje)";"2020-4-1";9;2020;4;2025-04-15
-"483";"Tasa  de  desempleo  (porcentaje)";"2020-5-1";11,2;2020;5;2025-04-15
-"484";"Tasa  de  desempleo  (porcentaje)";"2020-6-1";12,2;2020;6;2025-04-15
-"485";"Tasa  de  desempleo  (porcentaje)";"2020-7-1";13,1;2020;7;2025-04-15
-"486";"Tasa  de  desempleo  (porcentaje)";"2020-8-1";12,9;2020;8;2025-04-15
-"487";"Tasa  de  desempleo  (porcentaje)";"2020-9-1";12,3;2020;9;2025-04-15
-"488";"Tasa  de  desempleo  (porcentaje)";"2020-10-1";11,6;2020;10;2025-04-15
-"489";"Tasa  de  desempleo  (porcentaje)";"2020-11-1";10,8;2020;11;2025-04-15
-"490";"Tasa  de  desempleo  (porcentaje)";"2020-12-1";10,3;2020;12;2025-04-15
-"491";"Tasa  de  desempleo  (porcentaje)";"2021-1-1";10,2;2021;1;2025-04-15
-"492";"Tasa  de  desempleo  (porcentaje)";"2021-2-1";10,3;2021;2;2025-04-15
-"493";"Tasa  de  desempleo  (porcentaje)";"2021-3-1";10,4;2021;3;2025-04-15
-"494";"Tasa  de  desempleo  (porcentaje)";"2021-4-1";10,2;2021;4;2025-04-15
-"495";"Tasa  de  desempleo  (porcentaje)";"2021-5-1";10;2021;5;2025-04-15
-"496";"Tasa  de  desempleo  (porcentaje)";"2021-6-1";9,5;2021;6;2025-04-15
-"497";"Tasa  de  desempleo  (porcentaje)";"2021-7-1";8,9;2021;7;2025-04-15
-"498";"Tasa  de  desempleo  (porcentaje)";"2021-8-1";8,5;2021;8;2025-04-15
-"499";"Tasa  de  desempleo  (porcentaje)";"2021-9-1";8,4;2021;9;2025-04-15
-"500";"Tasa  de  desempleo  (porcentaje)";"2021-10-1";8,1;2021;10;2025-04-15
-"501";"Tasa  de  desempleo  (porcentaje)";"2021-11-1";7,5;2021;11;2025-04-15
-"502";"Tasa  de  desempleo  (porcentaje)";"2021-12-1";7,2;2021;12;2025-04-15
-"503";"Tasa  de  desempleo  (porcentaje)";"2022-1-1";7,3;2022;1;2025-04-15
-"504";"Tasa  de  desempleo  (porcentaje)";"2022-2-1";7,5;2022;2;2025-04-15
-"505";"Tasa  de  desempleo  (porcentaje)";"2022-3-1";7,8;2022;3;2025-04-15
-"506";"Tasa  de  desempleo  (porcentaje)";"2022-4-1";7,7;2022;4;2025-04-15
-"507";"Tasa  de  desempleo  (porcentaje)";"2022-5-1";7,8;2022;5;2025-04-15
-"508";"Tasa  de  desempleo  (porcentaje)";"2022-6-1";7,8;2022;6;2025-04-15
-"509";"Tasa  de  desempleo  (porcentaje)";"2022-7-1";7,9;2022;7;2025-04-15
-"510";"Tasa  de  desempleo  (porcentaje)";"2022-8-1";7,9;2022;8;2025-04-15
-"511";"Tasa  de  desempleo  (porcentaje)";"2022-9-1";8;2022;9;2025-04-15
-"512";"Tasa  de  desempleo  (porcentaje)";"2022-10-1";8;2022;10;2025-04-15
-"513";"Tasa  de  desempleo  (porcentaje)";"2022-11-1";7,9;2022;11;2025-04-15
-"514";"Tasa  de  desempleo  (porcentaje)";"2022-12-1";7,9;2022;12;2025-04-15
-"515";"Tasa  de  desempleo  (porcentaje)";"2023-1-1";8;2023;1;2025-04-15
-"516";"Tasa  de  desempleo  (porcentaje)";"2023-2-1";8,4;2023;2;2025-04-15
-"517";"Tasa  de  desempleo  (porcentaje)";"2023-3-1";8,8;2023;3;2025-04-15
-"518";"Tasa  de  desempleo  (porcentaje)";"2023-4-1";8,7;2023;4;2025-04-15
-"519";"Tasa  de  desempleo  (porcentaje)";"2023-5-1";8,5;2023;5;2025-04-15
-"520";"Tasa  de  desempleo  (porcentaje)";"2023-6-1";8,5;2023;6;2025-04-15
-"521";"Tasa  de  desempleo  (porcentaje)";"2023-7-1";8,8;2023;7;2025-04-15
-"522";"Tasa  de  desempleo  (porcentaje)";"2023-8-1";9;2023;8;2025-04-15
-"523";"Tasa  de  desempleo  (porcentaje)";"2023-9-1";8,9;2023;9;2025-04-15
-"524";"Tasa  de  desempleo  (porcentaje)";"2023-10-1";8,9;2023;10;2025-04-15
-"525";"Tasa  de  desempleo  (porcentaje)";"2023-11-1";8,7;2023;11;2025-04-15
-"526";"Tasa  de  desempleo  (porcentaje)";"2023-12-1";8,5;2023;12;2025-04-15
-"527";"Tasa  de  desempleo  (porcentaje)";"2024-1-1";8,4;2024;1;2025-04-15
-"528";"Tasa  de  desempleo  (porcentaje)";"2024-2-1";8,5;2024;2;2025-04-15
-"529";"Tasa  de  desempleo  (porcentaje)";"2024-3-1";8,7;2024;3;2025-04-15
-"530";"Tasa  de  desempleo  (porcentaje)";"2024-4-1";8,5;2024;4;2025-04-15
-"531";"Tasa  de  desempleo  (porcentaje)";"2024-5-1";8,3;2024;5;2025-04-15
-"532";"Tasa  de  desempleo  (porcentaje)";"2024-6-1";8,3;2024;6;2025-04-15
-"533";"Tasa  de  desempleo  (porcentaje)";"2024-7-1";8,7;2024;7;2025-04-15
-"534";"Tasa  de  desempleo  (porcentaje)";"2024-8-1";8,9;2024;8;2025-04-15
-"535";"Tasa  de  desempleo  (porcentaje)";"2024-9-1";8,7;2024;9;2025-04-15
-"536";"Tasa  de  desempleo  (porcentaje)";"2024-10-1";8,6;2024;10;2025-04-15
-"537";"Tasa  de  desempleo  (porcentaje)";"2024-11-1";8,2;2024;11;2025-04-15
-"538";"Tasa  de  desempleo  (porcentaje)";"2024-12-1";8,1;2024;12;2025-04-15
-"539";"Tasa  de  desempleo  (porcentaje)";"2025-1-1";8;2025;1;2025-04-15
-"540";"Tasa  de  desempleo  (porcentaje)";"2025-2-1";8,4;2025;2;2025-04-15
+"1";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2010-3-1";7883,7;2010;3;2025-04-18
+"2";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2010-4-1";7896,5;2010;4;2025-04-18
+"3";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2010-5-1";7899,8;2010;5;2025-04-18
+"4";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2010-6-1";7905,9;2010;6;2025-04-18
+"5";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2010-7-1";7931,6;2010;7;2025-04-18
+"6";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2010-8-1";7960,8;2010;8;2025-04-18
+"7";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2010-9-1";8042,9;2010;9;2025-04-18
+"8";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2010-10-1";8043;2010;10;2025-04-18
+"9";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2010-11-1";8087,4;2010;11;2025-04-18
+"10";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2010-12-1";8160,7;2010;12;2025-04-18
+"11";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2011-1-1";8227,8;2011;1;2025-04-18
+"12";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2011-2-1";8233,9;2011;2;2025-04-18
+"13";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2011-3-1";8246,4;2011;3;2025-04-18
+"14";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2011-4-1";8250;2011;4;2025-04-18
+"15";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2011-5-1";8269,6;2011;5;2025-04-18
+"16";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2011-6-1";8296,9;2011;6;2025-04-18
+"17";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2011-7-1";8285,2;2011;7;2025-04-18
+"18";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2011-8-1";8308,5;2011;8;2025-04-18
+"19";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2011-9-1";8323,2;2011;9;2025-04-18
+"20";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2011-10-1";8322;2011;10;2025-04-18
+"21";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2011-11-1";8327,4;2011;11;2025-04-18
+"22";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2011-12-1";8356,4;2011;12;2025-04-18
+"23";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2012-1-1";8391,7;2012;1;2025-04-18
+"24";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2012-2-1";8424;2012;2;2025-04-18
+"25";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2012-3-1";8416,9;2012;3;2025-04-18
+"26";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2012-4-1";8420;2012;4;2025-04-18
+"27";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2012-5-1";8423;2012;5;2025-04-18
+"28";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2012-6-1";8388,4;2012;6;2025-04-18
+"29";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2012-7-1";8367,1;2012;7;2025-04-18
+"30";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2012-8-1";8356,3;2012;8;2025-04-18
+"31";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2012-9-1";8428,3;2012;9;2025-04-18
+"32";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2012-10-1";8455,5;2012;10;2025-04-18
+"33";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2012-11-1";8462,8;2012;11;2025-04-18
+"34";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2012-12-1";8480,1;2012;12;2025-04-18
+"35";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2013-1-1";8520;2013;1;2025-04-18
+"36";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2013-2-1";8535,7;2013;2;2025-04-18
+"37";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2013-3-1";8539,4;2013;3;2025-04-18
+"38";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2013-4-1";8580,1;2013;4;2025-04-18
+"39";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2013-5-1";8579,5;2013;5;2025-04-18
+"40";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2013-6-1";8538,8;2013;6;2025-04-18
+"41";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2013-7-1";8486,1;2013;7;2025-04-18
+"42";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2013-8-1";8506,1;2013;8;2025-04-18
+"43";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2013-9-1";8509,5;2013;9;2025-04-18
+"44";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2013-10-1";8537,8;2013;10;2025-04-18
+"45";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2013-11-1";8569,7;2013;11;2025-04-18
+"46";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2013-12-1";8649,5;2013;12;2025-04-18
+"47";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2014-1-1";8714;2014;1;2025-04-18
+"48";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2014-2-1";8743,7;2014;2;2025-04-18
+"49";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2014-3-1";8722,9;2014;3;2025-04-18
+"50";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2014-4-1";8716,9;2014;4;2025-04-18
+"51";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2014-5-1";8706,6;2014;5;2025-04-18
+"52";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2014-6-1";8686,6;2014;6;2025-04-18
+"53";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2014-7-1";8655,8;2014;7;2025-04-18
+"54";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2014-8-1";8633,9;2014;8;2025-04-18
+"55";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2014-9-1";8675,2;2014;9;2025-04-18
+"56";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2014-10-1";8709,6;2014;10;2025-04-18
+"57";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2014-11-1";8751,6;2014;11;2025-04-18
+"58";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2014-12-1";8795,4;2014;12;2025-04-18
+"59";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2015-1-1";8807,6;2015;1;2025-04-18
+"60";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2015-2-1";8810,7;2015;2;2025-04-18
+"61";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2015-3-1";8779;2015;3;2025-04-18
+"62";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2015-4-1";8788,9;2015;4;2025-04-18
+"63";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2015-5-1";8806,4;2015;5;2025-04-18
+"64";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2015-6-1";8802,8;2015;6;2025-04-18
+"65";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2015-7-1";8810,4;2015;7;2025-04-18
+"66";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2015-8-1";8829,1;2015;8;2025-04-18
+"67";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2015-9-1";8883,4;2015;9;2025-04-18
+"68";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2015-10-1";8884,7;2015;10;2025-04-18
+"69";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2015-11-1";8909,4;2015;11;2025-04-18
+"70";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2015-12-1";8954,1;2015;12;2025-04-18
+"71";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2016-1-1";8983,7;2016;1;2025-04-18
+"72";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2016-2-1";8958,8;2016;2;2025-04-18
+"73";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2016-3-1";8940,9;2016;3;2025-04-18
+"74";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2016-4-1";8968,6;2016;4;2025-04-18
+"75";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2016-5-1";8981,5;2016;5;2025-04-18
+"76";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2016-6-1";8966,7;2016;6;2025-04-18
+"77";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2016-7-1";8989,5;2016;7;2025-04-18
+"78";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2016-8-1";8967,2;2016;8;2025-04-18
+"79";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2016-9-1";9012;2016;9;2025-04-18
+"80";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2016-10-1";8994,6;2016;10;2025-04-18
+"81";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2016-11-1";9046,4;2016;11;2025-04-18
+"82";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2016-12-1";9062,6;2016;12;2025-04-18
+"83";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2017-1-1";9115,1;2017;1;2025-04-18
+"84";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2017-2-1";9102;2017;2;2025-04-18
+"85";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2017-3-1";9127;2017;3;2025-04-18
+"86";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2017-4-1";9147,4;2017;4;2025-04-18
+"87";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2017-5-1";9210;2017;5;2025-04-18
+"88";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2017-6-1";9196,6;2017;6;2025-04-18
+"89";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2017-7-1";9201,4;2017;7;2025-04-18
+"90";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2017-8-1";9209,7;2017;8;2025-04-18
+"91";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2017-9-1";9260,9;2017;9;2025-04-18
+"92";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2017-10-1";9270,2;2017;10;2025-04-18
+"93";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2017-11-1";9338,7;2017;11;2025-04-18
+"94";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2017-12-1";9379,5;2017;12;2025-04-18
+"95";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2018-1-1";9438,1;2018;1;2025-04-18
+"96";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2018-2-1";9449,5;2018;2;2025-04-18
+"97";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2018-3-1";9456,6;2018;3;2025-04-18
+"98";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2018-4-1";9441,4;2018;4;2025-04-18
+"99";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2018-5-1";9465,3;2018;5;2025-04-18
+"100";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2018-6-1";9466,9;2018;6;2025-04-18
+"101";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2018-7-1";9451;2018;7;2025-04-18
+"102";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2018-8-1";9435,5;2018;8;2025-04-18
+"103";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2018-9-1";9414,2;2018;9;2025-04-18
+"104";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2018-10-1";9476,2;2018;10;2025-04-18
+"105";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2018-11-1";9525,4;2018;11;2025-04-18
+"106";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2018-12-1";9600,3;2018;12;2025-04-18
+"107";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2019-1-1";9613,3;2019;1;2025-04-18
+"108";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2019-2-1";9581,6;2019;2;2025-04-18
+"109";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2019-3-1";9571,7;2019;3;2025-04-18
+"110";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2019-4-1";9597,1;2019;4;2025-04-18
+"111";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2019-5-1";9621,1;2019;5;2025-04-18
+"112";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2019-6-1";9620,5;2019;6;2025-04-18
+"113";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2019-7-1";9638,1;2019;7;2025-04-18
+"114";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2019-8-1";9659,4;2019;8;2025-04-18
+"115";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2019-9-1";9712,7;2019;9;2025-04-18
+"116";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2019-10-1";9686;2019;10;2025-04-18
+"117";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2019-11-1";9722;2019;11;2025-04-18
+"118";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2019-12-1";9777,8;2019;12;2025-04-18
+"119";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2020-1-1";9848,7;2020;1;2025-04-18
+"120";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2020-2-1";9831,2;2020;2;2025-04-18
+"121";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2020-3-1";9744,2;2020;3;2025-04-18
+"122";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2020-4-1";9050,7;2020;4;2025-04-18
+"123";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2020-5-1";8390,9;2020;5;2025-04-18
+"124";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2020-6-1";8136,7;2020;6;2025-04-18
+"125";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2020-7-1";8138,6;2020;7;2025-04-18
+"126";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2020-8-1";8257,2;2020;8;2025-04-18
+"127";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2020-9-1";8402,6;2020;9;2025-04-18
+"128";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2020-10-1";8671,6;2020;10;2025-04-18
+"129";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2020-11-1";8871,1;2020;11;2025-04-18
+"130";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2020-12-1";8946,5;2020;12;2025-04-18
+"131";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2021-1-1";9046,6;2021;1;2025-04-18
+"132";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2021-2-1";9105,9;2021;2;2025-04-18
+"133";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2021-3-1";9089,3;2021;3;2025-04-18
+"134";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2021-4-1";9029,1;2021;4;2025-04-18
+"135";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2021-5-1";8938,3;2021;5;2025-04-18
+"136";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2021-6-1";8884,9;2021;6;2025-04-18
+"137";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2021-7-1";8948,3;2021;7;2025-04-18
+"138";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2021-8-1";9030,7;2021;8;2025-04-18
+"139";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2021-9-1";9111,1;2021;9;2025-04-18
+"140";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2021-10-1";9199,5;2021;10;2025-04-18
+"141";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2021-11-1";9255;2021;11;2025-04-18
+"142";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2021-12-1";9350,6;2021;12;2025-04-18
+"143";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2022-1-1";9396,1;2022;1;2025-04-18
+"144";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2022-2-1";9479,5;2022;2;2025-04-18
+"145";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2022-3-1";9541,6;2022;3;2025-04-18
+"146";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2022-4-1";9577,5;2022;4;2025-04-18
+"147";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2022-5-1";9604,6;2022;5;2025-04-18
+"148";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2022-6-1";9587,3;2022;6;2025-04-18
+"149";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2022-7-1";9610,9;2022;7;2025-04-18
+"150";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2022-8-1";9615,8;2022;8;2025-04-18
+"151";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2022-9-1";9616,7;2022;9;2025-04-18
+"152";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2022-10-1";9637,3;2022;10;2025-04-18
+"153";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2022-11-1";9650,2;2022;11;2025-04-18
+"154";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2022-12-1";9730,3;2022;12;2025-04-18
+"155";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2023-1-1";9795,9;2023;1;2025-04-18
+"156";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2023-2-1";9854,8;2023;2;2025-04-18
+"157";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2023-3-1";9876,1;2023;3;2025-04-18
+"158";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2023-4-1";9860,6;2023;4;2025-04-18
+"159";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2023-5-1";9876,1;2023;5;2025-04-18
+"160";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2023-6-1";9877,4;2023;6;2025-04-18
+"161";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2023-7-1";9896,8;2023;7;2025-04-18
+"162";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2023-8-1";9895,6;2023;8;2025-04-18
+"163";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2023-9-1";9906,4;2023;9;2025-04-18
+"164";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2023-10-1";9935,9;2023;10;2025-04-18
+"165";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2023-11-1";10012,8;2023;11;2025-04-18
+"166";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2023-12-1";10077,2;2023;12;2025-04-18
+"167";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2024-1-1";10127,8;2024;1;2025-04-18
+"168";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2024-2-1";10174,9;2024;2;2025-04-18
+"169";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2024-3-1";10193,2;2024;3;2025-04-18
+"170";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2024-4-1";10209,5;2024;4;2025-04-18
+"171";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2024-5-1";10177,7;2024;5;2025-04-18
+"172";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2024-6-1";10170,4;2024;6;2025-04-18
+"173";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2024-7-1";10137,9;2024;7;2025-04-18
+"174";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2024-8-1";10137,4;2024;8;2025-04-18
+"175";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2024-9-1";10128,9;2024;9;2025-04-18
+"176";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2024-10-1";10117;2024;10;2025-04-18
+"177";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2024-11-1";10117,4;2024;11;2025-04-18
+"178";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2024-12-1";10124,1;2024;12;2025-04-18
+"179";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2025-1-1";10213,5;2025;1;2025-04-18
+"180";"Fuerza de trabajo ( promedio móvil trimestral, miles de personas )";"2025-2-1";10256,6;2025;2;2025-04-18
+"181";"Empleo ( promedio móvil trimestral, miles de personas )";"2010-3-1";7156,2;2010;3;2025-04-18
+"182";"Empleo ( promedio móvil trimestral, miles de personas )";"2010-4-1";7198,8;2010;4;2025-04-18
+"183";"Empleo ( promedio móvil trimestral, miles de personas )";"2010-5-1";7181,9;2010;5;2025-04-18
+"184";"Empleo ( promedio móvil trimestral, miles de personas )";"2010-6-1";7221,6;2010;6;2025-04-18
+"185";"Empleo ( promedio móvil trimestral, miles de personas )";"2010-7-1";7256,5;2010;7;2025-04-18
+"186";"Empleo ( promedio móvil trimestral, miles de personas )";"2010-8-1";7289,2;2010;8;2025-04-18
+"187";"Empleo ( promedio móvil trimestral, miles de personas )";"2010-9-1";7389,5;2010;9;2025-04-18
+"188";"Empleo ( promedio móvil trimestral, miles de personas )";"2010-10-1";7414,4;2010;10;2025-04-18
+"189";"Empleo ( promedio móvil trimestral, miles de personas )";"2010-11-1";7503,1;2010;11;2025-04-18
+"190";"Empleo ( promedio móvil trimestral, miles de personas )";"2010-12-1";7572,3;2010;12;2025-04-18
+"191";"Empleo ( promedio móvil trimestral, miles de personas )";"2011-1-1";7615,5;2011;1;2025-04-18
+"192";"Empleo ( promedio móvil trimestral, miles de personas )";"2011-2-1";7621;2011;2;2025-04-18
+"193";"Empleo ( promedio móvil trimestral, miles de personas )";"2011-3-1";7623,9;2011;3;2025-04-18
+"194";"Empleo ( promedio móvil trimestral, miles de personas )";"2011-4-1";7655,1;2011;4;2025-04-18
+"195";"Empleo ( promedio móvil trimestral, miles de personas )";"2011-5-1";7665,5;2011;5;2025-04-18
+"196";"Empleo ( promedio móvil trimestral, miles de personas )";"2011-6-1";7698,5;2011;6;2025-04-18
+"197";"Empleo ( promedio móvil trimestral, miles de personas )";"2011-7-1";7659,4;2011;7;2025-04-18
+"198";"Empleo ( promedio móvil trimestral, miles de personas )";"2011-8-1";7684,2;2011;8;2025-04-18
+"199";"Empleo ( promedio móvil trimestral, miles de personas )";"2011-9-1";7688,4;2011;9;2025-04-18
+"200";"Empleo ( promedio móvil trimestral, miles de personas )";"2011-10-1";7703,1;2011;10;2025-04-18
+"201";"Empleo ( promedio móvil trimestral, miles de personas )";"2011-11-1";7716,9;2011;11;2025-04-18
+"202";"Empleo ( promedio móvil trimestral, miles de personas )";"2011-12-1";7786,9;2011;12;2025-04-18
+"203";"Empleo ( promedio móvil trimestral, miles de personas )";"2012-1-1";7816,6;2012;1;2025-04-18
+"204";"Empleo ( promedio móvil trimestral, miles de personas )";"2012-2-1";7874,1;2012;2;2025-04-18
+"205";"Empleo ( promedio móvil trimestral, miles de personas )";"2012-3-1";7844,8;2012;3;2025-04-18
+"206";"Empleo ( promedio móvil trimestral, miles de personas )";"2012-4-1";7850,5;2012;4;2025-04-18
+"207";"Empleo ( promedio móvil trimestral, miles de personas )";"2012-5-1";7838,3;2012;5;2025-04-18
+"208";"Empleo ( promedio móvil trimestral, miles de personas )";"2012-6-1";7819,5;2012;6;2025-04-18
+"209";"Empleo ( promedio móvil trimestral, miles de personas )";"2012-7-1";7809,5;2012;7;2025-04-18
+"210";"Empleo ( promedio móvil trimestral, miles de personas )";"2012-8-1";7809,9;2012;8;2025-04-18
+"211";"Empleo ( promedio móvil trimestral, miles de personas )";"2012-9-1";7874,1;2012;9;2025-04-18
+"212";"Empleo ( promedio móvil trimestral, miles de personas )";"2012-10-1";7889,4;2012;10;2025-04-18
+"213";"Empleo ( promedio móvil trimestral, miles de personas )";"2012-11-1";7924,6;2012;11;2025-04-18
+"214";"Empleo ( promedio móvil trimestral, miles de personas )";"2012-12-1";7952,3;2012;12;2025-04-18
+"215";"Empleo ( promedio móvil trimestral, miles de personas )";"2013-1-1";7998,6;2013;1;2025-04-18
+"216";"Empleo ( promedio móvil trimestral, miles de personas )";"2013-2-1";7993,3;2013;2;2025-04-18
+"217";"Empleo ( promedio móvil trimestral, miles de personas )";"2013-3-1";7990,7;2013;3;2025-04-18
+"218";"Empleo ( promedio móvil trimestral, miles de personas )";"2013-4-1";8019,1;2013;4;2025-04-18
+"219";"Empleo ( promedio móvil trimestral, miles de personas )";"2013-5-1";8018,3;2013;5;2025-04-18
+"220";"Empleo ( promedio móvil trimestral, miles de personas )";"2013-6-1";8004,2;2013;6;2025-04-18
+"221";"Empleo ( promedio móvil trimestral, miles de personas )";"2013-7-1";7986,8;2013;7;2025-04-18
+"222";"Empleo ( promedio móvil trimestral, miles de personas )";"2013-8-1";8008,6;2013;8;2025-04-18
+"223";"Empleo ( promedio móvil trimestral, miles de personas )";"2013-9-1";8010,8;2013;9;2025-04-18
+"224";"Empleo ( promedio móvil trimestral, miles de personas )";"2013-10-1";8029,6;2013;10;2025-04-18
+"225";"Empleo ( promedio móvil trimestral, miles de personas )";"2013-11-1";8067,1;2013;11;2025-04-18
+"226";"Empleo ( promedio móvil trimestral, miles de personas )";"2013-12-1";8149,4;2013;12;2025-04-18
+"227";"Empleo ( promedio móvil trimestral, miles de personas )";"2014-1-1";8171;2014;1;2025-04-18
+"228";"Empleo ( promedio móvil trimestral, miles de personas )";"2014-2-1";8202,9;2014;2;2025-04-18
+"229";"Empleo ( promedio móvil trimestral, miles de personas )";"2014-3-1";8156,2;2014;3;2025-04-18
+"230";"Empleo ( promedio móvil trimestral, miles de personas )";"2014-4-1";8181,3;2014;4;2025-04-18
+"231";"Empleo ( promedio móvil trimestral, miles de personas )";"2014-5-1";8156;2014;5;2025-04-18
+"232";"Empleo ( promedio móvil trimestral, miles de personas )";"2014-6-1";8120,4;2014;6;2025-04-18
+"233";"Empleo ( promedio móvil trimestral, miles de personas )";"2014-7-1";8085;2014;7;2025-04-18
+"234";"Empleo ( promedio móvil trimestral, miles de personas )";"2014-8-1";8044,5;2014;8;2025-04-18
+"235";"Empleo ( promedio móvil trimestral, miles de personas )";"2014-9-1";8088,7;2014;9;2025-04-18
+"236";"Empleo ( promedio móvil trimestral, miles de personas )";"2014-10-1";8137,9;2014;10;2025-04-18
+"237";"Empleo ( promedio móvil trimestral, miles de personas )";"2014-11-1";8207,7;2014;11;2025-04-18
+"238";"Empleo ( promedio móvil trimestral, miles de personas )";"2014-12-1";8249,6;2014;12;2025-04-18
+"239";"Empleo ( promedio móvil trimestral, miles de personas )";"2015-1-1";8259,2;2015;1;2025-04-18
+"240";"Empleo ( promedio móvil trimestral, miles de personas )";"2015-2-1";8263,1;2015;2;2025-04-18
+"241";"Empleo ( promedio móvil trimestral, miles de personas )";"2015-3-1";8232,2;2015;3;2025-04-18
+"242";"Empleo ( promedio móvil trimestral, miles de personas )";"2015-4-1";8230,3;2015;4;2025-04-18
+"243";"Empleo ( promedio móvil trimestral, miles de personas )";"2015-5-1";8211,8;2015;5;2025-04-18
+"244";"Empleo ( promedio móvil trimestral, miles de personas )";"2015-6-1";8215,6;2015;6;2025-04-18
+"245";"Empleo ( promedio móvil trimestral, miles de personas )";"2015-7-1";8220,8;2015;7;2025-04-18
+"246";"Empleo ( promedio móvil trimestral, miles de personas )";"2015-8-1";8250,1;2015;8;2025-04-18
+"247";"Empleo ( promedio móvil trimestral, miles de personas )";"2015-9-1";8302;2015;9;2025-04-18
+"248";"Empleo ( promedio móvil trimestral, miles de personas )";"2015-10-1";8312,1;2015;10;2025-04-18
+"249";"Empleo ( promedio móvil trimestral, miles de personas )";"2015-11-1";8359,3;2015;11;2025-04-18
+"250";"Empleo ( promedio móvil trimestral, miles de personas )";"2015-12-1";8428,5;2015;12;2025-04-18
+"251";"Empleo ( promedio móvil trimestral, miles de personas )";"2016-1-1";8452,1;2016;1;2025-04-18
+"252";"Empleo ( promedio móvil trimestral, miles de personas )";"2016-2-1";8417,1;2016;2;2025-04-18
+"253";"Empleo ( promedio móvil trimestral, miles de personas )";"2016-3-1";8360,6;2016;3;2025-04-18
+"254";"Empleo ( promedio móvil trimestral, miles de personas )";"2016-4-1";8376,2;2016;4;2025-04-18
+"255";"Empleo ( promedio móvil trimestral, miles de personas )";"2016-5-1";8350,3;2016;5;2025-04-18
+"256";"Empleo ( promedio móvil trimestral, miles de personas )";"2016-6-1";8337,4;2016;6;2025-04-18
+"257";"Empleo ( promedio móvil trimestral, miles de personas )";"2016-7-1";8336,2;2016;7;2025-04-18
+"258";"Empleo ( promedio móvil trimestral, miles de personas )";"2016-8-1";8333,2;2016;8;2025-04-18
+"259";"Empleo ( promedio móvil trimestral, miles de personas )";"2016-9-1";8378,4;2016;9;2025-04-18
+"260";"Empleo ( promedio móvil trimestral, miles de personas )";"2016-10-1";8393,7;2016;10;2025-04-18
+"261";"Empleo ( promedio móvil trimestral, miles de personas )";"2016-11-1";8467,1;2016;11;2025-04-18
+"262";"Empleo ( promedio móvil trimestral, miles de personas )";"2016-12-1";8500,7;2016;12;2025-04-18
+"263";"Empleo ( promedio móvil trimestral, miles de personas )";"2017-1-1";8534,6;2017;1;2025-04-18
+"264";"Empleo ( promedio móvil trimestral, miles de personas )";"2017-2-1";8485,7;2017;2;2025-04-18
+"265";"Empleo ( promedio móvil trimestral, miles de personas )";"2017-3-1";8484,4;2017;3;2025-04-18
+"266";"Empleo ( promedio móvil trimestral, miles de personas )";"2017-4-1";8499,9;2017;4;2025-04-18
+"267";"Empleo ( promedio móvil trimestral, miles de personas )";"2017-5-1";8535,2;2017;5;2025-04-18
+"268";"Empleo ( promedio móvil trimestral, miles de personas )";"2017-6-1";8524,1;2017;6;2025-04-18
+"269";"Empleo ( promedio móvil trimestral, miles de personas )";"2017-7-1";8537,4;2017;7;2025-04-18
+"270";"Empleo ( promedio móvil trimestral, miles de personas )";"2017-8-1";8573,5;2017;8;2025-04-18
+"271";"Empleo ( promedio móvil trimestral, miles de personas )";"2017-9-1";8613,1;2017;9;2025-04-18
+"272";"Empleo ( promedio móvil trimestral, miles de personas )";"2017-10-1";8622,7;2017;10;2025-04-18
+"273";"Empleo ( promedio móvil trimestral, miles de personas )";"2017-11-1";8712,7;2017;11;2025-04-18
+"274";"Empleo ( promedio móvil trimestral, miles de personas )";"2017-12-1";8768,7;2017;12;2025-04-18
+"275";"Empleo ( promedio móvil trimestral, miles de personas )";"2018-1-1";8793,9;2018;1;2025-04-18
+"276";"Empleo ( promedio móvil trimestral, miles de personas )";"2018-2-1";8787,1;2018;2;2025-04-18
+"277";"Empleo ( promedio móvil trimestral, miles de personas )";"2018-3-1";8759,1;2018;3;2025-04-18
+"278";"Empleo ( promedio móvil trimestral, miles de personas )";"2018-4-1";8781,1;2018;4;2025-04-18
+"279";"Empleo ( promedio móvil trimestral, miles de personas )";"2018-5-1";8766,7;2018;5;2025-04-18
+"280";"Empleo ( promedio móvil trimestral, miles de personas )";"2018-6-1";8755,5;2018;6;2025-04-18
+"281";"Empleo ( promedio móvil trimestral, miles de personas )";"2018-7-1";8708,7;2018;7;2025-04-18
+"282";"Empleo ( promedio móvil trimestral, miles de personas )";"2018-8-1";8707,2;2018;8;2025-04-18
+"283";"Empleo ( promedio móvil trimestral, miles de personas )";"2018-9-1";8710,9;2018;9;2025-04-18
+"284";"Empleo ( promedio móvil trimestral, miles de personas )";"2018-10-1";8773,8;2018;10;2025-04-18
+"285";"Empleo ( promedio móvil trimestral, miles de personas )";"2018-11-1";8829;2018;11;2025-04-18
+"286";"Empleo ( promedio móvil trimestral, miles de personas )";"2018-12-1";8914,2;2018;12;2025-04-18
+"287";"Empleo ( promedio móvil trimestral, miles de personas )";"2019-1-1";8928;2019;1;2025-04-18
+"288";"Empleo ( promedio móvil trimestral, miles de personas )";"2019-2-1";8907,6;2019;2;2025-04-18
+"289";"Empleo ( promedio móvil trimestral, miles de personas )";"2019-3-1";8879,1;2019;3;2025-04-18
+"290";"Empleo ( promedio móvil trimestral, miles de personas )";"2019-4-1";8916;2019;4;2025-04-18
+"291";"Empleo ( promedio móvil trimestral, miles de personas )";"2019-5-1";8925,3;2019;5;2025-04-18
+"292";"Empleo ( promedio móvil trimestral, miles de personas )";"2019-6-1";8922,6;2019;6;2025-04-18
+"293";"Empleo ( promedio móvil trimestral, miles de personas )";"2019-7-1";8910,6;2019;7;2025-04-18
+"294";"Empleo ( promedio móvil trimestral, miles de personas )";"2019-8-1";8928;2019;8;2025-04-18
+"295";"Empleo ( promedio móvil trimestral, miles de personas )";"2019-9-1";9000,1;2019;9;2025-04-18
+"296";"Empleo ( promedio móvil trimestral, miles de personas )";"2019-10-1";8994,4;2019;10;2025-04-18
+"297";"Empleo ( promedio móvil trimestral, miles de personas )";"2019-11-1";9045,4;2019;11;2025-04-18
+"298";"Empleo ( promedio móvil trimestral, miles de personas )";"2019-12-1";9087,1;2019;12;2025-04-18
+"299";"Empleo ( promedio móvil trimestral, miles de personas )";"2020-1-1";9115,6;2020;1;2025-04-18
+"300";"Empleo ( promedio móvil trimestral, miles de personas )";"2020-2-1";9063,4;2020;2;2025-04-18
+"301";"Empleo ( promedio móvil trimestral, miles de personas )";"2020-3-1";8942,4;2020;3;2025-04-18
+"302";"Empleo ( promedio móvil trimestral, miles de personas )";"2020-4-1";8235,9;2020;4;2025-04-18
+"303";"Empleo ( promedio móvil trimestral, miles de personas )";"2020-5-1";7450,5;2020;5;2025-04-18
+"304";"Empleo ( promedio móvil trimestral, miles de personas )";"2020-6-1";7142,6;2020;6;2025-04-18
+"305";"Empleo ( promedio móvil trimestral, miles de personas )";"2020-7-1";7073,2;2020;7;2025-04-18
+"306";"Empleo ( promedio móvil trimestral, miles de personas )";"2020-8-1";7191,4;2020;8;2025-04-18
+"307";"Empleo ( promedio móvil trimestral, miles de personas )";"2020-9-1";7365,1;2020;9;2025-04-18
+"308";"Empleo ( promedio móvil trimestral, miles de personas )";"2020-10-1";7667,7;2020;10;2025-04-18
+"309";"Empleo ( promedio móvil trimestral, miles de personas )";"2020-11-1";7916,7;2020;11;2025-04-18
+"310";"Empleo ( promedio móvil trimestral, miles de personas )";"2020-12-1";8026,2;2020;12;2025-04-18
+"311";"Empleo ( promedio móvil trimestral, miles de personas )";"2021-1-1";8121,4;2021;1;2025-04-18
+"312";"Empleo ( promedio móvil trimestral, miles de personas )";"2021-2-1";8167,6;2021;2;2025-04-18
+"313";"Empleo ( promedio móvil trimestral, miles de personas )";"2021-3-1";8148,2;2021;3;2025-04-18
+"314";"Empleo ( promedio móvil trimestral, miles de personas )";"2021-4-1";8104,1;2021;4;2025-04-18
+"315";"Empleo ( promedio móvil trimestral, miles de personas )";"2021-5-1";8041,1;2021;5;2025-04-18
+"316";"Empleo ( promedio móvil trimestral, miles de personas )";"2021-6-1";8041,2;2021;6;2025-04-18
+"317";"Empleo ( promedio móvil trimestral, miles de personas )";"2021-7-1";8148,9;2021;7;2025-04-18
+"318";"Empleo ( promedio móvil trimestral, miles de personas )";"2021-8-1";8258,8;2021;8;2025-04-18
+"319";"Empleo ( promedio móvil trimestral, miles de personas )";"2021-9-1";8345,2;2021;9;2025-04-18
+"320";"Empleo ( promedio móvil trimestral, miles de personas )";"2021-10-1";8456,5;2021;10;2025-04-18
+"321";"Empleo ( promedio móvil trimestral, miles de personas )";"2021-11-1";8558,4;2021;11;2025-04-18
+"322";"Empleo ( promedio móvil trimestral, miles de personas )";"2021-12-1";8678,3;2021;12;2025-04-18
+"323";"Empleo ( promedio móvil trimestral, miles de personas )";"2022-1-1";8712,9;2022;1;2025-04-18
+"324";"Empleo ( promedio móvil trimestral, miles de personas )";"2022-2-1";8768,6;2022;2;2025-04-18
+"325";"Empleo ( promedio móvil trimestral, miles de personas )";"2022-3-1";8797,6;2022;3;2025-04-18
+"326";"Empleo ( promedio móvil trimestral, miles de personas )";"2022-4-1";8835,5;2022;4;2025-04-18
+"327";"Empleo ( promedio móvil trimestral, miles de personas )";"2022-5-1";8855,1;2022;5;2025-04-18
+"328";"Empleo ( promedio móvil trimestral, miles de personas )";"2022-6-1";8838,4;2022;6;2025-04-18
+"329";"Empleo ( promedio móvil trimestral, miles de personas )";"2022-7-1";8849,8;2022;7;2025-04-18
+"330";"Empleo ( promedio móvil trimestral, miles de personas )";"2022-8-1";8853,3;2022;8;2025-04-18
+"331";"Empleo ( promedio móvil trimestral, miles de personas )";"2022-9-1";8843,5;2022;9;2025-04-18
+"332";"Empleo ( promedio móvil trimestral, miles de personas )";"2022-10-1";8869,3;2022;10;2025-04-18
+"333";"Empleo ( promedio móvil trimestral, miles de personas )";"2022-11-1";8883,1;2022;11;2025-04-18
+"334";"Empleo ( promedio móvil trimestral, miles de personas )";"2022-12-1";8965,2;2022;12;2025-04-18
+"335";"Empleo ( promedio móvil trimestral, miles de personas )";"2023-1-1";9008,5;2023;1;2025-04-18
+"336";"Empleo ( promedio móvil trimestral, miles de personas )";"2023-2-1";9030,2;2023;2;2025-04-18
+"337";"Empleo ( promedio móvil trimestral, miles de personas )";"2023-3-1";9006,1;2023;3;2025-04-18
+"338";"Empleo ( promedio móvil trimestral, miles de personas )";"2023-4-1";9006,7;2023;4;2025-04-18
+"339";"Empleo ( promedio móvil trimestral, miles de personas )";"2023-5-1";9034,2;2023;5;2025-04-18
+"340";"Empleo ( promedio móvil trimestral, miles de personas )";"2023-6-1";9035,1;2023;6;2025-04-18
+"341";"Empleo ( promedio móvil trimestral, miles de personas )";"2023-7-1";9028,6;2023;7;2025-04-18
+"342";"Empleo ( promedio móvil trimestral, miles de personas )";"2023-8-1";9005,4;2023;8;2025-04-18
+"343";"Empleo ( promedio móvil trimestral, miles de personas )";"2023-9-1";9023,5;2023;9;2025-04-18
+"344";"Empleo ( promedio móvil trimestral, miles de personas )";"2023-10-1";9053;2023;10;2025-04-18
+"345";"Empleo ( promedio móvil trimestral, miles de personas )";"2023-11-1";9138,4;2023;11;2025-04-18
+"346";"Empleo ( promedio móvil trimestral, miles de personas )";"2023-12-1";9223,1;2023;12;2025-04-18
+"347";"Empleo ( promedio móvil trimestral, miles de personas )";"2024-1-1";9273,4;2024;1;2025-04-18
+"348";"Empleo ( promedio móvil trimestral, miles de personas )";"2024-2-1";9309,6;2024;2;2025-04-18
+"349";"Empleo ( promedio móvil trimestral, miles de personas )";"2024-3-1";9308,7;2024;3;2025-04-18
+"350";"Empleo ( promedio móvil trimestral, miles de personas )";"2024-4-1";9339,3;2024;4;2025-04-18
+"351";"Empleo ( promedio móvil trimestral, miles de personas )";"2024-5-1";9331,6;2024;5;2025-04-18
+"352";"Empleo ( promedio móvil trimestral, miles de personas )";"2024-6-1";9321,4;2024;6;2025-04-18
+"353";"Empleo ( promedio móvil trimestral, miles de personas )";"2024-7-1";9257,5;2024;7;2025-04-18
+"354";"Empleo ( promedio móvil trimestral, miles de personas )";"2024-8-1";9235,1;2024;8;2025-04-18
+"355";"Empleo ( promedio móvil trimestral, miles de personas )";"2024-9-1";9243,4;2024;9;2025-04-18
+"356";"Empleo ( promedio móvil trimestral, miles de personas )";"2024-10-1";9249;2024;10;2025-04-18
+"357";"Empleo ( promedio móvil trimestral, miles de personas )";"2024-11-1";9286;2024;11;2025-04-18
+"358";"Empleo ( promedio móvil trimestral, miles de personas )";"2024-12-1";9306,1;2024;12;2025-04-18
+"359";"Empleo ( promedio móvil trimestral, miles de personas )";"2025-1-1";9394,1;2025;1;2025-04-18
+"360";"Empleo ( promedio móvil trimestral, miles de personas )";"2025-2-1";9396,9;2025;2;2025-04-18
+"361";"Tasa  de  desempleo  (porcentaje)";"2010-3-1";9,2;2010;3;2025-04-18
+"362";"Tasa  de  desempleo  (porcentaje)";"2010-4-1";8,8;2010;4;2025-04-18
+"363";"Tasa  de  desempleo  (porcentaje)";"2010-5-1";9,1;2010;5;2025-04-18
+"364";"Tasa  de  desempleo  (porcentaje)";"2010-6-1";8,7;2010;6;2025-04-18
+"365";"Tasa  de  desempleo  (porcentaje)";"2010-7-1";8,5;2010;7;2025-04-18
+"366";"Tasa  de  desempleo  (porcentaje)";"2010-8-1";8,4;2010;8;2025-04-18
+"367";"Tasa  de  desempleo  (porcentaje)";"2010-9-1";8,1;2010;9;2025-04-18
+"368";"Tasa  de  desempleo  (porcentaje)";"2010-10-1";7,8;2010;10;2025-04-18
+"369";"Tasa  de  desempleo  (porcentaje)";"2010-11-1";7,2;2010;11;2025-04-18
+"370";"Tasa  de  desempleo  (porcentaje)";"2010-12-1";7,2;2010;12;2025-04-18
+"371";"Tasa  de  desempleo  (porcentaje)";"2011-1-1";7,4;2011;1;2025-04-18
+"372";"Tasa  de  desempleo  (porcentaje)";"2011-2-1";7,4;2011;2;2025-04-18
+"373";"Tasa  de  desempleo  (porcentaje)";"2011-3-1";7,5;2011;3;2025-04-18
+"374";"Tasa  de  desempleo  (porcentaje)";"2011-4-1";7,2;2011;4;2025-04-18
+"375";"Tasa  de  desempleo  (porcentaje)";"2011-5-1";7,3;2011;5;2025-04-18
+"376";"Tasa  de  desempleo  (porcentaje)";"2011-6-1";7,2;2011;6;2025-04-18
+"377";"Tasa  de  desempleo  (porcentaje)";"2011-7-1";7,6;2011;7;2025-04-18
+"378";"Tasa  de  desempleo  (porcentaje)";"2011-8-1";7,5;2011;8;2025-04-18
+"379";"Tasa  de  desempleo  (porcentaje)";"2011-9-1";7,6;2011;9;2025-04-18
+"380";"Tasa  de  desempleo  (porcentaje)";"2011-10-1";7,4;2011;10;2025-04-18
+"381";"Tasa  de  desempleo  (porcentaje)";"2011-11-1";7,3;2011;11;2025-04-18
+"382";"Tasa  de  desempleo  (porcentaje)";"2011-12-1";6,8;2011;12;2025-04-18
+"383";"Tasa  de  desempleo  (porcentaje)";"2012-1-1";6,9;2012;1;2025-04-18
+"384";"Tasa  de  desempleo  (porcentaje)";"2012-2-1";6,5;2012;2;2025-04-18
+"385";"Tasa  de  desempleo  (porcentaje)";"2012-3-1";6,8;2012;3;2025-04-18
+"386";"Tasa  de  desempleo  (porcentaje)";"2012-4-1";6,8;2012;4;2025-04-18
+"387";"Tasa  de  desempleo  (porcentaje)";"2012-5-1";6,9;2012;5;2025-04-18
+"388";"Tasa  de  desempleo  (porcentaje)";"2012-6-1";6,8;2012;6;2025-04-18
+"389";"Tasa  de  desempleo  (porcentaje)";"2012-7-1";6,7;2012;7;2025-04-18
+"390";"Tasa  de  desempleo  (porcentaje)";"2012-8-1";6,5;2012;8;2025-04-18
+"391";"Tasa  de  desempleo  (porcentaje)";"2012-9-1";6,6;2012;9;2025-04-18
+"392";"Tasa  de  desempleo  (porcentaje)";"2012-10-1";6,7;2012;10;2025-04-18
+"393";"Tasa  de  desempleo  (porcentaje)";"2012-11-1";6,4;2012;11;2025-04-18
+"394";"Tasa  de  desempleo  (porcentaje)";"2012-12-1";6,2;2012;12;2025-04-18
+"395";"Tasa  de  desempleo  (porcentaje)";"2013-1-1";6,1;2013;1;2025-04-18
+"396";"Tasa  de  desempleo  (porcentaje)";"2013-2-1";6,4;2013;2;2025-04-18
+"397";"Tasa  de  desempleo  (porcentaje)";"2013-3-1";6,4;2013;3;2025-04-18
+"398";"Tasa  de  desempleo  (porcentaje)";"2013-4-1";6,5;2013;4;2025-04-18
+"399";"Tasa  de  desempleo  (porcentaje)";"2013-5-1";6,5;2013;5;2025-04-18
+"400";"Tasa  de  desempleo  (porcentaje)";"2013-6-1";6,3;2013;6;2025-04-18
+"401";"Tasa  de  desempleo  (porcentaje)";"2013-7-1";5,9;2013;7;2025-04-18
+"402";"Tasa  de  desempleo  (porcentaje)";"2013-8-1";5,8;2013;8;2025-04-18
+"403";"Tasa  de  desempleo  (porcentaje)";"2013-9-1";5,9;2013;9;2025-04-18
+"404";"Tasa  de  desempleo  (porcentaje)";"2013-10-1";6;2013;10;2025-04-18
+"405";"Tasa  de  desempleo  (porcentaje)";"2013-11-1";5,9;2013;11;2025-04-18
+"406";"Tasa  de  desempleo  (porcentaje)";"2013-12-1";5,8;2013;12;2025-04-18
+"407";"Tasa  de  desempleo  (porcentaje)";"2014-1-1";6,2;2014;1;2025-04-18
+"408";"Tasa  de  desempleo  (porcentaje)";"2014-2-1";6,2;2014;2;2025-04-18
+"409";"Tasa  de  desempleo  (porcentaje)";"2014-3-1";6,5;2014;3;2025-04-18
+"410";"Tasa  de  desempleo  (porcentaje)";"2014-4-1";6,1;2014;4;2025-04-18
+"411";"Tasa  de  desempleo  (porcentaje)";"2014-5-1";6,3;2014;5;2025-04-18
+"412";"Tasa  de  desempleo  (porcentaje)";"2014-6-1";6,5;2014;6;2025-04-18
+"413";"Tasa  de  desempleo  (porcentaje)";"2014-7-1";6,6;2014;7;2025-04-18
+"414";"Tasa  de  desempleo  (porcentaje)";"2014-8-1";6,8;2014;8;2025-04-18
+"415";"Tasa  de  desempleo  (porcentaje)";"2014-9-1";6,8;2014;9;2025-04-18
+"416";"Tasa  de  desempleo  (porcentaje)";"2014-10-1";6,6;2014;10;2025-04-18
+"417";"Tasa  de  desempleo  (porcentaje)";"2014-11-1";6,2;2014;11;2025-04-18
+"418";"Tasa  de  desempleo  (porcentaje)";"2014-12-1";6,2;2014;12;2025-04-18
+"419";"Tasa  de  desempleo  (porcentaje)";"2015-1-1";6,2;2015;1;2025-04-18
+"420";"Tasa  de  desempleo  (porcentaje)";"2015-2-1";6,2;2015;2;2025-04-18
+"421";"Tasa  de  desempleo  (porcentaje)";"2015-3-1";6,2;2015;3;2025-04-18
+"422";"Tasa  de  desempleo  (porcentaje)";"2015-4-1";6,4;2015;4;2025-04-18
+"423";"Tasa  de  desempleo  (porcentaje)";"2015-5-1";6,8;2015;5;2025-04-18
+"424";"Tasa  de  desempleo  (porcentaje)";"2015-6-1";6,7;2015;6;2025-04-18
+"425";"Tasa  de  desempleo  (porcentaje)";"2015-7-1";6,7;2015;7;2025-04-18
+"426";"Tasa  de  desempleo  (porcentaje)";"2015-8-1";6,6;2015;8;2025-04-18
+"427";"Tasa  de  desempleo  (porcentaje)";"2015-9-1";6,5;2015;9;2025-04-18
+"428";"Tasa  de  desempleo  (porcentaje)";"2015-10-1";6,4;2015;10;2025-04-18
+"429";"Tasa  de  desempleo  (porcentaje)";"2015-11-1";6,2;2015;11;2025-04-18
+"430";"Tasa  de  desempleo  (porcentaje)";"2015-12-1";5,9;2015;12;2025-04-18
+"431";"Tasa  de  desempleo  (porcentaje)";"2016-1-1";5,9;2016;1;2025-04-18
+"432";"Tasa  de  desempleo  (porcentaje)";"2016-2-1";6;2016;2;2025-04-18
+"433";"Tasa  de  desempleo  (porcentaje)";"2016-3-1";6,5;2016;3;2025-04-18
+"434";"Tasa  de  desempleo  (porcentaje)";"2016-4-1";6,6;2016;4;2025-04-18
+"435";"Tasa  de  desempleo  (porcentaje)";"2016-5-1";7;2016;5;2025-04-18
+"436";"Tasa  de  desempleo  (porcentaje)";"2016-6-1";7;2016;6;2025-04-18
+"437";"Tasa  de  desempleo  (porcentaje)";"2016-7-1";7,3;2016;7;2025-04-18
+"438";"Tasa  de  desempleo  (porcentaje)";"2016-8-1";7,1;2016;8;2025-04-18
+"439";"Tasa  de  desempleo  (porcentaje)";"2016-9-1";7;2016;9;2025-04-18
+"440";"Tasa  de  desempleo  (porcentaje)";"2016-10-1";6,7;2016;10;2025-04-18
+"441";"Tasa  de  desempleo  (porcentaje)";"2016-11-1";6,4;2016;11;2025-04-18
+"442";"Tasa  de  desempleo  (porcentaje)";"2016-12-1";6,2;2016;12;2025-04-18
+"443";"Tasa  de  desempleo  (porcentaje)";"2017-1-1";6,4;2017;1;2025-04-18
+"444";"Tasa  de  desempleo  (porcentaje)";"2017-2-1";6,8;2017;2;2025-04-18
+"445";"Tasa  de  desempleo  (porcentaje)";"2017-3-1";7;2017;3;2025-04-18
+"446";"Tasa  de  desempleo  (porcentaje)";"2017-4-1";7,1;2017;4;2025-04-18
+"447";"Tasa  de  desempleo  (porcentaje)";"2017-5-1";7,3;2017;5;2025-04-18
+"448";"Tasa  de  desempleo  (porcentaje)";"2017-6-1";7,3;2017;6;2025-04-18
+"449";"Tasa  de  desempleo  (porcentaje)";"2017-7-1";7,2;2017;7;2025-04-18
+"450";"Tasa  de  desempleo  (porcentaje)";"2017-8-1";6,9;2017;8;2025-04-18
+"451";"Tasa  de  desempleo  (porcentaje)";"2017-9-1";7;2017;9;2025-04-18
+"452";"Tasa  de  desempleo  (porcentaje)";"2017-10-1";7;2017;10;2025-04-18
+"453";"Tasa  de  desempleo  (porcentaje)";"2017-11-1";6,7;2017;11;2025-04-18
+"454";"Tasa  de  desempleo  (porcentaje)";"2017-12-1";6,5;2017;12;2025-04-18
+"455";"Tasa  de  desempleo  (porcentaje)";"2018-1-1";6,8;2018;1;2025-04-18
+"456";"Tasa  de  desempleo  (porcentaje)";"2018-2-1";7;2018;2;2025-04-18
+"457";"Tasa  de  desempleo  (porcentaje)";"2018-3-1";7,4;2018;3;2025-04-18
+"458";"Tasa  de  desempleo  (porcentaje)";"2018-4-1";7;2018;4;2025-04-18
+"459";"Tasa  de  desempleo  (porcentaje)";"2018-5-1";7,4;2018;5;2025-04-18
+"460";"Tasa  de  desempleo  (porcentaje)";"2018-6-1";7,5;2018;6;2025-04-18
+"461";"Tasa  de  desempleo  (porcentaje)";"2018-7-1";7,9;2018;7;2025-04-18
+"462";"Tasa  de  desempleo  (porcentaje)";"2018-8-1";7,7;2018;8;2025-04-18
+"463";"Tasa  de  desempleo  (porcentaje)";"2018-9-1";7,5;2018;9;2025-04-18
+"464";"Tasa  de  desempleo  (porcentaje)";"2018-10-1";7,4;2018;10;2025-04-18
+"465";"Tasa  de  desempleo  (porcentaje)";"2018-11-1";7,3;2018;11;2025-04-18
+"466";"Tasa  de  desempleo  (porcentaje)";"2018-12-1";7,1;2018;12;2025-04-18
+"467";"Tasa  de  desempleo  (porcentaje)";"2019-1-1";7,1;2019;1;2025-04-18
+"468";"Tasa  de  desempleo  (porcentaje)";"2019-2-1";7;2019;2;2025-04-18
+"469";"Tasa  de  desempleo  (porcentaje)";"2019-3-1";7,2;2019;3;2025-04-18
+"470";"Tasa  de  desempleo  (porcentaje)";"2019-4-1";7,1;2019;4;2025-04-18
+"471";"Tasa  de  desempleo  (porcentaje)";"2019-5-1";7,2;2019;5;2025-04-18
+"472";"Tasa  de  desempleo  (porcentaje)";"2019-6-1";7,3;2019;6;2025-04-18
+"473";"Tasa  de  desempleo  (porcentaje)";"2019-7-1";7,5;2019;7;2025-04-18
+"474";"Tasa  de  desempleo  (porcentaje)";"2019-8-1";7,6;2019;8;2025-04-18
+"475";"Tasa  de  desempleo  (porcentaje)";"2019-9-1";7,3;2019;9;2025-04-18
+"476";"Tasa  de  desempleo  (porcentaje)";"2019-10-1";7,1;2019;10;2025-04-18
+"477";"Tasa  de  desempleo  (porcentaje)";"2019-11-1";7;2019;11;2025-04-18
+"478";"Tasa  de  desempleo  (porcentaje)";"2019-12-1";7,1;2019;12;2025-04-18
+"479";"Tasa  de  desempleo  (porcentaje)";"2020-1-1";7,4;2020;1;2025-04-18
+"480";"Tasa  de  desempleo  (porcentaje)";"2020-2-1";7,8;2020;2;2025-04-18
+"481";"Tasa  de  desempleo  (porcentaje)";"2020-3-1";8,2;2020;3;2025-04-18
+"482";"Tasa  de  desempleo  (porcentaje)";"2020-4-1";9;2020;4;2025-04-18
+"483";"Tasa  de  desempleo  (porcentaje)";"2020-5-1";11,2;2020;5;2025-04-18
+"484";"Tasa  de  desempleo  (porcentaje)";"2020-6-1";12,2;2020;6;2025-04-18
+"485";"Tasa  de  desempleo  (porcentaje)";"2020-7-1";13,1;2020;7;2025-04-18
+"486";"Tasa  de  desempleo  (porcentaje)";"2020-8-1";12,9;2020;8;2025-04-18
+"487";"Tasa  de  desempleo  (porcentaje)";"2020-9-1";12,3;2020;9;2025-04-18
+"488";"Tasa  de  desempleo  (porcentaje)";"2020-10-1";11,6;2020;10;2025-04-18
+"489";"Tasa  de  desempleo  (porcentaje)";"2020-11-1";10,8;2020;11;2025-04-18
+"490";"Tasa  de  desempleo  (porcentaje)";"2020-12-1";10,3;2020;12;2025-04-18
+"491";"Tasa  de  desempleo  (porcentaje)";"2021-1-1";10,2;2021;1;2025-04-18
+"492";"Tasa  de  desempleo  (porcentaje)";"2021-2-1";10,3;2021;2;2025-04-18
+"493";"Tasa  de  desempleo  (porcentaje)";"2021-3-1";10,4;2021;3;2025-04-18
+"494";"Tasa  de  desempleo  (porcentaje)";"2021-4-1";10,2;2021;4;2025-04-18
+"495";"Tasa  de  desempleo  (porcentaje)";"2021-5-1";10;2021;5;2025-04-18
+"496";"Tasa  de  desempleo  (porcentaje)";"2021-6-1";9,5;2021;6;2025-04-18
+"497";"Tasa  de  desempleo  (porcentaje)";"2021-7-1";8,9;2021;7;2025-04-18
+"498";"Tasa  de  desempleo  (porcentaje)";"2021-8-1";8,5;2021;8;2025-04-18
+"499";"Tasa  de  desempleo  (porcentaje)";"2021-9-1";8,4;2021;9;2025-04-18
+"500";"Tasa  de  desempleo  (porcentaje)";"2021-10-1";8,1;2021;10;2025-04-18
+"501";"Tasa  de  desempleo  (porcentaje)";"2021-11-1";7,5;2021;11;2025-04-18
+"502";"Tasa  de  desempleo  (porcentaje)";"2021-12-1";7,2;2021;12;2025-04-18
+"503";"Tasa  de  desempleo  (porcentaje)";"2022-1-1";7,3;2022;1;2025-04-18
+"504";"Tasa  de  desempleo  (porcentaje)";"2022-2-1";7,5;2022;2;2025-04-18
+"505";"Tasa  de  desempleo  (porcentaje)";"2022-3-1";7,8;2022;3;2025-04-18
+"506";"Tasa  de  desempleo  (porcentaje)";"2022-4-1";7,7;2022;4;2025-04-18
+"507";"Tasa  de  desempleo  (porcentaje)";"2022-5-1";7,8;2022;5;2025-04-18
+"508";"Tasa  de  desempleo  (porcentaje)";"2022-6-1";7,8;2022;6;2025-04-18
+"509";"Tasa  de  desempleo  (porcentaje)";"2022-7-1";7,9;2022;7;2025-04-18
+"510";"Tasa  de  desempleo  (porcentaje)";"2022-8-1";7,9;2022;8;2025-04-18
+"511";"Tasa  de  desempleo  (porcentaje)";"2022-9-1";8;2022;9;2025-04-18
+"512";"Tasa  de  desempleo  (porcentaje)";"2022-10-1";8;2022;10;2025-04-18
+"513";"Tasa  de  desempleo  (porcentaje)";"2022-11-1";7,9;2022;11;2025-04-18
+"514";"Tasa  de  desempleo  (porcentaje)";"2022-12-1";7,9;2022;12;2025-04-18
+"515";"Tasa  de  desempleo  (porcentaje)";"2023-1-1";8;2023;1;2025-04-18
+"516";"Tasa  de  desempleo  (porcentaje)";"2023-2-1";8,4;2023;2;2025-04-18
+"517";"Tasa  de  desempleo  (porcentaje)";"2023-3-1";8,8;2023;3;2025-04-18
+"518";"Tasa  de  desempleo  (porcentaje)";"2023-4-1";8,7;2023;4;2025-04-18
+"519";"Tasa  de  desempleo  (porcentaje)";"2023-5-1";8,5;2023;5;2025-04-18
+"520";"Tasa  de  desempleo  (porcentaje)";"2023-6-1";8,5;2023;6;2025-04-18
+"521";"Tasa  de  desempleo  (porcentaje)";"2023-7-1";8,8;2023;7;2025-04-18
+"522";"Tasa  de  desempleo  (porcentaje)";"2023-8-1";9;2023;8;2025-04-18
+"523";"Tasa  de  desempleo  (porcentaje)";"2023-9-1";8,9;2023;9;2025-04-18
+"524";"Tasa  de  desempleo  (porcentaje)";"2023-10-1";8,9;2023;10;2025-04-18
+"525";"Tasa  de  desempleo  (porcentaje)";"2023-11-1";8,7;2023;11;2025-04-18
+"526";"Tasa  de  desempleo  (porcentaje)";"2023-12-1";8,5;2023;12;2025-04-18
+"527";"Tasa  de  desempleo  (porcentaje)";"2024-1-1";8,4;2024;1;2025-04-18
+"528";"Tasa  de  desempleo  (porcentaje)";"2024-2-1";8,5;2024;2;2025-04-18
+"529";"Tasa  de  desempleo  (porcentaje)";"2024-3-1";8,7;2024;3;2025-04-18
+"530";"Tasa  de  desempleo  (porcentaje)";"2024-4-1";8,5;2024;4;2025-04-18
+"531";"Tasa  de  desempleo  (porcentaje)";"2024-5-1";8,3;2024;5;2025-04-18
+"532";"Tasa  de  desempleo  (porcentaje)";"2024-6-1";8,3;2024;6;2025-04-18
+"533";"Tasa  de  desempleo  (porcentaje)";"2024-7-1";8,7;2024;7;2025-04-18
+"534";"Tasa  de  desempleo  (porcentaje)";"2024-8-1";8,9;2024;8;2025-04-18
+"535";"Tasa  de  desempleo  (porcentaje)";"2024-9-1";8,7;2024;9;2025-04-18
+"536";"Tasa  de  desempleo  (porcentaje)";"2024-10-1";8,6;2024;10;2025-04-18
+"537";"Tasa  de  desempleo  (porcentaje)";"2024-11-1";8,2;2024;11;2025-04-18
+"538";"Tasa  de  desempleo  (porcentaje)";"2024-12-1";8,1;2024;12;2025-04-18
+"539";"Tasa  de  desempleo  (porcentaje)";"2025-1-1";8;2025;1;2025-04-18
+"540";"Tasa  de  desempleo  (porcentaje)";"2025-2-1";8,4;2025;2;2025-04-18
