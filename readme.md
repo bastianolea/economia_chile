@@ -28,6 +28,9 @@ Los datos de este repositorio se actualizan automáticamente cada 12 horas por m
 
 ### Actualizaciones
 
+#### Actualización 27/04/2025
+- Mejora en proceso de obtención de datos para que no falle el proceso completo cuando una fuente de datos no responda
+
 #### Actualización 23/03/2025
 - Actualizada la obtención de datos de precio del cobre para año 2025
 - Actualizada la obtención de datos de Inversión Extranjera (el dato de fuente cambió en su formato, lo que impedía su obtención)
