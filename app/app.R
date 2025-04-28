@@ -7,6 +7,7 @@ library(scales)
 library(lubridate)
 library(ggplot2)
 library(shades)
+library(slider)
 
 descargar = TRUE #descargar datos desde GitHub, o cargar datos locales
 

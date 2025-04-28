@@ -69,15 +69,15 @@ scrapear_tabla_bc <- function(url, convertir = TRUE) {
       janitor::clean_names() |> 
       select(-1)
     
+    stopifnot(length(dato_1) > 1)
+    stopifnot(nrow(dato_1) >= 1)
+    
+    return(dato_1)
+    
   }, error = function(error) {
     warning(error)
     return(NULL)
   })
-  
-  stopifnot(length(dato_1) > 1)
-  stopifnot(nrow(dato_1) >= 1)
-  
-  return(dato_1)
 }
 
 
@@ -127,6 +127,8 @@ limpiar_tabla_bc <- function(dato_1, frecuencia = "mensual",
 
 obtener_pib <- function() {
   message("obtienendo PIB desde web del Banco Central...")
+  
+  tryCatch({
   # https://si3.bcentral.cl/Siete/ES/Siete/Cuadro/CAP_CCNN/MN_CCNN76/CCNN2018_P0_V2/637801082315858005?cbFechaInicio=2010&cbFechaTermino=2023&cbFrecuencia=QUARTERLY&cbCalculo=NONE&cbFechaBase=
   # Cuentas nacionales > Producto Interno Bruto (PIB), gasto e ingreso > Referencia 2018 > Producto interno bruto > PIB total
   
@@ -141,6 +143,10 @@ obtener_pib <- function() {
   stopifnot(nrow(dato_2) > 12)
   
   return(dato_2)
+  }, error = function(error) {
+    warning(error)
+    return(NULL)
+  })
 }
 
 
@@ -657,4 +663,21 @@ obtener_cobre_año <- function(url_precio_cobre, año_e) {
     arrange(mes, dia) |> 
     fill(valor, .direction = "downup") |> 
     filter(as.Date(fecha) <= Sys.Date()) 
+}
+
+
+cargar_si_no_existe <- function(objeto){
+  # objeto <- "pib"
+  
+  if (!exists(objeto)) {
+    warning("objeto ", objeto, " no existía; cargando")
+    ruta <- paste0("app/datos/", objeto, ".csv")
+    salida <- readr::read_delim(ruta, 
+                                delim = ";", name_repair = "universal_quiet",
+                                show_col_types = FALSE)
+  } else {
+    salida <- get(objeto)
+  }
+  
+  return(salida)
 }

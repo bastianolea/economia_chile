@@ -66,7 +66,6 @@ guardar_solo_con_cambios(desempleo, "app/datos/desempleo.csv")
 guardar_solo_con_cambios(uf, "app/datos/uf.csv")
 guardar_solo_con_cambios(remuneraciones, "app/datos/remuneraciones.csv")
 
-
 # nuevos
 guardar_solo_con_cambios(inversion_extranjera, "app/datos/inversion_extranjera.csv")
 guardar_solo_con_cambios(precio_cobre, "app/datos/precio_cobre.csv")
@@ -78,6 +77,19 @@ guardar_solo_con_cambios(prod_industrial, "app/datos/prod_industrial.csv")
 # unificar ----
 
 message("uniendo datos...")
+
+pib <- cargar_si_no_existe("pib")
+imacec <- cargar_si_no_existe("imacec")
+ipc  <- cargar_si_no_existe("ipc")
+ipsa  <- cargar_si_no_existe("ipsa")
+desempleo  <- cargar_si_no_existe("desempleo")
+uf  <- cargar_si_no_existe("uf")
+remuneraciones  <- cargar_si_no_existe("remuneraciones")
+inversion_extranjera  <- cargar_si_no_existe("inversion_extranjera")
+precio_cobre  <- cargar_si_no_existe("precio_cobre")
+prod_industrial  <- cargar_si_no_existe("prod_industrial")
+
+
 
 # unir todos los datos en un solo dataframe
 datos_unidos <- bind_rows(pib |> mutate(dato = "pib"),
