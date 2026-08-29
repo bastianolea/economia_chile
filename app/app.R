@@ -566,9 +566,9 @@ server <- function(input, output) {
   # opción 3: cargar un solo archivo desde GitHub, que son los datos unidos
   # descargar = FALSE; local = FALSE #para probar localmente
   # datos <- cargar_datos_web("datos_economia_chile", descargar = FALSE, local = TRUE)
-  # datos <- cargar_datos_web("datos_economia_chile", descargar, localmente)
+  datos <- cargar_datos_web("datos_economia_chile", descargar, localmente)
 
-  datos <- read_csv2("datos/datos_economia_chile.csv")
+  # datos <- read_csv2("datos/datos_economia_chile.csv")
 
   # separar dato unido en piezas
   pib <- datos |> filter(dato == "pib")
