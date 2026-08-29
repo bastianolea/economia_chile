@@ -43,7 +43,7 @@ extraer_año <- function(x) {
 # funciones banco central ----
 scrapear_tabla_bc <- function(url, convertir = TRUE) {
   stopifnot(nchar(url) > 1)
-  message(url)
+  # message(url)
   # browser()
 
   tryCatch(
@@ -129,29 +129,6 @@ limpiar_tabla_bc <- function(
 
 obtener_pib <- function() {
   message("obtienendo PIB desde web del Banco Central...")
-<<<<<<< HEAD
-  
-  tryCatch({
-    # https://si3.bcentral.cl/Siete/ES/Siete/Cuadro/CAP_CCNN/MN_CCNN76/CCNN2018_P0_V2/637801082315858005?cbFechaInicio=2010&cbFechaTermino=2023&cbFrecuencia=QUARTERLY&cbCalculo=NONE&cbFechaBase=
-    # Cuentas nacionales > Producto Interno Bruto (PIB), gasto e ingreso > Referencia 2018 > Producto interno bruto > PIB total
-    
-    dato_1 <- scrapear_tabla_bc("https://si3.bcentral.cl/Siete/ES/Siete/Cuadro/CAP_CCNN/MN_CCNN76/CCNN2018_P0_V2/637801082315858005", 
-                                convertir = FALSE)
-    
-    message("limpiando datos...")
-    dato_2 <- dato_1 |> 
-      limpiar_tabla_bc(frecuencia = "trimestral")
-    
-    stopifnot(length(dato_2) >= 3)
-    stopifnot(nrow(dato_2) > 12)
-    
-    return(dato_2)
-    
-  }, error = function(error) {
-    warning(error)
-    return(NUlL)
-  })
-=======
 
   tryCatch(
     {
@@ -177,7 +154,6 @@ obtener_pib <- function() {
       return(NULL)
     }
   )
->>>>>>> f749a04 (validación de datos obtenidos)
 }
 
 
@@ -345,20 +321,6 @@ obtener_prod_industrial <- function() {
   # producción industrial
   # https://si3.bcentral.cl/Siete/ES/Siete/Cuadro/CAP_ESTADIST_MACRO/MN_EST_MACRO_IV/PEM_INDSEC/PEM_INDSEC
   # https://si3.bcentral.cl/Siete/ES/Siete/Cuadro/CAP_IND_SEC/MN_IND_SEC20/IS_PI2014?id5=SI&idSerie=F034.PRN.IND.INE.2014.0.M
-<<<<<<< HEAD
-  
-  message("obtienendo Indicadores sectores industriales (Base 2014=100) desde web del Banco Central...")
-  
-  dato_1 <- scrapear_tabla_bc("https://si3.bcentral.cl/Siete/ES/Siete/Cuadro/CAP_ESTADIST_MACRO/MN_EST_MACRO_IV/PEM_INDSEC/PEM_INDSEC")
-  
-  message("limpiando datos...")
-  dato_2 <- dato_1 |> 
-    limpiar_tabla_bc(chequear_missings_valor = FALSE)
-  
-  stopifnot(length(dato_2) >= 3)
-  stopifnot(nrow(dato_2) > 12)
-  
-=======
 
   message(
     "obtienendo Indicadores sectores industriales (Base 2014=100) desde web del Banco Central..."
@@ -375,7 +337,6 @@ obtener_prod_industrial <- function() {
   stopifnot(length(dato_2) >= 3)
   stopifnot(nrow(dato_2) > 12)
 
->>>>>>> f749a04 (validación de datos obtenidos)
   return(dato_2)
 }
 
@@ -759,14 +720,8 @@ obtener_cobre_año <- function(url_precio_cobre, año_e) {
 
 cargar_si_no_existe <- function(objeto) {
   # objeto <- "pib"
-<<<<<<< HEAD
-  
   # si no existe, cargar
   if (!exists(objeto) | length(get(objeto)) == 0) {
-=======
-
-  if (!exists(objeto)) {
->>>>>>> f749a04 (validación de datos obtenidos)
     warning("objeto ", objeto, " no existía; cargando")
     ruta <- paste0("app/datos/", objeto, ".csv")
     salida <- readr::read_delim(

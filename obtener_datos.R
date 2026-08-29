@@ -11,27 +11,16 @@ source("funciones.R")
 
 
 # obtener datos ----
-
 pib <- obtener_pib()
-
 pib_regional <- obtener_pib_regional()
-
 imacec <- obtener_imacec()
-
 ipc <- obtener_ipc()
-
 ipsa <- obtener_ipsa()
-
 desempleo <- obtener_desempleo()
-
 uf <- obtener_uf()
-
 remuneraciones <- obtener_remuneraciones()
-
 inversion_extranjera <- obtener_inversion_extranjera()
-
 precio_cobre <- obtener_precio_cobre()
-
 prod_industrial <- obtener_prod_industrial()
 
 ## validar ----
@@ -72,7 +61,6 @@ guardar_solo_con_cambios(prod_industrial, "app/datos/prod_industrial.csv")
 
 
 # unificar ----
-
 message("uniendo datos...")
 
 pib <- cargar_si_no_existe("pib")
