@@ -659,16 +659,18 @@ obtener_precio_cobre <- function() {
   # en la página solo aparece el ultimo año, no se puede cambiar el año por url así que habría que usar selenium
   url_precio_cobre = "https://si3.bcentral.cl/Indicadoressiete/secure/Serie.aspx?gcode=LIBRA_COBRE&param=cgBnAE8AOQBlAGcAIwBiAFUALQBsAEcAYgBOAEkASQBCAEcAegBFAFkAeABkADgASAA2AG8AdgB2AFMAUgBYADIAQwBzAEEAMQBJAG8ATwBzAEgATABGAE4AagB1AFcAYgB2AFAAZwBhADIAbABWAHcAXwBXAGgATAAkAFIAVAB1AEIAbAB3AFoAdQBRAFgAZwA5AHgAdgAwACQATwBZADcAMwAuAGIARwBFAFIASwAuAHQA"
 
-  tabla_cobre_2025 <- obtener_cobre_año(url_precio_cobre, 2025)
+  tabla_cobre_2026 <- obtener_cobre_año(url_precio_cobre, 2026)
 
   # por lo tanto, los años pasados se descargan manualmente desde esa misma página con el botón de descarga, y se cargan por año:
   # cargar valor del año pasado
+  cobre_anterior_2025 <- cargar_precio_cobre_anterior(2025)
   cobre_anterior_2023 <- cargar_precio_cobre_anterior(2023)
   cobre_anterior_2024 <- cargar_precio_cobre_anterior(2024)
 
   # anexar valores del año pasado
   tabla_cobre_5 <- bind_rows(
-    tabla_cobre_2025,
+    tabla_cobre_2026,
+    cobre_anterior_2025,
     cobre_anterior_2024,
     cobre_anterior_2023
   ) |>

@@ -289,7 +289,6 @@ ui <- fluidPage(
     )
   ),
 
-
   # tendencias ----
   fluidRow(
     column(12, hr(), h2("Resumen de tendencias")),
@@ -567,7 +566,9 @@ server <- function(input, output) {
   # opción 3: cargar un solo archivo desde GitHub, que son los datos unidos
   # descargar = FALSE; local = FALSE #para probar localmente
   # datos <- cargar_datos_web("datos_economia_chile", descargar = FALSE, local = TRUE)
-  datos <- cargar_datos_web("datos_economia_chile", descargar, localmente)
+  # datos <- cargar_datos_web("datos_economia_chile", descargar, localmente)
+
+  datos <- read_csv2("datos/datos_economia_chile.csv")
 
   # separar dato unido en piezas
   pib <- datos |> filter(dato == "pib")
@@ -601,7 +602,7 @@ server <- function(input, output) {
     calcular_metricas()
 
   datos_ipsa <- ipsa |>
-    filter(serie == "IPSA  (índice enero 2003=1000)") |>
+    filter(serie == "IPSA (índice enero 2003=1000)") |>
     calcular_metricas()
 
   datos_desempleo <- desempleo |>
@@ -616,6 +617,7 @@ server <- function(input, output) {
   datos_invext <- invext |>
     calcular_metricas(media_movil = 3)
 
+  # browser()
   datos_cobre <- cobre |>
     calcular_metricas()
 
@@ -710,12 +712,15 @@ server <- function(input, output) {
     input,
     subir = "bueno"
   ))
-  output$cobre_tendencia <- renderUI(tendencia_ui(
-    datos_cobre,
-    fecha_corte(),
-    input,
-    subir = "bueno"
-  ))
+  output$cobre_tendencia <- renderUI({
+    # browser()
+    tendencia_ui(
+      datos_cobre,
+      fecha_corte(),
+      input,
+      subir = "bueno"
+    )
+  })
 
   # nuevas nuevas
   output$prod_industrial_tendencia <- renderUI(tendencia_ui(

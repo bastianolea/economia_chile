@@ -335,8 +335,14 @@ variacion_corte_fecha <- function(datos, fecha_corte, input) {
   req(datos)
   req(fecha_corte)
 
+  # browser()
   datos_variacion <- datos$variacion |>
     filter(fecha >= fecha_corte)
+
+  stopifnot(
+    "no hay valores de variación al filtrar por fecha" = nrow(datos_variacion) >
+      0
+  )
 
   # correción para indicadores que se cortan antes de tener alguna medición
   if (nrow(datos_variacion) == 0 & input$fecha_corte == "3 meses") {
@@ -353,26 +359,6 @@ variacion_corte_fecha <- function(datos, fecha_corte, input) {
 }
 
 tendencia_ui <- function(datos, fecha_corte, input, subir = "bueno") {
-  # req(datos)
-  # req(fecha_corte)
-  #
-  # fecha_corte <- fecha_corte()
-  # datos <- datos_prod_industrial
-  # datos_variacion <- datos$variacion |>
-  #   filter(fecha >= fecha_corte)
-  #
-  # # correción para indicadores que se cortan antes de tener alguna medición
-  # if (nrow(datos_variacion) == 0 & input$fecha_corte == "3 meses") {
-  #   # browser()
-  #   # if (unique(datos$variacion$serie) == "PIB a precios corrientes") {
-  #   datos_variacion <- datos$variacion |>
-  #     slice(1)
-  #   # }
-  # }
-  #
-  # # se aplica redondeo para simplificar comparaciones, para que un 0.01 no sea reducción, sino que se vea como 0 (para cambiarlo hay que ajustar la accuracy del scales::percent mas abajo en esta función)
-  # variacion <- mean(datos_variacion$valor, na.rm = T) |> round(3)
-  #
   # browser()
   variacion <- variacion_corte_fecha(datos, fecha_corte, input)
 

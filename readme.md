@@ -14,8 +14,8 @@ Los datos de este repositorio se actualizan automáticamente cada 12 horas por m
 - UF
 - Tasa de desempleo
 - Índice de remuneraciones reales
-- Inversión extranjera **(nuevo)**
-- Precio del cobre **(nuevo)**
+- Inversión extranjera
+- Precio del cobre
 
 
 ![](otros/pantallazos/pantallazo1.png)
@@ -27,6 +27,9 @@ Los datos de este repositorio se actualizan automáticamente cada 12 horas por m
 ----
 
 ### Actualizaciones
+
+#### Actualización 29/08/2026
+- Arreglo de fuentes que dejaron de funcionar
 
 #### Actualización 27/04/2025
 - Mejora en proceso de obtención de datos para que no falle el proceso completo cuando una fuente de datos no responda

@@ -5,10 +5,10 @@ library(stringr)
 library(tidyr)
 library(readxl)
 library(janitor)
+library(lubridate)
 library(pointblank)
 
 source("funciones.R")
-
 
 # obtener datos ----
 pib <- obtener_pib()
@@ -20,7 +20,7 @@ desempleo <- obtener_desempleo()
 uf <- obtener_uf()
 remuneraciones <- obtener_remuneraciones()
 inversion_extranjera <- obtener_inversion_extranjera()
-precio_cobre <- obtener_precio_cobre()
+precio_cobre <- obtener_precio_cobre() # debe actualizarse manualmente cada año
 prod_industrial <- obtener_prod_industrial()
 
 ## validar ----
@@ -34,8 +34,8 @@ uf |> expect_col_vals_not_null(everything())
 remuneraciones |> expect_col_vals_not_null(everything())
 inversion_extranjera |> expect_col_vals_not_null(everything())
 precio_cobre |> expect_col_vals_not_null(everything())
+precio_cobre |> expect_col_vals_in_set(año, 2023:year(today()))
 remuneraciones |> expect_col_vals_not_null(everything())
-
 
 # hay que automatizarla primero
 # canasta <- obtener_canasta()
