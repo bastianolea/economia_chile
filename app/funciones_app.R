@@ -29,7 +29,7 @@ cargar_datos_web <- function(
     )
 
     message("cargando desde url: ", url)
-    # notificacion("Cargando datos remotos del Banco Central:", archivo)
+    notificacion("Cargando datos remotos del Banco Central:", archivo)
 
     data <- try(read_csv2(url))
 
@@ -58,7 +58,7 @@ cargar_datos_web <- function(
     )
     message("cargando desde archivo local: ", path)
     if (localmente == FALSE) {
-      # notificacion("Cargando datos pre-guardados:", archivo)
+      notificacion("Cargando datos pre-guardados:", archivo)
     }
 
     data <- try(read_csv2(path))
