@@ -23,9 +23,12 @@ jobs:
       
       - name: Instalar libxml
         run: sudo apt-get install libxml2-dev -y 
+        
+      - name: Instalar libgit
+        run: sudo apt install libgit2-dev -y
   
       - name: Instalar dependencias
-        run: Rscript -e 'install.packages(c("dplyr", "rvest", "polite", "stringr", "tidyr", "janitor", "readxl"))'
+        run: Rscript -e 'install.packages(c("dplyr", "rvest", "polite", "stringr", "tidyr", "janitor", "readxl", "lubridate", "pointblank"))'
         
       - name: Scrapear datos
         run: Rscript obtener_datos.R
