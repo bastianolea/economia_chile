@@ -51,8 +51,8 @@ scrapear_tabla_bc <- function(url, convertir = TRUE) {
       # dato_0 <- session(url) |>
       #   read_html() |>
       #   html_table(convert = convertir)
-      dato_0 <- bow(url) |>
-        scrape() |>
+      dato_0 <- session(url) |>
+        read_html() |>
         html_table(convert = convertir)
 
       Sys.sleep(1)
