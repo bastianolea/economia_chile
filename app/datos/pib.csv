@@ -1,163 +1,163 @@
 "";"serie";"fecha";"valor";"año";"trimestre";"mes";"fecha_scraping"
-"1";"PIB a precios corrientes";"2013-3-1";33443;2013;1;3;2026-10-24
-"2";"PIB a precios corrientes";"2013-6-1";33911;2013;2;6;2026-10-24
-"3";"PIB a precios corrientes";"2013-9-1";32986;2013;3;9;2026-10-24
-"4";"PIB a precios corrientes";"2013-12-1";36969;2013;4;12;2026-10-24
-"5";"PIB a precios corrientes";"2014-3-1";36033;2014;1;3;2026-10-24
-"6";"PIB a precios corrientes";"2014-6-1";36556;2014;2;6;2026-10-24
-"7";"PIB a precios corrientes";"2014-9-1";35390;2014;3;9;2026-10-24
-"8";"PIB a precios corrientes";"2014-12-1";39973;2014;4;12;2026-10-24
-"9";"PIB a precios corrientes";"2015-3-1";39273;2015;1;3;2026-10-24
-"10";"PIB a precios corrientes";"2015-6-1";39194;2015;2;6;2026-10-24
-"11";"PIB a precios corrientes";"2015-9-1";37973;2015;3;9;2026-10-24
-"12";"PIB a precios corrientes";"2015-12-1";42182;2015;4;12;2026-10-24
-"13";"PIB a precios corrientes";"2016-3-1";42096;2016;1;3;2026-10-24
-"14";"PIB a precios corrientes";"2016-6-1";41215;2016;2;6;2026-10-24
-"15";"PIB a precios corrientes";"2016-9-1";40591;2016;3;9;2026-10-24
-"16";"PIB a precios corrientes";"2016-12-1";44862;2016;4;12;2026-10-24
-"17";"PIB a precios corrientes";"2017-3-1";43580;2017;1;3;2026-10-24
-"18";"PIB a precios corrientes";"2017-6-1";43880;2017;2;6;2026-10-24
-"19";"PIB a precios corrientes";"2017-9-1";43578;2017;3;9;2026-10-24
-"20";"PIB a precios corrientes";"2017-12-1";48277;2017;4;12;2026-10-24
-"21";"PIB a precios corrientes";"2018-3-1";47046;2018;1;3;2026-10-24
-"22";"PIB a precios corrientes";"2018-6-1";46993;2018;2;6;2026-10-24
-"23";"PIB a precios corrientes";"2018-9-1";45024;2018;3;9;2026-10-24
-"24";"PIB a precios corrientes";"2018-12-1";50371;2018;4;12;2026-10-24
-"25";"PIB a precios corrientes";"2019-3-1";48590;2019;1;3;2026-10-24
-"26";"PIB a precios corrientes";"2019-6-1";48591;2019;2;6;2026-10-24
-"27";"PIB a precios corrientes";"2019-9-1";47343;2019;3;9;2026-10-24
-"28";"PIB a precios corrientes";"2019-12-1";51025;2019;4;12;2026-10-24
-"29";"PIB a precios corrientes";"2020-3-1";51191;2020;1;3;2026-10-24
-"30";"PIB a precios corrientes";"2020-6-1";46171;2020;2;6;2026-10-24
-"31";"PIB a precios corrientes";"2020-9-1";47398;2020;3;9;2026-10-24
-"32";"PIB a precios corrientes";"2020-12-1";56547;2020;4;12;2026-10-24
-"33";"PIB a precios corrientes";"2021-3-1";56150;2021;1;3;2026-10-24
-"34";"PIB a precios corrientes";"2021-6-1";57037;2021;2;6;2026-10-24
-"35";"PIB a precios corrientes";"2021-9-1";59138;2021;3;9;2026-10-24
-"36";"PIB a precios corrientes";"2021-12-1";67231;2021;4;12;2026-10-24
-"37";"PIB a precios corrientes";"2022-3-1";63770;2022;1;3;2026-10-24
-"38";"PIB a precios corrientes";"2022-6-1";63481;2022;2;6;2026-10-24
-"39";"PIB a precios corrientes";"2022-9-1";63962;2022;3;9;2026-10-24
-"40";"PIB a precios corrientes";"2022-12-1";71742;2022;4;12;2026-10-24
-"41";"PIB a precios corrientes";"2023-3-1";70236;2023;1;3;2026-10-24
-"42";"PIB a precios corrientes";"2023-6-1";68964;2023;2;6;2026-10-24
-"43";"PIB a precios corrientes";"2023-9-1";67633;2023;3;9;2026-10-24
-"44";"PIB a precios corrientes";"2023-12-1";75264;2023;4;12;2026-10-24
-"45";"PIB a precios corrientes";"2024-3-1";76700;2024;1;3;2026-10-24
-"46";"PIB a precios corrientes";"2024-6-1";74886;2024;2;6;2026-10-24
-"47";"PIB a precios corrientes";"2024-9-1";74738;2024;3;9;2026-10-24
-"48";"PIB a precios corrientes";"2024-12-1";84357;2024;4;12;2026-10-24
-"49";"PIB a precios corrientes";"2025-3-1";81964;2025;1;3;2026-10-24
-"50";"PIB a precios corrientes";"2025-6-1";82873;2025;2;6;2026-10-24
-"51";"PIB a precios corrientes";"2025-9-1";82693;2025;3;9;2026-10-24
-"52";"PIB a precios corrientes";"2025-12-1";92448;2025;4;12;2026-10-24
-"53";"PIB a precios corrientes";"2026-3-1";89511;2026;1;3;2026-10-24
-"54";"PIB a precios corrientes";"2026-6-1";88509;2026;2;6;2026-10-24
-"55";"PIB volumen a precios del año anterior encadenado";"2013-3-1";41321;2013;1;3;2026-10-24
-"56";"PIB volumen a precios del año anterior encadenado";"2013-6-1";42736;2013;2;6;2026-10-24
-"57";"PIB volumen a precios del año anterior encadenado";"2013-9-1";41003;2013;3;9;2026-10-24
-"58";"PIB volumen a precios del año anterior encadenado";"2013-12-1";44804;2013;4;12;2026-10-24
-"59";"PIB volumen a precios del año anterior encadenado";"2014-3-1";42336;2014;1;3;2026-10-24
-"60";"PIB volumen a precios del año anterior encadenado";"2014-6-1";43464;2014;2;6;2026-10-24
-"61";"PIB volumen a precios del año anterior encadenado";"2014-9-1";41538;2014;3;9;2026-10-24
-"62";"PIB volumen a precios del año anterior encadenado";"2014-12-1";45571;2014;4;12;2026-10-24
-"63";"PIB volumen a precios del año anterior encadenado";"2015-3-1";43393;2015;1;3;2026-10-24
-"64";"PIB volumen a precios del año anterior encadenado";"2015-6-1";44353;2015;2;6;2026-10-24
-"65";"PIB volumen a precios del año anterior encadenado";"2015-9-1";42479;2015;3;9;2026-10-24
-"66";"PIB volumen a precios del año anterior encadenado";"2015-12-1";46404;2015;4;12;2026-10-24
-"67";"PIB volumen a precios del año anterior encadenado";"2016-3-1";44689;2016;1;3;2026-10-24
-"68";"PIB volumen a precios del año anterior encadenado";"2016-6-1";44914;2016;2;6;2026-10-24
-"69";"PIB volumen a precios del año anterior encadenado";"2016-9-1";43325;2016;3;9;2026-10-24
-"70";"PIB volumen a precios del año anterior encadenado";"2016-12-1";46799;2016;4;12;2026-10-24
-"71";"PIB volumen a precios del año anterior encadenado";"2017-3-1";44533;2017;1;3;2026-10-24
-"72";"PIB volumen a precios del año anterior encadenado";"2017-6-1";45234;2017;2;6;2026-10-24
-"73";"PIB volumen a precios del año anterior encadenado";"2017-9-1";44143;2017;3;9;2026-10-24
-"74";"PIB volumen a precios del año anterior encadenado";"2017-12-1";48256;2017;4;12;2026-10-24
-"75";"PIB volumen a precios del año anterior encadenado";"2018-3-1";46576;2018;1;3;2026-10-24
-"76";"PIB volumen a precios del año anterior encadenado";"2018-6-1";47652;2018;2;6;2026-10-24
-"77";"PIB volumen a precios del año anterior encadenado";"2018-9-1";45199;2018;3;9;2026-10-24
-"78";"PIB volumen a precios del año anterior encadenado";"2018-12-1";50008;2018;4;12;2026-10-24
-"79";"PIB volumen a precios del año anterior encadenado";"2019-3-1";47160;2019;1;3;2026-10-24
-"80";"PIB volumen a precios del año anterior encadenado";"2019-6-1";48373;2019;2;6;2026-10-24
-"81";"PIB volumen a precios del año anterior encadenado";"2019-9-1";46518;2019;3;9;2026-10-24
-"82";"PIB volumen a precios del año anterior encadenado";"2019-12-1";48605;2019;4;12;2026-10-24
-"83";"PIB volumen a precios del año anterior encadenado";"2020-3-1";46973;2020;1;3;2026-10-24
-"84";"PIB volumen a precios del año anterior encadenado";"2020-6-1";41106;2020;2;6;2026-10-24
-"85";"PIB volumen a precios del año anterior encadenado";"2020-9-1";42217;2020;3;9;2026-10-24
-"86";"PIB volumen a precios del año anterior encadenado";"2020-12-1";48655;2020;4;12;2026-10-24
-"87";"PIB volumen a precios del año anterior encadenado";"2021-3-1";47174;2021;1;3;2026-10-24
-"88";"PIB volumen a precios del año anterior encadenado";"2021-6-1";48661;2021;2;6;2026-10-24
-"89";"PIB volumen a precios del año anterior encadenado";"2021-9-1";49073;2021;3;9;2026-10-24
-"90";"PIB volumen a precios del año anterior encadenado";"2021-12-1";54330;2021;4;12;2026-10-24
-"91";"PIB volumen a precios del año anterior encadenado";"2022-3-1";49984;2022;1;3;2026-10-24
-"92";"PIB volumen a precios del año anterior encadenado";"2022-6-1";50978;2022;2;6;2026-10-24
-"93";"PIB volumen a precios del año anterior encadenado";"2022-9-1";49140;2022;3;9;2026-10-24
-"94";"PIB volumen a precios del año anterior encadenado";"2022-12-1";53247;2022;4;12;2026-10-24
-"95";"PIB volumen a precios del año anterior encadenado";"2023-3-1";49961;2023;1;3;2026-10-24
-"96";"PIB volumen a precios del año anterior encadenado";"2023-6-1";50794;2023;2;6;2026-10-24
-"97";"PIB volumen a precios del año anterior encadenado";"2023-9-1";49818;2023;3;9;2026-10-24
-"98";"PIB volumen a precios del año anterior encadenado";"2023-12-1";54154;2023;4;12;2026-10-24
-"99";"PIB volumen a precios del año anterior encadenado";"2024-3-1";51699;2024;1;3;2026-10-24
-"100";"PIB volumen a precios del año anterior encadenado";"2024-6-1";51391;2024;2;6;2026-10-24
-"101";"PIB volumen a precios del año anterior encadenado";"2024-9-1";51007;2024;3;9;2026-10-24
-"102";"PIB volumen a precios del año anterior encadenado";"2024-12-1";56373;2024;4;12;2026-10-24
-"103";"PIB volumen a precios del año anterior encadenado";"2025-3-1";53213;2025;1;3;2026-10-24
-"104";"PIB volumen a precios del año anterior encadenado";"2025-6-1";53310;2025;2;6;2026-10-24
-"105";"PIB volumen a precios del año anterior encadenado";"2025-9-1";51876;2025;3;9;2026-10-24
-"106";"PIB volumen a precios del año anterior encadenado";"2025-12-1";57247;2025;4;12;2026-10-24
-"107";"PIB volumen a precios del año anterior encadenado";"2026-3-1";53040;2026;1;3;2026-10-24
-"108";"PIB volumen a precios del año anterior encadenado";"2026-6-1";53211;2026;2;6;2026-10-24
-"109";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2013-3-1";42052;2013;1;3;2026-10-24
-"110";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2013-6-1";42404;2013;2;6;2026-10-24
-"111";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2013-9-1";42664;2013;3;9;2026-10-24
-"112";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2013-12-1";42811;2013;4;12;2026-10-24
-"113";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2014-3-1";42938;2014;1;3;2026-10-24
-"114";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2014-6-1";43283;2014;2;6;2026-10-24
-"115";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2014-9-1";43099;2014;3;9;2026-10-24
-"116";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2014-12-1";43560;2014;4;12;2026-10-24
-"117";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2015-3-1";43845;2015;1;3;2026-10-24
-"118";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2015-6-1";44261;2015;2;6;2026-10-24
-"119";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2015-9-1";44065;2015;3;9;2026-10-24
-"120";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2015-12-1";44407;2015;4;12;2026-10-24
-"121";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2016-3-1";44840;2016;1;3;2026-10-24
-"122";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2016-6-1";44684;2016;2;6;2026-10-24
-"123";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2016-9-1";44962;2016;3;9;2026-10-24
-"124";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2016-12-1";44931;2016;4;12;2026-10-24
-"125";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2017-3-1";44642;2017;1;3;2026-10-24
-"126";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2017-6-1";45240;2017;2;6;2026-10-24
-"127";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2017-9-1";46090;2017;3;9;2026-10-24
-"128";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2017-12-1";46408;2017;4;12;2026-10-24
-"129";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2018-3-1";46969;2018;1;3;2026-10-24
-"130";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2018-6-1";47482;2018;2;6;2026-10-24
-"131";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2018-9-1";47335;2018;3;9;2026-10-24
-"132";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2018-12-1";47916;2018;4;12;2026-10-24
-"133";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2019-3-1";47724;2019;1;3;2026-10-24
-"134";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2019-6-1";48373;2019;2;6;2026-10-24
-"135";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2019-9-1";48281;2019;3;9;2026-10-24
-"136";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2019-12-1";46366;2019;4;12;2026-10-24
-"137";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2020-3-1";47333;2020;1;3;2026-10-24
-"138";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2020-6-1";41401;2020;2;6;2026-10-24
-"139";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2020-9-1";43457;2020;3;9;2026-10-24
-"140";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2020-12-1";46321;2020;4;12;2026-10-24
-"141";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2021-3-1";48135;2021;1;3;2026-10-24
-"142";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2021-6-1";48720;2021;2;6;2026-10-24
-"143";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2021-9-1";50733;2021;3;9;2026-10-24
-"144";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2021-12-1";51628;2021;4;12;2026-10-24
-"145";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2022-3-1";50945;2022;1;3;2026-10-24
-"146";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2022-6-1";51156;2022;2;6;2026-10-24
-"147";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2022-9-1";50684;2022;3;9;2026-10-24
-"148";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2022-12-1";50574;2022;4;12;2026-10-24
-"149";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2023-3-1";50791;2023;1;3;2026-10-24
-"150";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2023-6-1";51073;2023;2;6;2026-10-24
-"151";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2023-9-1";51487;2023;3;9;2026-10-24
-"152";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2023-12-1";51594;2023;4;12;2026-10-24
-"153";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2024-3-1";52219;2024;1;3;2026-10-24
-"154";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2024-6-1";51978;2024;2;6;2026-10-24
-"155";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2024-9-1";52804;2024;3;9;2026-10-24
-"156";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2024-12-1";53252;2024;4;12;2026-10-24
-"157";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2025-3-1";53722;2025;1;3;2026-10-24
-"158";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2025-6-1";54090;2025;2;6;2026-10-24
-"159";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2025-9-1";53851;2025;3;9;2026-10-24
-"160";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2025-12-1";54057;2025;4;12;2026-10-24
-"161";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2026-3-1";53920;2026;1;3;2026-10-24
-"162";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2026-6-1";53912;2026;2;6;2026-10-24
+"1";"PIB a precios corrientes";"2013-3-1";33443;2013;1;3;2026-10-25
+"2";"PIB a precios corrientes";"2013-6-1";33911;2013;2;6;2026-10-25
+"3";"PIB a precios corrientes";"2013-9-1";32986;2013;3;9;2026-10-25
+"4";"PIB a precios corrientes";"2013-12-1";36969;2013;4;12;2026-10-25
+"5";"PIB a precios corrientes";"2014-3-1";36033;2014;1;3;2026-10-25
+"6";"PIB a precios corrientes";"2014-6-1";36556;2014;2;6;2026-10-25
+"7";"PIB a precios corrientes";"2014-9-1";35390;2014;3;9;2026-10-25
+"8";"PIB a precios corrientes";"2014-12-1";39973;2014;4;12;2026-10-25
+"9";"PIB a precios corrientes";"2015-3-1";39273;2015;1;3;2026-10-25
+"10";"PIB a precios corrientes";"2015-6-1";39194;2015;2;6;2026-10-25
+"11";"PIB a precios corrientes";"2015-9-1";37973;2015;3;9;2026-10-25
+"12";"PIB a precios corrientes";"2015-12-1";42182;2015;4;12;2026-10-25
+"13";"PIB a precios corrientes";"2016-3-1";42096;2016;1;3;2026-10-25
+"14";"PIB a precios corrientes";"2016-6-1";41215;2016;2;6;2026-10-25
+"15";"PIB a precios corrientes";"2016-9-1";40591;2016;3;9;2026-10-25
+"16";"PIB a precios corrientes";"2016-12-1";44862;2016;4;12;2026-10-25
+"17";"PIB a precios corrientes";"2017-3-1";43580;2017;1;3;2026-10-25
+"18";"PIB a precios corrientes";"2017-6-1";43880;2017;2;6;2026-10-25
+"19";"PIB a precios corrientes";"2017-9-1";43578;2017;3;9;2026-10-25
+"20";"PIB a precios corrientes";"2017-12-1";48277;2017;4;12;2026-10-25
+"21";"PIB a precios corrientes";"2018-3-1";47046;2018;1;3;2026-10-25
+"22";"PIB a precios corrientes";"2018-6-1";46993;2018;2;6;2026-10-25
+"23";"PIB a precios corrientes";"2018-9-1";45024;2018;3;9;2026-10-25
+"24";"PIB a precios corrientes";"2018-12-1";50371;2018;4;12;2026-10-25
+"25";"PIB a precios corrientes";"2019-3-1";48590;2019;1;3;2026-10-25
+"26";"PIB a precios corrientes";"2019-6-1";48591;2019;2;6;2026-10-25
+"27";"PIB a precios corrientes";"2019-9-1";47343;2019;3;9;2026-10-25
+"28";"PIB a precios corrientes";"2019-12-1";51025;2019;4;12;2026-10-25
+"29";"PIB a precios corrientes";"2020-3-1";51191;2020;1;3;2026-10-25
+"30";"PIB a precios corrientes";"2020-6-1";46171;2020;2;6;2026-10-25
+"31";"PIB a precios corrientes";"2020-9-1";47398;2020;3;9;2026-10-25
+"32";"PIB a precios corrientes";"2020-12-1";56547;2020;4;12;2026-10-25
+"33";"PIB a precios corrientes";"2021-3-1";56150;2021;1;3;2026-10-25
+"34";"PIB a precios corrientes";"2021-6-1";57037;2021;2;6;2026-10-25
+"35";"PIB a precios corrientes";"2021-9-1";59138;2021;3;9;2026-10-25
+"36";"PIB a precios corrientes";"2021-12-1";67231;2021;4;12;2026-10-25
+"37";"PIB a precios corrientes";"2022-3-1";63770;2022;1;3;2026-10-25
+"38";"PIB a precios corrientes";"2022-6-1";63481;2022;2;6;2026-10-25
+"39";"PIB a precios corrientes";"2022-9-1";63962;2022;3;9;2026-10-25
+"40";"PIB a precios corrientes";"2022-12-1";71742;2022;4;12;2026-10-25
+"41";"PIB a precios corrientes";"2023-3-1";70236;2023;1;3;2026-10-25
+"42";"PIB a precios corrientes";"2023-6-1";68964;2023;2;6;2026-10-25
+"43";"PIB a precios corrientes";"2023-9-1";67633;2023;3;9;2026-10-25
+"44";"PIB a precios corrientes";"2023-12-1";75264;2023;4;12;2026-10-25
+"45";"PIB a precios corrientes";"2024-3-1";76700;2024;1;3;2026-10-25
+"46";"PIB a precios corrientes";"2024-6-1";74886;2024;2;6;2026-10-25
+"47";"PIB a precios corrientes";"2024-9-1";74738;2024;3;9;2026-10-25
+"48";"PIB a precios corrientes";"2024-12-1";84357;2024;4;12;2026-10-25
+"49";"PIB a precios corrientes";"2025-3-1";81964;2025;1;3;2026-10-25
+"50";"PIB a precios corrientes";"2025-6-1";82873;2025;2;6;2026-10-25
+"51";"PIB a precios corrientes";"2025-9-1";82693;2025;3;9;2026-10-25
+"52";"PIB a precios corrientes";"2025-12-1";92448;2025;4;12;2026-10-25
+"53";"PIB a precios corrientes";"2026-3-1";89511;2026;1;3;2026-10-25
+"54";"PIB a precios corrientes";"2026-6-1";88509;2026;2;6;2026-10-25
+"55";"PIB volumen a precios del año anterior encadenado";"2013-3-1";41321;2013;1;3;2026-10-25
+"56";"PIB volumen a precios del año anterior encadenado";"2013-6-1";42736;2013;2;6;2026-10-25
+"57";"PIB volumen a precios del año anterior encadenado";"2013-9-1";41003;2013;3;9;2026-10-25
+"58";"PIB volumen a precios del año anterior encadenado";"2013-12-1";44804;2013;4;12;2026-10-25
+"59";"PIB volumen a precios del año anterior encadenado";"2014-3-1";42336;2014;1;3;2026-10-25
+"60";"PIB volumen a precios del año anterior encadenado";"2014-6-1";43464;2014;2;6;2026-10-25
+"61";"PIB volumen a precios del año anterior encadenado";"2014-9-1";41538;2014;3;9;2026-10-25
+"62";"PIB volumen a precios del año anterior encadenado";"2014-12-1";45571;2014;4;12;2026-10-25
+"63";"PIB volumen a precios del año anterior encadenado";"2015-3-1";43393;2015;1;3;2026-10-25
+"64";"PIB volumen a precios del año anterior encadenado";"2015-6-1";44353;2015;2;6;2026-10-25
+"65";"PIB volumen a precios del año anterior encadenado";"2015-9-1";42479;2015;3;9;2026-10-25
+"66";"PIB volumen a precios del año anterior encadenado";"2015-12-1";46404;2015;4;12;2026-10-25
+"67";"PIB volumen a precios del año anterior encadenado";"2016-3-1";44689;2016;1;3;2026-10-25
+"68";"PIB volumen a precios del año anterior encadenado";"2016-6-1";44914;2016;2;6;2026-10-25
+"69";"PIB volumen a precios del año anterior encadenado";"2016-9-1";43325;2016;3;9;2026-10-25
+"70";"PIB volumen a precios del año anterior encadenado";"2016-12-1";46799;2016;4;12;2026-10-25
+"71";"PIB volumen a precios del año anterior encadenado";"2017-3-1";44533;2017;1;3;2026-10-25
+"72";"PIB volumen a precios del año anterior encadenado";"2017-6-1";45234;2017;2;6;2026-10-25
+"73";"PIB volumen a precios del año anterior encadenado";"2017-9-1";44143;2017;3;9;2026-10-25
+"74";"PIB volumen a precios del año anterior encadenado";"2017-12-1";48256;2017;4;12;2026-10-25
+"75";"PIB volumen a precios del año anterior encadenado";"2018-3-1";46576;2018;1;3;2026-10-25
+"76";"PIB volumen a precios del año anterior encadenado";"2018-6-1";47652;2018;2;6;2026-10-25
+"77";"PIB volumen a precios del año anterior encadenado";"2018-9-1";45199;2018;3;9;2026-10-25
+"78";"PIB volumen a precios del año anterior encadenado";"2018-12-1";50008;2018;4;12;2026-10-25
+"79";"PIB volumen a precios del año anterior encadenado";"2019-3-1";47160;2019;1;3;2026-10-25
+"80";"PIB volumen a precios del año anterior encadenado";"2019-6-1";48373;2019;2;6;2026-10-25
+"81";"PIB volumen a precios del año anterior encadenado";"2019-9-1";46518;2019;3;9;2026-10-25
+"82";"PIB volumen a precios del año anterior encadenado";"2019-12-1";48605;2019;4;12;2026-10-25
+"83";"PIB volumen a precios del año anterior encadenado";"2020-3-1";46973;2020;1;3;2026-10-25
+"84";"PIB volumen a precios del año anterior encadenado";"2020-6-1";41106;2020;2;6;2026-10-25
+"85";"PIB volumen a precios del año anterior encadenado";"2020-9-1";42217;2020;3;9;2026-10-25
+"86";"PIB volumen a precios del año anterior encadenado";"2020-12-1";48655;2020;4;12;2026-10-25
+"87";"PIB volumen a precios del año anterior encadenado";"2021-3-1";47174;2021;1;3;2026-10-25
+"88";"PIB volumen a precios del año anterior encadenado";"2021-6-1";48661;2021;2;6;2026-10-25
+"89";"PIB volumen a precios del año anterior encadenado";"2021-9-1";49073;2021;3;9;2026-10-25
+"90";"PIB volumen a precios del año anterior encadenado";"2021-12-1";54330;2021;4;12;2026-10-25
+"91";"PIB volumen a precios del año anterior encadenado";"2022-3-1";49984;2022;1;3;2026-10-25
+"92";"PIB volumen a precios del año anterior encadenado";"2022-6-1";50978;2022;2;6;2026-10-25
+"93";"PIB volumen a precios del año anterior encadenado";"2022-9-1";49140;2022;3;9;2026-10-25
+"94";"PIB volumen a precios del año anterior encadenado";"2022-12-1";53247;2022;4;12;2026-10-25
+"95";"PIB volumen a precios del año anterior encadenado";"2023-3-1";49961;2023;1;3;2026-10-25
+"96";"PIB volumen a precios del año anterior encadenado";"2023-6-1";50794;2023;2;6;2026-10-25
+"97";"PIB volumen a precios del año anterior encadenado";"2023-9-1";49818;2023;3;9;2026-10-25
+"98";"PIB volumen a precios del año anterior encadenado";"2023-12-1";54154;2023;4;12;2026-10-25
+"99";"PIB volumen a precios del año anterior encadenado";"2024-3-1";51699;2024;1;3;2026-10-25
+"100";"PIB volumen a precios del año anterior encadenado";"2024-6-1";51391;2024;2;6;2026-10-25
+"101";"PIB volumen a precios del año anterior encadenado";"2024-9-1";51007;2024;3;9;2026-10-25
+"102";"PIB volumen a precios del año anterior encadenado";"2024-12-1";56373;2024;4;12;2026-10-25
+"103";"PIB volumen a precios del año anterior encadenado";"2025-3-1";53213;2025;1;3;2026-10-25
+"104";"PIB volumen a precios del año anterior encadenado";"2025-6-1";53310;2025;2;6;2026-10-25
+"105";"PIB volumen a precios del año anterior encadenado";"2025-9-1";51876;2025;3;9;2026-10-25
+"106";"PIB volumen a precios del año anterior encadenado";"2025-12-1";57247;2025;4;12;2026-10-25
+"107";"PIB volumen a precios del año anterior encadenado";"2026-3-1";53040;2026;1;3;2026-10-25
+"108";"PIB volumen a precios del año anterior encadenado";"2026-6-1";53211;2026;2;6;2026-10-25
+"109";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2013-3-1";42052;2013;1;3;2026-10-25
+"110";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2013-6-1";42404;2013;2;6;2026-10-25
+"111";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2013-9-1";42664;2013;3;9;2026-10-25
+"112";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2013-12-1";42811;2013;4;12;2026-10-25
+"113";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2014-3-1";42938;2014;1;3;2026-10-25
+"114";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2014-6-1";43283;2014;2;6;2026-10-25
+"115";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2014-9-1";43099;2014;3;9;2026-10-25
+"116";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2014-12-1";43560;2014;4;12;2026-10-25
+"117";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2015-3-1";43845;2015;1;3;2026-10-25
+"118";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2015-6-1";44261;2015;2;6;2026-10-25
+"119";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2015-9-1";44065;2015;3;9;2026-10-25
+"120";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2015-12-1";44407;2015;4;12;2026-10-25
+"121";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2016-3-1";44840;2016;1;3;2026-10-25
+"122";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2016-6-1";44684;2016;2;6;2026-10-25
+"123";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2016-9-1";44962;2016;3;9;2026-10-25
+"124";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2016-12-1";44931;2016;4;12;2026-10-25
+"125";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2017-3-1";44642;2017;1;3;2026-10-25
+"126";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2017-6-1";45240;2017;2;6;2026-10-25
+"127";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2017-9-1";46090;2017;3;9;2026-10-25
+"128";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2017-12-1";46408;2017;4;12;2026-10-25
+"129";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2018-3-1";46969;2018;1;3;2026-10-25
+"130";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2018-6-1";47482;2018;2;6;2026-10-25
+"131";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2018-9-1";47335;2018;3;9;2026-10-25
+"132";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2018-12-1";47916;2018;4;12;2026-10-25
+"133";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2019-3-1";47724;2019;1;3;2026-10-25
+"134";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2019-6-1";48373;2019;2;6;2026-10-25
+"135";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2019-9-1";48281;2019;3;9;2026-10-25
+"136";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2019-12-1";46366;2019;4;12;2026-10-25
+"137";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2020-3-1";47333;2020;1;3;2026-10-25
+"138";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2020-6-1";41401;2020;2;6;2026-10-25
+"139";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2020-9-1";43457;2020;3;9;2026-10-25
+"140";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2020-12-1";46321;2020;4;12;2026-10-25
+"141";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2021-3-1";48135;2021;1;3;2026-10-25
+"142";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2021-6-1";48720;2021;2;6;2026-10-25
+"143";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2021-9-1";50733;2021;3;9;2026-10-25
+"144";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2021-12-1";51628;2021;4;12;2026-10-25
+"145";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2022-3-1";50945;2022;1;3;2026-10-25
+"146";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2022-6-1";51156;2022;2;6;2026-10-25
+"147";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2022-9-1";50684;2022;3;9;2026-10-25
+"148";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2022-12-1";50574;2022;4;12;2026-10-25
+"149";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2023-3-1";50791;2023;1;3;2026-10-25
+"150";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2023-6-1";51073;2023;2;6;2026-10-25
+"151";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2023-9-1";51487;2023;3;9;2026-10-25
+"152";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2023-12-1";51594;2023;4;12;2026-10-25
+"153";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2024-3-1";52219;2024;1;3;2026-10-25
+"154";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2024-6-1";51978;2024;2;6;2026-10-25
+"155";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2024-9-1";52804;2024;3;9;2026-10-25
+"156";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2024-12-1";53252;2024;4;12;2026-10-25
+"157";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2025-3-1";53722;2025;1;3;2026-10-25
+"158";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2025-6-1";54090;2025;2;6;2026-10-25
+"159";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2025-9-1";53851;2025;3;9;2026-10-25
+"160";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2025-12-1";54057;2025;4;12;2026-10-25
+"161";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2026-3-1";53920;2026;1;3;2026-10-25
+"162";"PIB volumen a precios del año anterior encadenado (desestacionalizado)";"2026-6-1";53912;2026;2;6;2026-10-25
